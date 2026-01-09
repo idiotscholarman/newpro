@@ -1,0 +1,6 @@
+Script started
+File path: d:/home_project/vibe_coding/data/esi_institution/202511/IndicatorsExport.xlsx
+Reading file...
+Workbook read. Sheets: Sheet0
+Data parsed. Rows: 10160
+Written to esi_debug.json

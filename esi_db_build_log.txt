@@ -1,0 +1,6 @@
+Starting ESI Database Build...
+Reading Excel file (this may take a moment)...
+Total rows read: 10160
+Processed 10158 institutions.
+Database successfully written to d:/home_project/vibe_coding/src/esi_stats_db.json
+You can now update your App.jsx to use this file.

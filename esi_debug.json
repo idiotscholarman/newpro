@@ -1,0 +1,20 @@
+{
+  "Headers": [
+    "Indicators Results List: Institutions   Filter Results By: Institutions   Filter Value(s): None   Show: Top",
+    "__EMPTY",
+    "__EMPTY_1",
+    "__EMPTY_2",
+    "__EMPTY_3",
+    "__EMPTY_4",
+    "__EMPTY_5"
+  ],
+  "FirstRow": {
+    "Indicators Results List: Institutions   Filter Results By: Institutions   Filter Value(s): None   Show: Top": "",
+    "__EMPTY": "Institutions",
+    "__EMPTY_1": "Countries/Regions",
+    "__EMPTY_2": "Web of Science Documents",
+    "__EMPTY_3": "Cites",
+    "__EMPTY_4": "Cites/Paper",
+    "__EMPTY_5": "Top Papers"
+  }
+}

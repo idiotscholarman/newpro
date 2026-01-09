@@ -1,0 +1,8 @@
+Starting update process...
+Found Institution: SOUTHWEST MINZU UNIVERSITY
+Extracted - Rank: 3595, Citations: 54631, Papers: 3813
+data.json updated successfully.
+Starting update process...
+Found Institution: SOUTHWEST MINZU UNIVERSITY
+Extracted - Rank: 3595, Citations: 54631, Papers: 3813, TopPapers: 51
+data.json updated successfully.
