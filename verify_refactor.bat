@@ -1,0 +1,6 @@
+@echo off
+echo Running check_excel.js...
+node check_excel.js
+echo.
+echo Running copy_json.js...
+node copy_json.js

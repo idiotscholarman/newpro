@@ -6,3 +6,237 @@ Starting update process...
 Found Institution: SOUTHWEST MINZU UNIVERSITY
 Extracted - Rank: 3595, Citations: 54631, Papers: 3813, TopPapers: 51
 data.json updated successfully.
+Starting update process...
+Found Institution: SOUTHWEST MINZU UNIVERSITY
+Extracted - Rank: 3595, Citations: 54631, Papers: 3813, TopPapers: 51
+data.json updated successfully.
+Detected latest ESI data folder: 202511
+Starting update process...
+Found Institution: SOUTHWEST MINZU UNIVERSITY
+Extracted - Rank: 3595, Citations: 54631, Papers: 3813, TopPapers: 51
+data.json updated successfully.
+Detected latest ESI data folder: 202601
+Starting update process...
+Found Institution: SOUTHWEST MINZU UNIVERSITY
+Extracted - Rank: 3563, Citations: 57438, Papers: 3938, TopPapers: 45
+data.json updated successfully.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Latest Data: Rank 3563, Citations 57438, Papers 3938
+Previous Data: Rank 3595, Citations 54631, Papers 3813
+data.json updated successfully via automated script.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Latest Data: Rank 3563, Citations 57438, Papers 3938
+Previous Data: Rank 3595, Citations 54631, Papers 3813
+data.json updated successfully via automated script.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Latest Data: Rank 3563, Citations 57438, Papers 3938
+Previous Data: Rank 3595, Citations 54631, Papers 3813
+data.json updated successfully via automated script.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Latest Data: Rank 3563, Citations 57438, Papers 3938
+Previous Data: Rank 3595, Citations 54631, Papers 3813
+data.json updated successfully via automated script.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Target institution not found in 202601
+Failed to extract data from latest folder.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Target institution not found in 202601
+Failed to extract data from latest folder.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Found Header at Row 0. Columns - Inst: 0, Country: -1, Rank: 0
+Debug Row 1: InstName='', Country='undefined'
+Debug Row 2: InstName='1', Country='undefined'
+Debug Row 3: InstName='2', Country='undefined'
+Target institution not found in 202601
+Failed to extract data from latest folder.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Found Header at Row 0. Columns - Inst: 0, Country: -1, Rank: 0
+Debug Row 1: InstName='', Country='undefined'
+Debug Row 2: InstName='1', Country='undefined'
+Debug Row 3: InstName='2', Country='undefined'
+Target institution not found in 202601
+Failed to extract data from latest folder.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Latest Data: Rank 3563, Citations 57438, Papers 3938
+Previous Data: Rank 3595, Citations 54631, Papers 3813
+data.json updated successfully via automated script.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Latest Data: Rank 3563, Citations 57438, Papers 3938
+Previous Data: Rank 3595, Citations 54631, Papers 3813
+data.json updated successfully via automated script.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Latest Data: Rank 3563, Citations 57438, Papers 3938
+Previous Data: Rank 3595, Citations 54631, Papers 3813
+Found 11 publication history files.
+Reading publication data for 2015 from 20251125_all_2015.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2015: 151 papers
+Reading publication data for 2016 from 20251125_all_2016.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2016: 152 papers
+Reading publication data for 2017 from 20251125_all_2017.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2017: 186 papers
+Reading publication data for 2018 from 20251125_all_2018.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2018: 230 papers
+Reading publication data for 2019 from 20251125_all_2019.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2019: 284 papers
+Reading publication data for 2020 from 20251125_all_2020.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2020: 297 papers
+Reading publication data for 2021 from 20251125_all_2021.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2021: 405 papers
+Reading publication data for 2022 from 20251125_all_2022.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2022: 513 papers
+Reading publication data for 2023 from 20251125_all_2023.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2023: 574 papers
+Reading publication data for 2024 from 20251125_all_2024.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2024: 642 papers
+Reading publication data for 2025 from 20251125_all_2025.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2025: 564 papers
+Total years of history collected: 11
+data.json updated successfully via automated script.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Latest Data: Rank 3563, Citations 57438, Papers 3938
+Previous Data: Rank 3595, Citations 54631, Papers 3813
+Found 11 publication history files.
+Reading publication data for 2015 from 20251125_all_2015.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2015: 151 papers
+Reading publication data for 2016 from 20251125_all_2016.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2016: 152 papers
+Reading publication data for 2017 from 20251125_all_2017.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2017: 186 papers
+Reading publication data for 2018 from 20251125_all_2018.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2018: 230 papers
+Reading publication data for 2019 from 20251125_all_2019.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2019: 284 papers
+Reading publication data for 2020 from 20251125_all_2020.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2020: 297 papers
+Reading publication data for 2021 from 20251125_all_2021.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2021: 405 papers
+Reading publication data for 2022 from 20251125_all_2022.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2022: 513 papers
+Reading publication data for 2023 from 20251125_all_2023.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2023: 574 papers
+Reading publication data for 2024 from 20251125_all_2024.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2024: 642 papers
+Reading publication data for 2025 from 20251125_all_2025.xlsx...
+  -> Found SOUTHWEST MINZU UNIVERSITY in 2025: 564 papers
+Total years of history collected: 11
+data.json updated successfully via automated script.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Latest Data: Rank 3563, Citations 57438, Papers 3938
+Previous Data: Rank 3595, Citations 54631, Papers 3813
+Found 11 publication history files.
+Reading data for 2015 from 20251125_all_2015.xlsx...
+  -> 2015: MyPapers=151, MyCPP=23.218543046357617, BaseCPP=32.210167552942885
+Reading data for 2016 from 20251125_all_2016.xlsx...
+  -> 2016: MyPapers=152, MyCPP=24.592105263157894, BaseCPP=30.215284181596637
+Reading data for 2017 from 20251125_all_2017.xlsx...
+  -> 2017: MyPapers=186, MyCPP=27.9247311827957, BaseCPP=29.211908234982097
+Reading data for 2018 from 20251125_all_2018.xlsx...
+  -> 2018: MyPapers=230, MyCPP=28.369565217391305, BaseCPP=27.47427122417845
+Reading data for 2019 from 20251125_all_2019.xlsx...
+  -> 2019: MyPapers=284, MyCPP=27.302816901408452, BaseCPP=24.6216482920455
+Reading data for 2020 from 20251125_all_2020.xlsx...
+  -> 2020: MyPapers=297, MyCPP=22.097643097643097, BaseCPP=22.2292122227123
+Reading data for 2021 from 20251125_all_2021.xlsx...
+  -> 2021: MyPapers=405, MyCPP=22.20740740740741, BaseCPP=17.53979301054101
+Reading data for 2022 from 20251125_all_2022.xlsx...
+  -> 2022: MyPapers=513, MyCPP=14.228070175438596, BaseCPP=12.446445560190586
+Reading data for 2023 from 20251125_all_2023.xlsx...
+  -> 2023: MyPapers=574, MyCPP=10.682926829268293, BaseCPP=8.51884126732608
+Reading data for 2024 from 20251125_all_2024.xlsx...
+  -> 2024: MyPapers=642, MyCPP=5.163551401869159, BaseCPP=4.269026205606535
+Reading data for 2025 from 20251125_all_2025.xlsx...
+  -> 2025: MyPapers=564, MyCPP=0.7553191489361702, BaseCPP=0.8196293814004227
+Reading author contributions...
+Extracted 20 top authors.
+data.json updated successfully via automated script.
+Starting update process...
+Latest folder: 202601, Previous folder: 202511
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Confirmed Header at Row 1. Inst: 1, Country: 2, Rank: 0
+Debug Row 2: InstName='CHINESE ACADEMY OF SCIENCES', Country='CHINA MAINLAND'
+Debug Row 3: InstName='UNIVERSITY OF CALIFORNIA SYSTEM', Country='USA'
+Debug Row 4: InstName='HARVARD UNIVERSITY', Country='USA'
+Latest Data: Rank 3563, Citations 57438, Papers 3938
+Previous Data: Rank 3595, Citations 54631, Papers 3813
+Found 11 publication history files.
+Reading data for 2015 from 20251125_all_2015.xlsx...
+  -> 2015: MyPapers=151, MyCPP=23.22, BaseCPP=32.21
+Reading data for 2016 from 20251125_all_2016.xlsx...
+  -> 2016: MyPapers=152, MyCPP=24.59, BaseCPP=30.22
+Reading data for 2017 from 20251125_all_2017.xlsx...
+  -> 2017: MyPapers=186, MyCPP=27.92, BaseCPP=29.21
+Reading data for 2018 from 20251125_all_2018.xlsx...
+  -> 2018: MyPapers=230, MyCPP=28.37, BaseCPP=27.47
+Reading data for 2019 from 20251125_all_2019.xlsx...
+  -> 2019: MyPapers=284, MyCPP=27.3, BaseCPP=24.62
+Reading data for 2020 from 20251125_all_2020.xlsx...
+  -> 2020: MyPapers=297, MyCPP=22.1, BaseCPP=22.23
+Reading data for 2021 from 20251125_all_2021.xlsx...
+  -> 2021: MyPapers=405, MyCPP=22.21, BaseCPP=17.54
+Reading data for 2022 from 20251125_all_2022.xlsx...
+  -> 2022: MyPapers=513, MyCPP=14.23, BaseCPP=12.45
+Reading data for 2023 from 20251125_all_2023.xlsx...
+  -> 2023: MyPapers=574, MyCPP=10.68, BaseCPP=8.52
+Reading data for 2024 from 20251125_all_2024.xlsx...
+  -> 2024: MyPapers=642, MyCPP=5.16, BaseCPP=4.27
+Reading data for 2025 from 20251125_all_2025.xlsx...
+  -> 2025: MyPapers=564, MyCPP=0.76, BaseCPP=0.82
+Reading author contributions...
+Extracted 20 top authors.
+data.json updated successfully via automated script.

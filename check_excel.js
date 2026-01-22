@@ -1,8 +1,8 @@
 
-import * as xlsx from 'xlsx';
+import xlsx from 'xlsx';
 import path from 'path';
 
-const filePath = 'd:/home_project/vibe_coding/data/org/Incites Organizations.xlsx';
+const filePath = 'data/org/Incites Organizations.xlsx';
 const workbook = xlsx.readFile(filePath);
 const sheetName = workbook.SheetNames[0];
 const sheet = workbook.Sheets[sheetName];

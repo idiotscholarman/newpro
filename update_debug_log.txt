@@ -1,0 +1,15 @@
+Starting update_esi_stats.cjs 
+Detected latest ESI data folder: 202511
+Starting update process...
+Found Institution: SOUTHWEST MINZU UNIVERSITY
+Extracted - Rank: 3595, Citations: 54631, Papers: 3813, TopPapers: 51
+data.json updated successfully.
+Starting build_esi_database.cjs 
+Detected latest ESI data folder: 202511
+Starting ESI Database Build...
+Reading Excel file (this may take a moment)...
+Total rows read: 10160
+Processed 10158 institutions.
+Database successfully written to d:\home_project\newpro\src\esi_stats_db.json
+You can now update your App.jsx to use this file.
+Done 

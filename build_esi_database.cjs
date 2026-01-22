@@ -2,7 +2,7 @@ const xlsx = require('xlsx');
 const fs = require('fs');
 const path = require('path');
 
-const logFile = 'd:/home_project/vibe_coding/esi_db_build_log.txt';
+const logFile = path.join(__dirname, 'esi_db_build_log.txt');
 function log(msg) {
     try {
         console.log(msg);
@@ -16,9 +16,21 @@ function log(msg) {
 // Note: User can update the folder '202511' to newer dates later.
 // Ideally we scan for the latest folder, but for now we hardcode or grab the one we know.
 // Let's try to be smart and verify the path exists.
-const baseDataDir = 'd:/home_project/vibe_coding/data/esi_institution/202511';
+const baseInstDir = path.join(__dirname, 'data/esi_institution');
+let latestFolder = '202511'; // Default fallback
+try {
+    const folders = fs.readdirSync(baseInstDir).filter(f => /^\d+$/.test(f) && fs.statSync(path.join(baseInstDir, f)).isDirectory());
+    if (folders.length > 0) {
+        latestFolder = folders.sort().reverse()[0];
+        log("Detected latest ESI data folder: " + latestFolder);
+    }
+} catch (e) {
+    log("Warning: Could not detect latest folder, using default: " + latestFolder);
+}
+
+const baseDataDir = path.join(baseInstDir, latestFolder);
 const excelPath = path.join(baseDataDir, 'IndicatorsExport.xlsx');
-const dbOutputPath = 'd:/home_project/vibe_coding/src/esi_stats_db.json';
+const dbOutputPath = path.join(__dirname, 'src/esi_stats_db.json');
 
 try {
     // Clear log

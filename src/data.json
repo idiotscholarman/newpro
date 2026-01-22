@@ -288,13 +288,7285 @@
       "citationsPerPaper": "0.00"
     }
   ],
-  "updatedAt": "2026/1/5 21:53:30",
+  "updatedAt": "2026/1/22 23:01:13",
   "overview": {
-    "globalRank": 3595,
-    "totalCitations": 54631,
+    "globalRank": 3563,
+    "totalCitations": 57438,
     "subjectsCount": 3,
     "top1Percent": 4,
-    "totalPapers": 3813,
-    "topPapers": 51
+    "totalPapers": 3938,
+    "topPapers": 45,
+    "globalRankChange": 32,
+    "totalCitationsChange": 2807,
+    "totalPapersChange": 125,
+    "rankings": [
+      {
+        "rank": 1,
+        "name": "CHINESE ACADEMY OF SCIENCES",
+        "cnName": "中国科学院",
+        "citations": 16810070,
+        "papers": 664331
+      },
+      {
+        "rank": 10,
+        "name": "UNIVERSITY OF CHINESE ACADEMY OF SCIENCES, CAS",
+        "cnName": "中国科学院大学",
+        "citations": 5638309,
+        "papers": 241851
+      },
+      {
+        "rank": 23,
+        "name": "TSINGHUA UNIVERSITY",
+        "cnName": "清华大学",
+        "citations": 4229818,
+        "papers": 144394
+      },
+      {
+        "rank": 33,
+        "name": "ZHEJIANG UNIVERSITY",
+        "cnName": "浙江大学",
+        "citations": 3773083,
+        "papers": 175748
+      },
+      {
+        "rank": 34,
+        "name": "SHANGHAI JIAO TONG UNIVERSITY",
+        "cnName": "上海交通大学",
+        "citations": 3751602,
+        "papers": 173475
+      },
+      {
+        "rank": 38,
+        "name": "PEKING UNIVERSITY",
+        "cnName": "北京大学",
+        "citations": 3540465,
+        "papers": 137677
+      },
+      {
+        "rank": 57,
+        "name": "SUN YAT SEN UNIVERSITY",
+        "cnName": "中山大学",
+        "citations": 2833565,
+        "papers": 129707
+      },
+      {
+        "rank": 60,
+        "name": "HUAZHONG UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "华中科技大学",
+        "citations": 2760501,
+        "papers": 115551
+      },
+      {
+        "rank": 66,
+        "name": "FUDAN UNIVERSITY",
+        "cnName": "复旦大学",
+        "citations": 2667228,
+        "papers": 116989
+      },
+      {
+        "rank": 74,
+        "name": "UNIVERSITY OF SCIENCE & TECHNOLOGY OF CHINA, CAS",
+        "cnName": "中国科学技术大学",
+        "citations": 2497087,
+        "papers": 98500
+      },
+      {
+        "rank": 78,
+        "name": "CENTRAL SOUTH UNIVERSITY",
+        "cnName": "中南大学",
+        "citations": 2425120,
+        "papers": 112603
+      },
+      {
+        "rank": 91,
+        "name": "SICHUAN UNIVERSITY",
+        "cnName": "四川大学",
+        "citations": 2277019,
+        "papers": 118989
+      },
+      {
+        "rank": 103,
+        "name": "WUHAN UNIVERSITY",
+        "cnName": "武汉大学",
+        "citations": 2173295,
+        "papers": 90566
+      },
+      {
+        "rank": 104,
+        "name": "NANJING UNIVERSITY",
+        "cnName": "南京大学",
+        "citations": 2133547,
+        "papers": 84426
+      },
+      {
+        "rank": 105,
+        "name": "XI'AN JIAOTONG UNIVERSITY",
+        "cnName": "西安交通大学",
+        "citations": 2130417,
+        "papers": 105514
+      },
+      {
+        "rank": 109,
+        "name": "TIANJIN UNIVERSITY",
+        "cnName": "天津大学",
+        "citations": 2102356,
+        "papers": 86415
+      },
+      {
+        "rank": 115,
+        "name": "HARBIN INSTITUTE OF TECHNOLOGY",
+        "cnName": "哈尔滨工业大学",
+        "citations": 1974607,
+        "papers": 94745
+      },
+      {
+        "rank": 120,
+        "name": "SHANDONG UNIVERSITY",
+        "cnName": "山东大学",
+        "citations": 1892473,
+        "papers": 101996
+      },
+      {
+        "rank": 128,
+        "name": "SOUTH CHINA UNIVERSITY OF TECHNOLOGY",
+        "cnName": "华南理工大学",
+        "citations": 1812325,
+        "papers": 71459
+      },
+      {
+        "rank": 129,
+        "name": "TONGJI UNIVERSITY",
+        "cnName": "同济大学",
+        "citations": 1810573,
+        "papers": 87523
+      },
+      {
+        "rank": 144,
+        "name": "JILIN UNIVERSITY",
+        "cnName": "吉林大学",
+        "citations": 1712405,
+        "papers": 87755
+      },
+      {
+        "rank": 148,
+        "name": "UNIVERSITY OF HONG KONG",
+        "cnName": "香港大学",
+        "citations": 1688866,
+        "papers": 57984
+      },
+      {
+        "rank": 149,
+        "name": "ZHENGZHOU UNIVERSITY",
+        "cnName": "郑州大学",
+        "citations": 1686242,
+        "papers": 78013
+      },
+      {
+        "rank": 157,
+        "name": "SOUTHEAST UNIVERSITY - CHINA",
+        "cnName": "东南大学",
+        "citations": 1627080,
+        "papers": 85356
+      },
+      {
+        "rank": 186,
+        "name": "CHINESE UNIVERSITY OF HONG KONG",
+        "cnName": "香港中文大学",
+        "citations": 1473540,
+        "papers": 46574
+      },
+      {
+        "rank": 190,
+        "name": "SOOCHOW UNIVERSITY - CHINA",
+        "cnName": "苏州大学",
+        "citations": 1462796,
+        "papers": 62480
+      },
+      {
+        "rank": 197,
+        "name": "CHINESE ACADEMY OF MEDICAL SCIENCES - PEKING UNION MEDICAL COLLEGE",
+        "cnName": "中国医学科学院北京协和医学院",
+        "citations": 1435004,
+        "papers": 70829
+      },
+      {
+        "rank": 202,
+        "name": "HONG KONG POLYTECHNIC UNIVERSITY",
+        "cnName": "香港理工大学",
+        "citations": 1420278,
+        "papers": 55270
+      },
+      {
+        "rank": 217,
+        "name": "CHONGQING UNIVERSITY",
+        "cnName": "重庆大学",
+        "citations": 1327711,
+        "papers": 65032
+      },
+      {
+        "rank": 222,
+        "name": "NATIONAL TAIWAN UNIVERSITY",
+        "cnName": "国立台湾大学",
+        "citations": 1320821,
+        "papers": 56987
+      },
+      {
+        "rank": 226,
+        "name": "HUNAN UNIVERSITY",
+        "cnName": "湖南大学",
+        "citations": 1306444,
+        "papers": 45589
+      },
+      {
+        "rank": 228,
+        "name": "XIAMEN UNIVERSITY",
+        "cnName": "厦门大学",
+        "citations": 1277615,
+        "papers": 55993
+      },
+      {
+        "rank": 233,
+        "name": "BEIJING INSTITUTE OF TECHNOLOGY",
+        "cnName": "北京理工大学",
+        "citations": 1268049,
+        "papers": 58605
+      },
+      {
+        "rank": 235,
+        "name": "NANKAI UNIVERSITY",
+        "cnName": "南开大学",
+        "citations": 1264782,
+        "papers": 48270
+      },
+      {
+        "rank": 241,
+        "name": "SHENZHEN UNIVERSITY",
+        "cnName": "深圳大学",
+        "citations": 1253232,
+        "papers": 53562
+      },
+      {
+        "rank": 243,
+        "name": "DALIAN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "大连理工大学",
+        "citations": 1248401,
+        "papers": 61867
+      },
+      {
+        "rank": 246,
+        "name": "BEIHANG UNIVERSITY",
+        "cnName": "北京航空航天大学",
+        "citations": 1241735,
+        "papers": 61132
+      },
+      {
+        "rank": 249,
+        "name": "NORTHWESTERN POLYTECHNICAL UNIVERSITY",
+        "cnName": "西北工业大学",
+        "citations": 1230515,
+        "papers": 59722
+      },
+      {
+        "rank": 252,
+        "name": "CITY UNIVERSITY OF HONG KONG",
+        "cnName": "香港城市大学",
+        "citations": 1213093,
+        "papers": 42400
+      },
+      {
+        "rank": 258,
+        "name": "UNIVERSITY OF ELECTRONIC SCIENCE & TECHNOLOGY OF CHINA",
+        "cnName": "电子科技大学",
+        "citations": 1189451,
+        "papers": 59895
+      },
+      {
+        "rank": 279,
+        "name": "CAPITAL MEDICAL UNIVERSITY",
+        "cnName": "首都医科大学",
+        "citations": 1108347,
+        "papers": 64870
+      },
+      {
+        "rank": 281,
+        "name": "CHINA UNIVERSITY OF GEOSCIENCES",
+        "cnName": "中国地质大学",
+        "citations": 1098002,
+        "papers": 55690
+      },
+      {
+        "rank": 287,
+        "name": "CHINESE ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "中国农业科学院",
+        "citations": 1074863,
+        "papers": 52943
+      },
+      {
+        "rank": 305,
+        "name": "PEKING UNION MEDICAL COLLEGE",
+        "cnName": "北京协和医学院",
+        "citations": 1017137,
+        "papers": 52210
+      },
+      {
+        "rank": 315,
+        "name": "JIANGSU UNIVERSITY",
+        "cnName": "江苏大学",
+        "citations": 993303,
+        "papers": 47552
+      },
+      {
+        "rank": 317,
+        "name": "BEIJING NORMAL UNIVERSITY",
+        "cnName": "北京师范大学",
+        "citations": 982291,
+        "papers": 47644
+      },
+      {
+        "rank": 323,
+        "name": "UNIVERSITY OF SCIENCE & TECHNOLOGY BEIJING",
+        "cnName": "北京科技大学",
+        "citations": 968393,
+        "papers": 47442
+      },
+      {
+        "rank": 334,
+        "name": "NANJING MEDICAL UNIVERSITY",
+        "cnName": "南京医科大学",
+        "citations": 936844,
+        "papers": 53783
+      },
+      {
+        "rank": 338,
+        "name": "CHINA AGRICULTURAL UNIVERSITY",
+        "cnName": "中国农业大学",
+        "citations": 931520,
+        "papers": 41329
+      },
+      {
+        "rank": 347,
+        "name": "WUHAN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "武汉理工大学",
+        "citations": 908996,
+        "papers": 36451
+      },
+      {
+        "rank": 351,
+        "name": "HONG KONG UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "香港科技大学",
+        "citations": 894595,
+        "papers": 28702
+      },
+      {
+        "rank": 358,
+        "name": "CHINA UNIVERSITY OF PETROLEUM",
+        "cnName": "中国石油大学",
+        "citations": 881977,
+        "papers": 48048
+      },
+      {
+        "rank": 362,
+        "name": "JINAN UNIVERSITY",
+        "cnName": "暨南大学",
+        "citations": 870746,
+        "papers": 42812
+      },
+      {
+        "rank": 362,
+        "name": "SOUTHERN MEDICAL UNIVERSITY - CHINA",
+        "cnName": "南方医科大学",
+        "citations": 870746,
+        "papers": 47153
+      },
+      {
+        "rank": 367,
+        "name": "LANZHOU UNIVERSITY",
+        "cnName": "兰州大学",
+        "citations": 865007,
+        "papers": 45991
+      },
+      {
+        "rank": 369,
+        "name": "SOUTHERN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "南方科技大学",
+        "citations": 858753,
+        "papers": 34964
+      },
+      {
+        "rank": 383,
+        "name": "SHANGHAI UNIVERSITY",
+        "cnName": "上海大学",
+        "citations": 820591,
+        "papers": 42769
+      },
+      {
+        "rank": 384,
+        "name": "BEIJING UNIVERSITY OF CHEMICAL TECHNOLOGY",
+        "cnName": "北京化工大学",
+        "citations": 817666,
+        "papers": 28169
+      },
+      {
+        "rank": 393,
+        "name": "NORTHWEST A&F UNIVERSITY - CHINA",
+        "cnName": "西北农林科技大学",
+        "citations": 800781,
+        "papers": 36674
+      },
+      {
+        "rank": 398,
+        "name": "CHINA UNIVERSITY OF MINING & TECHNOLOGY",
+        "cnName": "中国矿业大学",
+        "citations": 796694,
+        "papers": 47962
+      },
+      {
+        "rank": 402,
+        "name": "NORTHEASTERN UNIVERSITY - CHINA",
+        "cnName": "东北大学",
+        "citations": 788390,
+        "papers": 47879
+      },
+      {
+        "rank": 403,
+        "name": "QINGDAO UNIVERSITY",
+        "cnName": "青岛大学",
+        "citations": 787534,
+        "papers": 38666
+      },
+      {
+        "rank": 420,
+        "name": "EAST CHINA NORMAL UNIVERSITY",
+        "cnName": "华东师范大学",
+        "citations": 755909,
+        "papers": 34120
+      },
+      {
+        "rank": 421,
+        "name": "JIANGNAN UNIVERSITY",
+        "cnName": "江南大学",
+        "citations": 754072,
+        "papers": 39795
+      },
+      {
+        "rank": 423,
+        "name": "NANJING UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "南京理工大学",
+        "citations": 749627,
+        "papers": 37426
+      },
+      {
+        "rank": 425,
+        "name": "EAST CHINA UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "华东理工大学",
+        "citations": 747489,
+        "papers": 33437
+      },
+      {
+        "rank": 441,
+        "name": "NANJING TECH UNIVERSITY",
+        "cnName": "南京工业大学",
+        "citations": 730912,
+        "papers": 30612
+      },
+      {
+        "rank": 458,
+        "name": "NANJING AGRICULTURAL UNIVERSITY",
+        "cnName": "南京农业大学",
+        "citations": 695342,
+        "papers": 31147
+      },
+      {
+        "rank": 464,
+        "name": "NANCHANG UNIVERSITY",
+        "cnName": "南昌大学",
+        "citations": 692868,
+        "papers": 37952
+      },
+      {
+        "rank": 482,
+        "name": "FUZHOU UNIVERSITY",
+        "cnName": "福州大学",
+        "citations": 665770,
+        "papers": 30744
+      },
+      {
+        "rank": 490,
+        "name": "NANJING UNIVERSITY OF AERONAUTICS & ASTRONAUTICS",
+        "cnName": "南京航空航天大学",
+        "citations": 660657,
+        "papers": 40805
+      },
+      {
+        "rank": 491,
+        "name": "INSTITUTE OF CHEMISTRY, CAS",
+        "cnName": "中国科学院化学研究所",
+        "citations": 660458,
+        "papers": 14529
+      },
+      {
+        "rank": 495,
+        "name": "NATIONAL YANG MING CHIAO TUNG UNIVERSITY",
+        "cnName": "国立阳明交通大学",
+        "citations": 655773,
+        "papers": 38194
+      },
+      {
+        "rank": 498,
+        "name": "HUAZHONG AGRICULTURAL UNIVERSITY",
+        "cnName": "华中农业大学",
+        "citations": 653366,
+        "papers": 27661
+      },
+      {
+        "rank": 509,
+        "name": "SOUTHWEST UNIVERSITY - CHINA",
+        "cnName": "西南大学",
+        "citations": 640713,
+        "papers": 33356
+      },
+      {
+        "rank": 520,
+        "name": "YANGZHOU UNIVERSITY",
+        "cnName": "扬州大学",
+        "citations": 626465,
+        "papers": 35369
+      },
+      {
+        "rank": 522,
+        "name": "ACADEMIA SINICA - TAIWAN",
+        "cnName": "中央研究院（台湾）",
+        "citations": 622878,
+        "papers": 25189
+      },
+      {
+        "rank": 548,
+        "name": "ZHEJIANG UNIVERSITY OF TECHNOLOGY",
+        "cnName": "浙江工业大学",
+        "citations": 593744,
+        "papers": 30105
+      },
+      {
+        "rank": 550,
+        "name": "GUANGDONG UNIVERSITY OF TECHNOLOGY",
+        "cnName": "广东工业大学",
+        "citations": 592206,
+        "papers": 28349
+      },
+      {
+        "rank": 559,
+        "name": "SOUTHWEST JIAOTONG UNIVERSITY",
+        "cnName": "西南交通大学",
+        "citations": 583171,
+        "papers": 35502
+      },
+      {
+        "rank": 567,
+        "name": "BEIJING UNIVERSITY OF TECHNOLOGY",
+        "cnName": "北京工业大学",
+        "citations": 578839,
+        "papers": 33389
+      },
+      {
+        "rank": 574,
+        "name": "DALIAN INSTITUTE OF CHEMICAL PHYSICS, CAS",
+        "cnName": "中国科学院大连化学物理研究所",
+        "citations": 567753,
+        "papers": 15191
+      },
+      {
+        "rank": 580,
+        "name": "OCEAN UNIVERSITY OF CHINA",
+        "cnName": "中国海洋大学",
+        "citations": 561912,
+        "papers": 32826
+      },
+      {
+        "rank": 583,
+        "name": "WENZHOU MEDICAL UNIVERSITY",
+        "cnName": "温州医科大学",
+        "citations": 559020,
+        "papers": 32037
+      },
+      {
+        "rank": 587,
+        "name": "COLLABORATIVE INNOVATION CENTER OF CHEMICAL SCIENCE & ENGINEERING TIANJIN",
+        "cnName": "天津化学化工协同创新中心",
+        "citations": 554732,
+        "papers": 11654
+      },
+      {
+        "rank": 589,
+        "name": "CHINA MEDICAL UNIVERSITY TAIWAN",
+        "cnName": "中国医药大学（台湾）",
+        "citations": 551857,
+        "papers": 28610
+      },
+      {
+        "rank": 592,
+        "name": "NANJING UNIVERSITY OF INFORMATION SCIENCE & TECHNOLOGY",
+        "cnName": "南京信息工程大学",
+        "citations": 550316,
+        "papers": 28850
+      },
+      {
+        "rank": 595,
+        "name": "GUANGZHOU MEDICAL UNIVERSITY",
+        "cnName": "广州医科大学",
+        "citations": 546017,
+        "papers": 26366
+      },
+      {
+        "rank": 602,
+        "name": "XIDIAN UNIVERSITY",
+        "cnName": "西安电子科技大学",
+        "citations": 540191,
+        "papers": 35240
+      },
+      {
+        "rank": 603,
+        "name": "DONGHUA UNIVERSITY",
+        "cnName": "东华大学",
+        "citations": 539671,
+        "papers": 22301
+      },
+      {
+        "rank": 619,
+        "name": "NANJING FORESTRY UNIVERSITY",
+        "cnName": "南京林业大学",
+        "citations": 525666,
+        "papers": 27956
+      },
+      {
+        "rank": 624,
+        "name": "HOHAI UNIVERSITY",
+        "cnName": "河海大学",
+        "citations": 523665,
+        "papers": 32844
+      },
+      {
+        "rank": 637,
+        "name": "NATIONAL CHENG KUNG UNIVERSITY",
+        "cnName": "国立成功大学",
+        "citations": 509624,
+        "papers": 29443
+      },
+      {
+        "rank": 645,
+        "name": "GUANGXI UNIVERSITY",
+        "cnName": "广西大学",
+        "citations": 503496,
+        "papers": 29344
+      },
+      {
+        "rank": 646,
+        "name": "SOUTH CHINA AGRICULTURAL UNIVERSITY",
+        "cnName": "华南农业大学",
+        "citations": 501570,
+        "papers": 24354
+      },
+      {
+        "rank": 650,
+        "name": "HEFEI UNIVERSITY OF TECHNOLOGY",
+        "cnName": "合肥工业大学",
+        "citations": 501164,
+        "papers": 28969
+      },
+      {
+        "rank": 651,
+        "name": "TIANJIN MEDICAL UNIVERSITY",
+        "cnName": "天津医科大学",
+        "citations": 499519,
+        "papers": 27587
+      },
+      {
+        "rank": 664,
+        "name": "INSTITUTE OF PHYSICS, CAS",
+        "cnName": "中国科学院物理研究所",
+        "citations": 486975,
+        "papers": 13640
+      },
+      {
+        "rank": 669,
+        "name": "NANJING NORMAL UNIVERSITY",
+        "cnName": "南京师范大学",
+        "citations": 478833,
+        "papers": 24388
+      },
+      {
+        "rank": 675,
+        "name": "NORTH CHINA ELECTRIC POWER UNIVERSITY",
+        "cnName": "华北电力大学",
+        "citations": 474038,
+        "papers": 24725
+      },
+      {
+        "rank": 676,
+        "name": "CHINA MEDICAL UNIVERSITY",
+        "cnName": "中国医科大学",
+        "citations": 473232,
+        "papers": 27698
+      },
+      {
+        "rank": 683,
+        "name": "CHANGCHUN INSTITUTE OF APPLIED CHEMISTRY, CAS",
+        "cnName": "中国科学院长春应用化学研究所",
+        "citations": 468812,
+        "papers": 13090
+      },
+      {
+        "rank": 710,
+        "name": "NATIONAL TSING HUA UNIVERSITY",
+        "cnName": "国立清华大学",
+        "citations": 453032,
+        "papers": 18996
+      },
+      {
+        "rank": 716,
+        "name": "CHONGQING MEDICAL UNIVERSITY",
+        "cnName": "重庆医科大学",
+        "citations": 445661,
+        "papers": 29519
+      },
+      {
+        "rank": 724,
+        "name": "INSTITUTE OF HIGH ENERGY PHYSICS, CAS",
+        "cnName": "中国科学院高能物理研究所",
+        "citations": 443863,
+        "papers": 14642
+      },
+      {
+        "rank": 726,
+        "name": "NINGBO UNIVERSITY",
+        "cnName": "宁波大学",
+        "citations": 443120,
+        "papers": 31165
+      },
+      {
+        "rank": 739,
+        "name": "BEIJING JIAOTONG UNIVERSITY",
+        "cnName": "北京交通大学",
+        "citations": 436682,
+        "papers": 27451
+      },
+      {
+        "rank": 744,
+        "name": "INSTITUTE OF GEOGRAPHIC SCIENCES & NATURAL RESOURCES RESEARCH, CAS",
+        "cnName": "中国科学院地理科学与资源研究所",
+        "citations": 434313,
+        "papers": 16598
+      },
+      {
+        "rank": 750,
+        "name": "SHANDONG UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "山东科技大学",
+        "citations": 431699,
+        "papers": 22899
+      },
+      {
+        "rank": 755,
+        "name": "CHANG GUNG MEMORIAL HOSPITAL",
+        "cnName": "长庚纪念医院",
+        "citations": 428004,
+        "papers": 26041
+      },
+      {
+        "rank": 758,
+        "name": "NAVAL MEDICAL UNIVERSITY",
+        "cnName": "海军军医大学",
+        "citations": 426888,
+        "papers": 20360
+      },
+      {
+        "rank": 762,
+        "name": "RESEARCH CENTER FOR ECO-ENVIRONMENTAL SCIENCES (RCEES), CAS",
+        "cnName": "中国科学院生态环境研究中心",
+        "citations": 424310,
+        "papers": 12551
+      },
+      {
+        "rank": 766,
+        "name": "SOUTH CHINA NORMAL UNIVERSITY",
+        "cnName": "华南师范大学",
+        "citations": 420854,
+        "papers": 23279
+      },
+      {
+        "rank": 786,
+        "name": "KUNMING UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "昆明理工大学",
+        "citations": 412225,
+        "papers": 28345
+      },
+      {
+        "rank": 787,
+        "name": "NATIONAL TAIWAN UNIVERSITY HOSPITAL",
+        "cnName": "国立台湾大学医学院附设医院",
+        "citations": 411821,
+        "papers": 16606
+      },
+      {
+        "rank": 789,
+        "name": "SHANDONG FIRST MEDICAL UNIVERSITY & SHANDONG ACADEMY OF MEDICAL SCIENCES",
+        "cnName": "山东第一医科大学（山东省医学科学院）",
+        "citations": 411372,
+        "papers": 26566
+      },
+      {
+        "rank": 792,
+        "name": "NORTHWEST UNIVERSITY XI'AN",
+        "cnName": "西北大学（西安）",
+        "citations": 409676,
+        "papers": 23500
+      },
+      {
+        "rank": 795,
+        "name": "NATIONAL CENTER FOR NANOSCIENCE & TECHNOLOGY, CAS",
+        "cnName": "中国科学院国家纳米科学中心",
+        "citations": 408700,
+        "papers": 8000
+      },
+      {
+        "rank": 799,
+        "name": "HENAN UNIVERSITY",
+        "cnName": "河南大学",
+        "citations": 406263,
+        "papers": 21906
+      },
+      {
+        "rank": 800,
+        "name": "HARBIN MEDICAL UNIVERSITY",
+        "cnName": "哈尔滨医科大学",
+        "citations": 405437,
+        "papers": 21002
+      },
+      {
+        "rank": 805,
+        "name": "ARMY MEDICAL UNIVERSITY",
+        "cnName": "陆军军医大学",
+        "citations": 402597,
+        "papers": 18048
+      },
+      {
+        "rank": 806,
+        "name": "SHENZHEN INSTITUTE OF ADVANCED TECHNOLOGY, CAS",
+        "cnName": "中国科学院深圳先进技术研究院",
+        "citations": 401738,
+        "papers": 14962
+      },
+      {
+        "rank": 808,
+        "name": "CHINESE CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "中国疾病预防控制中心",
+        "citations": 400568,
+        "papers": 11740
+      },
+      {
+        "rank": 819,
+        "name": "ANHUI MEDICAL UNIVERSITY",
+        "cnName": "安徽医科大学",
+        "citations": 391350,
+        "papers": 25496
+      },
+      {
+        "rank": 820,
+        "name": "TAIPEI MEDICAL UNIVERSITY",
+        "cnName": "台北医学大学",
+        "citations": 390962,
+        "papers": 18798
+      },
+      {
+        "rank": 822,
+        "name": "SHAANXI NORMAL UNIVERSITY",
+        "cnName": "陕西师范大学",
+        "citations": 390775,
+        "papers": 19269
+      },
+      {
+        "rank": 829,
+        "name": "CHANG GUNG UNIVERSITY",
+        "cnName": "长庚大学",
+        "citations": 388745,
+        "papers": 24047
+      },
+      {
+        "rank": 837,
+        "name": "QINGDAO UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "青岛科技大学",
+        "citations": 382798,
+        "papers": 17667
+      },
+      {
+        "rank": 840,
+        "name": "GUANGZHOU UNIVERSITY",
+        "cnName": "广州大学",
+        "citations": 381179,
+        "papers": 20445
+      },
+      {
+        "rank": 842,
+        "name": "HARBIN ENGINEERING UNIVERSITY",
+        "cnName": "哈尔滨工程大学",
+        "citations": 380832,
+        "papers": 24631
+      },
+      {
+        "rank": 845,
+        "name": "SHANGHAITECH UNIVERSITY",
+        "cnName": "上海科技大学",
+        "citations": 378131,
+        "papers": 13300
+      },
+      {
+        "rank": 847,
+        "name": "AIR FORCE MEDICAL UNIVERSITY",
+        "cnName": "空军军医大学",
+        "citations": 376974,
+        "papers": 18355
+      },
+      {
+        "rank": 849,
+        "name": "UNIVERSITY OF JINAN",
+        "cnName": "济南大学",
+        "citations": 374382,
+        "papers": 18012
+      },
+      {
+        "rank": 851,
+        "name": "COLLABORATIVE INNOVATION CENTER OF ADVANCED MICROSTRUCTURES (CICAM)",
+        "cnName": "人工微结构科学与技术协同创新中心",
+        "citations": 374170,
+        "papers": 10546
+      },
+      {
+        "rank": 857,
+        "name": "TAIYUAN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "太原理工大学",
+        "citations": 370140,
+        "papers": 23209
+      },
+      {
+        "rank": 858,
+        "name": "CHINESE PEOPLE'S LIBERATION ARMY GENERAL HOSPITAL",
+        "cnName": "中国人民解放军总医院",
+        "citations": 369194,
+        "papers": 20401
+      },
+      {
+        "rank": 861,
+        "name": "NATIONAL UNIVERSITY OF DEFENSE TECHNOLOGY - CHINA",
+        "cnName": "国防科技大学",
+        "citations": 368403,
+        "papers": 27973
+      },
+      {
+        "rank": 877,
+        "name": "NANJING UNIVERSITY OF POSTS & TELECOMMUNICATIONS",
+        "cnName": "南京邮电大学",
+        "citations": 358496,
+        "papers": 20673
+      },
+      {
+        "rank": 878,
+        "name": "HEFEI INSTITUTES OF PHYSICAL SCIENCE, CAS",
+        "cnName": "中国科学院合肥物质科学研究院",
+        "citations": 358017,
+        "papers": 19228
+      },
+      {
+        "rank": 881,
+        "name": "BEIJING FORESTRY UNIVERSITY",
+        "cnName": "北京林业大学",
+        "citations": 357099,
+        "papers": 18660
+      },
+      {
+        "rank": 896,
+        "name": "CHINA PHARMACEUTICAL UNIVERSITY",
+        "cnName": "中国药科大学",
+        "citations": 349933,
+        "papers": 16257
+      },
+      {
+        "rank": 904,
+        "name": "UNIVERSITY OF SHANGHAI FOR SCIENCE & TECHNOLOGY",
+        "cnName": "上海理工大学",
+        "citations": 346325,
+        "papers": 21885
+      },
+      {
+        "rank": 908,
+        "name": "CENTRAL CHINA NORMAL UNIVERSITY",
+        "cnName": "华中师范大学",
+        "citations": 344774,
+        "papers": 15772
+      },
+      {
+        "rank": 913,
+        "name": "LAOSHAN LABORATORY",
+        "cnName": "崂山实验室",
+        "citations": 341868,
+        "papers": 20009
+      },
+      {
+        "rank": 918,
+        "name": "INSTITUTE OF METAL RESEARCH, CAS",
+        "cnName": "中国科学院金属研究所",
+        "citations": 340531,
+        "papers": 11604
+      },
+      {
+        "rank": 920,
+        "name": "ANHUI UNIVERSITY",
+        "cnName": "安徽大学",
+        "citations": 339861,
+        "papers": 20351
+      },
+      {
+        "rank": 930,
+        "name": "CHINESE ACADEMY OF ENGINEERING PHYSICS",
+        "cnName": "中国工程物理研究院",
+        "citations": 335914,
+        "papers": 19114
+      },
+      {
+        "rank": 950,
+        "name": "SHANGHAI INSTITUTE OF CERAMICS, CAS",
+        "cnName": "中国科学院上海硅酸盐研究所",
+        "citations": 329101,
+        "papers": 9541
+      },
+      {
+        "rank": 959,
+        "name": "NINGBO INSTITUTE OF MATERIALS TECHNOLOGY & ENGINEERING, CAS",
+        "cnName": "中国科学院宁波材料技术与工程研究所",
+        "citations": 324664,
+        "papers": 11400
+      },
+      {
+        "rank": 961,
+        "name": "FUJIAN AGRICULTURE & FORESTRY UNIVERSITY",
+        "cnName": "福建农林大学",
+        "citations": 324327,
+        "papers": 16219
+      },
+      {
+        "rank": 962,
+        "name": "NANTONG UNIVERSITY",
+        "cnName": "南通大学",
+        "citations": 324319,
+        "papers": 22130
+      },
+      {
+        "rank": 967,
+        "name": "SHANDONG NORMAL UNIVERSITY",
+        "cnName": "山东师范大学",
+        "citations": 322717,
+        "papers": 15963
+      },
+      {
+        "rank": 968,
+        "name": "BEIJING UNIVERSITY OF POSTS & TELECOMMUNICATIONS",
+        "cnName": "北京邮电大学",
+        "citations": 322103,
+        "papers": 21626
+      },
+      {
+        "rank": 970,
+        "name": "TSINGHUA SHENZHEN INTERNATIONAL GRADUATE SCHOOL",
+        "cnName": "清华大学深圳国际研究生院",
+        "citations": 320839,
+        "papers": 9694
+      },
+      {
+        "rank": 974,
+        "name": "FUJIAN INSTITUTE OF RESEARCH ON THE STRUCTURE OF MATTER, CAS",
+        "cnName": "中国科学院福建物质结构研究所",
+        "citations": 317348,
+        "papers": 10405
+      },
+      {
+        "rank": 984,
+        "name": "CHANG'AN UNIVERSITY",
+        "cnName": "长安大学",
+        "citations": 314998,
+        "papers": 20396
+      },
+      {
+        "rank": 985,
+        "name": "CHINA MEDICAL UNIVERSITY HOSPITAL - TAIWAN",
+        "cnName": "中国医药大学附设医院（台湾）",
+        "citations": 314494,
+        "papers": 17884
+      },
+      {
+        "rank": 987,
+        "name": "SHANXI UNIVERSITY",
+        "cnName": "山西大学",
+        "citations": 313214,
+        "papers": 18570
+      },
+      {
+        "rank": 992,
+        "name": "PEKING UNION MEDICAL COLLEGE HOSPITAL",
+        "cnName": "北京协和医院",
+        "citations": 310547,
+        "papers": 17502
+      },
+      {
+        "rank": 995,
+        "name": "MINISTRY OF NATURAL RESOURCES OF THE PEOPLE'S REPUBLIC OF CHINA",
+        "cnName": "中华人民共和国自然资源部",
+        "citations": 309669,
+        "papers": 23871
+      },
+      {
+        "rank": 996,
+        "name": "FUJIAN MEDICAL UNIVERSITY",
+        "cnName": "福建医科大学",
+        "citations": 309377,
+        "papers": 26105
+      },
+      {
+        "rank": 1001,
+        "name": "NORTHEAST NORMAL UNIVERSITY - CHINA",
+        "cnName": "东北师范大学",
+        "citations": 308197,
+        "papers": 15642
+      },
+      {
+        "rank": 1012,
+        "name": "HEBEI UNIVERSITY OF TECHNOLOGY",
+        "cnName": "河北工业大学",
+        "citations": 303717,
+        "papers": 18981
+      },
+      {
+        "rank": 1021,
+        "name": "STATE KEY LABORATORY SURFACTANT FINE CHEMISTRY",
+        "cnName": "表面活性剂国家工程研究中心精细化工国家重点实验室",
+        "citations": 299714,
+        "papers": 9466
+      },
+      {
+        "rank": 1032,
+        "name": "HAINAN UNIVERSITY",
+        "cnName": "海南大学",
+        "citations": 297334,
+        "papers": 19857
+      },
+      {
+        "rank": 1045,
+        "name": "STATE KEY LAB ONCOLOGY SOUTH CHINA",
+        "cnName": "华南肿瘤学国家重点实验室",
+        "citations": 293317,
+        "papers": 10725
+      },
+      {
+        "rank": 1055,
+        "name": "YANSHAN UNIVERSITY",
+        "cnName": "燕山大学",
+        "citations": 288822,
+        "papers": 18475
+      },
+      {
+        "rank": 1060,
+        "name": "WUHAN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "武汉科技大学",
+        "citations": 287269,
+        "papers": 15364
+      },
+      {
+        "rank": 1062,
+        "name": "GUIZHOU UNIVERSITY",
+        "cnName": "贵州大学",
+        "citations": 286762,
+        "papers": 23462
+      },
+      {
+        "rank": 1065,
+        "name": "SHANGHAI INSTITUTE OF ORGANIC CHEMISTRY, CAS",
+        "cnName": "中国科学院上海有机化学研究所",
+        "citations": 286014,
+        "papers": 7905
+      },
+      {
+        "rank": 1066,
+        "name": "HONG KONG BAPTIST UNIVERSITY",
+        "cnName": "香港浸会大学",
+        "citations": 285620,
+        "papers": 11824
+      },
+      {
+        "rank": 1071,
+        "name": "ZHEJIANG NORMAL UNIVERSITY",
+        "cnName": "浙江师范大学",
+        "citations": 284160,
+        "papers": 15304
+      },
+      {
+        "rank": 1073,
+        "name": "SICHUAN AGRICULTURAL UNIVERSITY",
+        "cnName": "四川农业大学",
+        "citations": 283959,
+        "papers": 16404
+      },
+      {
+        "rank": 1078,
+        "name": "NANJING UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "南京中医药大学",
+        "citations": 283245,
+        "papers": 17714
+      },
+      {
+        "rank": 1080,
+        "name": "NORTHEAST AGRICULTURAL UNIVERSITY - CHINA",
+        "cnName": "东北农业大学",
+        "citations": 282687,
+        "papers": 14493
+      },
+      {
+        "rank": 1092,
+        "name": "QILU UNIVERSITY OF TECHNOLOGY",
+        "cnName": "齐鲁工业大学",
+        "citations": 279801,
+        "papers": 16613
+      },
+      {
+        "rank": 1107,
+        "name": "SHANTOU UNIVERSITY",
+        "cnName": "汕头大学",
+        "citations": 274304,
+        "papers": 16823
+      },
+      {
+        "rank": 1111,
+        "name": "YUNNAN UNIVERSITY",
+        "cnName": "云南大学",
+        "citations": 273732,
+        "papers": 19596
+      },
+      {
+        "rank": 1116,
+        "name": "TECHNICAL INSTITUTE OF PHYSICS & CHEMISTRY, CAS",
+        "cnName": "中国科学院理化技术研究所",
+        "citations": 272407,
+        "papers": 7598
+      },
+      {
+        "rank": 1127,
+        "name": "CHINA METEOROLOGICAL ADMINISTRATION",
+        "cnName": "中国气象局",
+        "citations": 269701,
+        "papers": 15219
+      },
+      {
+        "rank": 1128,
+        "name": "RENMIN UNIVERSITY OF CHINA",
+        "cnName": "中国人民大学",
+        "citations": 268170,
+        "papers": 15313
+      },
+      {
+        "rank": 1133,
+        "name": "ZHEJIANG SCI-TECH UNIVERSITY",
+        "cnName": "浙江理工大学",
+        "citations": 265509,
+        "papers": 16781
+      },
+      {
+        "rank": 1144,
+        "name": "KAOHSIUNG MEDICAL UNIVERSITY",
+        "cnName": "高雄医学大学",
+        "citations": 263994,
+        "papers": 16355
+      },
+      {
+        "rank": 1156,
+        "name": "HENAN NORMAL UNIVERSITY",
+        "cnName": "河南师范大学",
+        "citations": 260995,
+        "papers": 14265
+      },
+      {
+        "rank": 1160,
+        "name": "INSTITUTE OF PROCESS ENGINEERING, CAS",
+        "cnName": "中国科学院过程工程研究所",
+        "citations": 258753,
+        "papers": 9531
+      },
+      {
+        "rank": 1169,
+        "name": "HUNAN NORMAL UNIVERSITY",
+        "cnName": "湖南师范大学",
+        "citations": 255320,
+        "papers": 16777
+      },
+      {
+        "rank": 1174,
+        "name": "SOUTHWEST PETROLEUM UNIVERSITY",
+        "cnName": "西南石油大学",
+        "citations": 254766,
+        "papers": 16586
+      },
+      {
+        "rank": 1193,
+        "name": "COLLABORATIVE INNOVATION CENTER OF QUANTUM MATTER",
+        "cnName": "量子物质协同创新中心",
+        "citations": 250441,
+        "papers": 5846
+      },
+      {
+        "rank": 1198,
+        "name": "BEIJING INSTITUTE OF NANOENERGY & NANOSYSTEMS, CAS",
+        "cnName": "中国科学院北京纳米能源与系统研究所",
+        "citations": 249656,
+        "papers": 3752
+      },
+      {
+        "rank": 1203,
+        "name": "CHINA NATIONAL PETROLEUM CORPORATION",
+        "cnName": "中国石油天然气集团有限公司",
+        "citations": 249097,
+        "papers": 20203
+      },
+      {
+        "rank": 1207,
+        "name": "HANGZHOU NORMAL UNIVERSITY",
+        "cnName": "杭州师范大学",
+        "citations": 247917,
+        "papers": 14008
+      },
+      {
+        "rank": 1209,
+        "name": "XIANGTAN UNIVERSITY",
+        "cnName": "湘潭大学",
+        "citations": 246623,
+        "papers": 14068
+      },
+      {
+        "rank": 1210,
+        "name": "HANGZHOU DIANZI UNIVERSITY",
+        "cnName": "杭州电子科技大学",
+        "citations": 246517,
+        "papers": 17084
+      },
+      {
+        "rank": 1219,
+        "name": "TAIPEI VETERANS GENERAL HOSPITAL",
+        "cnName": "台北荣民总医院",
+        "citations": 244514,
+        "papers": 11515
+      },
+      {
+        "rank": 1222,
+        "name": "HUBEI UNIVERSITY",
+        "cnName": "湖北大学",
+        "citations": 243887,
+        "papers": 11409
+      },
+      {
+        "rank": 1224,
+        "name": "JIANGSU UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "江苏科技大学",
+        "citations": 243545,
+        "papers": 14546
+      },
+      {
+        "rank": 1226,
+        "name": "XI'AN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "西安理工大学",
+        "citations": 242954,
+        "papers": 16199
+      },
+      {
+        "rank": 1241,
+        "name": "SHAANXI UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "陕西科技大学",
+        "citations": 240194,
+        "papers": 12070
+      },
+      {
+        "rank": 1244,
+        "name": "CHANGSHA UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "长沙理工大学",
+        "citations": 239764,
+        "papers": 12738
+      },
+      {
+        "rank": 1260,
+        "name": "NORTHEAST FORESTRY UNIVERSITY - CHINA",
+        "cnName": "东北林业大学",
+        "citations": 236493,
+        "papers": 15024
+      },
+      {
+        "rank": 1263,
+        "name": "CHINA GEOLOGICAL SURVEY",
+        "cnName": "中国地质调查局",
+        "citations": 235688,
+        "papers": 16527
+      },
+      {
+        "rank": 1264,
+        "name": "SHANGHAI UNIVERSITY OF TRADITIONAL CHINESE MEDICINE",
+        "cnName": "上海中医药大学",
+        "citations": 235463,
+        "papers": 14579
+      },
+      {
+        "rank": 1270,
+        "name": "FUJIAN NORMAL UNIVERSITY",
+        "cnName": "福建师范大学",
+        "citations": 234301,
+        "papers": 13309
+      },
+      {
+        "rank": 1271,
+        "name": "SHANGHAI INSTITUTE OF APPLIED PHYSICS, CAS",
+        "cnName": "中国科学院上海应用物理研究所",
+        "citations": 233830,
+        "papers": 6770
+      },
+      {
+        "rank": 1276,
+        "name": "DALIAN MEDICAL UNIVERSITY",
+        "cnName": "大连医科大学",
+        "citations": 232513,
+        "papers": 13647
+      },
+      {
+        "rank": 1281,
+        "name": "SHANDONG AGRICULTURAL UNIVERSITY",
+        "cnName": "山东农业大学",
+        "citations": 231918,
+        "papers": 11959
+      },
+      {
+        "rank": 1285,
+        "name": "TIANGONG UNIVERSITY",
+        "cnName": "天津工业大学",
+        "citations": 231053,
+        "papers": 13469
+      },
+      {
+        "rank": 1301,
+        "name": "XI'AN UNIVERSITY OF ARCHITECTURE & TECHNOLOGY",
+        "cnName": "西安建筑科技大学",
+        "citations": 228689,
+        "papers": 14376
+      },
+      {
+        "rank": 1303,
+        "name": "WENZHOU UNIVERSITY",
+        "cnName": "温州大学",
+        "citations": 228423,
+        "papers": 11125
+      },
+      {
+        "rank": 1311,
+        "name": "GUANGZHOU UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "广州中医药大学",
+        "citations": 227185,
+        "papers": 15686
+      },
+      {
+        "rank": 1317,
+        "name": "NATIONAL CENTRAL UNIVERSITY",
+        "cnName": "国立中央大学",
+        "citations": 225948,
+        "papers": 13047
+      },
+      {
+        "rank": 1318,
+        "name": "CHANGZHOU UNIVERSITY",
+        "cnName": "常州大学",
+        "citations": 225893,
+        "papers": 14093
+      },
+      {
+        "rank": 1322,
+        "name": "LANZHOU INSTITUTE OF CHEMICAL PHYSICS, CAS",
+        "cnName": "中国科学院兰州化学物理研究所",
+        "citations": 225156,
+        "papers": 8763
+      },
+      {
+        "rank": 1325,
+        "name": "INSTITUTE OF ATMOSPHERIC PHYSICS, CAS",
+        "cnName": "中国科学院大气物理研究所",
+        "citations": 224775,
+        "papers": 9223
+      },
+      {
+        "rank": 1327,
+        "name": "SOUTHWEST UNIVERSITY OF SCIENCE & TECHNOLOGY - CHINA",
+        "cnName": "西南科技大学",
+        "citations": 224618,
+        "papers": 12150
+      },
+      {
+        "rank": 1332,
+        "name": "SHENZHEN RESEARCH INSTITUTE, CITY UNIVERSITY OF HONG KONG",
+        "cnName": "香港城市大学深圳研究院",
+        "citations": 222965,
+        "papers": 6118
+      },
+      {
+        "rank": 1340,
+        "name": "HUNAN AGRICULTURAL UNIVERSITY",
+        "cnName": "湖南农业大学",
+        "citations": 221613,
+        "papers": 10123
+      },
+      {
+        "rank": 1349,
+        "name": "BEIJING TECHNOLOGY & BUSINESS UNIVERSITY",
+        "cnName": "北京工商大学",
+        "citations": 219484,
+        "papers": 11429
+      },
+      {
+        "rank": 1359,
+        "name": "NATIONAL TAIWAN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "国立台湾科技大学",
+        "citations": 217376,
+        "papers": 11820
+      },
+      {
+        "rank": 1389,
+        "name": "DALIAN MARITIME UNIVERSITY",
+        "cnName": "大连海事大学",
+        "citations": 211373,
+        "papers": 13861
+      },
+      {
+        "rank": 1390,
+        "name": "NATIONAL CHUNG HSING UNIVERSITY",
+        "cnName": "国立中兴大学",
+        "citations": 210657,
+        "papers": 14697
+      },
+      {
+        "rank": 1391,
+        "name": "XUZHOU MEDICAL UNIVERSITY",
+        "cnName": "徐州医科大学",
+        "citations": 210485,
+        "papers": 13966
+      },
+      {
+        "rank": 1397,
+        "name": "HENAN POLYTECHNIC UNIVERSITY",
+        "cnName": "河南理工大学",
+        "citations": 209459,
+        "papers": 13351
+      },
+      {
+        "rank": 1401,
+        "name": "INSTITUTE OF GENETICS & DEVELOPMENTAL BIOLOGY, CAS",
+        "cnName": "中国科学院遗传与发育生物学研究所",
+        "citations": 208936,
+        "papers": 4698
+      },
+      {
+        "rank": 1405,
+        "name": "WUHAN INSTITUTE OF TECHNOLOGY",
+        "cnName": "武汉工程大学",
+        "citations": 208690,
+        "papers": 10095
+      },
+      {
+        "rank": 1412,
+        "name": "GUANGXI MEDICAL UNIVERSITY",
+        "cnName": "广西医科大学",
+        "citations": 207725,
+        "papers": 15085
+      },
+      {
+        "rank": 1415,
+        "name": "NATIONAL SUN YAT SEN UNIVERSITY",
+        "cnName": "国立中山大学",
+        "citations": 207209,
+        "papers": 13402
+      },
+      {
+        "rank": 1423,
+        "name": "INSTITUTE OF TIBETAN PLATEAU RESEARCH, CAS",
+        "cnName": "中国科学院青藏高原研究所",
+        "citations": 205834,
+        "papers": 6407
+      },
+      {
+        "rank": 1424,
+        "name": "PEKING UNIVERSITY SHENZHEN GRADUATE SCHOOL (PKU SHENZHEN)",
+        "cnName": "北京大学深圳研究生院",
+        "citations": 205687,
+        "papers": 7635
+      },
+      {
+        "rank": 1431,
+        "name": "TIANJIN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "天津理工大学",
+        "citations": 204618,
+        "papers": 9793
+      },
+      {
+        "rank": 1435,
+        "name": "ZHEJIANG A&F UNIVERSITY",
+        "cnName": "浙江农林大学",
+        "citations": 203818,
+        "papers": 10344
+      },
+      {
+        "rank": 1440,
+        "name": "ASIA UNIVERSITY TAIWAN",
+        "cnName": "亚洲大学（台湾）",
+        "citations": 202977,
+        "papers": 10670
+      },
+      {
+        "rank": 1443,
+        "name": "XINJIANG UNIVERSITY",
+        "cnName": "新疆大学",
+        "citations": 202074,
+        "papers": 15870
+      },
+      {
+        "rank": 1455,
+        "name": "UNIVERSITY OF SOUTH CHINA",
+        "cnName": "南华大学",
+        "citations": 199341,
+        "papers": 14241
+      },
+      {
+        "rank": 1458,
+        "name": "THE CHINESE UNIVERSITY OF HONG KONG, SHENZHEN",
+        "cnName": "香港中文大学（深圳）",
+        "citations": 198853,
+        "papers": 9386
+      },
+      {
+        "rank": 1462,
+        "name": "HEBEI UNIVERSITY",
+        "cnName": "河北大学",
+        "citations": 198193,
+        "papers": 13761
+      },
+      {
+        "rank": 1465,
+        "name": "HEBEI MEDICAL UNIVERSITY",
+        "cnName": "河北医科大学",
+        "citations": 197858,
+        "papers": 16434
+      },
+      {
+        "rank": 1474,
+        "name": "SHANGHAI INSTITUTE OF MATERIA MEDICA, CAS",
+        "cnName": "中国科学院上海药物研究所",
+        "citations": 196725,
+        "papers": 7089
+      },
+      {
+        "rank": 1475,
+        "name": "QUFU NORMAL UNIVERSITY",
+        "cnName": "曲阜师范大学",
+        "citations": 196370,
+        "papers": 11527
+      },
+      {
+        "rank": 1479,
+        "name": "TIANJIN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "天津科技大学",
+        "citations": 195441,
+        "papers": 10013
+      },
+      {
+        "rank": 1493,
+        "name": "HENAN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "河南科技大学",
+        "citations": 193070,
+        "papers": 14540
+      },
+      {
+        "rank": 1498,
+        "name": "INSTITUTE OF AUTOMATION, CAS",
+        "cnName": "中国科学院自动化研究所",
+        "citations": 192522,
+        "papers": 7899
+      },
+      {
+        "rank": 1500,
+        "name": "INSTITUTE OF GEOLOGY & GEOPHYSICS, CAS",
+        "cnName": "中国科学院地质与地球物理研究所",
+        "citations": 190972,
+        "papers": 10517
+      },
+      {
+        "rank": 1504,
+        "name": "BEIJING UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "北京中医药大学",
+        "citations": 189976,
+        "papers": 12821
+      },
+      {
+        "rank": 1507,
+        "name": "HUAQIAO UNIVERSITY",
+        "cnName": "华侨大学",
+        "citations": 189531,
+        "papers": 10812
+      },
+      {
+        "rank": 1508,
+        "name": "GUANGDONG ACADEMY OF MEDICAL SCIENCES & GUANGDONG GENERAL HOSPITAL",
+        "cnName": "广东省医学科学院 广东省人民医院",
+        "citations": 189332,
+        "papers": 10021
+      },
+      {
+        "rank": 1516,
+        "name": "INSTITUTE OF URBAN ENVIRONMENT, CAS",
+        "cnName": "中国科学院城市环境研究所",
+        "citations": 187282,
+        "papers": 5604
+      },
+      {
+        "rank": 1532,
+        "name": "CHENGDU UNIVERSITY OF TECHNOLOGY",
+        "cnName": "成都理工大学",
+        "citations": 185843,
+        "papers": 14220
+      },
+      {
+        "rank": 1534,
+        "name": "BEIJING GENOMICS INSTITUTE (BGI)",
+        "cnName": "北京基因组研究所（华大基因）",
+        "citations": 185519,
+        "papers": 3652
+      },
+      {
+        "rank": 1539,
+        "name": "LIAOCHENG UNIVERSITY",
+        "cnName": "聊城大学",
+        "citations": 184719,
+        "papers": 10446
+      },
+      {
+        "rank": 1540,
+        "name": "CHINESE ACADEMY OF FORESTRY",
+        "cnName": "中国林业科学研究院",
+        "citations": 184565,
+        "papers": 10830
+      },
+      {
+        "rank": 1562,
+        "name": "PRINCE OF WALES HOSPITAL HONG KONG",
+        "cnName": "香港威尔斯亲王医院",
+        "citations": 180743,
+        "papers": 5349
+      },
+      {
+        "rank": 1564,
+        "name": "CANCER INSTITUTE & HOSPITAL - CAMS",
+        "cnName": "中国医学科学院肿瘤医院（肿瘤研究所）",
+        "citations": 180693,
+        "papers": 8393
+      },
+      {
+        "rank": 1566,
+        "name": "INSTITUTE OF BIOPHYSICS, CAS",
+        "cnName": "中国科学院生物物理研究所",
+        "citations": 180033,
+        "papers": 4304
+      },
+      {
+        "rank": 1570,
+        "name": "NORTH UNIVERSITY OF CHINA",
+        "cnName": "中北大学",
+        "citations": 178926,
+        "papers": 12586
+      },
+      {
+        "rank": 1574,
+        "name": "LANZHOU UNIVERSITY OF TECHNOLOGY",
+        "cnName": "兰州理工大学",
+        "citations": 178291,
+        "papers": 13339
+      },
+      {
+        "rank": 1577,
+        "name": "NANJING INSTITUTE OF SOIL SCIENCE, CAS",
+        "cnName": "中国科学院南京土壤研究所",
+        "citations": 177944,
+        "papers": 5344
+      },
+      {
+        "rank": 1584,
+        "name": "FU WAI HOSPITAL - CAMS",
+        "cnName": "中国医学科学院阜外医院",
+        "citations": 177243,
+        "papers": 7586
+      },
+      {
+        "rank": 1589,
+        "name": "JIANGXI NORMAL UNIVERSITY",
+        "cnName": "江西师范大学",
+        "citations": 176344,
+        "papers": 9344
+      },
+      {
+        "rank": 1601,
+        "name": "SHANGHAI NORMAL UNIVERSITY",
+        "cnName": "上海师范大学",
+        "citations": 174588,
+        "papers": 9773
+      },
+      {
+        "rank": 1612,
+        "name": "ANHUI AGRICULTURAL UNIVERSITY",
+        "cnName": "安徽农业大学",
+        "citations": 173130,
+        "papers": 10013
+      },
+      {
+        "rank": 1624,
+        "name": "STATE GRID CORPORATION OF CHINA",
+        "cnName": "国家电网公司",
+        "citations": 171171,
+        "papers": 15560
+      },
+      {
+        "rank": 1630,
+        "name": "SINOPEC",
+        "cnName": "中国石油化工集团有限公司",
+        "citations": 170332,
+        "papers": 11559
+      },
+      {
+        "rank": 1635,
+        "name": "HENAN AGRICULTURAL UNIVERSITY",
+        "cnName": "河南农业大学",
+        "citations": 169276,
+        "papers": 10188
+      },
+      {
+        "rank": 1640,
+        "name": "SHANXI MEDICAL UNIVERSITY",
+        "cnName": "山西医科大学",
+        "citations": 168411,
+        "papers": 14342
+      },
+      {
+        "rank": 1641,
+        "name": "QINGDAO AGRICULTURAL UNIVERSITY",
+        "cnName": "青岛农业大学",
+        "citations": 168300,
+        "papers": 9057
+      },
+      {
+        "rank": 1644,
+        "name": "SHANGHAI INSTITUTE OF POLLUTION CONTROL & ECOLOGICAL SECURITY",
+        "cnName": "上海污染控制与生态安全研究院",
+        "citations": 168053,
+        "papers": 5246
+      },
+      {
+        "rank": 1645,
+        "name": "GUANGZHOU INSTITUTE OF GEOCHEMISTRY, CAS",
+        "cnName": "中国科学院广州地球化学研究所",
+        "citations": 168020,
+        "papers": 6420
+      },
+      {
+        "rank": 1646,
+        "name": "CHENGDU UNIVERSITY",
+        "cnName": "成都大学",
+        "citations": 167596,
+        "papers": 9565
+      },
+      {
+        "rank": 1656,
+        "name": "SHANGHAI OCEAN UNIVERSITY",
+        "cnName": "上海海洋大学",
+        "citations": 166764,
+        "papers": 11546
+      },
+      {
+        "rank": 1660,
+        "name": "INSTITUTE OF MICROBIOLOGY, CAS",
+        "cnName": "中国科学院微生物研究所",
+        "citations": 166365,
+        "papers": 5062
+      },
+      {
+        "rank": 1665,
+        "name": "SOUTHERN MARINE SCIENCE & ENGINEERING GUANGDONG LABORATORY",
+        "cnName": "南方海洋科学与工程广东省实验室",
+        "citations": 165728,
+        "papers": 13317
+      },
+      {
+        "rank": 1674,
+        "name": "NATIONAL TAIPEI UNIVERSITY OF TECHNOLOGY",
+        "cnName": "台北科技大学",
+        "citations": 164380,
+        "papers": 9973
+      },
+      {
+        "rank": 1676,
+        "name": "SHENYANG PHARMACEUTICAL UNIVERSITY",
+        "cnName": "沈阳药科大学",
+        "citations": 164217,
+        "papers": 9188
+      },
+      {
+        "rank": 1681,
+        "name": "ZHEJIANG CHINESE MEDICAL UNIVERSITY",
+        "cnName": "浙江中医药大学",
+        "citations": 163594,
+        "papers": 14840
+      },
+      {
+        "rank": 1682,
+        "name": "NATIONAL ASTRONOMICAL OBSERVATORY, CAS",
+        "cnName": "中国科学院国家天文台",
+        "citations": 163512,
+        "papers": 7449
+      },
+      {
+        "rank": 1683,
+        "name": "YANGTZE UNIVERSITY",
+        "cnName": "长江大学",
+        "citations": 163504,
+        "papers": 12616
+      },
+      {
+        "rank": 1684,
+        "name": "SHANGHAI ADVANCED RESEARCH INSTITUTE, CAS",
+        "cnName": "中国科学院上海高等研究院",
+        "citations": 163427,
+        "papers": 6143
+      },
+      {
+        "rank": 1687,
+        "name": "SHIHEZI UNIVERSITY",
+        "cnName": "石河子大学",
+        "citations": 163051,
+        "papers": 11522
+      },
+      {
+        "rank": 1691,
+        "name": "YANTAI UNIVERSITY",
+        "cnName": "烟台大学",
+        "citations": 162526,
+        "papers": 10400
+      },
+      {
+        "rank": 1693,
+        "name": "CHINA THREE GORGES UNIVERSITY",
+        "cnName": "三峡大学",
+        "citations": 162294,
+        "papers": 10522
+      },
+      {
+        "rank": 1701,
+        "name": "INSTITUTE OF BOTANY, CAS",
+        "cnName": "中国科学院植物研究所",
+        "citations": 161431,
+        "papers": 4853
+      },
+      {
+        "rank": 1704,
+        "name": "HEILONGJIANG UNIVERSITY",
+        "cnName": "黑龙江大学",
+        "citations": 161316,
+        "papers": 7567
+      },
+      {
+        "rank": 1707,
+        "name": "CHINA JILIANG UNIVERSITY",
+        "cnName": "中国计量大学",
+        "citations": 160963,
+        "papers": 10477
+      },
+      {
+        "rank": 1709,
+        "name": "CHINESE RESEARCH ACADEMY OF ENVIRONMENTAL SCIENCES",
+        "cnName": "中国环境科学研究院",
+        "citations": 160914,
+        "papers": 6868
+      },
+      {
+        "rank": 1711,
+        "name": "CHINA ACADEMY OF CHINESE MEDICAL SCIENCES",
+        "cnName": "中国中医科学院",
+        "citations": 160804,
+        "papers": 10094
+      },
+      {
+        "rank": 1714,
+        "name": "GUANGDONG ACADEMY OF SCIENCES",
+        "cnName": "广东省科学院",
+        "citations": 160444,
+        "papers": 8747
+      },
+      {
+        "rank": 1717,
+        "name": "GUILIN UNIVERSITY OF ELECTRONIC TECHNOLOGY",
+        "cnName": "桂林电子科技大学",
+        "citations": 160250,
+        "papers": 10888
+      },
+      {
+        "rank": 1718,
+        "name": "CAPITAL NORMAL UNIVERSITY",
+        "cnName": "首都师范大学",
+        "citations": 159889,
+        "papers": 9780
+      },
+      {
+        "rank": 1719,
+        "name": "SOUTHWEST MEDICAL UNIVERSITY",
+        "cnName": "西南医科大学",
+        "citations": 159716,
+        "papers": 11267
+      },
+      {
+        "rank": 1724,
+        "name": "INSTITUTE OF COAL CHEMISTRY, CAS",
+        "cnName": "中国科学院山西煤炭化学研究所",
+        "citations": 158797,
+        "papers": 4761
+      },
+      {
+        "rank": 1730,
+        "name": "CHENGDU UNIVERSITY OF TRADITIONAL CHINESE MEDICINE",
+        "cnName": "成都中医药大学",
+        "citations": 158459,
+        "papers": 11185
+      },
+      {
+        "rank": 1743,
+        "name": "KUNMING MEDICAL UNIVERSITY",
+        "cnName": "昆明医科大学",
+        "citations": 157481,
+        "papers": 11833
+      },
+      {
+        "rank": 1753,
+        "name": "JIANGSU NORMAL UNIVERSITY",
+        "cnName": "江苏师范大学",
+        "citations": 155884,
+        "papers": 8173
+      },
+      {
+        "rank": 1777,
+        "name": "SHANDONG UNIVERSITY OF TECHNOLOGY",
+        "cnName": "山东理工大学",
+        "citations": 153381,
+        "papers": 11470
+      },
+      {
+        "rank": 1784,
+        "name": "XI'AN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "西安科技大学",
+        "citations": 152582,
+        "papers": 10390
+      },
+      {
+        "rank": 1793,
+        "name": "NORTHWEST NORMAL UNIVERSITY - CHINA",
+        "cnName": "西北师范大学",
+        "citations": 151456,
+        "papers": 10765
+      },
+      {
+        "rank": 1795,
+        "name": "INSTITUTE OF ZOOLOGY, CAS",
+        "cnName": "中国科学院动物研究所",
+        "citations": 151367,
+        "papers": 6440
+      },
+      {
+        "rank": 1825,
+        "name": "CHONGQING UNIVERSITY OF POSTS & TELECOMMUNICATIONS",
+        "cnName": "重庆邮电大学",
+        "citations": 149420,
+        "papers": 10148
+      },
+      {
+        "rank": 1826,
+        "name": "ACADEMY OF MILITARY MEDICAL SCIENCES - CHINA",
+        "cnName": "中国人民解放军军事医学科学院",
+        "citations": 149371,
+        "papers": 6371
+      },
+      {
+        "rank": 1838,
+        "name": "SUZHOU UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "苏州科技大学",
+        "citations": 148268,
+        "papers": 9649
+      },
+      {
+        "rank": 1841,
+        "name": "NATIONAL HEALTH RESEARCH INSTITUTES - TAIWAN",
+        "cnName": "台湾国家卫生研究院",
+        "citations": 147941,
+        "papers": 6098
+      },
+      {
+        "rank": 1848,
+        "name": "ANHUI UNIVERSITY OF TECHNOLOGY",
+        "cnName": "安徽工业大学",
+        "citations": 147310,
+        "papers": 8681
+      },
+      {
+        "rank": 1852,
+        "name": "QINGDAO INSTITUTE OF BIOENERGY & BIOPROCESS TECHNOLOGY, CAS",
+        "cnName": "中国科学院青岛生物能源与过程研究所",
+        "citations": 146562,
+        "papers": 4630
+      },
+      {
+        "rank": 1859,
+        "name": "FOSHAN UNIVERSITY",
+        "cnName": "佛山大学",
+        "citations": 146049,
+        "papers": 7968
+      },
+      {
+        "rank": 1862,
+        "name": "JIANGXI UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "江西理工大学",
+        "citations": 145734,
+        "papers": 8718
+      },
+      {
+        "rank": 1867,
+        "name": "HUNAN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "湖南科技大学",
+        "citations": 145000,
+        "papers": 9036
+      },
+      {
+        "rank": 1873,
+        "name": "INSTITUTE OF SEMICONDUCTORS, CAS",
+        "cnName": "中国科学院半导体研究所",
+        "citations": 144018,
+        "papers": 6242
+      },
+      {
+        "rank": 1874,
+        "name": "GUANGDONG MEDICAL UNIVERSITY",
+        "cnName": "广东医科大学",
+        "citations": 143877,
+        "papers": 8371
+      },
+      {
+        "rank": 1875,
+        "name": "INSTITUTE OF OCEANOLOGY, CAS",
+        "cnName": "中国科学院海洋研究所",
+        "citations": 143735,
+        "papers": 8319
+      },
+      {
+        "rank": 1905,
+        "name": "SUZHOU INSTITUTE OF NANO-TECH & NANO-BIONICS, CAS",
+        "cnName": "中国科学院苏州纳米技术与纳米仿生研究所",
+        "citations": 141827,
+        "papers": 3989
+      },
+      {
+        "rank": 1909,
+        "name": "GUILIN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "桂林理工大学",
+        "citations": 141667,
+        "papers": 10154
+      },
+      {
+        "rank": 1912,
+        "name": "DONGGUAN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "东莞理工学院",
+        "citations": 141572,
+        "papers": 6959
+      },
+      {
+        "rank": 1913,
+        "name": "QINGDAO UNIVERSITY OF TECHNOLOGY",
+        "cnName": "青岛理工大学",
+        "citations": 141570,
+        "papers": 8612
+      },
+      {
+        "rank": 1914,
+        "name": "CHINESE ACADEMY OF FISHERY SCIENCES",
+        "cnName": "中国水产科学研究院",
+        "citations": 141399,
+        "papers": 10670
+      },
+      {
+        "rank": 1922,
+        "name": "KAOHSIUNG MEDICAL UNIVERSITY HOSPITAL",
+        "cnName": "高雄医学大学附属医院",
+        "citations": 140810,
+        "papers": 8676
+      },
+      {
+        "rank": 1929,
+        "name": "CHINESE ACADEMY OF GEOLOGICAL SCIENCES",
+        "cnName": "中国地质科学院",
+        "citations": 140426,
+        "papers": 8671
+      },
+      {
+        "rank": 1930,
+        "name": "CAS CENTER FOR EXCELLENCE IN QUANTUM INFORMATION & QUANTUM PHYSICS",
+        "cnName": "中国科学院量子信息与量子物理卓越创新中心",
+        "citations": 140202,
+        "papers": 4387
+      },
+      {
+        "rank": 1931,
+        "name": "ZHEJIANG GONGSHANG UNIVERSITY",
+        "cnName": "浙江工商大学",
+        "citations": 140163,
+        "papers": 7970
+      },
+      {
+        "rank": 1932,
+        "name": "KUNMING INSTITUTE OF BOTANY, CAS",
+        "cnName": "中国科学院昆明植物研究所",
+        "citations": 140085,
+        "papers": 6741
+      },
+      {
+        "rank": 1933,
+        "name": "CENTER FOR EXCELLENCE IN MOLECULAR CELL SCIENCE, CAS",
+        "cnName": "中国科学院分子细胞科学卓越创新中心",
+        "citations": 140046,
+        "papers": 3252
+      },
+      {
+        "rank": 1940,
+        "name": "KEY LABORATORY FOR BIOLOGICAL EFFECTS OF NANOMATERIALS & NANOSAFETY, CAS",
+        "cnName": "中国科学院纳米材料与纳米安全性生物效应重点实验室",
+        "citations": 139576,
+        "papers": 2979
+      },
+      {
+        "rank": 1949,
+        "name": "COLLABORATIVE INNOVATION CENTER FOR DIAGNOSIS & TREATMENT OF INFECTIOUS DISEASES",
+        "cnName": "感染性疾病诊治协同创新中心",
+        "citations": 138561,
+        "papers": 4330
+      },
+      {
+        "rank": 1952,
+        "name": "CHINA-JAPAN FRIENDSHIP HOSPITAL",
+        "cnName": "中日友好医院",
+        "citations": 138442,
+        "papers": 6463
+      },
+      {
+        "rank": 1962,
+        "name": "ANHUI NORMAL UNIVERSITY",
+        "cnName": "安徽师范大学",
+        "citations": 137440,
+        "papers": 8559
+      },
+      {
+        "rank": 1964,
+        "name": "SHANGHAI MARITIME UNIVERSITY",
+        "cnName": "上海海事大学",
+        "citations": 137289,
+        "papers": 8824
+      },
+      {
+        "rank": 1983,
+        "name": "CENTRAL SOUTH UNIVERSITY OF FORESTRY & TECHNOLOGY",
+        "cnName": "中南林业科技大学",
+        "citations": 135089,
+        "papers": 7516
+      },
+      {
+        "rank": 1997,
+        "name": "SOUTHWESTERN UNIVERSITY OF FINANCE & ECONOMICS - CHINA",
+        "cnName": "西南财经大学",
+        "citations": 133509,
+        "papers": 7432
+      },
+      {
+        "rank": 2023,
+        "name": "HENAN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "河南工业大学",
+        "citations": 131315,
+        "papers": 9244
+      },
+      {
+        "rank": 2029,
+        "name": "NATIONAL TAIWAN NORMAL UNIVERSITY",
+        "cnName": "国立台湾师范大学",
+        "citations": 130630,
+        "papers": 8116
+      },
+      {
+        "rank": 2045,
+        "name": "GUANGXI NORMAL UNIVERSITY",
+        "cnName": "广西师范大学",
+        "citations": 128726,
+        "papers": 9151
+      },
+      {
+        "rank": 2062,
+        "name": "INNER MONGOLIA UNIVERSITY",
+        "cnName": "内蒙古大学",
+        "citations": 126869,
+        "papers": 8574
+      },
+      {
+        "rank": 2065,
+        "name": "STATE KEY LABORATORY OF RESPIRATORY DISEASE",
+        "cnName": "呼吸疾病国家重点实验室",
+        "citations": 126809,
+        "papers": 5042
+      },
+      {
+        "rank": 2072,
+        "name": "HUBEI UNIVERSITY OF TECHNOLOGY",
+        "cnName": "湖北工业大学",
+        "citations": 125838,
+        "papers": 8796
+      },
+      {
+        "rank": 2073,
+        "name": "DALIAN POLYTECHNIC UNIVERSITY",
+        "cnName": "大连工业大学",
+        "citations": 125814,
+        "papers": 7324
+      },
+      {
+        "rank": 2085,
+        "name": "WESTLAKE UNIVERSITY",
+        "cnName": "西湖大学",
+        "citations": 125326,
+        "papers": 6219
+      },
+      {
+        "rank": 2086,
+        "name": "EDUCATION UNIVERSITY OF HONG KONG (EDUHK)",
+        "cnName": "香港教育大学",
+        "citations": 125307,
+        "papers": 6869
+      },
+      {
+        "rank": 2102,
+        "name": "CENTER FOR EXCELLENCE IN TIBETAN PLATEAU EARTH SCIENCES (CETES), CAS",
+        "cnName": "中国科学院青藏高原地球科学卓越创新中心",
+        "citations": 124043,
+        "papers": 3205
+      },
+      {
+        "rank": 2114,
+        "name": "SHENYANG AGRICULTURAL UNIVERSITY",
+        "cnName": "沈阳农业大学",
+        "citations": 123151,
+        "papers": 7831
+      },
+      {
+        "rank": 2124,
+        "name": "CHUNG SHAN MEDICAL UNIVERSITY",
+        "cnName": "中山医学大学",
+        "citations": 122435,
+        "papers": 7813
+      },
+      {
+        "rank": 2130,
+        "name": "ZHENGZHOU UNIVERSITY OF LIGHT INDUSTRY",
+        "cnName": "郑州轻工业大学",
+        "citations": 121892,
+        "papers": 7550
+      },
+      {
+        "rank": 2143,
+        "name": "NORTH CHINA UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "华北理工大学",
+        "citations": 120569,
+        "papers": 8174
+      },
+      {
+        "rank": 2150,
+        "name": "SHANGHAI UNIVERSITY OF ENGINEERING SCIENCE",
+        "cnName": "上海工程技术大学",
+        "citations": 120214,
+        "papers": 8842
+      },
+      {
+        "rank": 2165,
+        "name": "HUZHOU UNIVERSITY",
+        "cnName": "湖州师范学院",
+        "citations": 119303,
+        "papers": 7875
+      },
+      {
+        "rank": 2168,
+        "name": "BEIJING ACADEMY OF AGRICULTURE & FORESTRY SCIENCES (BAAFS)",
+        "cnName": "北京市农林科学院",
+        "citations": 119196,
+        "papers": 5748
+      },
+      {
+        "rank": 2171,
+        "name": "SHANGHAI INSTITUTE OF MICROSYSTEM & INFORMATION TECHNOLOGY, CAS",
+        "cnName": "中国科学院上海微系统与信息技术研究所",
+        "citations": 118919,
+        "papers": 5766
+      },
+      {
+        "rank": 2175,
+        "name": "HANGZHOU MEDICAL COLLEGE",
+        "cnName": "杭州医学院",
+        "citations": 118753,
+        "papers": 8452
+      },
+      {
+        "rank": 2182,
+        "name": "NATIONAL DEFENSE MEDICAL UNIVERSITY",
+        "cnName": "国防医学院",
+        "citations": 118136,
+        "papers": 8505
+      },
+      {
+        "rank": 2188,
+        "name": "NANCHANG HANGKONG UNIVERSITY",
+        "cnName": "南昌航空大学",
+        "citations": 117563,
+        "papers": 6006
+      },
+      {
+        "rank": 2191,
+        "name": "INSTITUTE OF SOIL & WATER CONSERVATION (ISWC), CAS",
+        "cnName": "中国科学院水利部水土保持研究所",
+        "citations": 117521,
+        "papers": 4442
+      },
+      {
+        "rank": 2198,
+        "name": "JIANGSU ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "江苏省农业科学院",
+        "citations": 117111,
+        "papers": 6481
+      },
+      {
+        "rank": 2200,
+        "name": "ANHUI UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "安徽理工大学",
+        "citations": 116927,
+        "papers": 10267
+      },
+      {
+        "rank": 2203,
+        "name": "GUIZHOU MEDICAL UNIVERSITY",
+        "cnName": "贵州医科大学",
+        "citations": 116852,
+        "papers": 9336
+      },
+      {
+        "rank": 2234,
+        "name": "BINZHOU MEDICAL UNIVERSITY",
+        "cnName": "滨州医学院",
+        "citations": 114763,
+        "papers": 6345
+      },
+      {
+        "rank": 2240,
+        "name": "XINJIANG MEDICAL UNIVERSITY",
+        "cnName": "新疆医科大学",
+        "citations": 114436,
+        "papers": 8724
+      },
+      {
+        "rank": 2241,
+        "name": "INSTITUTE OF HYDROBIOLOGY, CAS",
+        "cnName": "中国科学院水生生物研究所",
+        "citations": 114421,
+        "papers": 5349
+      },
+      {
+        "rank": 2248,
+        "name": "GUANGDONG PHARMACEUTICAL UNIVERSITY",
+        "cnName": "广东药科大学",
+        "citations": 114002,
+        "papers": 7037
+      },
+      {
+        "rank": 2250,
+        "name": "NINGXIA UNIVERSITY",
+        "cnName": "宁夏大学",
+        "citations": 113898,
+        "papers": 8946
+      },
+      {
+        "rank": 2254,
+        "name": "HARBIN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "哈尔滨理工大学",
+        "citations": 113400,
+        "papers": 8708
+      },
+      {
+        "rank": 2261,
+        "name": "HEBEI AGRICULTURAL UNIVERSITY",
+        "cnName": "河北农业大学",
+        "citations": 113100,
+        "papers": 7331
+      },
+      {
+        "rank": 2272,
+        "name": "INSTITUTE OF EARTH ENVIRONMENT, CAS",
+        "cnName": "中国科学院地球环境研究所",
+        "citations": 112443,
+        "papers": 4174
+      },
+      {
+        "rank": 2280,
+        "name": "HUAWEI TECHNOLOGIES",
+        "cnName": "华为技术有限公司",
+        "citations": 111988,
+        "papers": 5303
+      },
+      {
+        "rank": 2284,
+        "name": "INSTITUTE OF AGRICULTURAL RESOURCES & REGIONAL PLANNING, CAAS",
+        "cnName": "中国农业科学院农业资源与农业区划研究所",
+        "citations": 111771,
+        "papers": 3940
+      },
+      {
+        "rank": 2294,
+        "name": "JILIN AGRICULTURAL UNIVERSITY",
+        "cnName": "吉林农业大学",
+        "citations": 110849,
+        "papers": 8346
+      },
+      {
+        "rank": 2299,
+        "name": "WUHAN TEXTILE UNIVERSITY",
+        "cnName": "武汉纺织大学",
+        "citations": 110265,
+        "papers": 6705
+      },
+      {
+        "rank": 2303,
+        "name": "XINJIANG INSTITUTE OF ECOLOGY & GEOGRAPHY, CAS",
+        "cnName": "中国科学院新疆生态与地理研究所",
+        "citations": 110087,
+        "papers": 5597
+      },
+      {
+        "rank": 2307,
+        "name": "BOHAI UNIVERSITY",
+        "cnName": "渤海大学",
+        "citations": 109964,
+        "papers": 4719
+      },
+      {
+        "rank": 2311,
+        "name": "CHINA EARTHQUAKE ADMINISTRATION",
+        "cnName": "中国地震局",
+        "citations": 109531,
+        "papers": 9151
+      },
+      {
+        "rank": 2314,
+        "name": "SOUTH CENTRAL MINZU UNIVERSITY",
+        "cnName": "中南民族大学",
+        "citations": 109151,
+        "papers": 5377
+      },
+      {
+        "rank": 2324,
+        "name": "AEROSPACE INFORMATION RESEARCH INSTITUTE, CAS",
+        "cnName": "中国科学院空天信息创新研究院",
+        "citations": 108590,
+        "papers": 8474
+      },
+      {
+        "rank": 2338,
+        "name": "SICHUAN NORMAL UNIVERSITY",
+        "cnName": "四川师范大学",
+        "citations": 107916,
+        "papers": 6411
+      },
+      {
+        "rank": 2345,
+        "name": "PENG CHENG LABORATORY",
+        "cnName": "鹏城实验室",
+        "citations": 107517,
+        "papers": 6234
+      },
+      {
+        "rank": 2349,
+        "name": "CHINESE ACADEMY OF METEOROLOGICAL SCIENCES (CAMS)",
+        "cnName": "中国气象科学研究院",
+        "citations": 107104,
+        "papers": 5069
+      },
+      {
+        "rank": 2359,
+        "name": "NATIONAL CHENG KUNG UNIVERSITY HOSPITAL",
+        "cnName": "国立成功大学医院",
+        "citations": 106581,
+        "papers": 6195
+      },
+      {
+        "rank": 2373,
+        "name": "UNIVERSITY OF NOTTINGHAM NINGBO CHINA",
+        "cnName": "宁波诺丁汉大学",
+        "citations": 105590,
+        "papers": 5426
+      },
+      {
+        "rank": 2375,
+        "name": "HENAN MEDICAL UNIVERSITY",
+        "cnName": "河南医科大学",
+        "citations": 105485,
+        "papers": 6996
+      },
+      {
+        "rank": 2379,
+        "name": "NANJING INSTITUTE OF GEOGRAPHY & LIMNOLOGY, CAS",
+        "cnName": "中国科学院南京地理与湖泊研究所",
+        "citations": 105290,
+        "papers": 4555
+      },
+      {
+        "rank": 2381,
+        "name": "FU JEN CATHOLIC UNIVERSITY",
+        "cnName": "辅仁大学",
+        "citations": 105183,
+        "papers": 7042
+      },
+      {
+        "rank": 2383,
+        "name": "SHANGHAI UNIVERSITY OF ELECTRIC POWER",
+        "cnName": "上海电力大学",
+        "citations": 105093,
+        "papers": 5580
+      },
+      {
+        "rank": 2388,
+        "name": "NATIONAL SYNCHROTRON RADIATION RESEARCH CENTER",
+        "cnName": "国家同步辐射研究中心",
+        "citations": 104689,
+        "papers": 3852
+      },
+      {
+        "rank": 2396,
+        "name": "CHANGCHUN INSTITUTE OF OPTICS, FINE MECHANICS & PHYSICS, CAS",
+        "cnName": "中国科学院长春光学精密机械与物理研究所",
+        "citations": 103987,
+        "papers": 6360
+      },
+      {
+        "rank": 2400,
+        "name": "JIANGXI AGRICULTURAL UNIVERSITY",
+        "cnName": "江西农业大学",
+        "citations": 103877,
+        "papers": 6559
+      },
+      {
+        "rank": 2409,
+        "name": "SOUTH CHINA BOTANICAL GARDEN, CAS",
+        "cnName": "中国科学院华南植物园",
+        "citations": 103622,
+        "papers": 4554
+      },
+      {
+        "rank": 2412,
+        "name": "INSTITUTE OF CROP SCIENCES, CAAS",
+        "cnName": "中国农业科学院作物科学研究所",
+        "citations": 103267,
+        "papers": 4030
+      },
+      {
+        "rank": 2413,
+        "name": "HUBEI UNIVERSITY OF MEDICINE",
+        "cnName": "湖北医药学院",
+        "citations": 103265,
+        "papers": 5502
+      },
+      {
+        "rank": 2414,
+        "name": "LANZHOU JIAOTONG UNIVERSITY",
+        "cnName": "兰州交通大学",
+        "citations": 103152,
+        "papers": 7439
+      },
+      {
+        "rank": 2416,
+        "name": "JIAXING UNIVERSITY",
+        "cnName": "嘉兴学院",
+        "citations": 103037,
+        "papers": 7250
+      },
+      {
+        "rank": 2422,
+        "name": "BEIJING COMPUTATIONAL SCIENCE RESEARCH CENTER (CSRC)",
+        "cnName": "北京计算科学研究中心",
+        "citations": 102764,
+        "papers": 3658
+      },
+      {
+        "rank": 2426,
+        "name": "SHENYANG INSTITUTE OF APPLIED ECOLOGY, CAS",
+        "cnName": "中国科学院沈阳应用生态研究所",
+        "citations": 102545,
+        "papers": 3785
+      },
+      {
+        "rank": 2434,
+        "name": "THE INSTITUTE OF REMOTE SENSING & DIGITAL EARTH, CAS",
+        "cnName": "中国科学院遥感与数字地球研究所",
+        "citations": 102090,
+        "papers": 3055
+      },
+      {
+        "rank": 2441,
+        "name": "SOUTHERN MARINE SCIENCE & ENGINEERING GUANGDONG LABORATORY (ZHUHAI)",
+        "cnName": "南方海洋科学与工程广东省实验室（珠海）",
+        "citations": 101735,
+        "papers": 8540
+      },
+      {
+        "rank": 2452,
+        "name": "INNOVATION ACADEMY FOR PRECISION MEASUREMENT SCIENCE & TECHNOLOGY, CAS",
+        "cnName": "中国科学院精密测量科学与技术创新研究院",
+        "citations": 101077,
+        "papers": 5017
+      },
+      {
+        "rank": 2466,
+        "name": "CHONGQING TECHNOLOGY & BUSINESS UNIVERSITY",
+        "cnName": "重庆工商大学",
+        "citations": 100327,
+        "papers": 4668
+      },
+      {
+        "rank": 2469,
+        "name": "CHANGCHUN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "长春理工大学",
+        "citations": 100045,
+        "papers": 9339
+      },
+      {
+        "rank": 2474,
+        "name": "ZHEJIANG CANCER HOSPITAL",
+        "cnName": "浙江省肿瘤医院",
+        "citations": 99736,
+        "papers": 5145
+      },
+      {
+        "rank": 2479,
+        "name": "ZUNYI MEDICAL UNIVERSITY",
+        "cnName": "遵义医科大学",
+        "citations": 99533,
+        "papers": 8199
+      },
+      {
+        "rank": 2481,
+        "name": "SHANGHAI INSTITUTE OF TECHNOLOGY",
+        "cnName": "上海应用技术大学",
+        "citations": 99503,
+        "papers": 6746
+      },
+      {
+        "rank": 2484,
+        "name": "SHAOXING UNIVERSITY",
+        "cnName": "绍兴文理学院",
+        "citations": 99326,
+        "papers": 6403
+      },
+      {
+        "rank": 2485,
+        "name": "TIANJIN NORMAL UNIVERSITY",
+        "cnName": "天津师范大学",
+        "citations": 99316,
+        "papers": 6220
+      },
+      {
+        "rank": 2489,
+        "name": "TIANJIN UNIVERSITY OF TRADITIONAL CHINESE MEDICINE",
+        "cnName": "天津中医药大学",
+        "citations": 99004,
+        "papers": 6667
+      },
+      {
+        "rank": 2502,
+        "name": "XI'AN JIAOTONG-LIVERPOOL UNIVERSITY",
+        "cnName": "西交利物浦大学",
+        "citations": 98356,
+        "papers": 6506
+      },
+      {
+        "rank": 2521,
+        "name": "GUANGDONG LABORATORY FOR LINGNAN MODERN AGRICULTURE",
+        "cnName": "岭南现代农业科学与技术广东省实验室",
+        "citations": 97512,
+        "papers": 5024
+      },
+      {
+        "rank": 2522,
+        "name": "SICHUAN PROVINCIAL PEOPLE'S HOSPITAL",
+        "cnName": "四川省人民医院",
+        "citations": 97407,
+        "papers": 7122
+      },
+      {
+        "rank": 2529,
+        "name": "TAIZHOU UNIVERSITY",
+        "cnName": "台州学院",
+        "citations": 97098,
+        "papers": 5720
+      },
+      {
+        "rank": 2532,
+        "name": "ZHEJIANG OCEAN UNIVERSITY",
+        "cnName": "浙江海洋大学",
+        "citations": 96965,
+        "papers": 5889
+      },
+      {
+        "rank": 2535,
+        "name": "CHUNG YUAN CHRISTIAN UNIVERSITY",
+        "cnName": "中原大学",
+        "citations": 96859,
+        "papers": 5884
+      },
+      {
+        "rank": 2544,
+        "name": "SONGSHAN LAKE MATERIALS LABORATORY",
+        "cnName": "松山湖材料实验室",
+        "citations": 96352,
+        "papers": 4921
+      },
+      {
+        "rank": 2549,
+        "name": "SHANGHAI ASTRONOMICAL OBSERVATORY, CAS",
+        "cnName": "中国科学院上海天文台",
+        "citations": 96102,
+        "papers": 3406
+      },
+      {
+        "rank": 2554,
+        "name": "NORTHEAST INSTITUTE OF GEOGRAPHY & AGROECOLOGY, CAS",
+        "cnName": "中国科学院东北地理与农业生态研究所",
+        "citations": 95873,
+        "papers": 4931
+      },
+      {
+        "rank": 2564,
+        "name": "ZHEJIANG PROVINCIAL PEOPLE'S HOSPITAL",
+        "cnName": "浙江省人民医院",
+        "citations": 95335,
+        "papers": 6437
+      },
+      {
+        "rank": 2568,
+        "name": "YANTAI INSTITUTE OF COASTAL ZONE RESEARCH, CAS",
+        "cnName": "中国科学院烟台海岸带研究所",
+        "citations": 95147,
+        "papers": 3306
+      },
+      {
+        "rank": 2573,
+        "name": "NINGXIA MEDICAL UNIVERSITY",
+        "cnName": "宁夏医科大学",
+        "citations": 94902,
+        "papers": 6855
+      },
+      {
+        "rank": 2579,
+        "name": "YANCHENG INSTITUTE OF TECHNOLOGY",
+        "cnName": "盐城工学院",
+        "citations": 94657,
+        "papers": 6112
+      },
+      {
+        "rank": 2585,
+        "name": "ZHEJIANG ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "浙江省农业科学院",
+        "citations": 94302,
+        "papers": 5039
+      },
+      {
+        "rank": 2594,
+        "name": "HAINAN MEDICAL UNIVERSITY",
+        "cnName": "海南医科大学",
+        "citations": 93745,
+        "papers": 7401
+      },
+      {
+        "rank": 2618,
+        "name": "SOUTH CHINA SEA INSTITUTE OF OCEANOLOGY, CAS",
+        "cnName": "中国科学院南海海洋研究所",
+        "citations": 92666,
+        "papers": 5620
+      },
+      {
+        "rank": 2626,
+        "name": "GUANGDONG OCEAN UNIVERSITY",
+        "cnName": "广东海洋大学",
+        "citations": 92340,
+        "papers": 7366
+      },
+      {
+        "rank": 2628,
+        "name": "CENTER FOR EXCELLENCE IN MOLECULAR PLANT SCIENCES, CAS",
+        "cnName": "中国科学院分子植物科学卓越创新中心",
+        "citations": 92297,
+        "papers": 2336
+      },
+      {
+        "rank": 2629,
+        "name": "SHANDONG UNIVERSITY OF TRADITIONAL CHINESE MEDICINE",
+        "cnName": "山东中医药大学",
+        "citations": 92276,
+        "papers": 7460
+      },
+      {
+        "rank": 2633,
+        "name": "LIAONING UNIVERSITY",
+        "cnName": "辽宁大学",
+        "citations": 91893,
+        "papers": 5988
+      },
+      {
+        "rank": 2648,
+        "name": "NATIONAL YUNLIN UNIVERSITY SCIENCE & TECHNOLOGY",
+        "cnName": "国立云林科技大学",
+        "citations": 90734,
+        "papers": 5309
+      },
+      {
+        "rank": 2659,
+        "name": "NATIONAL KAOHSIUNG UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "国立高雄科技大学",
+        "citations": 89764,
+        "papers": 7319
+      },
+      {
+        "rank": 2660,
+        "name": "LINYI UNIVERSITY",
+        "cnName": "临沂大学",
+        "citations": 89699,
+        "papers": 5654
+      },
+      {
+        "rank": 2663,
+        "name": "INSTITUTE OF GEOCHEMISTRY, CAS",
+        "cnName": "中国科学院地球化学研究所",
+        "citations": 89532,
+        "papers": 4459
+      },
+      {
+        "rank": 2668,
+        "name": "SHANGHAI UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "上海财经大学",
+        "citations": 88982,
+        "papers": 5607
+      },
+      {
+        "rank": 2675,
+        "name": "TAICHUNG VETERANS GENERAL HOSPITAL",
+        "cnName": "台中荣民总医院",
+        "citations": 88619,
+        "papers": 5536
+      },
+      {
+        "rank": 2679,
+        "name": "WUHAN INSTITUTE OF ROCK & SOIL MECHANICS, CAS",
+        "cnName": "中国科学院武汉岩土力学研究所",
+        "citations": 88419,
+        "papers": 4582
+      },
+      {
+        "rank": 2681,
+        "name": "ACADEMY OF MATHEMATICS & SYSTEM SCIENCES, CAS",
+        "cnName": "中国科学院数学与系统科学研究院",
+        "citations": 88366,
+        "papers": 5926
+      },
+      {
+        "rank": 2683,
+        "name": "INSTITUTE OF MECHANICS, CAS",
+        "cnName": "中国科学院力学研究所",
+        "citations": 88328,
+        "papers": 4854
+      },
+      {
+        "rank": 2684,
+        "name": "GUANGZHOU INSTITUTE OF ENERGY CONVERSION, CAS",
+        "cnName": "中国科学院广州能源研究所",
+        "citations": 88297,
+        "papers": 3951
+      },
+      {
+        "rank": 2689,
+        "name": "QINGHAI UNIVERSITY",
+        "cnName": "青海大学",
+        "citations": 88016,
+        "papers": 7389
+      },
+      {
+        "rank": 2701,
+        "name": "EAST CHINA JIAOTONG UNIVERSITY",
+        "cnName": "华东交通大学",
+        "citations": 87543,
+        "papers": 6610
+      },
+      {
+        "rank": 2712,
+        "name": "CHINA INSTITUTE OF WATER RESOURCES & HYDROPOWER RESEARCH",
+        "cnName": "中国水利水电科学研究院",
+        "citations": 86995,
+        "papers": 5502
+      },
+      {
+        "rank": 2718,
+        "name": "HEBEI NORMAL UNIVERSITY",
+        "cnName": "河北师范大学",
+        "citations": 86788,
+        "papers": 6362
+      },
+      {
+        "rank": 2722,
+        "name": "WUHAN INSTITUTE OF VIROLOGY, CAS",
+        "cnName": "中国科学院武汉病毒研究所",
+        "citations": 86553,
+        "papers": 2099
+      },
+      {
+        "rank": 2726,
+        "name": "XI'AN TECHNOLOGICAL UNIVERSITY",
+        "cnName": "西安工业大学",
+        "citations": 86477,
+        "papers": 5879
+      },
+      {
+        "rank": 2733,
+        "name": "LUDONG UNIVERSITY",
+        "cnName": "鲁东大学",
+        "citations": 86001,
+        "papers": 6212
+      },
+      {
+        "rank": 2745,
+        "name": "NANJING UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "南京财经大学",
+        "citations": 85481,
+        "papers": 4835
+      },
+      {
+        "rank": 2750,
+        "name": "NATIONAL INSTITUTE OF BIOLOGICAL SCIENCES, BEIJING",
+        "cnName": "北京生命科学研究所",
+        "citations": 85137,
+        "papers": 1269
+      },
+      {
+        "rank": 2756,
+        "name": "CHONGQING NORMAL UNIVERSITY",
+        "cnName": "重庆师范大学",
+        "citations": 85028,
+        "papers": 5962
+      },
+      {
+        "rank": 2757,
+        "name": "MACKAY MEMORIAL HOSPITAL",
+        "cnName": "马偕纪念医院",
+        "citations": 84997,
+        "papers": 4818
+      },
+      {
+        "rank": 2759,
+        "name": "HARBIN NORMAL UNIVERSITY",
+        "cnName": "哈尔滨师范大学",
+        "citations": 84956,
+        "papers": 4269
+      },
+      {
+        "rank": 2760,
+        "name": "SHANXI AGRICULTURAL UNIVERSITY",
+        "cnName": "山西农业大学",
+        "citations": 84893,
+        "papers": 6869
+      },
+      {
+        "rank": 2762,
+        "name": "CHONGQING JIAOTONG UNIVERSITY",
+        "cnName": "重庆交通大学",
+        "citations": 84691,
+        "papers": 7588
+      },
+      {
+        "rank": 2768,
+        "name": "GUANGDONG ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "广东省农业科学院",
+        "citations": 84273,
+        "papers": 5042
+      },
+      {
+        "rank": 2773,
+        "name": "HUNAN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "湖南工业大学",
+        "citations": 84006,
+        "papers": 4042
+      },
+      {
+        "rank": 2779,
+        "name": "CHONGQING INSTITUTE OF GREEN & INTELLIGENT TECHNOLOGY, CAS",
+        "cnName": "中国科学院重庆绿色智能技术研究院",
+        "citations": 83777,
+        "papers": 3559
+      },
+      {
+        "rank": 2786,
+        "name": "WUHAN POLYTECHNIC UNIVERSITY",
+        "cnName": "武汉轻工大学",
+        "citations": 83558,
+        "papers": 5042
+      },
+      {
+        "rank": 2789,
+        "name": "SHANDONG SECOND MEDICAL UNIVERSITY",
+        "cnName": "山东第二医科大学",
+        "citations": 83465,
+        "papers": 6753
+      },
+      {
+        "rank": 2800,
+        "name": "EAST CHINA UNIVERSITY OF TECHNOLOGY",
+        "cnName": "华东交通大学",
+        "citations": 83091,
+        "papers": 6108
+      },
+      {
+        "rank": 2809,
+        "name": "ARMY ENGINEERING UNIVERSITY OF PLA",
+        "cnName": "中国人民解放军陆军工程大学",
+        "citations": 82771,
+        "papers": 6651
+      },
+      {
+        "rank": 2813,
+        "name": "TRI-SERVICE GENERAL HOSPITAL",
+        "cnName": "三军总医院",
+        "citations": 82488,
+        "papers": 6263
+      },
+      {
+        "rank": 2814,
+        "name": "CHONGQING UNIVERSITY OF TECHNOLOGY",
+        "cnName": "重庆理工大学",
+        "citations": 82453,
+        "papers": 6381
+      },
+      {
+        "rank": 2815,
+        "name": "MINISTRY OF WATER RESOURCES",
+        "cnName": "水利部",
+        "citations": 82394,
+        "papers": 3727
+      },
+      {
+        "rank": 2832,
+        "name": "DUKE KUNSHAN UNIVERSITY",
+        "cnName": "昆山杜克大学",
+        "citations": 81781,
+        "papers": 1704
+      },
+      {
+        "rank": 2835,
+        "name": "SHENYANG UNIVERSITY OF TECHNOLOGY",
+        "cnName": "沈阳工业大学",
+        "citations": 81704,
+        "papers": 7177
+      },
+      {
+        "rank": 2841,
+        "name": "JIMEI UNIVERSITY",
+        "cnName": "集美大学",
+        "citations": 81576,
+        "papers": 6678
+      },
+      {
+        "rank": 2847,
+        "name": "NANJING INSTITUTE OF ASTRONOMICAL OPTICS & TECHNOLOGY, NAOC, CAS",
+        "cnName": "中国科学院国家天文台南京天文光学技术研究所",
+        "citations": 81295,
+        "papers": 3624
+      },
+      {
+        "rank": 2850,
+        "name": "TAIYUAN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "太原科技大学",
+        "citations": 81206,
+        "papers": 5775
+      },
+      {
+        "rank": 2858,
+        "name": "CHINESE ACADEMY OF TROPICAL AGRICULTURAL SCIENCES",
+        "cnName": "中国热带农业科学院",
+        "citations": 80892,
+        "papers": 5314
+      },
+      {
+        "rank": 2859,
+        "name": "INSTITUTE OF BASIC MEDICAL SCIENCES - CAMS",
+        "cnName": "中国医学科学院基础医学研究所",
+        "citations": 80885,
+        "papers": 1878
+      },
+      {
+        "rank": 2860,
+        "name": "INSTITUTE OF MODERN PHYSICS, CAS",
+        "cnName": "中国科学院近代物理研究所",
+        "citations": 80855,
+        "papers": 6002
+      },
+      {
+        "rank": 2867,
+        "name": "INSTITUTE OF PLANT PROTECTION, CAAS",
+        "cnName": "中国农业科学院植物保护研究所",
+        "citations": 80685,
+        "papers": 4719
+      },
+      {
+        "rank": 2868,
+        "name": "CHUNG SHAN MEDICAL UNIVERSITY HOSPITAL",
+        "cnName": "中山医学大学附设医院",
+        "citations": 80678,
+        "papers": 5242
+      },
+      {
+        "rank": 2886,
+        "name": "NATIONAL TAIWAN OCEAN UNIVERSITY",
+        "cnName": "国立台湾海洋大学",
+        "citations": 79645,
+        "papers": 5926
+      },
+      {
+        "rank": 2887,
+        "name": "TAMKANG UNIVERSITY",
+        "cnName": "淡江大学",
+        "citations": 79644,
+        "papers": 4298
+      },
+      {
+        "rank": 2889,
+        "name": "WUHAN JINYINTAN HOSPITAL",
+        "cnName": "武汉市金银潭医院",
+        "citations": 79572,
+        "papers": 352
+      },
+      {
+        "rank": 2894,
+        "name": "BEIJING UNIVERSITY OF CIVIL ENGINEERING & ARCHITECTURE",
+        "cnName": "北京建筑大学",
+        "citations": 79216,
+        "papers": 5326
+      },
+      {
+        "rank": 2905,
+        "name": "JIANGHAN UNIVERSITY",
+        "cnName": "江汉大学",
+        "citations": 78778,
+        "papers": 4784
+      },
+      {
+        "rank": 2916,
+        "name": "NATIONAL CENTER FOR CHRONIC & NONCOMMUNICABLE DISEASE CONTROL & PREVENTION, CHINESE CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "中国疾病预防控制中心慢性非传染性疾病预防控制中心",
+        "citations": 78395,
+        "papers": 558
+      },
+      {
+        "rank": 2917,
+        "name": "CHINA WEST NORMAL UNIVERSITY",
+        "cnName": "西华师范大学",
+        "citations": 78290,
+        "papers": 4842
+      },
+      {
+        "rank": 2932,
+        "name": "INSTITUTE OF SUBTROPICAL AGRICULTURE, CAS",
+        "cnName": "中国科学院亚热带农业生态研究所",
+        "citations": 77892,
+        "papers": 2758
+      },
+      {
+        "rank": 2933,
+        "name": "KUNMING INSTITUTE OF ZOOLOGY, CAS",
+        "cnName": "中国科学院昆明动物研究所",
+        "citations": 77871,
+        "papers": 3267
+      },
+      {
+        "rank": 2940,
+        "name": "AIR FORCE ENGINEERING UNIVERSITY",
+        "cnName": "空军工程大学",
+        "citations": 77674,
+        "papers": 5945
+      },
+      {
+        "rank": 2948,
+        "name": "GANSU AGRICULTURAL UNIVERSITY",
+        "cnName": "甘肃农业大学",
+        "citations": 77377,
+        "papers": 6413
+      },
+      {
+        "rank": 2958,
+        "name": "FENG CHIA UNIVERSITY",
+        "cnName": "逢甲大学",
+        "citations": 77008,
+        "papers": 5882
+      },
+      {
+        "rank": 2959,
+        "name": "NORTHEAST PETROLEUM UNIVERSITY",
+        "cnName": "东北石油大学",
+        "citations": 77004,
+        "papers": 6162
+      },
+      {
+        "rank": 2962,
+        "name": "PURPLE MOUNTAIN OBSERVATORY, CAS",
+        "cnName": "中国科学院紫金山天文台",
+        "citations": 76760,
+        "papers": 3266
+      },
+      {
+        "rank": 2965,
+        "name": "CHENGDU UNIVERSITY OF INFORMATION TECHNOLOGY",
+        "cnName": "成都信息工程大学",
+        "citations": 76671,
+        "papers": 5565
+      },
+      {
+        "rank": 2980,
+        "name": "WUYI UNIVERSITY",
+        "cnName": "五邑大学",
+        "citations": 75933,
+        "papers": 4128
+      },
+      {
+        "rank": 2991,
+        "name": "XISHUANGBANNA TROPICAL BOTANICAL GARDEN, CAS",
+        "cnName": "中国科学院西双版纳热带植物园",
+        "citations": 75479,
+        "papers": 3412
+      },
+      {
+        "rank": 2992,
+        "name": "XIHUA UNIVERSITY",
+        "cnName": "西华大学",
+        "citations": 75470,
+        "papers": 7142
+      },
+      {
+        "rank": 2998,
+        "name": "ZHONGNAN UNIVERSITY OF ECONOMICS & LAW",
+        "cnName": "中南财经政法大学",
+        "citations": 75088,
+        "papers": 4935
+      },
+      {
+        "rank": 3005,
+        "name": "HEBEI UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "河北科技大学",
+        "citations": 74895,
+        "papers": 5106
+      },
+      {
+        "rank": 3007,
+        "name": "UNIVERSITY OF INTERNATIONAL BUSINESS & ECONOMICS",
+        "cnName": "对外经济贸易大学",
+        "citations": 74859,
+        "papers": 4501
+      },
+      {
+        "rank": 3010,
+        "name": "SHANGHAI INSTITUTE OF TECHNICAL PHYSICS, CAS",
+        "cnName": "中国科学院上海技术物理研究所",
+        "citations": 74707,
+        "papers": 3738
+      },
+      {
+        "rank": 3014,
+        "name": "BUDDHIST TZU CHI GENERAL HOSPITAL",
+        "cnName": "佛教慈济综合医院",
+        "citations": 74671,
+        "papers": 5725
+      },
+      {
+        "rank": 3030,
+        "name": "SHANGHAI INSTITUTE OF OPTICS & FINE MECHANICS, CAS",
+        "cnName": "中国科学院上海光学精密机械研究所",
+        "citations": 73920,
+        "papers": 5437
+      },
+      {
+        "rank": 3033,
+        "name": "XINYANG NORMAL UNIVERSITY",
+        "cnName": "信阳师范大学",
+        "citations": 73699,
+        "papers": 4688
+      },
+      {
+        "rank": 3040,
+        "name": "YUNNAN NORMAL UNIVERSITY",
+        "cnName": "云南师范大学",
+        "citations": 73583,
+        "papers": 5744
+      },
+      {
+        "rank": 3043,
+        "name": "CHENGDU INSTITUTE OF BIOLOGY, CAS",
+        "cnName": "中国科学院成都生物研究所",
+        "citations": 73469,
+        "papers": 3803
+      },
+      {
+        "rank": 3060,
+        "name": "NORTHEAST ELECTRIC POWER UNIVERSITY",
+        "cnName": "东北电力大学",
+        "citations": 72795,
+        "papers": 5189
+      },
+      {
+        "rank": 3062,
+        "name": "XINJIANG TECHNICAL INSTITUTE OF PHYSICS & CHEMISTRY, CAS",
+        "cnName": "中国科学院新疆理化技术研究所",
+        "citations": 72750,
+        "papers": 2938
+      },
+      {
+        "rank": 3064,
+        "name": "CHANGCHUN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "长春工业大学",
+        "citations": 72686,
+        "papers": 5002
+      },
+      {
+        "rank": 3098,
+        "name": "HUAIYIN INSTITUTE OF TECHNOLOGY",
+        "cnName": "淮阴工学院",
+        "citations": 71673,
+        "papers": 4222
+      },
+      {
+        "rank": 3124,
+        "name": "TAIPEI MEDICAL UNIVERSITY HOSPITAL",
+        "cnName": "台北医学大学附设医院",
+        "citations": 70466,
+        "papers": 5400
+      },
+      {
+        "rank": 3129,
+        "name": "MICROSOFT CHINA",
+        "cnName": "微软（中国）有限公司",
+        "citations": 70376,
+        "papers": 964
+      },
+      {
+        "rank": 3132,
+        "name": "YUAN ZE UNIVERSITY",
+        "cnName": "元智大学",
+        "citations": 70322,
+        "papers": 5581
+      },
+      {
+        "rank": 3133,
+        "name": "JINING MEDICAL UNIVERSITY",
+        "cnName": "济宁医学院",
+        "citations": 70318,
+        "papers": 4835
+      },
+      {
+        "rank": 3161,
+        "name": "INSTITUTE OF MOUNTAIN HAZARDS & ENVIRONMENT, CAS",
+        "cnName": "中国科学院山地灾害与环境研究所",
+        "citations": 69053,
+        "papers": 3533
+      },
+      {
+        "rank": 3163,
+        "name": "XI'AN MEDICAL UNIVERSITY",
+        "cnName": "西安医学院",
+        "citations": 68974,
+        "papers": 5189
+      },
+      {
+        "rank": 3169,
+        "name": "HUNAN UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "湖南中医药大学",
+        "citations": 68566,
+        "papers": 5016
+      },
+      {
+        "rank": 3172,
+        "name": "INNER MONGOLIA AGRICULTURAL UNIVERSITY",
+        "cnName": "内蒙古农业大学",
+        "citations": 68512,
+        "papers": 6456
+      },
+      {
+        "rank": 3178,
+        "name": "CENTRAL UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "中央财经大学",
+        "citations": 68409,
+        "papers": 4775
+      },
+      {
+        "rank": 3180,
+        "name": "SICHUAN UNIVERSITY OF SCIENCE & ENGINEERING",
+        "cnName": "四川轻化工大学",
+        "citations": 68185,
+        "papers": 5432
+      },
+      {
+        "rank": 3184,
+        "name": "SHANDONG JIANZHU UNIVERSITY",
+        "cnName": "山东建筑大学",
+        "citations": 68047,
+        "papers": 5912
+      },
+      {
+        "rank": 3198,
+        "name": "BENGBU MEDICAL UNIVERSITY",
+        "cnName": "蚌埠医科大学",
+        "citations": 67652,
+        "papers": 5591
+      },
+      {
+        "rank": 3201,
+        "name": "YANBIAN UNIVERSITY",
+        "cnName": "延边大学",
+        "citations": 67606,
+        "papers": 4853
+      },
+      {
+        "rank": 3206,
+        "name": "SHANDONG ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "山东省农业科学院",
+        "citations": 67511,
+        "papers": 4348
+      },
+      {
+        "rank": 3209,
+        "name": "NORTH CHINA UNIVERSITY OF WATER RESOURCES & ELECTRIC POWER",
+        "cnName": "华北水利水电大学",
+        "citations": 67487,
+        "papers": 6753
+      },
+      {
+        "rank": 3217,
+        "name": "ANHUI POLYTECHNIC UNIVERSITY",
+        "cnName": "安徽工程大学",
+        "citations": 67340,
+        "papers": 5268
+      },
+      {
+        "rank": 3221,
+        "name": "ZHONGKAI UNIVERSITY OF AGRICULTURE & ENGINEERING",
+        "cnName": "仲恺农业工程学院",
+        "citations": 67174,
+        "papers": 4014
+      },
+      {
+        "rank": 3231,
+        "name": "I SHOU UNIVERSITY",
+        "cnName": "义守大学",
+        "citations": 66889,
+        "papers": 5121
+      },
+      {
+        "rank": 3236,
+        "name": "YUNNAN AGRICULTURAL UNIVERSITY",
+        "cnName": "云南农业大学",
+        "citations": 66739,
+        "papers": 5266
+      },
+      {
+        "rank": 3255,
+        "name": "MING CHI UNIVERSITY OF TECHNOLOGY",
+        "cnName": "明志科技大学",
+        "citations": 65967,
+        "papers": 4195
+      },
+      {
+        "rank": 3271,
+        "name": "TUNGHAI UNIVERSITY",
+        "cnName": "东海大学",
+        "citations": 65330,
+        "papers": 4111
+      },
+      {
+        "rank": 3272,
+        "name": "JILIN NORMAL UNIVERSITY",
+        "cnName": "吉林师范大学",
+        "citations": 65316,
+        "papers": 3712
+      },
+      {
+        "rank": 3277,
+        "name": "UNIVERSITY OF SCIENCE & TECHNOLOGY LIAONING",
+        "cnName": "辽宁科技大学",
+        "citations": 65125,
+        "papers": 5232
+      },
+      {
+        "rank": 3279,
+        "name": "INSTITUTE OF THEORETICAL PHYSICS, CAS",
+        "cnName": "中国科学院理论物理研究所",
+        "citations": 65086,
+        "papers": 3017
+      },
+      {
+        "rank": 3281,
+        "name": "YANAN UNIVERSITY",
+        "cnName": "延安大学",
+        "citations": 65071,
+        "papers": 4456
+      },
+      {
+        "rank": 3312,
+        "name": "BEIJING INSTITUTE OF GENOMICS, CAS",
+        "cnName": "中国科学院北京基因组研究所",
+        "citations": 64202,
+        "papers": 1586
+      },
+      {
+        "rank": 3316,
+        "name": "HEBEI UNIVERSITY OF ENGINEERING",
+        "cnName": "河北工程大学",
+        "citations": 64139,
+        "papers": 5205
+      },
+      {
+        "rank": 3326,
+        "name": "BEIJING HOSPITAL",
+        "cnName": "北京医院",
+        "citations": 63945,
+        "papers": 4215
+      },
+      {
+        "rank": 3341,
+        "name": "LIAONING NORMAL UNIVERSITY",
+        "cnName": "辽宁师范大学",
+        "citations": 63461,
+        "papers": 5261
+      },
+      {
+        "rank": 3344,
+        "name": "INSTITUTE OF COMPUTING TECHNOLOGY, CAS",
+        "cnName": "中国科学院计算技术研究所",
+        "citations": 63277,
+        "papers": 3129
+      },
+      {
+        "rank": 3352,
+        "name": "TZU CHI UNIVERSITY",
+        "cnName": "慈济大学",
+        "citations": 63166,
+        "papers": 5019
+      },
+      {
+        "rank": 3363,
+        "name": "MINJIANG UNIVERSITY",
+        "cnName": "闽江学院",
+        "citations": 62684,
+        "papers": 3838
+      },
+      {
+        "rank": 3367,
+        "name": "TAIPEI MUNICIPAL WANFANG HOSPITAL",
+        "cnName": "台北市立万芳医院",
+        "citations": 62602,
+        "papers": 4408
+      },
+      {
+        "rank": 3376,
+        "name": "NATIONAL INSTITUTE FOR VIRAL DISEASE CONTROL & PREVENTION, CHINESE CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "中国疾病预防控制中心病毒病预防控制所",
+        "citations": 62253,
+        "papers": 1542
+      },
+      {
+        "rank": 3377,
+        "name": "TJU-NUS JOINT INSTITUTE",
+        "cnName": "天津大学-新加坡国立大学联合学院",
+        "citations": 62249,
+        "papers": 1376
+      },
+      {
+        "rank": 3383,
+        "name": "HUAIBEI NORMAL UNIVERSITY",
+        "cnName": "淮北师范大学",
+        "citations": 62025,
+        "papers": 3075
+      },
+      {
+        "rank": 3391,
+        "name": "SECOND INSTITUTE OF OCEANOGRAPHY, MINISTRY OF NATURAL RESOURCES",
+        "cnName": "自然资源部第二海洋研究所",
+        "citations": 61693,
+        "papers": 3970
+      },
+      {
+        "rank": 3411,
+        "name": "WUHAN BOTANICAL GARDEN, CAS",
+        "cnName": "中国科学院武汉植物园",
+        "citations": 61312,
+        "papers": 2470
+      },
+      {
+        "rank": 3417,
+        "name": "JIANGXI UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "江西财经大学",
+        "citations": 61168,
+        "papers": 3588
+      },
+      {
+        "rank": 3434,
+        "name": "INSTITUTE OF PSYCHOLOGY, CAS",
+        "cnName": "中国科学院心理研究所",
+        "citations": 60611,
+        "papers": 3135
+      },
+      {
+        "rank": 3440,
+        "name": "JINZHOU MEDICAL UNIVERSITY",
+        "cnName": "锦州医科大学",
+        "citations": 60475,
+        "papers": 4644
+      },
+      {
+        "rank": 3441,
+        "name": "SHENZHEN RESEARCH INSTITUTE, THE HONG KONG UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "香港科技大学（深圳）研究院",
+        "citations": 60460,
+        "papers": 925
+      },
+      {
+        "rank": 3456,
+        "name": "XI'AN INSTITUTE OF OPTICS & PRECISION MECHANICS, CAS",
+        "cnName": "中国科学院西安光学精密机械研究所",
+        "citations": 60019,
+        "papers": 3449
+      },
+      {
+        "rank": 3470,
+        "name": "JIANGXI UNIVERSITY OF TRADITIONAL CHINESE MEDICINE",
+        "cnName": "江西中医药大学",
+        "citations": 59747,
+        "papers": 4300
+      },
+      {
+        "rank": 3471,
+        "name": "SHUANG HO HOSPITAL",
+        "cnName": "双和医院",
+        "citations": 59744,
+        "papers": 3547
+      },
+      {
+        "rank": 3479,
+        "name": "GUANGDONG UNIVERSITY OF PETROCHEMICAL TECHNOLOGY",
+        "cnName": "广东石油化工学院",
+        "citations": 59596,
+        "papers": 3172
+      },
+      {
+        "rank": 3494,
+        "name": "INSTITUTE OF MEDICINAL PLANT DEVELOPMENT - CAMS",
+        "cnName": "中国医学科学院药用植物研究所",
+        "citations": 59290,
+        "papers": 2936
+      },
+      {
+        "rank": 3495,
+        "name": "CHINA NATIONAL TOBACCO CORPORATION",
+        "cnName": "中国烟草总公司",
+        "citations": 59284,
+        "papers": 5195
+      },
+      {
+        "rank": 3497,
+        "name": "NANYANG NORMAL UNIVERSITY",
+        "cnName": "南阳师范学院",
+        "citations": 59217,
+        "papers": 3039
+      },
+      {
+        "rank": 3504,
+        "name": "XI'AN UNIVERSITY OF POSTS & TELECOMMUNICATIONS",
+        "cnName": "西安邮电大学",
+        "citations": 59021,
+        "papers": 4953
+      },
+      {
+        "rank": 3507,
+        "name": "WANNAN MEDICAL COLLEGE",
+        "cnName": "皖南医学院",
+        "citations": 58948,
+        "papers": 4706
+      },
+      {
+        "rank": 3514,
+        "name": "INSTITUTE OF ANIMAL SCIENCE, CAAS",
+        "cnName": "中国农业科学院畜牧兽医研究所",
+        "citations": 58831,
+        "papers": 3347
+      },
+      {
+        "rank": 3522,
+        "name": "SOUTHWEST FORESTRY UNIVERSITY - CHINA",
+        "cnName": "西南林业大学",
+        "citations": 58566,
+        "papers": 4867
+      },
+      {
+        "rank": 3523,
+        "name": "CHI MEI HOSPITAL",
+        "cnName": "奇美医院",
+        "citations": 58513,
+        "papers": 4016
+      },
+      {
+        "rank": 3524,
+        "name": "INSTITUTE OF MICROELECTRONICS, CAS",
+        "cnName": "中国科学院微电子研究所",
+        "citations": 58474,
+        "papers": 4374
+      },
+      {
+        "rank": 3529,
+        "name": "CHONGQING UNIVERSITY OF ARTS & SCIENCES",
+        "cnName": "重庆文理学院",
+        "citations": 58348,
+        "papers": 3422
+      },
+      {
+        "rank": 3535,
+        "name": "LUOYANG NORMAL UNIVERSITY",
+        "cnName": "洛阳师范学院",
+        "citations": 58198,
+        "papers": 3362
+      },
+      {
+        "rank": 3550,
+        "name": "GUILIN MEDICAL UNIVERSITY",
+        "cnName": "桂林医科大学",
+        "citations": 57770,
+        "papers": 4000
+      },
+      {
+        "rank": 3558,
+        "name": "INSTITUTE OF GEOLOGY, CHINESE ACADEMY OF GEOLOGICAL SCIENCES",
+        "cnName": "中国地质科学院地质研究所",
+        "citations": 57669,
+        "papers": 2953
+      },
+      {
+        "rank": 3559,
+        "name": "ZHEJIANG UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "浙江财经大学",
+        "citations": 57600,
+        "papers": 3358
+      },
+      {
+        "rank": 3563,
+        "name": "SOUTHWEST MINZU UNIVERSITY",
+        "cnName": "西南民族大学",
+        "citations": 57438,
+        "papers": 3938
+      },
+      {
+        "rank": 3566,
+        "name": "SHANXI NORMAL UNIVERSITY",
+        "cnName": "山西师范大学",
+        "citations": 57363,
+        "papers": 4799
+      },
+      {
+        "rank": 3574,
+        "name": "JISHOU UNIVERSITY",
+        "cnName": "吉首大学",
+        "citations": 57179,
+        "papers": 2838
+      },
+      {
+        "rank": 3575,
+        "name": "INSTITUTE OF MATERIA MEDICA - CAMS",
+        "cnName": "中国医学科学院药物研究所",
+        "citations": 57178,
+        "papers": 2009
+      },
+      {
+        "rank": 3597,
+        "name": "FIRST INSTITUTE OF OCEANOGRAPHY, MINISTRY OF NATURAL RESOURCES",
+        "cnName": "自然资源部第一海洋研究所",
+        "citations": 56592,
+        "papers": 4243
+      },
+      {
+        "rank": 3598,
+        "name": "NORTH MINZU UNIVERSITY",
+        "cnName": "北方民族大学",
+        "citations": 56545,
+        "papers": 3963
+      },
+      {
+        "rank": 3626,
+        "name": "HUAIYIN NORMAL UNIVERSITY",
+        "cnName": "淮阴师范学院",
+        "citations": 55961,
+        "papers": 3198
+      },
+      {
+        "rank": 3648,
+        "name": "MINZU UNIVERSITY OF CHINA",
+        "cnName": "中央民族大学",
+        "citations": 55524,
+        "papers": 3186
+      },
+      {
+        "rank": 3649,
+        "name": "SOUTHERN MARINE SCIENCE & ENGINEERING GUANGDONG LABORATORY (GUANGZHOU)",
+        "cnName": "南方海洋科学与工程广东省实验室（广州）",
+        "citations": 55452,
+        "papers": 4194
+      },
+      {
+        "rank": 3660,
+        "name": "SHENZHEN POLYTECHNIC UNIVERSITY",
+        "cnName": "深圳职业技术大学",
+        "citations": 55227,
+        "papers": 3888
+      },
+      {
+        "rank": 3663,
+        "name": "INNER MONGOLIA UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "内蒙古科技大学",
+        "citations": 55139,
+        "papers": 4774
+      },
+      {
+        "rank": 3664,
+        "name": "LIAONING UNIVERSITY OF TECHNOLOGY",
+        "cnName": "辽宁工业大学",
+        "citations": 55123,
+        "papers": 2642
+      },
+      {
+        "rank": 3680,
+        "name": "KAOHSIUNG VETERANS GENERAL HOSPITAL",
+        "cnName": "高雄荣民总医院",
+        "citations": 54835,
+        "papers": 3341
+      },
+      {
+        "rank": 3684,
+        "name": "SHANGHAI INSTITUTE OF NUTRITION & HEALTH, CAS",
+        "cnName": "中国科学院上海营养与健康研究所",
+        "citations": 54781,
+        "papers": 1787
+      },
+      {
+        "rank": 3684,
+        "name": "GUIZHOU NORMAL UNIVERSITY",
+        "cnName": "贵州师范大学",
+        "citations": 54781,
+        "papers": 5344
+      },
+      {
+        "rank": 3688,
+        "name": "E-DA HOSPITAL",
+        "cnName": "义大医院",
+        "citations": 54697,
+        "papers": 3147
+      },
+      {
+        "rank": 3693,
+        "name": "INSTITUTE OF FOOD SCIENCE & TECHNOLOGY, CAAS",
+        "cnName": "中国农业科学院食品科学与技术研究所",
+        "citations": 54592,
+        "papers": 2541
+      },
+      {
+        "rank": 3700,
+        "name": "INNER MONGOLIA MEDICAL UNIVERSITY",
+        "cnName": "内蒙古医科大学",
+        "citations": 54360,
+        "papers": 4017
+      },
+      {
+        "rank": 3706,
+        "name": "GUANGZHOU INSTITUTE OF BIOMEDICINE & HEALTH, CAS",
+        "cnName": "中国科学院广州生物医药与健康研究院",
+        "citations": 54176,
+        "papers": 2086
+      },
+      {
+        "rank": 3707,
+        "name": "NANJING INSTITUTE OF TECHNOLOGY",
+        "cnName": "南京工程学院",
+        "citations": 54158,
+        "papers": 4781
+      },
+      {
+        "rank": 3716,
+        "name": "SHENYANG AEROSPACE UNIVERSITY",
+        "cnName": "沈阳航空航天大学",
+        "citations": 54097,
+        "papers": 4092
+      },
+      {
+        "rank": 3722,
+        "name": "LIAONING PETROCHEMICAL UNIVERSITY",
+        "cnName": "辽宁石油化工大学",
+        "citations": 53983,
+        "papers": 3654
+      },
+      {
+        "rank": 3729,
+        "name": "COLD & ARID REGIONS ENVIRONMENTAL & ENGINEERING RESEARCH INSTITUTE, CAS",
+        "cnName": "中国科学院寒区旱区环境与工程研究所",
+        "citations": 53873,
+        "papers": 1575
+      },
+      {
+        "rank": 3733,
+        "name": "XI'AN POLYTECHNIC UNIVERSITY",
+        "cnName": "西安工程大学",
+        "citations": 53791,
+        "papers": 4503
+      },
+      {
+        "rank": 3738,
+        "name": "XI'AN SHIYOU UNIVERSITY",
+        "cnName": "西安石油大学",
+        "citations": 53723,
+        "papers": 5196
+      },
+      {
+        "rank": 3739,
+        "name": "ZHEJIANG LABORATORY",
+        "cnName": "之江实验室",
+        "citations": 53699,
+        "papers": 4293
+      },
+      {
+        "rank": 3744,
+        "name": "JIANGXI SCIENCE & TECHNOLOGY NORMAL UNIVERSITY",
+        "cnName": "江西科技师范大学",
+        "citations": 53611,
+        "papers": 3279
+      },
+      {
+        "rank": 3747,
+        "name": "TIANJIN CHENGJIAN UNIVERSITY",
+        "cnName": "天津城建大学",
+        "citations": 53598,
+        "papers": 3465
+      },
+      {
+        "rank": 3753,
+        "name": "NORTH SICHUAN MEDICAL UNIVERSITY",
+        "cnName": "川北医学院",
+        "citations": 53513,
+        "papers": 5500
+      },
+      {
+        "rank": 3759,
+        "name": "FUJIAN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "福建理工大学",
+        "citations": 53439,
+        "papers": 4016
+      },
+      {
+        "rank": 3761,
+        "name": "QINGDAO MUNICIPAL HOSPITAL",
+        "cnName": "青岛市市立医院",
+        "citations": 53401,
+        "papers": 3103
+      },
+      {
+        "rank": 3769,
+        "name": "ZHEJIANG UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "浙江科技大学",
+        "citations": 53251,
+        "papers": 4903
+      },
+      {
+        "rank": 3772,
+        "name": "DALIAN UNIVERSITY",
+        "cnName": "大连大学",
+        "citations": 53221,
+        "papers": 4026
+      },
+      {
+        "rank": 3773,
+        "name": "INSTITUTE OF PATHOGEN BIOLOGY - CAMS",
+        "cnName": "中国医学科学院病原生物学研究所",
+        "citations": 53217,
+        "papers": 664
+      },
+      {
+        "rank": 3776,
+        "name": "NATIONAL CHUNG CHENG UNIVERSITY",
+        "cnName": "国立中正大学",
+        "citations": 53162,
+        "papers": 4317
+      },
+      {
+        "rank": 3781,
+        "name": "CHANG GUNG UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "长庚科技大学",
+        "citations": 53064,
+        "papers": 3385
+      },
+      {
+        "rank": 3785,
+        "name": "CHONGQING UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "重庆科技大学",
+        "citations": 52987,
+        "papers": 4342
+      },
+      {
+        "rank": 3787,
+        "name": "NATIONAL DONG HWA UNIVERSITY",
+        "cnName": "国立东华大学",
+        "citations": 52973,
+        "papers": 3663
+      },
+      {
+        "rank": 3790,
+        "name": "NYU SHANGHAI",
+        "cnName": "上海纽约大学",
+        "citations": 52925,
+        "papers": 2519
+      },
+      {
+        "rank": 3801,
+        "name": "CENTER FOR EXCELLENCE IN BRAIN SCIENCE AND INTELLIGENCE TECHNOLOGY, CAS",
+        "cnName": "中国科学院脑科学与智能技术卓越创新中心",
+        "citations": 52752,
+        "papers": 1936
+      },
+      {
+        "rank": 3808,
+        "name": "CHINA ELECTRIC POWER RESEARCH INSTITUTE (CEPRI)",
+        "cnName": "中国电力科学研究院",
+        "citations": 52682,
+        "papers": 4112
+      },
+      {
+        "rank": 3811,
+        "name": "FIFTH MEDICAL CENTER OF CHINESE PLA GENERAL HOSPITAL",
+        "cnName": "中国人民解放军总医院第五医学中心",
+        "citations": 52630,
+        "papers": 2265
+      },
+      {
+        "rank": 3847,
+        "name": "INSTITUTE OF ENVIRONMENT & SUSTAINABLE DEVELOPMENT IN AGRICULTURE, CAAS",
+        "cnName": "中国农业科学院农业环境与可持续发展研究所",
+        "citations": 51751,
+        "papers": 2180
+      },
+      {
+        "rank": 3877,
+        "name": "INNER MONGOLIA UNIVERSITY OF TECHNOLOGY",
+        "cnName": "内蒙古工业大学",
+        "citations": 51058,
+        "papers": 5156
+      },
+      {
+        "rank": 3878,
+        "name": "HUBEI UNIVERSITY OF ARTS & SCIENCE",
+        "cnName": "湖北文理学院",
+        "citations": 51021,
+        "papers": 3284
+      },
+      {
+        "rank": 3881,
+        "name": "ANHUI UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "安徽中医药大学",
+        "citations": 50972,
+        "papers": 4363
+      },
+      {
+        "rank": 3892,
+        "name": "CHINA NATIONAL OFFSHORE OIL CORPORATION (CNOOC)",
+        "cnName": "中国海洋石油集团有限公司",
+        "citations": 50769,
+        "papers": 4333
+      },
+      {
+        "rank": 3895,
+        "name": "BEIJING INSTITUTE OF MICROBIOLOGY & EPIDEMIOLOGY",
+        "cnName": "军事科学院军事医学研究院微生物流行病研究所",
+        "citations": 50723,
+        "papers": 1484
+      },
+      {
+        "rank": 3905,
+        "name": "CHENGDU MEDICAL COLLEGE",
+        "cnName": "成都医学院",
+        "citations": 50484,
+        "papers": 4123
+      },
+      {
+        "rank": 3907,
+        "name": "DONGBEI UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "东北财经大学",
+        "citations": 50475,
+        "papers": 2643
+      },
+      {
+        "rank": 3918,
+        "name": "CHINA SOUTHERN POWER GRID",
+        "cnName": "中国南方电网有限责任公司",
+        "citations": 50216,
+        "papers": 5159
+      },
+      {
+        "rank": 3921,
+        "name": "GUANGXI MINZU UNIVERSITY",
+        "cnName": "广西民族大学",
+        "citations": 50190,
+        "papers": 3752
+      },
+      {
+        "rank": 3930,
+        "name": "AGRICULTURE GENOMES INSTITUTE AT SHENZHEN, CAAS",
+        "cnName": "中国农业科学院深圳农业基因组研究所",
+        "citations": 49996,
+        "papers": 2331
+      },
+      {
+        "rank": 3931,
+        "name": "SOUTH CHINA INSTITUTE OF ENVIRONMENTAL SCIENCES, MINISTRY OF ECOLOGY & ENVIRONMENT",
+        "cnName": "生态环境部华南环境科学研究所",
+        "citations": 49990,
+        "papers": 2035
+      },
+      {
+        "rank": 3936,
+        "name": "XIAMEN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "厦门理工学院",
+        "citations": 49910,
+        "papers": 4295
+      },
+      {
+        "rank": 3937,
+        "name": "CIVIL AVIATION UNIVERSITY OF CHINA",
+        "cnName": "中国民航大学",
+        "citations": 49909,
+        "papers": 4233
+      },
+      {
+        "rank": 3948,
+        "name": "HENAN INSTITUTE OF SCIENCE & TECHNOLOGY",
+        "cnName": "河南科技学院",
+        "citations": 49554,
+        "papers": 3907
+      },
+      {
+        "rank": 3960,
+        "name": "SHANGHAI UNIVERSITY OF MEDICINE & HEALTH SCIENCES",
+        "cnName": "上海健康医学院",
+        "citations": 49214,
+        "papers": 3753
+      },
+      {
+        "rank": 3961,
+        "name": "INDUSTRIAL TECHNOLOGY RESEARCH INSTITUTE - TAIWAN",
+        "cnName": "台湾工业技术研究院",
+        "citations": 49197,
+        "papers": 2764
+      },
+      {
+        "rank": 3973,
+        "name": "ZHONGYUAN UNIVERSITY OF TECHNOLOGY",
+        "cnName": "中原工学院",
+        "citations": 48906,
+        "papers": 3602
+      },
+      {
+        "rank": 3988,
+        "name": "YANGTZE NORMAL UNIVERSITY",
+        "cnName": "长江师范学院",
+        "citations": 48670,
+        "papers": 2812
+      },
+      {
+        "rank": 3989,
+        "name": "SHANDONG UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "山东财经大学",
+        "citations": 48669,
+        "papers": 3215
+      },
+      {
+        "rank": 4004,
+        "name": "TIANJIN INSTITUTE OF INDUSTRIAL BIOTECHNOLOGY, CAS",
+        "cnName": "中国科学院天津工业生物技术研究所",
+        "citations": 48256,
+        "papers": 2114
+      },
+      {
+        "rank": 4009,
+        "name": "SHENZHEN TECHNOLOGY UNIVERSITY",
+        "cnName": "深圳技术大学",
+        "citations": 48147,
+        "papers": 3829
+      },
+      {
+        "rank": 4014,
+        "name": "ANHUI JIANZHU UNIVERSITY",
+        "cnName": "安徽建筑大学",
+        "citations": 47997,
+        "papers": 4273
+      },
+      {
+        "rank": 4021,
+        "name": "DALIAN MINZU UNIVERSITY",
+        "cnName": "大连民族大学",
+        "citations": 47853,
+        "papers": 3089
+      },
+      {
+        "rank": 4031,
+        "name": "QIQIHAR UNIVERSITY",
+        "cnName": "齐齐哈尔大学",
+        "citations": 47745,
+        "papers": 3523
+      },
+      {
+        "rank": 4039,
+        "name": "JIANGSU OCEAN UNIVERSITY",
+        "cnName": "江苏海洋大学",
+        "citations": 47602,
+        "papers": 3962
+      },
+      {
+        "rank": 4044,
+        "name": "SUZHOU UNIVERSITY OF TECHNOLOGY",
+        "cnName": "苏州科技大学",
+        "citations": 47421,
+        "papers": 3481
+      },
+      {
+        "rank": 4049,
+        "name": "INSTITUTE OF APPLIED PHYSICS & COMPUTATIONAL MATHEMATICS - CHINA",
+        "cnName": "北京应用物理与计算数学研究所",
+        "citations": 47349,
+        "papers": 4142
+      },
+      {
+        "rank": 4050,
+        "name": "COLLABORATIVE INNOVATION CENTER FOR ADVANCED SHIP & DEEP SEA EXPLORATION",
+        "cnName": "高新船舶与深海开发装备协同创新中心",
+        "citations": 47337,
+        "papers": 1878
+      },
+      {
+        "rank": 4066,
+        "name": "INSTITUTE OF ENGINEERING THERMOPHYSICS, CAS",
+        "cnName": "中国科学院工程热物理研究所",
+        "citations": 46938,
+        "papers": 2642
+      },
+      {
+        "rank": 4074,
+        "name": "HENAN UNIVERSITY OF TRADITIONAL CHINESE MEDICINE",
+        "cnName": "河南中医药大学",
+        "citations": 46783,
+        "papers": 4583
+      },
+      {
+        "rank": 4090,
+        "name": "NATIONAL INSTITUTE OF FOOD & DRUG CONTROL - CHINA",
+        "cnName": "中国食品药品检定研究院",
+        "citations": 46486,
+        "papers": 1979
+      },
+      {
+        "rank": 4102,
+        "name": "INSTITUTE OF ELECTRICAL ENGINEERING, CAS",
+        "cnName": "中国科学院电工研究所",
+        "citations": 46257,
+        "papers": 2742
+      },
+      {
+        "rank": 4113,
+        "name": "NANJING INSTITUTE OF ENVIRONMENTAL SCIENCES, MINISTRY OF ECOLOGY & ENVIRONMENT",
+        "cnName": "生态环境部南京环境科学研究所",
+        "citations": 46023,
+        "papers": 2563
+      },
+      {
+        "rank": 4124,
+        "name": "CHANGHUA CHRISTIAN HOSPITAL",
+        "cnName": "彰化基督教医院",
+        "citations": 45759,
+        "papers": 3210
+      },
+      {
+        "rank": 4125,
+        "name": "SHENYANG UNIVERSITY OF CHEMICAL TECHNOLOGY",
+        "cnName": "沈阳化工大学",
+        "citations": 45749,
+        "papers": 3579
+      },
+      {
+        "rank": 4137,
+        "name": "JIANGSU UNIVERSITY OF TECHNOLOGY",
+        "cnName": "江苏科技大学",
+        "citations": 45504,
+        "papers": 3682
+      },
+      {
+        "rank": 4138,
+        "name": "HUBEI NORMAL UNIVERSITY",
+        "cnName": "湖北师范大学",
+        "citations": 45482,
+        "papers": 3148
+      },
+      {
+        "rank": 4142,
+        "name": "LIAONING TECHNICAL UNIVERSITY",
+        "cnName": "辽宁工程技术大学",
+        "citations": 45434,
+        "papers": 4891
+      },
+      {
+        "rank": 4162,
+        "name": "BEIJING INFORMATION SCIENCE & TECHNOLOGY UNIVERSITY",
+        "cnName": "北京信息科技大学",
+        "citations": 45063,
+        "papers": 4658
+      },
+      {
+        "rank": 4164,
+        "name": "HAINAN NORMAL UNIVERSITY",
+        "cnName": "海南师范大学",
+        "citations": 45014,
+        "papers": 3961
+      },
+      {
+        "rank": 4171,
+        "name": "BIOLAND LAB",
+        "cnName": "百兰德实验室",
+        "citations": 44822,
+        "papers": 1140
+      },
+      {
+        "rank": 4182,
+        "name": "INSTITUTE OF INFORMATION ENGINEERING, CAS",
+        "cnName": "中国科学院信息工程研究所",
+        "citations": 44636,
+        "papers": 2177
+      },
+      {
+        "rank": 4183,
+        "name": "CHINA INSTITUTE OF ATOMIC ENERGY",
+        "cnName": "中国原子能科学研究院",
+        "citations": 44619,
+        "papers": 3282
+      },
+      {
+        "rank": 4193,
+        "name": "XUZHOU UNIVERSITY OF TECHNOLOGY",
+        "cnName": "徐州工程学院",
+        "citations": 44459,
+        "papers": 2500
+      },
+      {
+        "rank": 4197,
+        "name": "THE THIRD PEOPLE'S HOSPITAL OF SHENZHEN",
+        "cnName": "深圳市第三人民医院",
+        "citations": 44405,
+        "papers": 1019
+      },
+      {
+        "rank": 4223,
+        "name": "MACKAY MEDICAL UNIVERSITY",
+        "cnName": "马偕医学院",
+        "citations": 43954,
+        "papers": 3246
+      },
+      {
+        "rank": 4225,
+        "name": "OIL CROPS RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院油料作物研究所",
+        "citations": 43928,
+        "papers": 1729
+      },
+      {
+        "rank": 4226,
+        "name": "ANHUI UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "安徽财经大学",
+        "citations": 43892,
+        "papers": 2157
+      },
+      {
+        "rank": 4231,
+        "name": "SHANGHAI ACADEMY OF SCIENCE & TECHNOLOGY",
+        "cnName": "上海市科学技术研究院",
+        "citations": 43768,
+        "papers": 1799
+      },
+      {
+        "rank": 4232,
+        "name": "SHENZHEN BAY LABORATORY",
+        "cnName": "深圳湾实验室",
+        "citations": 43765,
+        "papers": 2292
+      },
+      {
+        "rank": 4240,
+        "name": "INSTITUTE OF CHEMICAL INDUSTRY OF FOREST PRODUCTS, CAF",
+        "cnName": "中国林业科学研究院林产化学工业研究所",
+        "citations": 43610,
+        "papers": 1969
+      },
+      {
+        "rank": 4245,
+        "name": "THIRD INSTITUTE OF OCEANOGRAPHY, MINISTRY OF NATURAL RESOURCES",
+        "cnName": "自然资源部第三海洋研究所",
+        "citations": 43479,
+        "papers": 3012
+      },
+      {
+        "rank": 4251,
+        "name": "INSTITUTE OF HEMATOLOGY & BLOOD DISEASES HOSPITAL - CAMS",
+        "cnName": "中国医学科学院血液病医院（血液学研究所）",
+        "citations": 43389,
+        "papers": 2001
+      },
+      {
+        "rank": 4256,
+        "name": "SHANGHAI ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "上海市农业科学院",
+        "citations": 43240,
+        "papers": 2647
+      },
+      {
+        "rank": 4278,
+        "name": "CHINA NATIONAL RICE RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院中国水稻研究所",
+        "citations": 42928,
+        "papers": 1591
+      },
+      {
+        "rank": 4293,
+        "name": "SHIJIAZHUANG TIEDAO UNIVERSITY",
+        "cnName": "石家庄铁道大学",
+        "citations": 42741,
+        "papers": 4276
+      },
+      {
+        "rank": 4299,
+        "name": "ZHANGJIANG LABORATORY",
+        "cnName": "张江实验室",
+        "citations": 42662,
+        "papers": 1226
+      },
+      {
+        "rank": 4306,
+        "name": "SHENYANG INSTITUTE OF AUTOMATION, CAS",
+        "cnName": "中国科学院沈阳自动化研究所",
+        "citations": 42549,
+        "papers": 3111
+      },
+      {
+        "rank": 4316,
+        "name": "NINGBO UNIVERSITY OF TECHNOLOGY",
+        "cnName": "宁波工程学院",
+        "citations": 42448,
+        "papers": 3260
+      },
+      {
+        "rank": 4326,
+        "name": "HEILONGJIANG UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "黑龙江中医药大学",
+        "citations": 42339,
+        "papers": 3822
+      },
+      {
+        "rank": 4328,
+        "name": "NATIONAL INSTITUTE FOR COMMUNICABLE DISEASE CONTROL & PREVENTION, CHINESE CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "中国疾病预防控制中心传染病预防控制所",
+        "citations": 42297,
+        "papers": 1855
+      },
+      {
+        "rank": 4332,
+        "name": "XIZANG UNIVERSITY",
+        "cnName": "西藏大学",
+        "citations": 42236,
+        "papers": 2603
+      },
+      {
+        "rank": 4334,
+        "name": "NATIONAL CLIMATE CENTRE, CHINA METEOROLOGICAL ADMINISTRATION",
+        "cnName": "中国气象局国家气候中心",
+        "citations": 42213,
+        "papers": 1521
+      },
+      {
+        "rank": 4360,
+        "name": "GANNAN MEDICAL UNIVERSITY",
+        "cnName": "赣南医科大学",
+        "citations": 41728,
+        "papers": 3691
+      },
+      {
+        "rank": 4361,
+        "name": "GANNAN NORMAL UNIVERSITY",
+        "cnName": "赣南师范大学",
+        "citations": 41719,
+        "papers": 2773
+      },
+      {
+        "rank": 4382,
+        "name": "BEIJING NEUROSURGICAL INSTITUTE",
+        "cnName": "北京市神经外科研究所",
+        "citations": 41391,
+        "papers": 1631
+      },
+      {
+        "rank": 4393,
+        "name": "NANJING HYDRAULIC RESEARCH INSTITUTE",
+        "cnName": "南京水利科学研究院",
+        "citations": 41302,
+        "papers": 2767
+      },
+      {
+        "rank": 4395,
+        "name": "HUBEI UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "湖北中医药大学",
+        "citations": 41283,
+        "papers": 3014
+      },
+      {
+        "rank": 4411,
+        "name": "PLA INFORMATION ENGINEERING UNIVERSITY",
+        "cnName": "中国人民解放军信息工程大学",
+        "citations": 41118,
+        "papers": 4470
+      },
+      {
+        "rank": 4416,
+        "name": "GUANGDONG UNIVERSITY OF FOREIGN STUDIES",
+        "cnName": "广东外语外贸大学",
+        "citations": 40990,
+        "papers": 3049
+      },
+      {
+        "rank": 4429,
+        "name": "STATE KEY LABORATORY OF TRANSIENT OPTICS & PHOTONICS",
+        "cnName": "瞬态光学与光子技术国家重点实验室",
+        "citations": 40844,
+        "papers": 1832
+      },
+      {
+        "rank": 4449,
+        "name": "TIANJIN UNIVERSITY OF COMMERCE",
+        "cnName": "天津商业大学",
+        "citations": 40422,
+        "papers": 2840
+      },
+      {
+        "rank": 4450,
+        "name": "FUJIAN UNIVERSITY OF TRADITIONAL CHINESE MEDICINE",
+        "cnName": "福建中医药大学",
+        "citations": 40411,
+        "papers": 3333
+      },
+      {
+        "rank": 4463,
+        "name": "HUALIEN TZU CHI HOSPITAL",
+        "cnName": "花莲慈济医院",
+        "citations": 40148,
+        "papers": 2688
+      },
+      {
+        "rank": 4469,
+        "name": "HUBEI UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "湖北科技学院",
+        "citations": 40078,
+        "papers": 2974
+      },
+      {
+        "rank": 4470,
+        "name": "NORTH CHINA UNIVERSITY OF TECHNOLOGY",
+        "cnName": "北方工业大学",
+        "citations": 40029,
+        "papers": 3731
+      },
+      {
+        "rank": 4478,
+        "name": "CAPITAL UNIVERSITY OF ECONOMICS & BUSINESS",
+        "cnName": "首都经济贸易大学",
+        "citations": 39963,
+        "papers": 2953
+      },
+      {
+        "rank": 4486,
+        "name": "DALI UNIVERSITY",
+        "cnName": "大理大学",
+        "citations": 39763,
+        "papers": 3287
+      },
+      {
+        "rank": 4488,
+        "name": "INSTITUTE OF COTTON RESEARCH, CAAS",
+        "cnName": "中国农业科学院棉花研究所",
+        "citations": 39745,
+        "papers": 2122
+      },
+      {
+        "rank": 4489,
+        "name": "FUJIAN PROVINCIAL HOSPITAL",
+        "cnName": "福建省立医院",
+        "citations": 39743,
+        "papers": 3072
+      },
+      {
+        "rank": 4490,
+        "name": "CHANGCHUN UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "长春中医药大学",
+        "citations": 39735,
+        "papers": 3636
+      },
+      {
+        "rank": 4498,
+        "name": "TAIPEI CITY HOSPITAL",
+        "cnName": "台北市立联合医院",
+        "citations": 39638,
+        "papers": 2825
+      },
+      {
+        "rank": 4513,
+        "name": "FUJIAN SCIENCE & TECHNOLOGY INNOVATION LABORATORY FOR OPTOELECTRONIC INFORMATION OF CHINA",
+        "cnName": "中国福建光电信息科学与技术创新实验室",
+        "citations": 39409,
+        "papers": 2074
+      },
+      {
+        "rank": 4518,
+        "name": "INSTITUTE OF ECO-ENVIRONMENTAL & SOIL SCIENCES, GUANGDONG ACADEMY OF SCIENCES",
+        "cnName": "广东省科学院生态环境与土壤研究所",
+        "citations": 39336,
+        "papers": 1372
+      },
+      {
+        "rank": 4524,
+        "name": "ROCKET FORCE UNIVERSITY OF ENGINEERING",
+        "cnName": "火箭军工程大学",
+        "citations": 39236,
+        "papers": 2896
+      },
+      {
+        "rank": 4526,
+        "name": "BAOJI UNIVERSITY OF ARTS & SCIENCES",
+        "cnName": "宝鸡文理学院",
+        "citations": 39228,
+        "papers": 2119
+      },
+      {
+        "rank": 4528,
+        "name": "SHANGHAI CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "上海市疾病预防控制中心",
+        "citations": 39216,
+        "papers": 2231
+      },
+      {
+        "rank": 4529,
+        "name": "INSTITUTE OF CHINESE MATERIA MEDICA, CACMS",
+        "cnName": "中国中医科学院中药研究所",
+        "citations": 39205,
+        "papers": 2009
+      },
+      {
+        "rank": 4540,
+        "name": "ADVANCED ENERGY SCIENCE & TECHNOLOGY GUANGDONG LABORATORY",
+        "cnName": "先进能源科学与技术广东省实验室",
+        "citations": 39035,
+        "papers": 1627
+      },
+      {
+        "rank": 4557,
+        "name": "NATIONAL PINGTUNG UNIVERSITY SCIENCE & TECHNOLOGY",
+        "cnName": "国立屏东科技大学",
+        "citations": 38828,
+        "papers": 3253
+      },
+      {
+        "rank": 4561,
+        "name": "SHANGHAI UNIVERSITY OF SPORT",
+        "cnName": "上海体育大学",
+        "citations": 38795,
+        "papers": 3414
+      },
+      {
+        "rank": 4563,
+        "name": "QUEEN ELIZABETH HOSPITAL - HONG KONG",
+        "cnName": "香港伊利沙伯医院",
+        "citations": 38766,
+        "papers": 1152
+      },
+      {
+        "rank": 4589,
+        "name": "HAIHE LABORATORY OF SUSTAINABLE CHEMICAL TRANSFORMATIONS",
+        "cnName": "海河实验室可持续化学转化研究中心",
+        "citations": 38331,
+        "papers": 2049
+      },
+      {
+        "rank": 4600,
+        "name": "SHAANXI UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "陕西中医药大学",
+        "citations": 38169,
+        "papers": 3339
+      },
+      {
+        "rank": 4605,
+        "name": "SHANGHAI INSTITUTE OF IMMUNITY AND INFECTION, CAS",
+        "cnName": "中国科学院上海免疫与感染研究所",
+        "citations": 38091,
+        "papers": 1193
+      },
+      {
+        "rank": 4607,
+        "name": "XINJIANG AGRICULTURAL UNIVERSITY",
+        "cnName": "新疆农业大学",
+        "citations": 38065,
+        "papers": 3918
+      },
+      {
+        "rank": 4634,
+        "name": "CHANGSHA UNIVERSITY",
+        "cnName": "长沙大学",
+        "citations": 37616,
+        "papers": 2144
+      },
+      {
+        "rank": 4655,
+        "name": "AVIATION INDUSTRY CORPORATION OF CHINA (AVIC)",
+        "cnName": "中国航空工业集团有限公司",
+        "citations": 37258,
+        "papers": 3281
+      },
+      {
+        "rank": 4659,
+        "name": "JIANGXI UNIVERSITY OF WATER RESOURCES & ELECTRIC POWER",
+        "cnName": "江西水利电力大学",
+        "citations": 37226,
+        "papers": 2390
+      },
+      {
+        "rank": 4663,
+        "name": "HANGZHOU CITY UNIVERSITY",
+        "cnName": "杭州城市大学",
+        "citations": 37184,
+        "papers": 3808
+      },
+      {
+        "rank": 4670,
+        "name": "HARBIN VETERINARY RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院哈尔滨兽医研究所",
+        "citations": 37035,
+        "papers": 1922
+      },
+      {
+        "rank": 4672,
+        "name": "HEILONGJIANG BAYI AGRICULTURAL UNIVERSITY",
+        "cnName": "黑龙江八一农垦大学",
+        "citations": 37021,
+        "papers": 3022
+      },
+      {
+        "rank": 4676,
+        "name": "SHAANXI UNIVERSITY OF TECHNOLOGY",
+        "cnName": "陕西理工大学",
+        "citations": 36955,
+        "papers": 2710
+      },
+      {
+        "rank": 4681,
+        "name": "GUANGXI UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "广西科技大学",
+        "citations": 36862,
+        "papers": 3345
+      },
+      {
+        "rank": 4694,
+        "name": "GUANGXI UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "广西中医药大学",
+        "citations": 36648,
+        "papers": 3263
+      },
+      {
+        "rank": 4716,
+        "name": "YELLOW SEA FISHERIES RESEARCH INSTITUTE, CAFS",
+        "cnName": "中国水产科学研究院黄海水产研究所",
+        "citations": 36408,
+        "papers": 2637
+      },
+      {
+        "rank": 4718,
+        "name": "HUBEI POLYTECHNIC UNIVERSITY",
+        "cnName": "湖北理工学院",
+        "citations": 36392,
+        "papers": 1858
+      },
+      {
+        "rank": 4734,
+        "name": "JIANGSU PROVINCIAL CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "江苏省疾病预防控制中心",
+        "citations": 36122,
+        "papers": 1707
+      },
+      {
+        "rank": 4740,
+        "name": "HENAN ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "河南省农业科学院",
+        "citations": 36062,
+        "papers": 1964
+      },
+      {
+        "rank": 4746,
+        "name": "CHINA IRON & STEEL RESEARCH INSTITUTE GROUP",
+        "cnName": "中国钢研科技集团有限公司",
+        "citations": 35987,
+        "papers": 2530
+      },
+      {
+        "rank": 4750,
+        "name": "DALIAN JIAOTONG UNIVERSITY",
+        "cnName": "大连交通大学",
+        "citations": 35955,
+        "papers": 3074
+      },
+      {
+        "rank": 4754,
+        "name": "HUNAN UNIVERSITY OF TECHNOLOGY & BUSINESS",
+        "cnName": "湖南工商大学",
+        "citations": 35935,
+        "papers": 1831
+      },
+      {
+        "rank": 4764,
+        "name": "INSTITUTE OF VEGETABLES & FLOWERS, CAAS",
+        "cnName": "中国农业科学院蔬菜花卉研究所",
+        "citations": 35817,
+        "papers": 1742
+      },
+      {
+        "rank": 4781,
+        "name": "DALIAN OCEAN UNIVERSITY",
+        "cnName": "大连海洋大学",
+        "citations": 35661,
+        "papers": 3241
+      },
+      {
+        "rank": 4783,
+        "name": "NANJING AUDIT UNIVERSITY",
+        "cnName": "南京审计大学",
+        "citations": 35607,
+        "papers": 2641
+      },
+      {
+        "rank": 4788,
+        "name": "NATIONAL CHIAYI UNIVERSITY",
+        "cnName": "国立嘉义大学",
+        "citations": 35569,
+        "papers": 2676
+      },
+      {
+        "rank": 4789,
+        "name": "BEIJING INSTITUTE OF PETROCHEMICAL TECHNOLOGY",
+        "cnName": "北京石油化工学院",
+        "citations": 35533,
+        "papers": 2131
+      },
+      {
+        "rank": 4795,
+        "name": "QUANZHOU NORMAL UNIVERSITY",
+        "cnName": "泉州师范学院",
+        "citations": 35465,
+        "papers": 2010
+      },
+      {
+        "rank": 4806,
+        "name": "FAR EASTERN MEMORIAL HOSPITAL",
+        "cnName": "亚东纪念医院",
+        "citations": 35372,
+        "papers": 2822
+      },
+      {
+        "rank": 4809,
+        "name": "AGRO-ENVIRONMENTAL PROTECTION INSTITUTE, CAAS",
+        "cnName": "中国农业科学院农业环境与可持续发展研究所",
+        "citations": 35365,
+        "papers": 1422
+      },
+      {
+        "rank": 4814,
+        "name": "INSTITUTE OF GEOLOGY, CEA",
+        "cnName": "中国地震局地质研究所",
+        "citations": 35324,
+        "papers": 2052
+      },
+      {
+        "rank": 4815,
+        "name": "SICHUAN ACADEMY OF AGRICULTURAL SCIENCES (SAAS)",
+        "cnName": "四川省农业科学院",
+        "citations": 35321,
+        "papers": 2310
+      },
+      {
+        "rank": 4819,
+        "name": "GUANG'ANMEN HOSPITAL, CACMS",
+        "cnName": "中国中医科学院广安门医院",
+        "citations": 35310,
+        "papers": 2452
+      },
+      {
+        "rank": 4826,
+        "name": "SHENYANG NORMAL UNIVERSITY",
+        "cnName": "沈阳师范大学",
+        "citations": 35222,
+        "papers": 2655
+      },
+      {
+        "rank": 4830,
+        "name": "TEA RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院茶叶研究所",
+        "citations": 35152,
+        "papers": 1350
+      },
+      {
+        "rank": 4831,
+        "name": "LINGNAN UNIVERSITY",
+        "cnName": "岭南大学",
+        "citations": 35136,
+        "papers": 2599
+      },
+      {
+        "rank": 4843,
+        "name": "YUNNAN ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "云南省农业科学院",
+        "citations": 34995,
+        "papers": 2388
+      },
+      {
+        "rank": 4847,
+        "name": "ANYANG NORMAL UNIVERSITY",
+        "cnName": "安阳师范学院",
+        "citations": 34948,
+        "papers": 1752
+      },
+      {
+        "rank": 4859,
+        "name": "THE UNIVERSITY OF HONG KONG SHENZHEN INSTITUTE OF RESEARCH & INNOVATION",
+        "cnName": "香港大学深圳研究院",
+        "citations": 34759,
+        "papers": 1148
+      },
+      {
+        "rank": 4865,
+        "name": "NANJING XIAOZHUANG UNIVERSITY",
+        "cnName": "南京晓庄学院",
+        "citations": 34671,
+        "papers": 2559
+      },
+      {
+        "rank": 4866,
+        "name": "INSTITUTE OF VERTEBRATE PALEONTOLOGY & PALEOANTHROPOLOGY, CAS",
+        "cnName": "中国科学院古脊椎动物与古人类研究所",
+        "citations": 34661,
+        "papers": 1831
+      },
+      {
+        "rank": 4872,
+        "name": "YANCHENG TEACHERS UNIVERSITY",
+        "cnName": "盐城师范学院",
+        "citations": 34599,
+        "papers": 2567
+      },
+      {
+        "rank": 4884,
+        "name": "HUANGGANG NORMAL UNIVERSITY",
+        "cnName": "黄冈师范学院",
+        "citations": 34392,
+        "papers": 1923
+      },
+      {
+        "rank": 4896,
+        "name": "NANNING NORMAL UNIVERSITY",
+        "cnName": "南宁师范大学",
+        "citations": 34313,
+        "papers": 2563
+      },
+      {
+        "rank": 4897,
+        "name": "CAPITAL INSTITUTE OF PEDIATRICS (CIP)",
+        "cnName": "首都儿科研究所",
+        "citations": 34293,
+        "papers": 1718
+      },
+      {
+        "rank": 4918,
+        "name": "CHINA ELECTRONICS TECHNOLOGY GROUP",
+        "cnName": "中国电子科技集团有限公司",
+        "citations": 33956,
+        "papers": 3763
+      },
+      {
+        "rank": 4954,
+        "name": "NATIONAL CHENGCHI UNIVERSITY",
+        "cnName": "国立政治大学",
+        "citations": 33495,
+        "papers": 3073
+      },
+      {
+        "rank": 4959,
+        "name": "SUZHOU INSTITUTE OF BIOMEDICAL ENGINEERING & TECHNOLOGY, CAS",
+        "cnName": "中国科学院苏州生物医学工程技术研究所",
+        "citations": 33418,
+        "papers": 2080
+      },
+      {
+        "rank": 4976,
+        "name": "MINNAN NORMAL UNIVERSITY",
+        "cnName": "闽南师范大学",
+        "citations": 33131,
+        "papers": 2592
+      },
+      {
+        "rank": 5013,
+        "name": "NATIONAL CHIN-YI UNIVERSITY OF TECHNOLOGY",
+        "cnName": "国立勤益科技大学",
+        "citations": 32617,
+        "papers": 2888
+      },
+      {
+        "rank": 5016,
+        "name": "WUHAN NAVAL UNIVERSITY OF ENGINEERING",
+        "cnName": "海军工程大学",
+        "citations": 32566,
+        "papers": 3825
+      },
+      {
+        "rank": 5018,
+        "name": "INSTITUTE OF SYSTEMS MEDICINE - CAMS",
+        "cnName": "中国医学科学院系统医学研究所",
+        "citations": 32562,
+        "papers": 670
+      },
+      {
+        "rank": 5032,
+        "name": "LANZHOU VETERINARY RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院兰州兽医研究所",
+        "citations": 32357,
+        "papers": 2123
+      },
+      {
+        "rank": 5041,
+        "name": "INSTITUTE OF OPTICS & ELECTRONICS, CAS",
+        "cnName": "中国科学院光电技术研究所",
+        "citations": 32260,
+        "papers": 2210
+      },
+      {
+        "rank": 5046,
+        "name": "STATE KEY LABORATORY OF QUANTUM OPTICS & QUANTUM OPTICS DEVICES",
+        "cnName": "量子光学与光量子器件国家重点实验室",
+        "citations": 32207,
+        "papers": 2263
+      },
+      {
+        "rank": 5054,
+        "name": "ANHUI ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "安徽省农业科学院",
+        "citations": 32081,
+        "papers": 1842
+      },
+      {
+        "rank": 5065,
+        "name": "SHANGHAI POLYTECHNIC UNIVERSITY",
+        "cnName": "上海第二工业大学",
+        "citations": 32028,
+        "papers": 1938
+      },
+      {
+        "rank": 5068,
+        "name": "HEILONGJIANG ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "黑龙江省农业科学院",
+        "citations": 31987,
+        "papers": 2150
+      },
+      {
+        "rank": 5082,
+        "name": "BEIJING UNIVERSITY OF AGRICULTURE",
+        "cnName": "北京农学院",
+        "citations": 31820,
+        "papers": 2074
+      },
+      {
+        "rank": 5084,
+        "name": "SHENYANG JIANZHU UNIVERSITY",
+        "cnName": "沈阳建筑大学",
+        "citations": 31779,
+        "papers": 2789
+      },
+      {
+        "rank": 5107,
+        "name": "BEIJING ACADEMY OF QUANTUM INFORMATION SCIENCES",
+        "cnName": "北京量子信息科学研究院",
+        "citations": 31468,
+        "papers": 1851
+      },
+      {
+        "rank": 5114,
+        "name": "ALIBABA GROUP",
+        "cnName": "阿里巴巴集团",
+        "citations": 31387,
+        "papers": 1727
+      },
+      {
+        "rank": 5116,
+        "name": "YANGTZE RIVER WATER RESOURCES PROTECTION BUREAU",
+        "cnName": "长江水资源保护局",
+        "citations": 31378,
+        "papers": 1750
+      },
+      {
+        "rank": 5129,
+        "name": "CHIA NAN UNIVERSITY OF PHARMACY & SCIENCE",
+        "cnName": "嘉南药理大学",
+        "citations": 31248,
+        "papers": 2076
+      },
+      {
+        "rank": 5155,
+        "name": "ZHENGZHOU UNIVERSITY OF AERONAUTICS",
+        "cnName": "郑州航空工业管理学院",
+        "citations": 30959,
+        "papers": 2019
+      },
+      {
+        "rank": 5179,
+        "name": "HUBEI ENGINEERING UNIVERSITY",
+        "cnName": "湖北工程学院",
+        "citations": 30776,
+        "papers": 1906
+      },
+      {
+        "rank": 5188,
+        "name": "JINGDEZHEN CERAMIC UNIVERSITY",
+        "cnName": "景德镇陶瓷大学",
+        "citations": 30707,
+        "papers": 1902
+      },
+      {
+        "rank": 5200,
+        "name": "KEY LABORATORY PRECISION & NON-TRADITIONAL MACHINING TECHNOLOGY",
+        "cnName": "精密与非传统加工技术重点实验室",
+        "citations": 30623,
+        "papers": 1236
+      },
+      {
+        "rank": 5210,
+        "name": "ANHUI SCIENCE & TECHNOLOGY UNIVERSITY",
+        "cnName": "安徽科技学院",
+        "citations": 30517,
+        "papers": 2373
+      },
+      {
+        "rank": 5212,
+        "name": "NATIONAL SPACE SCIENCE CENTER, CAS",
+        "cnName": "中国科学院国家空间科学中心",
+        "citations": 30499,
+        "papers": 2948
+      },
+      {
+        "rank": 5215,
+        "name": "QINGHAI INSTITUTE OF SALT LAKES, CAS",
+        "cnName": "中国科学院青海盐湖研究所",
+        "citations": 30450,
+        "papers": 1862
+      },
+      {
+        "rank": 5235,
+        "name": "FOSHAN XIANHU LABORATORY",
+        "cnName": "佛山仙湖实验室",
+        "citations": 30259,
+        "papers": 955
+      },
+      {
+        "rank": 5241,
+        "name": "ZHEJIANG PROVINCIAL CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "浙江省疾病预防控制中心",
+        "citations": 30186,
+        "papers": 1902
+      },
+      {
+        "rank": 5248,
+        "name": "NATIONAL ILAN UNIVERSITY",
+        "cnName": "国立宜兰大学",
+        "citations": 30153,
+        "papers": 1954
+      },
+      {
+        "rank": 5255,
+        "name": "ANHUI INSTITUTE OF OPTICS & FINE MECHANICS (AIOFM), CAS",
+        "cnName": "中国科学院安徽光学精密机械研究所",
+        "citations": 30122,
+        "papers": 2794
+      },
+      {
+        "rank": 5259,
+        "name": "HUBEI ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "湖北省农业科学院",
+        "citations": 30090,
+        "papers": 1915
+      },
+      {
+        "rank": 5263,
+        "name": "HUNAN ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "湖南省农业科学院",
+        "citations": 30053,
+        "papers": 1785
+      },
+      {
+        "rank": 5274,
+        "name": "TIANJIN CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "天津市疾病预防控制中心",
+        "citations": 29970,
+        "papers": 479
+      },
+      {
+        "rank": 5296,
+        "name": "XIYUAN HOSPITAL, CACMS",
+        "cnName": "中国中医科学院西苑医院",
+        "citations": 29696,
+        "papers": 1955
+      },
+      {
+        "rank": 5302,
+        "name": "HARBIN UNIVERSITY OF COMMERCE",
+        "cnName": "哈尔滨商业大学",
+        "citations": 29627,
+        "papers": 2393
+      },
+      {
+        "rank": 5317,
+        "name": "GUIZHOU ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "贵州省农业科学院",
+        "citations": 29475,
+        "papers": 1574
+      },
+      {
+        "rank": 5320,
+        "name": "SHENZHEN UNIVERSITY OF INFORMATION TECHNOLOGY",
+        "cnName": "深圳信息职业技术学院",
+        "citations": 29387,
+        "papers": 1653
+      },
+      {
+        "rank": 5321,
+        "name": "JILIN JIANZHU UNIVERSITY",
+        "cnName": "吉林建筑大学",
+        "citations": 29381,
+        "papers": 2249
+      },
+      {
+        "rank": 5324,
+        "name": "TENCENT",
+        "cnName": "腾讯",
+        "citations": 29343,
+        "papers": 1619
+      },
+      {
+        "rank": 5335,
+        "name": "XIJING UNIVERSITY",
+        "cnName": "西京学院",
+        "citations": 29193,
+        "papers": 2543
+      },
+      {
+        "rank": 5348,
+        "name": "PURPLE MOUNTAIN LABORATORIES",
+        "cnName": "紫金山实验室",
+        "citations": 29044,
+        "papers": 2523
+      },
+      {
+        "rank": 5364,
+        "name": "YUNNAN MINZU UNIVERSITY",
+        "cnName": "云南民族大学",
+        "citations": 28930,
+        "papers": 2571
+      },
+      {
+        "rank": 5376,
+        "name": "BEIHUA UNIVERSITY",
+        "cnName": "北华大学",
+        "citations": 28821,
+        "papers": 2432
+      },
+      {
+        "rank": 5387,
+        "name": "INSTITUTE OF BIOMEDICAL ENGINEERING - CAMS",
+        "cnName": "中国医学科学院生物医学工程研究所",
+        "citations": 28716,
+        "papers": 1166
+      },
+      {
+        "rank": 5398,
+        "name": "SOUTH CHINA SEA FISHERIES RESEARCH INSTITUTE, CAFS",
+        "cnName": "中国水产科学研究院南海水产研究所",
+        "citations": 28581,
+        "papers": 1970
+      },
+      {
+        "rank": 5400,
+        "name": "ZHEJIANG SHUREN UNIVERSITY",
+        "cnName": "浙江树人大学",
+        "citations": 28577,
+        "papers": 2541
+      },
+      {
+        "rank": 5401,
+        "name": "NATIONAL UNITED UNIVERSITY",
+        "cnName": "国立联合大学",
+        "citations": 28571,
+        "papers": 2048
+      },
+      {
+        "rank": 5403,
+        "name": "HUBEI MINZU UNIVERSITY",
+        "cnName": "湖北民族大学",
+        "citations": 28550,
+        "papers": 2119
+      },
+      {
+        "rank": 5428,
+        "name": "JIAMUSI UNIVERSITY",
+        "cnName": "佳木斯大学",
+        "citations": 28320,
+        "papers": 2361
+      },
+      {
+        "rank": 5429,
+        "name": "NATIONAL CHANGHUA UNIVERSITY OF EDUCATION",
+        "cnName": "国立彰化师范大学",
+        "citations": 28312,
+        "papers": 2701
+      },
+      {
+        "rank": 5435,
+        "name": "CENTER FOR AGRICULTURAL RESOURCES RESEARCH, INSTITUTE OF GENETIC & DEVELOPMENTAL BIOLOGY, CAS",
+        "cnName": "中国科学院遗传与发育生物学研究所农业资源研究中心",
+        "citations": 28280,
+        "papers": 1059
+      },
+      {
+        "rank": 5448,
+        "name": "BIOTECHNOLOGY RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院生物技术研究所",
+        "citations": 28199,
+        "papers": 1176
+      },
+      {
+        "rank": 5457,
+        "name": "CHINESE ACADEMY OF SOCIAL SCIENCES",
+        "cnName": "中国社会科学院",
+        "citations": 28105,
+        "papers": 1937
+      },
+      {
+        "rank": 5467,
+        "name": "CHAOYANG UNIVERSITY OF TECHNOLOGY",
+        "cnName": "朝阳科技大学",
+        "citations": 28000,
+        "papers": 2549
+      },
+      {
+        "rank": 5500,
+        "name": "ACADEMY FUNDAMENTAL & INTERDISCIPLINARY SCIENCE",
+        "cnName": "基础与交叉科学研究院",
+        "citations": 27661,
+        "papers": 663
+      },
+      {
+        "rank": 5501,
+        "name": "XI'AN MODERN CHEMISTRY RESEARCH INSTITUTE",
+        "cnName": "西安近代化学研究所",
+        "citations": 27652,
+        "papers": 2059
+      },
+      {
+        "rank": 5505,
+        "name": "JILIN UNIVERSITY OF CHEMICAL TECHNOLOGY",
+        "cnName": "吉林化工学院",
+        "citations": 27587,
+        "papers": 1775
+      },
+      {
+        "rank": 5506,
+        "name": "NATIONAL TAIPEI UNIVERSITY OF NURSING & HEALTH SCIENCE (NTUNHS)",
+        "cnName": "国立台北护理健康大学",
+        "citations": 27574,
+        "papers": 2250
+      },
+      {
+        "rank": 5511,
+        "name": "CHINESE ACADEMY OF ENVIRONMENTAL PLANNING",
+        "cnName": "中国环境规划院",
+        "citations": 27496,
+        "papers": 1044
+      },
+      {
+        "rank": 5530,
+        "name": "HUBEI UNIVERSITY OF AUTOMOTIVE TECHNOLOGY",
+        "cnName": "湖北汽车工业学院",
+        "citations": 27317,
+        "papers": 1793
+      },
+      {
+        "rank": 5535,
+        "name": "QINGHAI NORMAL UNIVERSITY",
+        "cnName": "青海师范大学",
+        "citations": 27280,
+        "papers": 2623
+      },
+      {
+        "rank": 5566,
+        "name": "SHENZHEN CENTER FOR DISEASE CONTROL & PREVENTION (SZCDC)",
+        "cnName": "深圳市疾病预防控制中心",
+        "citations": 26971,
+        "papers": 1135
+      },
+      {
+        "rank": 5582,
+        "name": "CHENG HSIN GENERAL HOSPITAL",
+        "cnName": "振兴医院",
+        "citations": 26859,
+        "papers": 1569
+      },
+      {
+        "rank": 5586,
+        "name": "TARIM UNIVERSITY",
+        "cnName": "塔里木大学",
+        "citations": 26831,
+        "papers": 2763
+      },
+      {
+        "rank": 5590,
+        "name": "GUANGXI ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "广西农业科学院",
+        "citations": 26772,
+        "papers": 1819
+      },
+      {
+        "rank": 5594,
+        "name": "HUBEI HONGSHAN LABORATORY",
+        "cnName": "湖北洪山实验室",
+        "citations": 26738,
+        "papers": 2546
+      },
+      {
+        "rank": 5614,
+        "name": "HEFEI UNIVERSITY",
+        "cnName": "合肥大学",
+        "citations": 26561,
+        "papers": 2195
+      },
+      {
+        "rank": 5621,
+        "name": "GUANGDONG POLYTECHNIC NORMAL UNIVERSITY",
+        "cnName": "广东技术师范大学",
+        "citations": 26491,
+        "papers": 2793
+      },
+      {
+        "rank": 5629,
+        "name": "HUNAN INSTITUTE OF ENGINEERING",
+        "cnName": "湖南工程学院",
+        "citations": 26408,
+        "papers": 1992
+      },
+      {
+        "rank": 5648,
+        "name": "GENERAL RESEARCH INSTITUTE FOR NONFERROUS METALS",
+        "cnName": "有研科技集团有限公司（原北京有色金属研究总院）",
+        "citations": 26192,
+        "papers": 1563
+      },
+      {
+        "rank": 5649,
+        "name": "NORTHWEST INSTITUTE FOR NONFERROUS METAL RESEARCH - CHINA",
+        "cnName": "西北有色金属研究院",
+        "citations": 26186,
+        "papers": 1982
+      },
+      {
+        "rank": 5650,
+        "name": "NATIONAL INSTITUTE OF METROLOGY CHINA",
+        "cnName": "中国计量科学研究院",
+        "citations": 26185,
+        "papers": 2588
+      },
+      {
+        "rank": 5675,
+        "name": "HUNGKUANG UNIVERSITY",
+        "cnName": "弘光科技大学",
+        "citations": 25950,
+        "papers": 1755
+      },
+      {
+        "rank": 5681,
+        "name": "HUNAN INSTITUTE OF SCIENCE & TECHNOLOGY",
+        "cnName": "湖南理工学院",
+        "citations": 25923,
+        "papers": 1953
+      },
+      {
+        "rank": 5694,
+        "name": "HEBEI GEO UNIVERSITY",
+        "cnName": "河北地质大学",
+        "citations": 25813,
+        "papers": 2159
+      },
+      {
+        "rank": 5705,
+        "name": "HEBEI NORTH UNIVERSITY",
+        "cnName": "河北北方学院",
+        "citations": 25723,
+        "papers": 2354
+      },
+      {
+        "rank": 5713,
+        "name": "INSTITUTE OF ACOUSTICS, CAS",
+        "cnName": "中国科学院声学研究所",
+        "citations": 25653,
+        "papers": 2056
+      },
+      {
+        "rank": 5724,
+        "name": "ANQING NORMAL UNIVERSITY",
+        "cnName": "安庆师范大学",
+        "citations": 25574,
+        "papers": 2284
+      },
+      {
+        "rank": 5725,
+        "name": "SHANDONG UNIVERSITY OF AERONAUTICS",
+        "cnName": "山东航空学院",
+        "citations": 25572,
+        "papers": 1850
+      },
+      {
+        "rank": 5727,
+        "name": "INSTITUTE OF MEDICINAL BIOTECHNOLOGY - CAMS",
+        "cnName": "中国医学科学院医药生物技术研究所",
+        "citations": 25563,
+        "papers": 1070
+      },
+      {
+        "rank": 5730,
+        "name": "BEIJING NORMAL-HONG KONG BAPTIST UNIVERSITY",
+        "cnName": "北京师范大学-香港浸会大学联合国际学院",
+        "citations": 25539,
+        "papers": 1540
+      },
+      {
+        "rank": 5747,
+        "name": "SOUTHERN THEATER COMMAND GENERAL HOSPITAL",
+        "cnName": "南部战区总医院",
+        "citations": 25380,
+        "papers": 1189
+      },
+      {
+        "rank": 5753,
+        "name": "HUBEI UNIVERSITY OF ECONOMICS",
+        "cnName": "湖北经济学院",
+        "citations": 25338,
+        "papers": 1468
+      },
+      {
+        "rank": 5778,
+        "name": "MICROSOFT RESEARCH ASIA",
+        "cnName": "微软亚洲研究院",
+        "citations": 25096,
+        "papers": 720
+      },
+      {
+        "rank": 5786,
+        "name": "INSTITUTE OF RADIATION MEDICINE - CAMS",
+        "cnName": "中国医学科学院放射医学研究所",
+        "citations": 25002,
+        "papers": 883
+      },
+      {
+        "rank": 5807,
+        "name": "SHIN KONG WU HO SU MEMORIAL HOSPITAL",
+        "cnName": "新光吴火狮纪念医院",
+        "citations": 24883,
+        "papers": 1597
+      },
+      {
+        "rank": 5809,
+        "name": "BEIJING UNION UNIVERSITY",
+        "cnName": "北京联合大学",
+        "citations": 24838,
+        "papers": 2180
+      },
+      {
+        "rank": 5833,
+        "name": "GUIZHOU UNIVERSITY OF TRADITIONAL CHINESE MEDICINE",
+        "cnName": "贵州中医药大学",
+        "citations": 24657,
+        "papers": 2713
+      },
+      {
+        "rank": 5835,
+        "name": "GUIZHOU UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "贵州财经大学",
+        "citations": 24638,
+        "papers": 2119
+      },
+      {
+        "rank": 5842,
+        "name": "HUNAN CITY UNIVERSITY",
+        "cnName": "湖南城市学院",
+        "citations": 24566,
+        "papers": 1618
+      },
+      {
+        "rank": 5846,
+        "name": "NATIONAL INSTITUTE OF ENVIRONMENTAL HEALTH, CHINESE CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "中国疾病预防控制中心环境与健康相关产品安全所",
+        "citations": 24547,
+        "papers": 811
+      },
+      {
+        "rank": 5850,
+        "name": "YUNNAN UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "云南财经大学",
+        "citations": 24458,
+        "papers": 1752
+      },
+      {
+        "rank": 5857,
+        "name": "CHINESE CULTURE UNIVERSITY",
+        "cnName": "中国文化大学",
+        "citations": 24371,
+        "papers": 2059
+      },
+      {
+        "rank": 5858,
+        "name": "RESEARCH INSTITUTE OF FORESTRY, CAF",
+        "cnName": "中国林业科学研究院林业研究所",
+        "citations": 24369,
+        "papers": 1705
+      },
+      {
+        "rank": 5901,
+        "name": "GUIZHOU INSTITUTE OF TECHNOLOGY",
+        "cnName": "贵州理工学院",
+        "citations": 23993,
+        "papers": 1682
+      },
+      {
+        "rank": 5904,
+        "name": "TONGREN UNIVERSITY",
+        "cnName": "铜仁学院",
+        "citations": 23970,
+        "papers": 1135
+      },
+      {
+        "rank": 5919,
+        "name": "TOBACCO RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院烟草研究所",
+        "citations": 23821,
+        "papers": 1227
+      },
+      {
+        "rank": 5920,
+        "name": "TIANJIN AGRICULTURAL UNIVERSITY",
+        "cnName": "天津农学院",
+        "citations": 23820,
+        "papers": 2031
+      },
+      {
+        "rank": 5922,
+        "name": "CATHAY GENERAL HOSPITAL",
+        "cnName": "国泰综合医院",
+        "citations": 23804,
+        "papers": 1692
+      },
+      {
+        "rank": 5931,
+        "name": "FUJIAN ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "福建省农业科学院",
+        "citations": 23736,
+        "papers": 1865
+      },
+      {
+        "rank": 5939,
+        "name": "JILIN ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "吉林省农业科学院",
+        "citations": 23686,
+        "papers": 1532
+      },
+      {
+        "rank": 5972,
+        "name": "SHANGQIU NORMAL UNIVERSITY",
+        "cnName": "商丘师范学院",
+        "citations": 23464,
+        "papers": 1758
+      },
+      {
+        "rank": 5979,
+        "name": "CHANGSHA MEDICAL UNIVERSITY",
+        "cnName": "长沙医学院",
+        "citations": 23404,
+        "papers": 1297
+      },
+      {
+        "rank": 5981,
+        "name": "YUNNAN UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "云南中医药大学",
+        "citations": 23396,
+        "papers": 2348
+      },
+      {
+        "rank": 5982,
+        "name": "ECOLOGY & NATURE CONSERVATION INSTITUTE, CAF",
+        "cnName": "中国林业科学研究院生态保护与修复研究所",
+        "citations": 23388,
+        "papers": 1417
+      },
+      {
+        "rank": 5983,
+        "name": "SHANGHAI VETERINARY RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院上海兽医研究所",
+        "citations": 23386,
+        "papers": 1388
+      },
+      {
+        "rank": 6007,
+        "name": "SHANDONG TECHNOLOGY & BUSINESS UNIVERSITY",
+        "cnName": "山东工商学院",
+        "citations": 23198,
+        "papers": 2065
+      },
+      {
+        "rank": 6015,
+        "name": "RESEARCH INSTITUTE OF WOOD INDUSTRY, CAF",
+        "cnName": "中国林业科学研究院木材工业研究所",
+        "citations": 23134,
+        "papers": 1268
+      },
+      {
+        "rank": 6041,
+        "name": "BAIDU",
+        "cnName": "百度公司",
+        "citations": 22953,
+        "papers": 939
+      },
+      {
+        "rank": 6063,
+        "name": "BEIBU GULF UNIVERSITY",
+        "cnName": "北部湾大学",
+        "citations": 22731,
+        "papers": 1829
+      },
+      {
+        "rank": 6076,
+        "name": "GUANGDONG PROVINCIAL CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "广东省疾病预防控制中心",
+        "citations": 22652,
+        "papers": 831
+      },
+      {
+        "rank": 6077,
+        "name": "CHINA BAOWU STEEL GROUP",
+        "cnName": "中国宝武钢铁集团有限公司",
+        "citations": 22635,
+        "papers": 1319
+      },
+      {
+        "rank": 6090,
+        "name": "SOUTHERN TAIWAN UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "南台科技大学",
+        "citations": 22481,
+        "papers": 1954
+      },
+      {
+        "rank": 6092,
+        "name": "HEBEI ACADEMY OF AGRICULTURAL & FORESTRY SCIENCES",
+        "cnName": "河北省农林科学院",
+        "citations": 22478,
+        "papers": 1457
+      },
+      {
+        "rank": 6108,
+        "name": "GUANGDONG UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "广东财经大学",
+        "citations": 22325,
+        "papers": 1885
+      },
+      {
+        "rank": 6136,
+        "name": "YOUJIANG MEDICAL UNIVERSITY FOR NATIONALITIES",
+        "cnName": "右江民族医学院",
+        "citations": 22118,
+        "papers": 2314
+      },
+      {
+        "rank": 6144,
+        "name": "NATIONAL TAIPEI UNIVERSITY",
+        "cnName": "台北大学",
+        "citations": 22038,
+        "papers": 1788
+      },
+      {
+        "rank": 6145,
+        "name": "STATE KEY LABORATORY OF TREE GENETICS & BREEDING, CAF",
+        "cnName": "中国林业科学研究院林木遗传育种国家重点实验室",
+        "citations": 22027,
+        "papers": 1455
+      },
+      {
+        "rank": 6150,
+        "name": "NEIJIANG NORMAL UNIVERSITY",
+        "cnName": "内江师范学院",
+        "citations": 22008,
+        "papers": 1553
+      },
+      {
+        "rank": 6164,
+        "name": "SHANXI PEOPLE'S HOSPITAL",
+        "cnName": "山西省人民医院",
+        "citations": 21876,
+        "papers": 1876
+      },
+      {
+        "rank": 6166,
+        "name": "INSTITUTE OF ELECTRONICS, CAS",
+        "cnName": "中国科学院电子学研究所",
+        "citations": 21870,
+        "papers": 1122
+      },
+      {
+        "rank": 6169,
+        "name": "CRRC CORPORATION",
+        "cnName": "中国中车集团有限公司",
+        "citations": 21854,
+        "papers": 1781
+      },
+      {
+        "rank": 6177,
+        "name": "QIQIHAR MEDICAL UNIVERSITY",
+        "cnName": "齐齐哈尔医学院",
+        "citations": 21769,
+        "papers": 1899
+      },
+      {
+        "rank": 6178,
+        "name": "PAMELA YOUDE NETHERSOLE EASTERN HOSPITAL",
+        "cnName": "东区尤德夫人那打素医院",
+        "citations": 21762,
+        "papers": 731
+      },
+      {
+        "rank": 6181,
+        "name": "LIAONING UNIVERSITY OF TRADITIONAL CHINESE MEDICINE",
+        "cnName": "辽宁中医药大学",
+        "citations": 21744,
+        "papers": 1779
+      },
+      {
+        "rank": 6194,
+        "name": "XINJIANG ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "新疆农业科学院",
+        "citations": 21682,
+        "papers": 1654
+      },
+      {
+        "rank": 6195,
+        "name": "SHANDONG JIAOTONG UNIVERSITY",
+        "cnName": "山东交通学院",
+        "citations": 21681,
+        "papers": 2110
+      },
+      {
+        "rank": 6199,
+        "name": "JINLING INSTITUTE OF TECHNOLOGY",
+        "cnName": "金陵科技学院",
+        "citations": 21654,
+        "papers": 2150
+      },
+      {
+        "rank": 6217,
+        "name": "HEBEI NORMAL UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "河北科技师范学院",
+        "citations": 21475,
+        "papers": 1784
+      },
+      {
+        "rank": 6222,
+        "name": "SHANGHAI LIXIN UNIVERSITY OF ACCOUNTING & FINANCE",
+        "cnName": "上海立信会计金融学院",
+        "citations": 21420,
+        "papers": 1578
+      },
+      {
+        "rank": 6236,
+        "name": "SHENYANG LIGONG UNIVERSITY",
+        "cnName": "沈阳理工大学",
+        "citations": 21266,
+        "papers": 2480
+      },
+      {
+        "rank": 6237,
+        "name": "INSTITUTE OF GEOMECHANICS, CHINESE ACADEMY OF GEOLOGICAL SCIENCES",
+        "cnName": "中国地质科学院地质力学研究所",
+        "citations": 21253,
+        "papers": 1281
+      },
+      {
+        "rank": 6286,
+        "name": "BEIJING INSTITUTE OF AERONAUTICAL MATERIAL",
+        "cnName": "北京航空材料研究院",
+        "citations": 20900,
+        "papers": 1030
+      },
+      {
+        "rank": 6287,
+        "name": "QUJING NORMAL UNIVERSITY",
+        "cnName": "曲靖师范学院",
+        "citations": 20889,
+        "papers": 1511
+      },
+      {
+        "rank": 6307,
+        "name": "MING CHUAN UNIVERSITY",
+        "cnName": "铭传大学",
+        "citations": 20718,
+        "papers": 1907
+      },
+      {
+        "rank": 6313,
+        "name": "GANSU UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "甘肃中医药大学",
+        "citations": 20683,
+        "papers": 2182
+      },
+      {
+        "rank": 6316,
+        "name": "TUEN MUN HOSPITAL",
+        "cnName": "屯门医院",
+        "citations": 20667,
+        "papers": 843
+      },
+      {
+        "rank": 6337,
+        "name": "KAOHSIUNG MUNICIPAL TA-TUNG HOSPITAL",
+        "cnName": "高雄市立大同医院",
+        "citations": 20441,
+        "papers": 1446
+      },
+      {
+        "rank": 6339,
+        "name": "FRESHWATER FISHERIES RESEARCH CENTER, CAFS",
+        "cnName": "中国水产科学研究院淡水渔业研究中心",
+        "citations": 20424,
+        "papers": 1426
+      },
+      {
+        "rank": 6345,
+        "name": "HONG KONG METROPOLITAN UNIVERSITY",
+        "cnName": "香港都会大学",
+        "citations": 20364,
+        "papers": 1918
+      },
+      {
+        "rank": 6354,
+        "name": "BAOTOU MEDICAL COLLEGE",
+        "cnName": "包头医学院",
+        "citations": 20276,
+        "papers": 1441
+      },
+      {
+        "rank": 6366,
+        "name": "NORTHWEST INSTITUTE OF NUCLEAR TECHNOLOGY - CHINA",
+        "cnName": "西北核技术研究所",
+        "citations": 20222,
+        "papers": 2383
+      },
+      {
+        "rank": 6400,
+        "name": "SHENZHEN RESEARCH INSTITUTE OF BIG DATA",
+        "cnName": "深圳大数据研究院",
+        "citations": 19979,
+        "papers": 1034
+      },
+      {
+        "rank": 6407,
+        "name": "FEED RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院饲料研究所",
+        "citations": 19943,
+        "papers": 827
+      },
+      {
+        "rank": 6424,
+        "name": "CHANG JUNG CHRISTIAN UNIVERSITY",
+        "cnName": "长荣大学",
+        "citations": 19842,
+        "papers": 1187
+      },
+      {
+        "rank": 6439,
+        "name": "INSTITUTE OF DEEP-SEA SCIENCE & ENGINEERING, CAS",
+        "cnName": "中国科学院深海科学与工程研究所",
+        "citations": 19712,
+        "papers": 1369
+      },
+      {
+        "rank": 6445,
+        "name": "WEIFANG UNIVERSITY",
+        "cnName": "潍坊学院",
+        "citations": 19682,
+        "papers": 2111
+      },
+      {
+        "rank": 6452,
+        "name": "WEIFANG UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "潍坊科技学院",
+        "citations": 19614,
+        "papers": 1569
+      },
+      {
+        "rank": 6467,
+        "name": "CHINA MOBILE",
+        "cnName": "中国移动通信集团有限公司",
+        "citations": 19466,
+        "papers": 1363
+      },
+      {
+        "rank": 6475,
+        "name": "INTERNATIONAL CENTRE FOR BAMBOO & RATTAN",
+        "cnName": "国际竹藤中心",
+        "citations": 19413,
+        "papers": 1204
+      },
+      {
+        "rank": 6503,
+        "name": "PAZHOU LAB",
+        "cnName": "琶洲实验室",
+        "citations": 19283,
+        "papers": 1601
+      },
+      {
+        "rank": 6510,
+        "name": "SHENZHEN SUN YATSEN CARDIOVASCULAR HOSPITAL",
+        "cnName": "深圳市孙逸仙心血管医院",
+        "citations": 19216,
+        "papers": 103
+      },
+      {
+        "rank": 6529,
+        "name": "XIZANG AGRICULTURAL & ANIMAL HUSBANDRY UNIVERSITY",
+        "cnName": "西藏农牧学院",
+        "citations": 19103,
+        "papers": 1418
+      },
+      {
+        "rank": 6532,
+        "name": "LUOYANG INSTITUTE OF SCIENCE & TECHNOLOGY",
+        "cnName": "洛阳理工学院",
+        "citations": 19084,
+        "papers": 1442
+      },
+      {
+        "rank": 6533,
+        "name": "JINING UNIVERSITY",
+        "cnName": "济宁学院",
+        "citations": 19079,
+        "papers": 1288
+      },
+      {
+        "rank": 6535,
+        "name": "INSTITUTE OF APICULTURAL RESEARCH, CAAS",
+        "cnName": "中国农业科学院蜜蜂研究所",
+        "citations": 19072,
+        "papers": 922
+      },
+      {
+        "rank": 6540,
+        "name": "CHANGZHI MEDICAL COLLEGE",
+        "cnName": "长治医学院",
+        "citations": 19044,
+        "papers": 1658
+      },
+      {
+        "rank": 6561,
+        "name": "NATIONAL RESOURCE CENTER FOR CHINESE MATERIA MEDICA, CACMS",
+        "cnName": "中国中医科学院中药资源中心",
+        "citations": 18946,
+        "papers": 1128
+      },
+      {
+        "rank": 6594,
+        "name": "HUIZHOU UNIVERSITY",
+        "cnName": "惠州学院",
+        "citations": 18722,
+        "papers": 1651
+      },
+      {
+        "rank": 6598,
+        "name": "HEBEI UNIVERSITY OF CHINESE MEDICINE",
+        "cnName": "河北中医药大学",
+        "citations": 18718,
+        "papers": 1595
+      },
+      {
+        "rank": 6602,
+        "name": "MACKAY JUNIOR COLLEGE OF MEDICINE, NURSING & MANAGEMENT",
+        "cnName": "马偕医护管理专科学校",
+        "citations": 18703,
+        "papers": 1396
+      },
+      {
+        "rank": 6623,
+        "name": "SHENZHEN INSTITUTE OF ARTIFICIAL INTELLIGENCE & ROBOTICS FOR SOCIETY",
+        "cnName": "深圳人工智能与机器人研究院",
+        "citations": 18586,
+        "papers": 1001
+      },
+      {
+        "rank": 6655,
+        "name": "NATIONAL TAICHUNG UNIVERSITY OF SCIENCE & TECHNOLOGY",
+        "cnName": "国立台中科技大学",
+        "citations": 18346,
+        "papers": 1544
+      },
+      {
+        "rank": 6663,
+        "name": "CENTRAL TAIWAN UNIVERSITY SCIENCE & TECHNOLOGY",
+        "cnName": "台中科技大学",
+        "citations": 18282,
+        "papers": 1398
+      },
+      {
+        "rank": 6677,
+        "name": "GUANGZHOU MARINE GEOLOGICAL SURVEY",
+        "cnName": "广州海洋地质调查局",
+        "citations": 18212,
+        "papers": 1426
+      },
+      {
+        "rank": 6684,
+        "name": "NATIONAL FORMOSA UNIVERSITY",
+        "cnName": "国立虎尾科技大学",
+        "citations": 18177,
+        "papers": 1818
+      },
+      {
+        "rank": 6688,
+        "name": "CHINA COAL TECHNOLOGY ENGINEERING GROUP",
+        "cnName": "中国煤炭科工集团有限公司",
+        "citations": 18129,
+        "papers": 1611
+      },
+      {
+        "rank": 6692,
+        "name": "CHINA THREE GORGES CORPORATION",
+        "cnName": "中国长江三峡集团有限公司",
+        "citations": 18079,
+        "papers": 1399
+      },
+      {
+        "rank": 6698,
+        "name": "QINGDAO INSTITUTE OF MARINE GEOLOGY (QIMG)",
+        "cnName": "青岛海洋地质研究所",
+        "citations": 18039,
+        "papers": 1144
+      },
+      {
+        "rank": 6707,
+        "name": "SHENYANG MEDICAL COLLEGE",
+        "cnName": "沈阳医学院",
+        "citations": 17976,
+        "papers": 1463
+      },
+      {
+        "rank": 6715,
+        "name": "CHANGZHOU INSTITUTE OF TECHNOLOGY",
+        "cnName": "常州工学院",
+        "citations": 17937,
+        "papers": 2127
+      },
+      {
+        "rank": 6716,
+        "name": "INSTITUTE OF QUALITY STANDARDS & TESTING TECHNOLOGY FOR AGRO-PRODUCTS, CAAS",
+        "cnName": "中国农业科学院农产品质量标准与检测技术研究所",
+        "citations": 17911,
+        "papers": 888
+      },
+      {
+        "rank": 6755,
+        "name": "NATIONAL ENGINEERING RESEARCH CENTER FOR WATER TRANSPORT SAFETY",
+        "cnName": "水路交通工程国家工程研究中心",
+        "citations": 17682,
+        "papers": 758
+      },
+      {
+        "rank": 6778,
+        "name": "KAOHSIUNG MUNICIPAL SIAO-GANG HOSPITAL",
+        "cnName": "高雄市立小港医院",
+        "citations": 17535,
+        "papers": 1254
+      },
+      {
+        "rank": 6779,
+        "name": "JINGCHU UNIVERSITY OF TECHNOLOGY",
+        "cnName": "荆楚理工学院",
+        "citations": 17530,
+        "papers": 1192
+      },
+      {
+        "rank": 6799,
+        "name": "CHINA NATIONAL ENVIRONMENTAL MONITORING CENTRE",
+        "cnName": "中国环境监测总站",
+        "citations": 17392,
+        "papers": 621
+      },
+      {
+        "rank": 6875,
+        "name": "HONG KONG UNIVERSITY OF SCIENCE & TECHNOLOGY (GUANGZHOU)",
+        "cnName": "香港科技大学（广州）",
+        "citations": 16923,
+        "papers": 1980
+      },
+      {
+        "rank": 6884,
+        "name": "INSTITUTE OF DERMATOLOGY - CAMS",
+        "cnName": "中国医学科学院皮肤病研究所",
+        "citations": 16885,
+        "papers": 1051
+      },
+      {
+        "rank": 6885,
+        "name": "INSTITUTE OF GEOPHYSICS, CEA",
+        "cnName": "中国地震局地球物理研究所",
+        "citations": 16882,
+        "papers": 1528
+      },
+      {
+        "rank": 6902,
+        "name": "ZHEJIANG UNIVERSITY OF WATER RESOURCES AND ELECTRIC POWER",
+        "cnName": "浙江水利水电学院",
+        "citations": 16796,
+        "papers": 1529
+      },
+      {
+        "rank": 6907,
+        "name": "CHINESE ACADEMY OF INSPECTION & QUARANTINE",
+        "cnName": "中国检验检疫科学研究院",
+        "citations": 16753,
+        "papers": 1082
+      },
+      {
+        "rank": 6914,
+        "name": "SECOND PEOPLE'S HOSPITAL OF SHENZHEN",
+        "cnName": "深圳市第二人民医院",
+        "citations": 16727,
+        "papers": 1004
+      },
+      {
+        "rank": 6923,
+        "name": "BEIJING SPORT UNIVERSITY",
+        "cnName": "北京体育大学",
+        "citations": 16685,
+        "papers": 2399
+      },
+      {
+        "rank": 6931,
+        "name": "INSTITUTE OF BOTANY, JIANGSU PROVINCE & CHINESE ACADEMY OF SCIENCES",
+        "cnName": "江苏省·中国科学院植物研究所",
+        "citations": 16634,
+        "papers": 1201
+      },
+      {
+        "rank": 6948,
+        "name": "ENGINEERING UNIVERSITY OF THE JOINT LOGISTICS SUPPORT FORCE, PLA",
+        "cnName": "中国人民解放军陆军工程大学",
+        "citations": 16540,
+        "papers": 1048
+      },
+      {
+        "rank": 6957,
+        "name": "SOOCHOW UNIVERSITY",
+        "cnName": "苏州大学",
+        "citations": 16503,
+        "papers": 1514
+      },
+      {
+        "rank": 7008,
+        "name": "NATIONAL MARINE ENVIRONMENTAL MONITORING CENTER",
+        "cnName": "国家海洋环境监测中心",
+        "citations": 16147,
+        "papers": 897
+      },
+      {
+        "rank": 7045,
+        "name": "NORTH CHINA INSTITUTE SCIENCE & TECHNOLOGY",
+        "cnName": "华北科技学院",
+        "citations": 15975,
+        "papers": 1386
+      },
+      {
+        "rank": 7048,
+        "name": "MUDANJIANG MEDICAL UNIVERSITY",
+        "cnName": "牡丹江医科大学",
+        "citations": 15952,
+        "papers": 1420
+      },
+      {
+        "rank": 7052,
+        "name": "TIANJIN UNIVERSITY OF FINANCE & ECONOMICS",
+        "cnName": "天津财经大学",
+        "citations": 15944,
+        "papers": 1059
+      },
+      {
+        "rank": 7058,
+        "name": "INSTITUTE OF URBAN METEOROLOGY, CHINA METEOROLOGICAL ADMINISTRATION",
+        "cnName": "中国气象局城市气象研究所",
+        "citations": 15908,
+        "papers": 851
+      },
+      {
+        "rank": 7070,
+        "name": "INSTITUTE OF SOFTWARE, CAS",
+        "cnName": "中国科学院软件研究所",
+        "citations": 15850,
+        "papers": 1535
+      },
+      {
+        "rank": 7083,
+        "name": "TIANJIN UNIVERSITY OF TECHNOLOGY & EDUCATION",
+        "cnName": "天津职业技术师范大学",
+        "citations": 15805,
+        "papers": 1558
+      },
+      {
+        "rank": 7087,
+        "name": "SHENZHEN HUAZHONG UNIVERSITY OF SCIENCE & TECHNOLOGY RESEARCH INSTITUTE",
+        "cnName": "华中科技大学深圳研究院",
+        "citations": 15784,
+        "papers": 847
+      },
+      {
+        "rank": 7096,
+        "name": "TAIPEI TZU CHI HOSPITAL",
+        "cnName": "台北慈济医院",
+        "citations": 15747,
+        "papers": 1326
+      },
+      {
+        "rank": 7106,
+        "name": "CHENGDE MEDICAL UNIVERSITY",
+        "cnName": "承德医学院",
+        "citations": 15691,
+        "papers": 1725
+      },
+      {
+        "rank": 7111,
+        "name": "NINGBOTECH UNIVERSITY",
+        "cnName": "宁波理工学院",
+        "citations": 15673,
+        "papers": 1557
+      },
+      {
+        "rank": 7137,
+        "name": "NATIONAL SATELLITE METEOROLOGICAL CENTER, CHINA METEOROLOGICAL ADMINISTRATION",
+        "cnName": "中国气象局国家卫星气象中心",
+        "citations": 15549,
+        "papers": 1202
+      },
+      {
+        "rank": 7182,
+        "name": "UNITED CHRISTIAN HOSPITAL",
+        "cnName": "联合基督教医院",
+        "citations": 15292,
+        "papers": 640
+      },
+      {
+        "rank": 7184,
+        "name": "INSTITUTE OF BASIC RESEARCH IN CLINICAL MEDICINE, CACMS",
+        "cnName": "中国中医科学院临床基础医学研究所",
+        "citations": 15288,
+        "papers": 878
+      },
+      {
+        "rank": 7190,
+        "name": "CHINA EUROPE INTERNATIONAL BUSINESS SCHOOL",
+        "cnName": "中欧国际工商学院",
+        "citations": 15269,
+        "papers": 635
+      },
+      {
+        "rank": 7215,
+        "name": "BEIJING GRAPHENE INSTITUTE",
+        "cnName": "北京石墨烯研究院",
+        "citations": 15142,
+        "papers": 402
+      },
+      {
+        "rank": 7221,
+        "name": "SHOW CHWAN MEMORIAL HOSPITAL",
+        "cnName": "秀传纪念医院",
+        "citations": 15117,
+        "papers": 882
+      },
+      {
+        "rank": 7247,
+        "name": "GRADUATE SCHOOL, CAAS",
+        "cnName": "中国农业科学院研究生院",
+        "citations": 14998,
+        "papers": 716
+      },
+      {
+        "rank": 7251,
+        "name": "SHENZHEN INSTITUTE OF MENTAL HEALTH & SHENZHEN KANGNING HOSPITAL",
+        "cnName": "深圳市精神卫生中心暨深圳市康宁医院",
+        "citations": 14991,
+        "papers": 657
+      },
+      {
+        "rank": 7256,
+        "name": "NATIONAL INSTITUTE OF OCCUPATIONAL HEALTH & POISON CONTROL, CHINESE CENTER FOR DISEASE CONTROL & PREVENTION",
+        "cnName": "中国疾病预防控制中心职业卫生与中毒控制所",
+        "citations": 14915,
+        "papers": 387
+      },
+      {
+        "rank": 7258,
+        "name": "LIAONING ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "辽宁省农业科学院",
+        "citations": 14911,
+        "papers": 1263
+      },
+      {
+        "rank": 7271,
+        "name": "INSTITUTE OF NEW MATERIALS, GUANGDONG ACADEMY OF SCIENCES",
+        "cnName": "广东省科学院新材料研究所",
+        "citations": 14826,
+        "papers": 1180
+      },
+      {
+        "rank": 7293,
+        "name": "SHANGHAI DIANJI UNIVERSITY",
+        "cnName": "上海电机学院",
+        "citations": 14693,
+        "papers": 1820
+      },
+      {
+        "rank": 7298,
+        "name": "HANG SENG UNIVERSITY OF HONG KONG",
+        "cnName": "香港恒生大学",
+        "citations": 14669,
+        "papers": 992
+      },
+      {
+        "rank": 7355,
+        "name": "BIOGAS INSTITUTE OF MINISTRY OF AGRICULTURE, CAAS",
+        "cnName": "农业农村部沼气科学研究所（中国农业科学院）",
+        "citations": 14390,
+        "papers": 506
+      },
+      {
+        "rank": 7423,
+        "name": "SHANGHAI INTERNATIONAL STUDIES UNIVERSITY",
+        "cnName": "上海外国语大学",
+        "citations": 14105,
+        "papers": 1706
+      },
+      {
+        "rank": 7428,
+        "name": "PEARL RIVER FISHERIES RESEARCH INSTITUTE, CAFS",
+        "cnName": "中国水产科学研究院珠江水产研究所",
+        "citations": 14079,
+        "papers": 1058
+      },
+      {
+        "rank": 7430,
+        "name": "SHENZHEN INSTITUTE OF ADVANCED ELECTRONIC MATERIALS",
+        "cnName": "深圳先进电子材料国际创新研究院",
+        "citations": 14074,
+        "papers": 595
+      },
+      {
+        "rank": 7451,
+        "name": "CHEMISTRY & CHEMICAL ENGINEERING GUANGDONG LABORATORY",
+        "cnName": "广东化学与化学工程实验室",
+        "citations": 13961,
+        "papers": 560
+      },
+      {
+        "rank": 7477,
+        "name": "CIVIL AVIATION FLIGHT UNIVERSITY OF CHINA",
+        "cnName": "中国民用航空飞行学院",
+        "citations": 13807,
+        "papers": 1983
+      },
+      {
+        "rank": 7483,
+        "name": "RESEARCH INSTITUTE OF SUBTROPICAL FORESTRY, CAF",
+        "cnName": "中国林业科学研究院亚热带林业研究所",
+        "citations": 13763,
+        "papers": 915
+      },
+      {
+        "rank": 7535,
+        "name": "CHINA NATIONAL NUCLEAR CORPORATION",
+        "cnName": "中国核工业集团有限公司",
+        "citations": 13507,
+        "papers": 1165
+      },
+      {
+        "rank": 7553,
+        "name": "FOOYIN UNIVERSITY",
+        "cnName": "辅英科技大学",
+        "citations": 13402,
+        "papers": 1205
+      },
+      {
+        "rank": 7572,
+        "name": "SHANGHAI UNIVERSITY OF INTERNATIONAL BUSINESS & ECONOMICS",
+        "cnName": "上海对外经贸大学",
+        "citations": 13305,
+        "papers": 1262
+      },
+      {
+        "rank": 7596,
+        "name": "COMMUNICATION UNIVERSITY OF CHINA",
+        "cnName": "中国传媒大学",
+        "citations": 13180,
+        "papers": 1802
+      },
+      {
+        "rank": 7601,
+        "name": "JIANGXI ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "江西省农业科学院",
+        "citations": 13166,
+        "papers": 936
+      },
+      {
+        "rank": 7613,
+        "name": "JIANGSU HENGRUI MEDICINE CO., LTD.",
+        "cnName": "江苏恒瑞医药股份有限公司",
+        "citations": 13108,
+        "papers": 406
+      },
+      {
+        "rank": 7638,
+        "name": "TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY",
+        "cnName": "台湾积体电路制造股份有限公司",
+        "citations": 12950,
+        "papers": 554
+      },
+      {
+        "rank": 7640,
+        "name": "ALICE HO MIU LING NETHERSOLE HOSPITAL",
+        "cnName": "雅丽氏何妙龄那打素医院",
+        "citations": 12941,
+        "papers": 318
+      },
+      {
+        "rank": 7661,
+        "name": "CHONGQING ACADEMY OF SCIENCE & TECHNOLOGY",
+        "cnName": "重庆市科学技术研究院",
+        "citations": 12861,
+        "papers": 421
+      },
+      {
+        "rank": 7740,
+        "name": "INSTITUTE OF HYDROGEOLOGY & ENVIRONMENTAL GEOLOGY, CHINESE ACADEMY OF GEOLOGICAL SCIENCES",
+        "cnName": "中国地质科学院水文地质环境地质研究所",
+        "citations": 12533,
+        "papers": 852
+      },
+      {
+        "rank": 7745,
+        "name": "INSTITUTE OF URBAN AGRICULTURE, CAAS",
+        "cnName": "中国农业科学院都市农业研究所",
+        "citations": 12518,
+        "papers": 563
+      },
+      {
+        "rank": 7759,
+        "name": "SIXTH MEDICAL CENTER OF CHINESE PLA GENERAL HOSPITAL",
+        "cnName": "中国人民解放军总医院第六医学中心",
+        "citations": 12480,
+        "papers": 642
+      },
+      {
+        "rank": 7812,
+        "name": "INSTITUTE OF ENGINEERING MECHANICS, CEA",
+        "cnName": "中国地震局工程力学研究所",
+        "citations": 12258,
+        "papers": 1234
+      },
+      {
+        "rank": 7885,
+        "name": "THERMAL POWER RESEARCH INSTITUTE CO LTD",
+        "cnName": "西安热工研究院有限公司",
+        "citations": 11896,
+        "papers": 803
+      },
+      {
+        "rank": 7976,
+        "name": "EAST CHINA SEA FISHERIES RESEARCH INSTITUTE, CAFS",
+        "cnName": "中国水产科学研究院东海水产研究所",
+        "citations": 11497,
+        "papers": 1119
+      },
+      {
+        "rank": 8007,
+        "name": "ZHENGZHOU FRUIT RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院郑州果树研究所",
+        "citations": 11335,
+        "papers": 607
+      },
+      {
+        "rank": 8020,
+        "name": "SPACE ENGINEERING UNIVERSITY",
+        "cnName": "航天工程大学",
+        "citations": 11304,
+        "papers": 1469
+      },
+      {
+        "rank": 8047,
+        "name": "FU JEN CATHOLIC UNIVERSITY HOSPITAL",
+        "cnName": "辅仁大学附属医院",
+        "citations": 11186,
+        "papers": 902
+      },
+      {
+        "rank": 8051,
+        "name": "INSTITUTE OF ZOOLOGY, GUANGDONG ACADEMY OF SCIENCES",
+        "cnName": "广东省科学院动物研究所",
+        "citations": 11168,
+        "papers": 955
+      },
+      {
+        "rank": 8052,
+        "name": "GANSU ACADEMY OF AGRICULTURAL SCIENCES",
+        "cnName": "甘肃省农业科学院",
+        "citations": 11161,
+        "papers": 738
+      },
+      {
+        "rank": 8058,
+        "name": "CHINA SHIP SCIENTIFIC RESEARCH CENTER",
+        "cnName": "中国船舶科学研究中心",
+        "citations": 11113,
+        "papers": 1172
+      },
+      {
+        "rank": 8060,
+        "name": "YANGTZE RIVER FISHERIES RESEARCH INSTITUTE, CAFS",
+        "cnName": "中国水产科学院长江水产研究所",
+        "citations": 11099,
+        "papers": 1023
+      },
+      {
+        "rank": 8082,
+        "name": "KEY LABORATORY OF ANIMAL BIOTECHNOLOGY & DISEASE CONTROL & PREVENTION OF SHANDONG PROVINCE",
+        "cnName": "山东省动物生物技术与疫病防控重点实验室",
+        "citations": 11038,
+        "papers": 595
+      },
+      {
+        "rank": 8114,
+        "name": "ZTE",
+        "cnName": "中兴通讯股份有限公司",
+        "citations": 10936,
+        "papers": 751
+      },
+      {
+        "rank": 8149,
+        "name": "TECHNOLOGY & ENGINEERING CENTER FOR SPACE UTILIZATION, CAS",
+        "cnName": "中国科学院空间应用工程与技术中心",
+        "citations": 10764,
+        "papers": 749
+      },
+      {
+        "rank": 8194,
+        "name": "INSTITUTES OF SCIENCE & DEVELOPMENT, CAS",
+        "cnName": "中国科学院科技战略咨询研究院",
+        "citations": 10575,
+        "papers": 216
+      },
+      {
+        "rank": 8248,
+        "name": "FARMLAND IRRIGATION RESEARCH INSTITUTE, CAAS",
+        "cnName": "中国农业科学院农田灌溉研究所",
+        "citations": 10382,
+        "papers": 416
+      },
+      {
+        "rank": 8274,
+        "name": "SIEMENS CHINA",
+        "cnName": "西门子（中国）有限公司",
+        "citations": 10278,
+        "papers": 765
+      },
+      {
+        "rank": 8283,
+        "name": "NATIONAL METEOROLOGICAL INFORMATION CENTER, CHINA METEOROLOGICAL ADMINISTRATION",
+        "cnName": "中国气象局国家气象信息中心",
+        "citations": 10241,
+        "papers": 389
+      },
+      {
+        "rank": 8306,
+        "name": "NATIONAL METEOROLOGICAL CENTER, CHINA METEOROLOGICAL ADMINISTRATION",
+        "cnName": "中国气象局国家气象中心",
+        "citations": 10170,
+        "papers": 662
+      },
+      {
+        "rank": 8372,
+        "name": "GUANGZHOU INSTITUTE OF TROPICAL & MARINE METEOROLOGY, CHINA METEOROLOGICAL ADMINISTRATION",
+        "cnName": "中国气象局广州热带海洋气象研究所",
+        "citations": 9895,
+        "papers": 669
+      },
+      {
+        "rank": 8409,
+        "name": "CHINA AEROSPACE SCIENCE & TECHNOLOGY CORPORATION (CASC)",
+        "cnName": "中国航天科技集团有限公司",
+        "citations": 9727,
+        "papers": 859
+      },
+      {
+        "rank": 8451,
+        "name": "CHINA SHIPBUILDING INDUSTRY CORPORATION",
+        "cnName": "中国船舶工业集团有限公司",
+        "citations": 9549,
+        "papers": 622
+      },
+      {
+        "rank": 8492,
+        "name": "NATIONAL TAICHUNG UNIVERSITY OF EDUCATION",
+        "cnName": "台中教育大学",
+        "citations": 9383,
+        "papers": 755
+      },
+      {
+        "rank": 8566,
+        "name": "DALIN TZU CHI HOSPITAL",
+        "cnName": "大林慈济医院",
+        "citations": 9093,
+        "papers": 855
+      },
+      {
+        "rank": 8581,
+        "name": "RESEARCH INSTITUTE OF TROPICAL FORESTRY, CAF",
+        "cnName": "中国林业科学研究院热带林业研究所",
+        "citations": 9011,
+        "papers": 633
+      },
+      {
+        "rank": 8584,
+        "name": "METEOROLOGICAL OBSERVATION CENTER, CHINA METEOROLOGICAL ADMINISTRATION",
+        "cnName": "中国气象局气象探测中心",
+        "citations": 9002,
+        "papers": 503
+      },
+      {
+        "rank": 8655,
+        "name": "HAINAN SEED INDUSTRY LABORATORY",
+        "cnName": "海南种子创新研究院",
+        "citations": 8749,
+        "papers": 677
+      },
+      {
+        "rank": 8780,
+        "name": "SHANGHAI CHENSHAN BOTANICAL GARDEN",
+        "cnName": "上海辰山植物园",
+        "citations": 8360,
+        "papers": 322
+      },
+      {
+        "rank": 8860,
+        "name": "POWERCHINA HUADONG ENGINEERING CORPORATION LIMITED",
+        "cnName": "中国电建集团华东勘测设计研究院有限公司",
+        "citations": 8122,
+        "papers": 808
+      },
+      {
+        "rank": 8904,
+        "name": "KWONG WAH HOSPITAL",
+        "cnName": "广华医院",
+        "citations": 7991,
+        "papers": 485
+      },
+      {
+        "rank": 8935,
+        "name": "PLASTIC SURGERY HOSPITAL - CAMS",
+        "cnName": "中国医学科学院整形外科医院",
+        "citations": 7891,
+        "papers": 695
+      },
+      {
+        "rank": 9367,
+        "name": "CHENGDU CENTER, CHINA GEOLOGICAL SURVEY",
+        "cnName": "中国地质调查局成都地质调查中心",
+        "citations": 7466,
+        "papers": 606
+      },
+      {
+        "rank": 9488,
+        "name": "CHINA NUCLEAR POWER ENGINEERING CO LTD.",
+        "cnName": "中核工程有限公司",
+        "citations": 7018,
+        "papers": 1089
+      },
+      {
+        "rank": 9495,
+        "name": "BEIJING FOREIGN STUDIES UNIVERSITY",
+        "cnName": "北京外国语大学",
+        "citations": 6995,
+        "papers": 1001
+      },
+      {
+        "rank": 9550,
+        "name": "CHIA-YI CHRISTIAN HOSPITAL",
+        "cnName": "嘉义基督教医院",
+        "citations": 6831,
+        "papers": 454
+      },
+      {
+        "rank": 9681,
+        "name": "ZHONGSHAN PEOPLE'S HOSPITAL",
+        "cnName": "中山市人民医院",
+        "citations": 6411,
+        "papers": 359
+      },
+      {
+        "rank": 9734,
+        "name": "WEICHAI POWER CO., LTD.",
+        "cnName": "潍柴动力股份有限公司",
+        "citations": 6253,
+        "papers": 486
+      },
+      {
+        "rank": 9850,
+        "name": "MEDIATEK INCORPORATED",
+        "cnName": "联发科技股份有限公司",
+        "citations": 5875,
+        "papers": 363
+      },
+      {
+        "rank": 9881,
+        "name": "BEIJING INTERNATIONAL STUDIES UNIVERSITY",
+        "cnName": "北京第二外国语学院",
+        "citations": 5784,
+        "papers": 454
+      },
+      {
+        "rank": 10052,
+        "name": "MARINE DESIGN & RESEARCH INSTITUTE OF CHINA (MARIC)",
+        "cnName": "中国船舶及海洋工程设计研究院",
+        "citations": 5250,
+        "papers": 633
+      },
+      {
+        "rank": 10230,
+        "name": "NATIONAL KAOHSIUNG UNIVERSITY OF HOSPITALITY & TOURISM",
+        "cnName": "国立高雄餐旅大学",
+        "citations": 4716,
+        "papers": 350
+      }
+    ],
+    "domesticRank": 556,
+    "publicationTrend": [
+      {
+        "year": "2015",
+        "papers": 151,
+        "citations": 3506,
+        "cpp": 23.22,
+        "cnci": 0.81,
+        "baselineCpp": 32.21
+      },
+      {
+        "year": "2016",
+        "papers": 152,
+        "citations": 3738,
+        "cpp": 24.59,
+        "cnci": 0.77,
+        "baselineCpp": 30.22
+      },
+      {
+        "year": "2017",
+        "papers": 186,
+        "citations": 5194,
+        "cpp": 27.92,
+        "cnci": 1.01,
+        "baselineCpp": 29.21
+      },
+      {
+        "year": "2018",
+        "papers": 230,
+        "citations": 6525,
+        "cpp": 28.37,
+        "cnci": 1.04,
+        "baselineCpp": 27.47
+      },
+      {
+        "year": "2019",
+        "papers": 284,
+        "citations": 7754,
+        "cpp": 27.3,
+        "cnci": 1.13,
+        "baselineCpp": 24.62
+      },
+      {
+        "year": "2020",
+        "papers": 297,
+        "citations": 6563,
+        "cpp": 22.1,
+        "cnci": 1.05,
+        "baselineCpp": 22.23
+      },
+      {
+        "year": "2021",
+        "papers": 405,
+        "citations": 8994,
+        "cpp": 22.21,
+        "cnci": 1.21,
+        "baselineCpp": 17.54
+      },
+      {
+        "year": "2022",
+        "papers": 513,
+        "citations": 7299,
+        "cpp": 14.23,
+        "cnci": 1.14,
+        "baselineCpp": 12.45
+      },
+      {
+        "year": "2023",
+        "papers": 574,
+        "citations": 6132,
+        "cpp": 10.68,
+        "cnci": 1.29,
+        "baselineCpp": 8.52
+      },
+      {
+        "year": "2024",
+        "papers": 642,
+        "citations": 3315,
+        "cpp": 5.16,
+        "cnci": 1.23,
+        "baselineCpp": 4.27
+      },
+      {
+        "year": "2025",
+        "papers": 564,
+        "citations": 426,
+        "cpp": 0.76,
+        "cnci": 0.97,
+        "baselineCpp": 0.82
+      }
+    ],
+    "topAuthors": [
+      {
+        "name": "Mai, Xianmin",
+        "dept": "Sch Urban Planning & Architecture",
+        "papers": 63,
+        "citations": 4784,
+        "cpp": 75.94,
+        "contribution": "8.05%"
+      },
+      {
+        "name": "Yang, Sheng-Tao",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 88,
+        "citations": 2107,
+        "cpp": 23.94,
+        "contribution": "3.54%"
+      },
+      {
+        "name": "Zeng, Rui",
+        "dept": "Coll Pharm",
+        "papers": 61,
+        "citations": 2003,
+        "cpp": 32.84,
+        "contribution": "3.37%"
+      },
+      {
+        "name": "Li, Xinying",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 41,
+        "citations": 1667,
+        "cpp": 40.66,
+        "contribution": "2.80%"
+      },
+      {
+        "name": "Xu, Ming",
+        "dept": " Key Lab Informat Mat Sichuan Prov, Sch Elect & Informat Engn",
+        "papers": 41,
+        "citations": 1448,
+        "cpp": 35.32,
+        "contribution": "2.44%"
+      },
+      {
+        "name": "Wang, Jun",
+        "dept": "Coll Elect & Informat Engn",
+        "papers": 36,
+        "citations": 1354,
+        "cpp": 37.61,
+        "contribution": "2.28%"
+      },
+      {
+        "name": "Yang, Yaoyue",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 27,
+        "citations": 1272,
+        "cpp": 47.11,
+        "contribution": "2.14%"
+      },
+      {
+        "name": "Zhou, Qingping",
+        "dept": " Inst Qinghai Tibetan Plateau",
+        "papers": 81,
+        "citations": 1211,
+        "cpp": 14.95,
+        "contribution": "2.04%"
+      },
+      {
+        "name": "Zhang, Qiuping",
+        "dept": "Key Lab Informat Mat Sichuan Prov, Sch Elect & Informat Engn",
+        "papers": 20,
+        "citations": 1150,
+        "cpp": 57.5,
+        "contribution": "1.93%"
+      },
+      {
+        "name": "Yong, Yuan",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 22,
+        "citations": 1120,
+        "cpp": 50.91,
+        "contribution": "1.88%"
+      },
+      {
+        "name": "Zhao, Yajun",
+        "dept": "Coll Sociol & Psychol",
+        "papers": 39,
+        "citations": 1110,
+        "cpp": 28.46,
+        "contribution": "1.87%"
+      },
+      {
+        "name": "Zhao, Zhigang",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 69,
+        "citations": 1036,
+        "cpp": 15.01,
+        "contribution": "1.74%"
+      },
+      {
+        "name": "Li, Jian",
+        "dept": "Inst Qinghai Tibetan Plateau",
+        "papers": 80,
+        "citations": 1015,
+        "cpp": 12.69,
+        "contribution": "1.71%"
+      },
+      {
+        "name": "Wang, Jiabo",
+        "dept": "Key Lab Qinghai Tibetan Plateau Anim Genet Resourc",
+        "papers": 28,
+        "citations": 931,
+        "cpp": 33.25,
+        "contribution": "1.57%"
+      },
+      {
+        "name": "Yuan, Huan",
+        "dept": "Key Lab Informat Mat Sichuan Prov, Sch Elect & Informat Engn",
+        "papers": 23,
+        "citations": 917,
+        "cpp": 39.87,
+        "contribution": "1.54%"
+      },
+      {
+        "name": "Tang, Cheng",
+        "dept": "Coll Life Sci & Technol",
+        "papers": 72,
+        "citations": 897,
+        "cpp": 12.46,
+        "contribution": "1.51%"
+      },
+      {
+        "name": "Luo, Jianbin",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 35,
+        "citations": 896,
+        "cpp": 25.6,
+        "contribution": "1.51%"
+      },
+      {
+        "name": "Ma, Jian",
+        "dept": "Phys Dept",
+        "papers": 66,
+        "citations": 783,
+        "cpp": 11.86,
+        "contribution": "1.32%"
+      },
+      {
+        "name": "Wu, Bo",
+        "dept": "Sichuan Prov Key Lab Informat Mat",
+        "papers": 48,
+        "citations": 733,
+        "cpp": 15.27,
+        "contribution": "1.23%"
+      },
+      {
+        "name": "Gu, Jian",
+        "dept": "Coll Pharm",
+        "papers": 47,
+        "citations": 732,
+        "cpp": 15.57,
+        "contribution": "1.23%"
+      }
+    ]
   }
 }

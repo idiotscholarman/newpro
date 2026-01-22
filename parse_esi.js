@@ -1,15 +1,27 @@
-const xlsx = require('xlsx');
-const path = require('path');
-const fs = require('fs');
+import xlsx from 'xlsx';
+import path from 'path';
+import fs from 'fs';
 
-const logFile = 'd:/home_project/vibe_coding/esi_debug_log.txt';
+const logFile = 'esi_debug_log.txt';
 function log(msg) {
     fs.appendFileSync(logFile, msg + '\n');
 }
 
 log("Script started");
 
-const filePath = 'd:/home_project/vibe_coding/data/esi_institution/202511/IndicatorsExport.xlsx';
+const baseInstDir = path.join(path.resolve(), 'data/esi_institution');
+let latestFolder = '202511';
+try {
+    const folders = fs.readdirSync(baseInstDir).filter(f => /^\d+$/.test(f) && fs.statSync(path.join(baseInstDir, f)).isDirectory());
+    if (folders.length > 0) {
+        latestFolder = folders.sort().reverse()[0];
+        log("Detected latest ESI data folder: " + latestFolder);
+    }
+} catch (e) {
+    log("Warning: Could not detect latest folder, using default: " + latestFolder);
+}
+
+const filePath = path.join(baseInstDir, latestFolder, 'IndicatorsExport.xlsx');
 log("File path: " + filePath);
 
 try {
@@ -31,7 +43,7 @@ try {
         Headers: Object.keys(data[0] || {}),
         FirstRow: data[0]
     };
-    fs.writeFileSync('d:/home_project/vibe_coding/esi_debug.json', JSON.stringify(output, null, 2));
+    fs.writeFileSync('esi_debug.json', JSON.stringify(output, null, 2));
     log("Written to esi_debug.json");
 
 } catch (error) {
