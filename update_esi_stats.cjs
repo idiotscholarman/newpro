@@ -307,7 +307,9 @@ try {
 
                 try {
                     log(`Reading data for ${year} from ${file}...`);
-                    const wb = xlsx.readFile(path.join(pubsDir, file));
+                    // Use readFileSync + read to avoid "Bad uncompressed size" errors
+                    const buf = fs.readFileSync(path.join(pubsDir, file));
+                    const wb = xlsx.read(buf, { type: 'buffer' });
                     const ws = wb.Sheets[wb.SheetNames[0]];
                     const pRows = xlsx.utils.sheet_to_json(ws, { header: 1 });
 
@@ -394,7 +396,8 @@ try {
     if (fs.existsSync(authorFile)) {
         try {
             log("Reading author contributions...");
-            const wb = xlsx.readFile(authorFile);
+            const buf = fs.readFileSync(authorFile);
+            const wb = xlsx.read(buf, { type: 'buffer' });
             const ws = wb.Sheets[wb.SheetNames[0]];
             const rows = xlsx.utils.sheet_to_json(ws, { header: 1 });
 

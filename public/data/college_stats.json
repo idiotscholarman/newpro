@@ -1,86 +1,146 @@
 [
   {
-    "name": "化学与环境工程学院",
-    "papers": 278,
-    "citations": 13386,
-    "cpp": "48.15"
+    "name": "化学与环境学院",
+    "papers": 793,
+    "citations": 16935,
+    "cpp": "21.36"
   },
   {
-    "name": "青藏高原研究院",
-    "papers": 147,
-    "citations": 6609,
-    "cpp": "44.96"
+    "name": "畜牧兽医学院",
+    "papers": 652,
+    "citations": 6147,
+    "cpp": "9.43"
+  },
+  {
+    "name": "草地资源学院",
+    "papers": 539,
+    "citations": 7071,
+    "cpp": "13.12"
+  },
+  {
+    "name": "药学与食品学院",
+    "papers": 502,
+    "citations": 8369,
+    "cpp": "16.67"
   },
   {
     "name": "电子信息学院",
-    "papers": 117,
-    "citations": 6284,
-    "cpp": "53.71"
+    "papers": 397,
+    "citations": 7705,
+    "cpp": "19.41"
   },
   {
-    "name": "药学院",
-    "papers": 107,
-    "citations": 5114,
-    "cpp": "47.79"
+    "name": "计算机与人工智能学院",
+    "papers": 240,
+    "citations": 3006,
+    "cpp": "12.53"
   },
   {
     "name": "生命科学与技术学院",
-    "papers": 99,
-    "citations": 3945,
-    "cpp": "39.85"
+    "papers": 234,
+    "citations": 4956,
+    "cpp": "21.18"
   },
   {
-    "name": "建筑与城市规划学院",
-    "papers": 53,
-    "citations": 4988,
-    "cpp": "94.11"
+    "name": "建筑学院",
+    "papers": 152,
+    "citations": 5476,
+    "cpp": "36.03"
   },
   {
-    "name": "计算机科学与工程学院",
-    "papers": 40,
-    "citations": 2207,
-    "cpp": "55.17"
+    "name": "教育学与心理学学院",
+    "papers": 104,
+    "citations": 1543,
+    "cpp": "14.84"
   },
   {
-    "name": "社会学与心理学学院",
-    "papers": 38,
-    "citations": 1717,
-    "cpp": "45.18"
-  },
-  {
-    "name": "食品科学与技术学院",
-    "papers": 38,
-    "citations": 1129,
-    "cpp": "29.71"
+    "name": "电气工程学院",
+    "papers": 102,
+    "citations": 736,
+    "cpp": "7.22"
   },
   {
     "name": "经济学院",
-    "papers": 13,
-    "citations": 725,
-    "cpp": "55.77"
+    "papers": 83,
+    "citations": 977,
+    "cpp": "11.77"
   },
   {
-    "name": "商学院/管理学院",
-    "papers": 13,
-    "citations": 410,
-    "cpp": "31.54"
-  },
-  {
-    "name": "旅游与历史文化学院",
-    "papers": 10,
-    "citations": 480,
-    "cpp": "48.00"
+    "name": "管理学院",
+    "papers": 82,
+    "citations": 844,
+    "cpp": "10.29"
   },
   {
     "name": "数学学院",
+    "papers": 72,
+    "citations": 425,
+    "cpp": "5.90"
+  },
+  {
+    "name": "历史文化学院（旅游学院）",
+    "papers": 41,
+    "citations": 635,
+    "cpp": "15.49"
+  },
+  {
+    "name": "民族学与社会学学院（西南民族研究院）",
+    "papers": 34,
+    "citations": 985,
+    "cpp": "28.97"
+  },
+  {
+    "name": "艺术学院",
+    "papers": 21,
+    "citations": 76,
+    "cpp": "3.62"
+  },
+  {
+    "name": "体育学院",
+    "papers": 13,
+    "citations": 113,
+    "cpp": "8.69"
+  },
+  {
+    "name": "外国语言文学学院",
+    "papers": 13,
+    "citations": 57,
+    "cpp": "4.38"
+  },
+  {
+    "name": "中国语言文学学院、民族语言文学研究院、藏羌彝文化研究院",
     "papers": 6,
-    "citations": 196,
-    "cpp": "32.67"
+    "citations": 95,
+    "cpp": "15.83"
+  },
+  {
+    "name": "法学院",
+    "papers": 3,
+    "citations": 6,
+    "cpp": "2.00"
+  },
+  {
+    "name": "中华民族共同体学院",
+    "papers": 3,
+    "citations": 10,
+    "cpp": "3.33"
+  },
+  {
+    "name": "太平园书院 预科教育学院",
+    "papers": 2,
+    "citations": 3,
+    "cpp": "1.50"
   },
   {
     "name": "马克思主义学院",
     "papers": 1,
     "citations": 53,
     "cpp": "53.00"
+  },
+  {
+    "name": "哲学学院",
+    "papers": 1,
+    "citations": 0,
+    "cpp": "0.00"
   }
 ]

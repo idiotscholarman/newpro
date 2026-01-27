@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // ================= 配置中心 =================
 const CONFIG = {
     institution: ["SOUTHWEST MINZU UNIVERSITY", "SOUTHWEST UNIVERSITY FOR NATIONALITIES", "西南民族大学", "SOUTHWEST MINZU UNIV"],
-    esiDir: path.resolve(__dirname, 'data/esi_rankings/202511'),
+    esiDir: path.resolve(__dirname, 'data/esi_rankings/202601'),
     incitesBaseDir: path.resolve(__dirname, 'data/incites_potential'),
     outputFile: path.resolve(__dirname, 'src/data.json')
 };
@@ -48,13 +48,26 @@ const cleanNum = (val) => {
 
 const normalize = (str) => String(str || "").toUpperCase().replace(/[\s,/-]/g, "");
 
+const getLatestDateFolder = (baseDir) => {
+    if (!fs.existsSync(baseDir)) return null;
+    const folders = fs.readdirSync(baseDir).filter(f => /^\d{8}$/.test(f)); // Match YYYYMMDD
+    if (folders.length === 0) return null;
+    return folders.sort().pop(); // Return latest date
+};
+
 /**
  * 穿透式扫描 InCites 数据
  */
 function fetchInCitesData(disc) {
     try {
+        const latestDate = getLatestDateFolder(CONFIG.incitesBaseDir);
+        if (!latestDate) {
+            console.warn(`  ⚠️ InCites 数据缺失: 未找到日期文件夹`);
+            return null;
+        }
+
         const folderName = `${disc.id}${disc.name}`;
-        const folderPath = path.join(CONFIG.incitesBaseDir, folderName);
+        const folderPath = path.join(CONFIG.incitesBaseDir, latestDate, folderName); // Use dynamic date
         if (!fs.existsSync(folderPath)) return null;
 
         const files = fs.readdirSync(folderPath);
@@ -104,6 +117,7 @@ async function startParsing() {
             let threshold = 0, totalOrgs = 0, esiMatch = null;
             let instCol = -1, citesCol = -1, docsCol = -1, topCol = -1;
 
+            // 1. 尝试读取 ESI 数据 (作为基准/Tooltip显示)
             if (fs.existsSync(esiPath)) {
                 const wb = readFile(esiPath);
                 const rows = utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1 });
@@ -126,37 +140,48 @@ async function startParsing() {
                         return CONFIG.institution.some(t => n.includes(normalize(t)));
                     });
                 }
-            } else {
-                console.log(`  ⏭️ [${disc.cn}] ESI文件缺失，尝试通过 InCites 补全引用数据。`);
             }
 
-            // 初始化指标
+            // 初始化指标 (Prioritize InCites for visuals, store ESI for tooltip)
             let metrics = {
-                name: disc.name, cnName: disc.cn, threshold, isTop1: !!esiMatch,
+                name: disc.name,
+                cnName: disc.cn,
+                threshold,
+                isTop1: !!esiMatch,
+
+                // ESI Specific Data (For Tooltips)
+                esiRank: esiMatch ? cleanNum(esiMatch[instCol - 1] || esiMatch[0]) : '未入围',
+                esiCitations: esiMatch ? cleanNum(esiMatch[citesCol]) : 0,
+                esiPapers: esiMatch ? cleanNum(esiMatch[docsCol]) : 0,
+
+                // Visual Data (Default to ESI, overwrite with InCites if available)
                 rank: esiMatch ? cleanNum(esiMatch[instCol - 1] || esiMatch[0]) : '未入围',
                 citations: esiMatch ? cleanNum(esiMatch[citesCol]) : 0,
                 papers: esiMatch ? cleanNum(esiMatch[docsCol]) : 0,
                 topPapers: esiMatch ? cleanNum(esiMatch[topCol]) : 0,
+
                 percentile: 'N/A',
                 potentialValue: '0.00'
             };
 
-            // 逻辑分流
+            // 2. 始终尝试读取 InCites 数据 (覆盖 Visual Data)
+            const incites = fetchInCitesData(disc);
+            if (incites) {
+                // Overwrite visual metrics with InCites data (latest 11-year window)
+                metrics.citations = incites.citations;
+                metrics.papers = incites.papers;
+                metrics.topPapers = incites.topPapers;
+                console.log(`  📊 [${disc.cn}] 使用 InCites 数据: Paper=${metrics.papers}, Cite=${metrics.citations}`);
+            }
+
+            // 3. 计算衍生指标
             if (metrics.isTop1) {
-                // 情况1：已入围学科
-                metrics.percentile = ((metrics.rank / totalOrgs) * 100).toFixed(2);
-                console.log(`✅ [${disc.cn}] 入围！全球分位: 前 ${metrics.percentile}%`);
+                if (typeof metrics.rank === 'number' && totalOrgs > 0) {
+                    metrics.percentile = ((metrics.rank / totalOrgs) * 100).toFixed(2);
+                }
             } else {
-                // 情况2：未入围学科，抓取 InCites 潜力值
-                const incites = fetchInCitesData(disc);
-                if (incites) {
-                    metrics.citations = incites.citations;
-                    metrics.papers = incites.papers;
-                    metrics.topPapers = incites.topPapers;
-                    if (threshold > 0) {
-                        metrics.potentialValue = ((metrics.citations / threshold) * 100).toFixed(2);
-                        console.log(`📈 [${disc.cn}] 潜力值: ${metrics.potentialValue}% (当前被引: ${metrics.citations})`);
-                    }
+                if (threshold > 0) {
+                    metrics.potentialValue = ((metrics.citations / threshold) * 100).toFixed(2);
                 }
             }
 

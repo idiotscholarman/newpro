@@ -23,8 +23,39 @@ const DisciplineDetail = () => {
     const navigate = useNavigate();
     const [activeTab, setActiveTab] = useState('overview');
 
-    // TODO: Fetch real discipline data using these IDs
-    // const data = useDisciplineData(schoolId, disciplineName);
+    const [disciplineData, setDisciplineData] = useState(null);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const id = schoolId || 'xnmz';
+        fetch(`/data/${id}.json`)
+            .then(res => res.json())
+            .then(data => {
+                // Determine real discipline name from URL (decode)
+                const targetName = decodeURIComponent(disciplineName);
+
+                // Find matching discipline in data
+                // Try exact match, then case-insensitive
+                let found = data.disciplines.find(d => d.name === targetName);
+                if (!found) {
+                    found = data.disciplines.find(d => d.name.toLowerCase() === targetName.toLowerCase());
+                }
+
+                if (found) {
+                    setDisciplineData(found);
+                }
+                setLoading(false);
+            })
+            .catch(err => {
+                console.error("Failed to load discipline data", err);
+                setLoading(false);
+            });
+    }, [schoolId, disciplineName]);
+
+    if (loading) return <div className="p-10 text-center">Loading...</div>;
+    if (!disciplineData) return <div className="p-10 text-center">Discipline not found.</div>;
+
+    const d = disciplineData;
 
     return (
         <div className="min-h-screen bg-[#f8fafc] font-sans text-slate-900">
@@ -39,14 +70,24 @@ const DisciplineDetail = () => {
                             <ArrowLeft size={20} />
                         </button>
                         <div>
-                            <h1 className="text-xl font-bold text-slate-800">{decodeURIComponent(disciplineName)}</h1>
+                            <div className="flex items-baseline gap-2">
+                                <h1 className="text-xl font-bold text-slate-800">{d.cnName || d.name}</h1>
+                                <span className="text-sm text-slate-400">({d.name})</span>
+                            </div>
                             <span className="text-xs text-slate-500">学科分析详情</span>
                         </div>
                     </div>
                     <div className="flex gap-2">
-                        <span className="px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-bold rounded-full">
-                            ESI Top 1%
-                        </span>
+                        {d.isTop1 && (
+                            <span className="px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-bold rounded-full">
+                                ESI Top 1%
+                            </span>
+                        )}
+                        {!d.isTop1 && d.potentialValue && (
+                            <span className="px-3 py-1 bg-blue-50 text-blue-600 text-xs font-bold rounded-full border border-blue-100">
+                                潜力值: {d.potentialValue}%
+                            </span>
+                        )}
                     </div>
                 </div>
 
@@ -73,29 +114,31 @@ const DisciplineDetail = () => {
             </header>
 
             <main className="max-w-7xl mx-auto p-6 lg:p-10 space-y-8">
-                {/* Demo Content for each Tab */}
+                {/* Content for each Tab */}
 
                 {activeTab === 'overview' && (
                     <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-6">
                         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                             <div className="bg-white p-5 rounded-xl border border-slate-100 shadow-sm">
                                 <div className="text-slate-400 text-xs mb-1">Global Rank</div>
-                                <div className="text-2xl font-bold text-slate-800">#1,234</div>
-                                <div className="text-emerald-500 text-xs mt-1">Top 0.5%</div>
+                                <div className="text-2xl font-bold text-slate-800">#{d.rank}</div>
+                                <div className="text-emerald-500 text-xs mt-1">
+                                    {d.percentile !== 'N/A' ? `Top ${d.percentile}%` : '未入围'}
+                                </div>
                             </div>
                             <div className="bg-white p-5 rounded-xl border border-slate-100 shadow-sm">
                                 <div className="text-slate-400 text-xs mb-1">Total Papers</div>
-                                <div className="text-2xl font-bold text-slate-800">542</div>
-                                <div className="text-blue-500 text-xs mt-1">+12% YoY</div>
+                                <div className="text-2xl font-bold text-slate-800">{d.papers}</div>
+                                <div className="text-slate-400 text-xs mt-1">ESI Papers</div>
                             </div>
                             <div className="bg-white p-5 rounded-xl border border-slate-100 shadow-sm">
                                 <div className="text-slate-400 text-xs mb-1">Citations</div>
-                                <div className="text-2xl font-bold text-slate-800">12,503</div>
-                                <div className="text-blue-500 text-xs mt-1">+8% YoY</div>
+                                <div className="text-2xl font-bold text-slate-800">{d.citations}</div>
+                                <div className="text-blue-500 text-xs mt-1">CPP: {d.citationsPerPaper}</div>
                             </div>
                             <div className="bg-white p-5 rounded-xl border border-slate-100 shadow-sm">
                                 <div className="text-slate-400 text-xs mb-1">Top Papers</div>
-                                <div className="text-2xl font-bold text-slate-800">8</div>
+                                <div className="text-2xl font-bold text-slate-800">{d.topPapers}</div>
                                 <div className="text-amber-500 text-xs mt-1">High Impact</div>
                             </div>
                         </div>
@@ -103,9 +146,10 @@ const DisciplineDetail = () => {
                         <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
                             <h3 className="text-lg font-bold text-slate-800 mb-4">学科总览</h3>
                             <p className="text-slate-600 leading-relaxed">
-                                该学科目前处于国际前沿水平，近五年发文量稳步提升。主要贡献来自化学化工学院与材料学院。
-                                优势方向集中在有机合成与纳米材料领域。
-                                (此处为模拟文案，后续接入真实分析数据)
+                                <strong>{d.cnName}</strong> 学科目前
+                                {d.isTop1 ? "已进入 ESI 全球前 1%。" : "暂未进入 ESI 全球前 1%。"}
+                                总发文量为 {d.papers} 篇，总被引频次为 {d.citations} 次。
+                                {d.potentialValue && parseFloat(d.potentialValue) > 0 && ` 潜力值为 ${d.potentialValue}%，距离入围门槛 (阈值: ${d.threshold}) 还有一定距离。`}
                             </p>
                         </div>
                     </motion.div>

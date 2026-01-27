@@ -1,86 +1,82 @@
 const fs = require('fs');
 const readline = require('readline');
+const path = require('path');
 
-const filePath = 'data/southwest_minzu/学院贡献/savedrecs (1).txt';
-const targetInsts = ['SOUTHWEST MINZU UNIV', 'SOUTHWEST UNIV NATIONALITIES', 'SOUTHWEST UNIV MINZU'];
+const inputDir = 'data/southwest_minzu/学院贡献/';
+const TARGET_INST_ALIASES = ['SOUTHWEST MINZU UNIV', 'SOUTHWEST UNIV NATIONALITIES', 'SOUTHWEST UNIV MINZU'];
 
-async function processLineByLine() {
-    const fileStream = fs.createReadStream(filePath);
-    const rl = readline.createInterface({
-        input: fileStream,
-        crlfDelay: Infinity
-    });
+async function analyzeDepartments() {
+    const files = fs.readdirSync(inputDir).filter(f => f.endsWith('.txt'));
+    console.log(`Analyzing ${files.length} files...`);
 
-    let currentTag = '';
-    let c1Buffer = [];
-    const depts = new Set();
+    const deptCounts = {};
 
-    for await (const line of rl) {
-        if (!line.trim()) continue;
+    for (const file of files) {
+        const filePath = path.join(inputDir, file);
+        const fileStream = fs.createReadStream(filePath);
+        const rl = readline.createInterface({
+            input: fileStream,
+            crlfDelay: Infinity
+        });
 
-        // Check if new tag
-        const tagMatch = line.match(/^([A-Z][A-Z0-9]) (.*)/);
-        if (tagMatch) {
-            // Process previous buffer if it was C1
-            if (currentTag === 'C1' && c1Buffer.length > 0) {
-                parseC1(c1Buffer.join(' '), depts);
-                c1Buffer = [];
+        let currentTag = '';
+        let c1Buffer = [];
+
+        for await (const line of rl) {
+            if (!line.trim()) continue;
+            const tagMatch = line.match(/^([A-Z][A-Z0-9])(?: (.*))?$/);
+
+            if (tagMatch) {
+                if (currentTag === 'C1' && c1Buffer.length > 0) {
+                    processAddressBuffer(c1Buffer.join(' '), deptCounts);
+                    c1Buffer = [];
+                }
+                currentTag = tagMatch[1];
+                const content = tagMatch[2] || '';
+                if (currentTag === 'C1') c1Buffer.push(content);
+            } else if (currentTag === 'C1' && line.startsWith('   ')) {
+                c1Buffer.push(line.trim());
             }
-
-            currentTag = tagMatch[1];
-            if (currentTag === 'C1') {
-                c1Buffer.push(tagMatch[2]);
-            }
-        } else if (line.startsWith('   ') && currentTag === 'C1') {
-            // Continuation line
-            c1Buffer.push(line.trim());
         }
     }
 
-    // Process last buffer
-    if (currentTag === 'C1' && c1Buffer.length > 0) {
-        parseC1(c1Buffer.join(' '), depts);
-    }
+    // Sort and Output
+    const sortedDepts = Object.entries(deptCounts)
+        .sort((a, b) => b[1] - a[1]);
 
-    console.log('Unique Departments Found:');
-    Array.from(depts).sort().forEach(d => console.log(d));
+    const outputContent = sortedDepts.map(([name, count]) => `${count}\t${name}`).join('\n');
+    fs.writeFileSync('dept_frequency.txt', outputContent);
+    console.log('Analysis complete. Results saved to dept_frequency.txt');
+    console.log('Top 20 Departments:');
+    console.log(sortedDepts.slice(0, 20));
 }
 
-function parseC1(text, depts) {
-    // Split by closing bracket ']' which separates addresses with author groups
-    // Format: [Authors] Address
-    const parts = text.split('[');
-
-    parts.forEach(part => {
+function processAddressBuffer(text, counts) {
+    text.split('[').forEach(part => {
         if (!part.includes(']')) return;
-        const address = part.split(']')[1].trim().toUpperCase();
+        const fullAddress = part.split(']')[1].trim();
 
-        // Check if this address belongs to target institution
-        if (targetInsts.some(inst => address.includes(inst))) {
-            // Address usually: Org, Dept, City, ...
-            // Split by comma
-            const segments = address.split(',').map(s => s.trim());
+        const segments = fullAddress.split(',').map(s => s.trim());
+        const uniIndex = segments.findIndex(s => TARGET_INST_ALIASES.some(alias => s.toUpperCase().includes(alias)));
 
-            // Find the segment that contains the target institution
-            const instIndex = segments.findIndex(s => targetInsts.some(inst => s.includes(inst)));
+        if (uniIndex !== -1) {
+            for (let i = 0; i < segments.length; i++) {
+                if (i === uniIndex) continue;
+                const seg = segments[i].toUpperCase();
 
-            if (instIndex !== -1) {
-                // The department is usually the NEXT segment after the institution
-                // Sometimes it's the one after that if there are multiple hierarchy levels
+                if (seg.match(/\d+/)) continue;
+                if (['PEOPLES R CHINA', 'CHINA', 'USA', 'CHENGDU', 'SICHUAN', 'BEIJING'].includes(seg)) continue;
 
-                // Let's capture all segments AFTER the university name, until the City (usually ends in digits) or Country
-                for (let i = instIndex + 1; i < segments.length; i++) {
-                    const seg = segments[i];
-                    // Heuristic: ignore City (usually has Zip Code or is a known city)
-                    if (/\d{5,6}/.test(seg)) continue; // Zip code
-                    if (seg === 'PEOPLES R CHINA' || seg === 'CHINA') continue;
-                    if (seg === 'SICHUAN' || seg === 'CHENGDU') continue;
-
-                    depts.add(seg);
+                if (seg.match(/\b(SCH|COLL|DEPT|INST|LAB|CTR|FAC|ACAD|HOSP|DIV|OFF|CTR|UNIV)\b/) || i === uniIndex + 1) {
+                    // Clean numeric prefix if any
+                    const cleanSeg = seg.replace(/^[0-9\W]+/, '');
+                    if (cleanSeg.length > 2) {
+                        counts[cleanSeg] = (counts[cleanSeg] || 0) + 1;
+                    }
                 }
             }
         }
     });
 }
 
-processLineByLine();
+analyzeDepartments().catch(console.error);

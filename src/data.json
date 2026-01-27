@@ -4,229 +4,283 @@
     {
       "name": "Agricultural Sciences",
       "cnName": "农业科学",
-      "threshold": 3640,
+      "threshold": 3740,
       "isTop1": true,
-      "rank": 1221,
-      "citations": 4426,
-      "papers": 307,
+      "esiRank": 1211,
+      "esiCitations": 4664,
+      "esiPapers": 324,
+      "rank": 1211,
+      "citations": 4818,
+      "papers": 334,
       "topPapers": 1,
-      "percentile": "86.90",
+      "percentile": "84.74",
       "potentialValue": "0.00",
-      "citationsPerPaper": "14.42"
+      "citationsPerPaper": "14.43"
     },
     {
       "name": "Chemistry",
       "cnName": "化学",
-      "threshold": 7891,
+      "threshold": 7909,
       "isTop1": true,
-      "rank": 1641,
-      "citations": 12605,
-      "papers": 696,
+      "esiRank": 1637,
+      "esiCitations": 13077,
+      "esiPapers": 711,
+      "rank": 1637,
+      "citations": 13462,
+      "papers": 717,
       "topPapers": 8,
-      "percentile": "75.31",
+      "percentile": "73.67",
       "potentialValue": "0.00",
-      "citationsPerPaper": "18.11"
+      "citationsPerPaper": "18.78"
     },
     {
       "name": "Engineering",
       "cnName": "工程学",
-      "threshold": 3846,
+      "threshold": 3858,
       "isTop1": true,
-      "rank": 2141,
-      "citations": 6124,
-      "papers": 422,
+      "esiRank": 2116,
+      "esiCitations": 6515,
+      "esiPapers": 440,
+      "rank": 2116,
+      "citations": 6971,
+      "papers": 448,
       "topPapers": 11,
-      "percentile": "75.41",
+      "percentile": "72.97",
       "potentialValue": "0.00",
-      "citationsPerPaper": "14.51"
-    },
-    {
-      "name": "Plant & Animal Science",
-      "cnName": "植物学与动物学",
-      "threshold": 3155,
-      "isTop1": false,
-      "rank": "未入围",
-      "citations": 3245,
-      "papers": 442,
-      "topPapers": 4,
-      "percentile": "N/A",
-      "potentialValue": "102.85",
-      "citationsPerPaper": "7.34"
+      "citationsPerPaper": "15.56"
     },
     {
       "name": "Materials Science",
       "cnName": "材料科学",
-      "threshold": 8618,
+      "threshold": 8672,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 8831,
       "papers": 373,
       "topPapers": 5,
       "percentile": "N/A",
-      "potentialValue": "102.47",
+      "potentialValue": "101.83",
       "citationsPerPaper": "23.68"
+    },
+    {
+      "name": "Plant & Animal Science",
+      "cnName": "植物学与动物学",
+      "threshold": 3197,
+      "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
+      "rank": "未入围",
+      "citations": 3245,
+      "papers": 442,
+      "topPapers": 4,
+      "percentile": "N/A",
+      "potentialValue": "101.50",
+      "citationsPerPaper": "7.34"
     },
     {
       "name": "EnvironmentEcology",
       "cnName": "环境/生态学",
-      "threshold": 5337,
+      "threshold": 5437,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 3949,
       "papers": 281,
       "topPapers": 0,
       "percentile": "N/A",
-      "potentialValue": "73.99",
+      "potentialValue": "72.63",
       "citationsPerPaper": "14.05"
     },
     {
       "name": "Pharmacology & Toxicology",
       "cnName": "药理学与毒理学",
-      "threshold": 4114,
+      "threshold": 4196,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 2542,
       "papers": 158,
       "topPapers": 2,
       "percentile": "N/A",
-      "potentialValue": "61.79",
+      "potentialValue": "60.58",
       "citationsPerPaper": "16.09"
     },
     {
       "name": "Social Sciences, General",
       "cnName": "社会科学总论",
-      "threshold": 2059,
+      "threshold": 2106,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 839,
       "papers": 76,
       "topPapers": 4,
       "percentile": "N/A",
-      "potentialValue": "40.75",
+      "potentialValue": "39.84",
       "citationsPerPaper": "11.04"
     },
     {
       "name": "Biology & Biochemistry",
       "cnName": "生物学与生物化学",
-      "threshold": 7307,
+      "threshold": 7436,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 2842,
       "papers": 192,
       "topPapers": 2,
       "percentile": "N/A",
-      "potentialValue": "38.89",
+      "potentialValue": "38.22",
       "citationsPerPaper": "14.80"
     },
     {
       "name": "Computer Science",
       "cnName": "计算机科学",
-      "threshold": 5589,
+      "threshold": 5663,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 1645,
       "papers": 168,
       "topPapers": 2,
       "percentile": "N/A",
-      "potentialValue": "29.43",
+      "potentialValue": "29.05",
       "citationsPerPaper": "9.79"
     },
     {
       "name": "PsychiatryPsychology",
       "cnName": "心理学/精神病学",
-      "threshold": 4326,
+      "threshold": 4371,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 1125,
       "papers": 95,
       "topPapers": 1,
       "percentile": "N/A",
-      "potentialValue": "26.01",
+      "potentialValue": "25.74",
       "citationsPerPaper": "11.84"
     },
     {
       "name": "Microbiology",
       "cnName": "微生物学",
-      "threshold": 5620,
+      "threshold": 5684,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 1442,
       "papers": 115,
       "topPapers": 1,
       "percentile": "N/A",
-      "potentialValue": "25.66",
+      "potentialValue": "25.37",
       "citationsPerPaper": "12.54"
     },
     {
       "name": "Clinical Medicine",
       "cnName": "临床医学",
-      "threshold": 4342,
+      "threshold": 4392,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 782,
       "papers": 72,
       "topPapers": 0,
       "percentile": "N/A",
-      "potentialValue": "18.01",
+      "potentialValue": "17.81",
       "citationsPerPaper": "10.86"
     },
     {
       "name": "Mathematics",
       "cnName": "数学",
-      "threshold": 5265,
+      "threshold": 5347,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 835,
       "papers": 81,
       "topPapers": 5,
       "percentile": "N/A",
-      "potentialValue": "15.86",
+      "potentialValue": "15.62",
       "citationsPerPaper": "10.31"
     },
     {
       "name": "Molecular Biology & Genetics",
       "cnName": "分子生物学与遗传学",
-      "threshold": 14007,
+      "threshold": 14144,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 2055,
       "papers": 148,
       "topPapers": 1,
       "percentile": "N/A",
-      "potentialValue": "14.67",
+      "potentialValue": "14.53",
       "citationsPerPaper": "13.89"
     },
     {
       "name": "Neuroscience & Behavior",
       "cnName": "神经科学与行为学",
-      "threshold": 8038,
+      "threshold": 8006,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 1022,
       "papers": 44,
       "topPapers": 0,
       "percentile": "N/A",
-      "potentialValue": "12.71",
+      "potentialValue": "12.77",
       "citationsPerPaper": "23.23"
     },
     {
       "name": "Geosciences",
       "cnName": "地球科学",
-      "threshold": 6228,
+      "threshold": 6250,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 686,
       "papers": 42,
       "topPapers": 1,
       "percentile": "N/A",
-      "potentialValue": "11.01",
+      "potentialValue": "10.98",
       "citationsPerPaper": "16.33"
     },
     {
       "name": "Physics",
       "cnName": "物理学",
-      "threshold": 19376,
+      "threshold": 19400,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 1458,
       "papers": 133,
@@ -238,47 +292,59 @@
     {
       "name": "Multidisciplinary",
       "cnName": "多学科",
-      "threshold": 3584,
+      "threshold": 3674,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 234,
       "papers": 4,
       "topPapers": 1,
       "percentile": "N/A",
-      "potentialValue": "6.53",
+      "potentialValue": "6.37",
       "citationsPerPaper": "58.50"
     },
     {
       "name": "Economics & Business",
       "cnName": "经济学与商学",
-      "threshold": 7559,
+      "threshold": 7841,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 441,
       "papers": 48,
       "topPapers": 0,
       "percentile": "N/A",
-      "potentialValue": "5.83",
+      "potentialValue": "5.62",
       "citationsPerPaper": "9.19"
     },
     {
       "name": "Immunology",
       "cnName": "免疫学",
-      "threshold": 5585,
+      "threshold": 5615,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 222,
       "papers": 27,
       "topPapers": 0,
       "percentile": "N/A",
-      "potentialValue": "3.97",
+      "potentialValue": "3.95",
       "citationsPerPaper": "8.22"
     },
     {
       "name": "Space Science",
       "cnName": "空间科学",
-      "threshold": 52766,
+      "threshold": 54116,
       "isTop1": false,
+      "esiRank": "未入围",
+      "esiCitations": 0,
+      "esiPapers": 0,
       "rank": "未入围",
       "citations": 0,
       "papers": 0,
@@ -288,17 +354,264 @@
       "citationsPerPaper": "0.00"
     }
   ],
-  "updatedAt": "2026/1/26 20:27:25",
+  "updatedAt": "2026/1/27 17:26:02",
   "overview": {
+    "publicationTrend": [
+      {
+        "year": "2015",
+        "papers": 151,
+        "citations": 3506,
+        "cpp": 23.22,
+        "cnci": 0.81,
+        "baselineCpp": 32.21
+      },
+      {
+        "year": "2016",
+        "papers": 152,
+        "citations": 3738,
+        "cpp": 24.59,
+        "cnci": 0.77,
+        "baselineCpp": 30.22
+      },
+      {
+        "year": "2017",
+        "papers": 186,
+        "citations": 5194,
+        "cpp": 27.92,
+        "cnci": 1.01,
+        "baselineCpp": 29.21
+      },
+      {
+        "year": "2018",
+        "papers": 230,
+        "citations": 6525,
+        "cpp": 28.37,
+        "cnci": 1.04,
+        "baselineCpp": 27.47
+      },
+      {
+        "year": "2019",
+        "papers": 284,
+        "citations": 7754,
+        "cpp": 27.3,
+        "cnci": 1.13,
+        "baselineCpp": 24.62
+      },
+      {
+        "year": "2020",
+        "papers": 297,
+        "citations": 6563,
+        "cpp": 22.1,
+        "cnci": 1.05,
+        "baselineCpp": 22.23
+      },
+      {
+        "year": "2021",
+        "papers": 405,
+        "citations": 8994,
+        "cpp": 22.21,
+        "cnci": 1.21,
+        "baselineCpp": 17.54
+      },
+      {
+        "year": "2022",
+        "papers": 513,
+        "citations": 7299,
+        "cpp": 14.23,
+        "cnci": 1.14,
+        "baselineCpp": 12.45
+      },
+      {
+        "year": "2023",
+        "papers": 574,
+        "citations": 6132,
+        "cpp": 10.68,
+        "cnci": 1.29,
+        "baselineCpp": 8.52
+      },
+      {
+        "year": "2024",
+        "papers": 642,
+        "citations": 3315,
+        "cpp": 5.16,
+        "cnci": 1.23,
+        "baselineCpp": 4.27
+      },
+      {
+        "year": "2025",
+        "papers": 564,
+        "citations": 426,
+        "cpp": 0.76,
+        "cnci": 0.97,
+        "baselineCpp": 0.82
+      }
+    ],
+    "topAuthors": [
+      {
+        "name": "Mai, Xianmin",
+        "dept": "Sch Urban Planning & Architecture",
+        "papers": 63,
+        "citations": 4784,
+        "cpp": 75.94,
+        "contribution": "8.05%"
+      },
+      {
+        "name": "Yang, Sheng-Tao",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 88,
+        "citations": 2107,
+        "cpp": 23.94,
+        "contribution": "3.54%"
+      },
+      {
+        "name": "Zeng, Rui",
+        "dept": "Coll Pharm",
+        "papers": 61,
+        "citations": 2003,
+        "cpp": 32.84,
+        "contribution": "3.37%"
+      },
+      {
+        "name": "Li, Xinying",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 41,
+        "citations": 1667,
+        "cpp": 40.66,
+        "contribution": "2.80%"
+      },
+      {
+        "name": "Xu, Ming",
+        "dept": " Key Lab Informat Mat Sichuan Prov, Sch Elect & Informat Engn",
+        "papers": 41,
+        "citations": 1448,
+        "cpp": 35.32,
+        "contribution": "2.44%"
+      },
+      {
+        "name": "Wang, Jun",
+        "dept": "Coll Elect & Informat Engn",
+        "papers": 36,
+        "citations": 1354,
+        "cpp": 37.61,
+        "contribution": "2.28%"
+      },
+      {
+        "name": "Yang, Yaoyue",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 27,
+        "citations": 1272,
+        "cpp": 47.11,
+        "contribution": "2.14%"
+      },
+      {
+        "name": "Zhou, Qingping",
+        "dept": " Inst Qinghai Tibetan Plateau",
+        "papers": 81,
+        "citations": 1211,
+        "cpp": 14.95,
+        "contribution": "2.04%"
+      },
+      {
+        "name": "Zhang, Qiuping",
+        "dept": "Key Lab Informat Mat Sichuan Prov, Sch Elect & Informat Engn",
+        "papers": 20,
+        "citations": 1150,
+        "cpp": 57.5,
+        "contribution": "1.93%"
+      },
+      {
+        "name": "Yong, Yuan",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 22,
+        "citations": 1120,
+        "cpp": 50.91,
+        "contribution": "1.88%"
+      },
+      {
+        "name": "Zhao, Yajun",
+        "dept": "Coll Sociol & Psychol",
+        "papers": 39,
+        "citations": 1110,
+        "cpp": 28.46,
+        "contribution": "1.87%"
+      },
+      {
+        "name": "Zhao, Zhigang",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 69,
+        "citations": 1036,
+        "cpp": 15.01,
+        "contribution": "1.74%"
+      },
+      {
+        "name": "Li, Jian",
+        "dept": "Inst Qinghai Tibetan Plateau",
+        "papers": 80,
+        "citations": 1015,
+        "cpp": 12.69,
+        "contribution": "1.71%"
+      },
+      {
+        "name": "Wang, Jiabo",
+        "dept": "Key Lab Qinghai Tibetan Plateau Anim Genet Resourc",
+        "papers": 28,
+        "citations": 931,
+        "cpp": 33.25,
+        "contribution": "1.57%"
+      },
+      {
+        "name": "Yuan, Huan",
+        "dept": "Key Lab Informat Mat Sichuan Prov, Sch Elect & Informat Engn",
+        "papers": 23,
+        "citations": 917,
+        "cpp": 39.87,
+        "contribution": "1.54%"
+      },
+      {
+        "name": "Tang, Cheng",
+        "dept": "Coll Life Sci & Technol",
+        "papers": 72,
+        "citations": 897,
+        "cpp": 12.46,
+        "contribution": "1.51%"
+      },
+      {
+        "name": "Luo, Jianbin",
+        "dept": "Coll Chem & Environm Protect Engn",
+        "papers": 35,
+        "citations": 896,
+        "cpp": 25.6,
+        "contribution": "1.51%"
+      },
+      {
+        "name": "Ma, Jian",
+        "dept": "Phys Dept",
+        "papers": 66,
+        "citations": 783,
+        "cpp": 11.86,
+        "contribution": "1.32%"
+      },
+      {
+        "name": "Wu, Bo",
+        "dept": "Sichuan Prov Key Lab Informat Mat",
+        "papers": 48,
+        "citations": 733,
+        "cpp": 15.27,
+        "contribution": "1.23%"
+      },
+      {
+        "name": "Gu, Jian",
+        "dept": "Coll Pharm",
+        "papers": 47,
+        "citations": 732,
+        "cpp": 15.57,
+        "contribution": "1.23%"
+      }
+    ],
     "globalRank": 3563,
     "totalCitations": 57438,
-    "subjectsCount": 3,
-    "top1Percent": 4,
     "totalPapers": 3938,
     "topPapers": 45,
-    "globalRankChange": 32,
-    "totalCitationsChange": 2807,
-    "totalPapersChange": 125,
     "rankings": [
       {
         "rank": 1,
@@ -7316,257 +7629,10 @@
       }
     ],
     "domesticRank": 556,
-    "publicationTrend": [
-      {
-        "year": "2015",
-        "papers": 151,
-        "citations": 3506,
-        "cpp": 23.22,
-        "cnci": 0.81,
-        "baselineCpp": 32.21
-      },
-      {
-        "year": "2016",
-        "papers": 152,
-        "citations": 3738,
-        "cpp": 24.59,
-        "cnci": 0.77,
-        "baselineCpp": 30.22
-      },
-      {
-        "year": "2017",
-        "papers": 186,
-        "citations": 5194,
-        "cpp": 27.92,
-        "cnci": 1.01,
-        "baselineCpp": 29.21
-      },
-      {
-        "year": "2018",
-        "papers": 230,
-        "citations": 6525,
-        "cpp": 28.37,
-        "cnci": 1.04,
-        "baselineCpp": 27.47
-      },
-      {
-        "year": "2019",
-        "papers": 284,
-        "citations": 7754,
-        "cpp": 27.3,
-        "cnci": 1.13,
-        "baselineCpp": 24.62
-      },
-      {
-        "year": "2020",
-        "papers": 297,
-        "citations": 6563,
-        "cpp": 22.1,
-        "cnci": 1.05,
-        "baselineCpp": 22.23
-      },
-      {
-        "year": "2021",
-        "papers": 405,
-        "citations": 8994,
-        "cpp": 22.21,
-        "cnci": 1.21,
-        "baselineCpp": 17.54
-      },
-      {
-        "year": "2022",
-        "papers": 513,
-        "citations": 7299,
-        "cpp": 14.23,
-        "cnci": 1.14,
-        "baselineCpp": 12.45
-      },
-      {
-        "year": "2023",
-        "papers": 574,
-        "citations": 6132,
-        "cpp": 10.68,
-        "cnci": 1.29,
-        "baselineCpp": 8.52
-      },
-      {
-        "year": "2024",
-        "papers": 642,
-        "citations": 3315,
-        "cpp": 5.16,
-        "cnci": 1.23,
-        "baselineCpp": 4.27
-      },
-      {
-        "year": "2025",
-        "papers": 564,
-        "citations": 426,
-        "cpp": 0.76,
-        "cnci": 0.97,
-        "baselineCpp": 0.82
-      }
-    ],
-    "topAuthors": [
-      {
-        "name": "Mai, Xianmin",
-        "dept": "Sch Urban Planning & Architecture",
-        "papers": 63,
-        "citations": 4784,
-        "cpp": 75.94,
-        "contribution": "8.05%"
-      },
-      {
-        "name": "Yang, Sheng-Tao",
-        "dept": "Coll Chem & Environm Protect Engn",
-        "papers": 88,
-        "citations": 2107,
-        "cpp": 23.94,
-        "contribution": "3.54%"
-      },
-      {
-        "name": "Zeng, Rui",
-        "dept": "Coll Pharm",
-        "papers": 61,
-        "citations": 2003,
-        "cpp": 32.84,
-        "contribution": "3.37%"
-      },
-      {
-        "name": "Li, Xinying",
-        "dept": "Coll Chem & Environm Protect Engn",
-        "papers": 41,
-        "citations": 1667,
-        "cpp": 40.66,
-        "contribution": "2.80%"
-      },
-      {
-        "name": "Xu, Ming",
-        "dept": " Key Lab Informat Mat Sichuan Prov, Sch Elect & Informat Engn",
-        "papers": 41,
-        "citations": 1448,
-        "cpp": 35.32,
-        "contribution": "2.44%"
-      },
-      {
-        "name": "Wang, Jun",
-        "dept": "Coll Elect & Informat Engn",
-        "papers": 36,
-        "citations": 1354,
-        "cpp": 37.61,
-        "contribution": "2.28%"
-      },
-      {
-        "name": "Yang, Yaoyue",
-        "dept": "Coll Chem & Environm Protect Engn",
-        "papers": 27,
-        "citations": 1272,
-        "cpp": 47.11,
-        "contribution": "2.14%"
-      },
-      {
-        "name": "Zhou, Qingping",
-        "dept": " Inst Qinghai Tibetan Plateau",
-        "papers": 81,
-        "citations": 1211,
-        "cpp": 14.95,
-        "contribution": "2.04%"
-      },
-      {
-        "name": "Zhang, Qiuping",
-        "dept": "Key Lab Informat Mat Sichuan Prov, Sch Elect & Informat Engn",
-        "papers": 20,
-        "citations": 1150,
-        "cpp": 57.5,
-        "contribution": "1.93%"
-      },
-      {
-        "name": "Yong, Yuan",
-        "dept": "Coll Chem & Environm Protect Engn",
-        "papers": 22,
-        "citations": 1120,
-        "cpp": 50.91,
-        "contribution": "1.88%"
-      },
-      {
-        "name": "Zhao, Yajun",
-        "dept": "Coll Sociol & Psychol",
-        "papers": 39,
-        "citations": 1110,
-        "cpp": 28.46,
-        "contribution": "1.87%"
-      },
-      {
-        "name": "Zhao, Zhigang",
-        "dept": "Coll Chem & Environm Protect Engn",
-        "papers": 69,
-        "citations": 1036,
-        "cpp": 15.01,
-        "contribution": "1.74%"
-      },
-      {
-        "name": "Li, Jian",
-        "dept": "Inst Qinghai Tibetan Plateau",
-        "papers": 80,
-        "citations": 1015,
-        "cpp": 12.69,
-        "contribution": "1.71%"
-      },
-      {
-        "name": "Wang, Jiabo",
-        "dept": "Key Lab Qinghai Tibetan Plateau Anim Genet Resourc",
-        "papers": 28,
-        "citations": 931,
-        "cpp": 33.25,
-        "contribution": "1.57%"
-      },
-      {
-        "name": "Yuan, Huan",
-        "dept": "Key Lab Informat Mat Sichuan Prov, Sch Elect & Informat Engn",
-        "papers": 23,
-        "citations": 917,
-        "cpp": 39.87,
-        "contribution": "1.54%"
-      },
-      {
-        "name": "Tang, Cheng",
-        "dept": "Coll Life Sci & Technol",
-        "papers": 72,
-        "citations": 897,
-        "cpp": 12.46,
-        "contribution": "1.51%"
-      },
-      {
-        "name": "Luo, Jianbin",
-        "dept": "Coll Chem & Environm Protect Engn",
-        "papers": 35,
-        "citations": 896,
-        "cpp": 25.6,
-        "contribution": "1.51%"
-      },
-      {
-        "name": "Ma, Jian",
-        "dept": "Phys Dept",
-        "papers": 66,
-        "citations": 783,
-        "cpp": 11.86,
-        "contribution": "1.32%"
-      },
-      {
-        "name": "Wu, Bo",
-        "dept": "Sichuan Prov Key Lab Informat Mat",
-        "papers": 48,
-        "citations": 733,
-        "cpp": 15.27,
-        "contribution": "1.23%"
-      },
-      {
-        "name": "Gu, Jian",
-        "dept": "Coll Pharm",
-        "papers": 47,
-        "citations": 732,
-        "cpp": 15.57,
-        "contribution": "1.23%"
-      }
-    ]
+    "globalRankChange": 32,
+    "totalCitationsChange": 2807,
+    "totalPapersChange": 125,
+    "subjectsCount": 3,
+    "top1Percent": 4
   }
 }

@@ -17,7 +17,7 @@ function log(msg) {
 // Ideally we scan for the latest folder, but for now we hardcode or grab the one we know.
 // Let's try to be smart and verify the path exists.
 const baseInstDir = path.join(__dirname, 'data/esi_institution');
-let latestFolder = '202511'; // Default fallback
+let latestFolder = '202601'; // Default fallback
 try {
     const folders = fs.readdirSync(baseInstDir).filter(f => /^\d+$/.test(f) && fs.statSync(path.join(baseInstDir, f)).isDirectory());
     if (folders.length > 0) {

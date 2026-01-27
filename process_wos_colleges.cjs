@@ -2,7 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 const path = require('path');
 
-const inputFile = 'data/southwest_minzu/学院贡献/savedrecs (1).txt';
+const inputDir = 'data/southwest_minzu/学院贡献/';
 const mappingFile = 'public/data/college_mapping.json';
 const outputFile = 'public/data/college_stats.json';
 
@@ -12,58 +12,73 @@ async function processData() {
     console.log('Loading mapping...');
     const mappingConfig = JSON.parse(fs.readFileSync(mappingFile, 'utf8'));
 
-    console.log('Processing WOS file...');
-    const fileStream = fs.createReadStream(inputFile);
-    const rl = readline.createInterface({
-        input: fileStream,
-        crlfDelay: Infinity
-    });
+    // Find all txt files
+    const files = fs.readdirSync(inputDir).filter(f => f.endsWith('.txt'));
+    if (files.length === 0) {
+        console.error('No .txt files found in', inputDir);
+        return;
+    }
+    console.log(`Found ${files.length} WOS export files to process.`);
 
     const collegeStats = {};
+    let totalProcessed = 0;
 
-    let currentTag = '';
-    let record = { c1: [], tc: 0 };
-    let c1Buffer = [];
-    let processedCount = 0;
+    for (const file of files) {
+        console.log(`Processing file: ${file}...`);
+        const filePath = path.join(inputDir, file);
+        const fileStream = fs.createReadStream(filePath);
+        const rl = readline.createInterface({
+            input: fileStream,
+            crlfDelay: Infinity
+        });
 
-    for await (const line of rl) {
-        if (!line.trim()) continue;
+        let currentTag = '';
+        let record = { c1: [], tc: 0 };
+        let c1Buffer = [];
+        let fileProcessedCount = 0;
 
-        const tagMatch = line.match(/^([A-Z][A-Z0-9])(?: (.*))?$/);
+        for await (const line of rl) {
+            if (!line.trim()) continue;
 
-        if (tagMatch) {
-            if (currentTag === 'C1' && c1Buffer.length > 0) {
-                record.c1.push(...extractAddresses(c1Buffer.join(' ')));
-                c1Buffer = [];
-            }
 
-            currentTag = tagMatch[1];
-            const content = tagMatch[2] || '';
+            const tagMatch = line.match(/^([A-Z][A-Z0-9])(?: (.*))?$/);
 
-            if (currentTag === 'C1') {
-                c1Buffer.push(content);
-            } else if (currentTag === 'TC') {
-                record.tc = parseInt(content) || 0;
-            } else if (currentTag === 'ER') {
+            if (tagMatch) {
                 if (currentTag === 'C1' && c1Buffer.length > 0) {
                     record.c1.push(...extractAddresses(c1Buffer.join(' ')));
                     c1Buffer = [];
                 }
 
-                if (processedCount < 3) {
-                    console.log(`[DEBUG] Record ${processedCount}:`, JSON.stringify(record.c1));
+                currentTag = tagMatch[1];
+                const content = tagMatch[2] || '';
+
+                if (currentTag === 'C1') {
+                    c1Buffer.push(content);
+                } else if (currentTag === 'TC') {
+                    record.tc = parseInt(content) || 0;
+                } else if (currentTag === 'ER') {
+                    if (currentTag === 'C1' && c1Buffer.length > 0) {
+                        record.c1.push(...extractAddresses(c1Buffer.join(' ')));
+                        c1Buffer = [];
+                    }
+
+                    if (fileProcessedCount < 3) {
+                        console.log(`[DEBUG] File ${file} Record ${fileProcessedCount}:`, JSON.stringify(record.c1));
+                    }
+
+                    processRecord(record, mappingConfig, collegeStats);
+                    fileProcessedCount++;
+                    totalProcessed++;
+
+                    record = { c1: [], tc: 0 };
+                    c1Buffer = [];
+                    currentTag = '';
                 }
-
-                processRecord(record, mappingConfig, collegeStats);
-                processedCount++;
-
-                record = { c1: [], tc: 0 };
-                c1Buffer = [];
-                currentTag = '';
+            } else if (currentTag === 'C1' && line.startsWith('   ')) {
+                c1Buffer.push(line.trim());
             }
-        } else if (currentTag === 'C1' && line.startsWith('   ')) {
-            c1Buffer.push(line.trim());
         }
+        console.log(`Finished ${file}. Records: ${fileProcessedCount}`);
     }
 
     const sortedStats = Object.entries(collegeStats)
@@ -76,7 +91,8 @@ async function processData() {
         .sort((a, b) => b.papers - a.papers);
 
     fs.writeFileSync(outputFile, JSON.stringify(sortedStats, null, 2));
-    console.log(`Examples processed. Stats saved to ${outputFile}`);
+    console.log(`All files processed. Total Records: ${totalProcessed}`);
+    console.log(`Stats saved to ${outputFile}`);
     console.log('Top 5 Colleges:', sortedStats.slice(0, 5));
 }
 

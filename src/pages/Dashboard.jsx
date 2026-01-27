@@ -87,27 +87,33 @@ const transformData = (data) => {
       // rankings: data.overview?.rankings,
       domesticRank: data.overview?.domesticRank,
       publicationTrend: data.overview?.publicationTrend || [],
+      domesticRank: data.overview?.domesticRank,
+      publicationTrend: data.overview?.publicationTrend || [],
       topAuthors: data.overview?.topAuthors || []
     },
     disciplines: data.disciplines.filter(d => d.papers > 0 || d.citations > 0),
-    contribution: [
-      { name: '化学化工学院', value: 4500, papers: 320 },
-      { name: '计算机科学学院', value: 3800, papers: 280 },
-      { name: '电子信息学院', value: 3200, papers: 250 },
-      { name: '生命科学与技术学院', value: 2100, papers: 190 },
-      { name: '食品科学与技术学院', value: 1800, papers: 150 },
+    colleges: (() => {
+      // Aggregate Top Authors by Department to create College Stats
+      if (!data.overview?.topAuthors) return [];
+      const stats = {};
+
+      data.overview.topAuthors.forEach(author => {
+        const dept = author.dept || "Unknown";
+        if (!stats[dept]) {
+          stats[dept] = { name: dept, papers: 0, citations: 0, cpp: 0 };
+        }
+        stats[dept].papers += author.papers;
+        stats[dept].citations += author.citations;
+      });
+
+      return Object.values(stats).map(s => ({
+        ...s,
+        cpp: s.papers > 0 ? parseFloat((s.citations / s.papers).toFixed(2)) : 0
+      })).sort((a, b) => b.papers - a.papers);
+    })(),
+    benchmarking: [ // Placeholder, not used dynamically since we rely on dynamicBenchmarkData logic
     ],
-    benchmarking: [
-      { subject: '化学', MyUni: 100, PeerA: 110, PeerB: 90 },
-      { subject: '工程学', MyUni: 95, PeerA: 105, PeerB: 85 },
-      { subject: '农业科学', MyUni: 85, PeerA: 95, PeerB: 80 },
-      { subject: '材料科学', MyUni: 60, PeerA: 80, PeerB: 70 },
-    ],
-    topPapers: [
-      { title: "Review on recent progress of nanostructured anode materials...", journal: "Energy Storage Materials", citations: 452, year: 2021 },
-      { title: "Deep learning for lung cancer detection: A review...", journal: "IEEE Access", citations: 320, year: 2020 },
-      { title: "Efficient removal of heavy metal ions from wastewater...", journal: "Chemosphere", citations: 210, year: 2022 },
-    ]
+    topPapers: data.overview?.topPapers || []
   };
 };
 
@@ -866,7 +872,7 @@ const Dashboard = () => {
   const navigate = useNavigate();
 
   // State for sorting authors
-  const [sortConfig, setSortConfig] = useState({ key: 'papers', direction: 'desc' });
+  const [authorSortConfig, setAuthorSortConfig] = useState({ key: 'papers', direction: 'desc' });
 
   // Create normalized Chinese mapping
 
@@ -889,7 +895,7 @@ const Dashboard = () => {
 
   // New UI States
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [activeTab, setActiveTab] = useState('overview'); // 'overview' | 'output' | 'impact'
+  const [activeTab, setActiveTab] = useState('output'); // 'output' | 'impact'
   const [benchmarkModalOpen, setBenchmarkModalOpen] = useState(false);
   const [selectedBenchmarks, setSelectedBenchmarks] = useState([]);
 
@@ -916,10 +922,7 @@ const Dashboard = () => {
       .then(data => setBenchmarkLookup(data))
       .catch(() => setBenchmarkLookup({}));
 
-    fetch('/data/college_stats.json')
-      .then(r => r.ok ? r.json() : [])
-      .then(setCollegeStats)
-      .catch(console.error);
+
   }, []);
 
   // Load benchmark school data when selections change
@@ -969,89 +972,128 @@ const Dashboard = () => {
     if (!realData || radarSubjects.length === 0) return [];
 
     return radarSubjects.map(subject => {
-      // My Data
+      // 1. Calculate Raw Values
+      const rawValues = {};
+      const sources = {};
+
+      // MyUni
       const myDisc = realData.disciplines.find(d => d.name === subject);
       const myP = myDisc?.papers || 0;
       const myC = myDisc?.citations || 0;
-      const myVal = radarMetric === 'papers' ? myP : radarMetric === 'citations' ? myC : (myC / (myP || 1));
+      rawValues.MyUni = radarMetric === 'papers' ? myP : radarMetric === 'citations' ? myC : (myC / (myP || 1));
 
-      const item = {
-        subject: nameMapping[subject] || subject,
-        fullSubject: subject, // Keep English key for matching
-        MyUni: myVal > 0 ? Math.log10(myVal + 1) : 0,
-        MyUni_Raw: myVal // Store raw for tooltip
-      };
+      // Determine Source & ESI Value
+      const esiP = myDisc?.esiPapers || 0;
+      const esiC = myDisc?.esiCitations || 0;
+      const hasESI = esiP > 0 || (myDisc?.esiRank && myDisc.esiRank !== '未入围');
 
+      const esiValues = {};
+      if (hasESI) {
+        esiValues.MyUni = radarMetric === 'papers' ? esiP : radarMetric === 'citations' ? esiC : (esiC / (esiP || 1));
+        sources.MyUni = 'ESI'; // Label as ESI for tooltip
+      } else {
+        sources.MyUni = myDisc?.papers > 0 ? 'InCites' : 'N/A';
+      }
+
+      // Benchmarks
       // Helper to normalize strings for matching (remove special chars, spaces, digits)
       const normalize = (s) => s.replace(/[^a-zA-Z]/g, '').toUpperCase();
       const normSubject = normalize(subject);
 
-      // Benchmark Data
       Object.entries(benchmarkSchoolData).forEach(([schoolName, schoolData]) => {
-        // Find key that matches the subject (ignoring prefixes like "01" and special chars)
         const detailsKey = Object.keys(schoolData.details || {}).find(k => normalize(k).endsWith(normSubject));
-        const details = schoolData.details?.[detailsKey]; // [papers, citations]
-
+        const details = schoolData.details?.[detailsKey];
         if (details) {
           const p = details[0] || 0;
           const c = details[1] || 0;
-          const val = radarMetric === 'papers' ? p : radarMetric === 'citations' ? c : (c / (p || 1));
-          item[schoolName] = val > 0 ? Math.log10(val + 1) : 0;
-          item[`${schoolName}_Raw`] = val;
+          rawValues[schoolName] = radarMetric === 'papers' ? p : radarMetric === 'citations' ? c : (c / (p || 1));
+          sources[schoolName] = 'ESI';
         } else {
-          item[schoolName] = 0;
-          item[`${schoolName}_Raw`] = 0;
+          rawValues[schoolName] = 0; // If not in Top 1%, value is significantly lower or considered 0 for ESI comparison
+          sources[schoolName] = 'N/A';
         }
+      });
+
+      // 2. Find Max for this subject
+      const args = Object.values(rawValues);
+      const maxVal = Math.max(...args) || 1; // Avoid divide by zero
+
+      // 3. Normalize to 0-100
+      const item = {
+        subject: nameMapping[subject] || subject,
+        fullSubject: subject,
+        maxReference: maxVal
+      };
+
+      Object.entries(rawValues).forEach(([key, val]) => {
+        // Linear scale
+        item[key] = (val / maxVal) * 100;
+        item[`${key}_Raw`] = val;
+        // Inject ESI value if available, otherwise undefined
+        if (esiValues[key] !== undefined) {
+          item[`${key}_ESI`] = esiValues[key];
+        }
+        item[`${key}_Source`] = sources[key];
       });
 
       return item;
     });
   }, [realData, radarSubjects, benchmarkSchoolData, radarMetric]);
 
+  // Sorting for Colleges
+  const [collegeSortConfig, setCollegeSortConfig] = useState({ key: 'papers', direction: 'desc' });
+
+  const sortedColleges = React.useMemo(() => {
+    if (!realData?.colleges) return [];
+    const sorted = [...realData.colleges];
+    sorted.sort((a, b) => {
+      let aVal = a[collegeSortConfig.key];
+      let bVal = b[collegeSortConfig.key];
+
+      // Parse percentages/strings if needed (for other columns if added)
+      if (typeof aVal === 'string') {
+        aVal = parseFloat(aVal) || 0;
+        bVal = parseFloat(bVal) || 0;
+      }
+
+      if (aVal < bVal) return collegeSortConfig.direction === 'asc' ? -1 : 1;
+      if (aVal > bVal) return collegeSortConfig.direction === 'asc' ? 1 : -1;
+      return 0;
+    });
+    return sorted;
+  }, [realData, collegeSortConfig]);
+
+  const handleCollegeSort = (key) => {
+    setCollegeSortConfig(current => ({
+      key,
+      direction: current.key === key && current.direction === 'desc' ? 'asc' : 'desc'
+    }));
+  };
+
   // Calculate dynamic domain for Radar Chart
   const radarDomain = React.useMemo(() => {
-    if (dynamicBenchmarkData.length === 0) return [0, 'auto'];
-
-    let allValues = [];
-    dynamicBenchmarkData.forEach(item => {
-      allValues.push(item.MyUni);
-      Object.keys(item).forEach(k => {
-        if (k !== 'subject' && k !== 'fullSubject' && !k.endsWith('_Raw') && k !== 'MyUni') {
-          allValues.push(item[k]);
-        }
-      });
-    });
-
-    allValues = allValues.filter(v => v > 0); // Ignore pure 0s for Min calculation
-
-    if (allValues.length === 0) return [0, 'auto'];
-
-    const min = Math.min(...allValues);
-    // Pad min slightly to avoid dots on the edge
-    const finalMin = Math.max(0, min * 0.8);
-
-    return [finalMin, 'auto'];
-  }, [dynamicBenchmarkData]);
+    return [0, 100];
+  }, []);
 
 
   // Sorted Authors Data
   const sortedAuthors = React.useMemo(() => {
     if (!realData?.overview?.topAuthors) return [];
     return [...realData.overview.topAuthors].sort((a, b) => {
-      let valA = a[sortConfig.key];
-      let valB = b[sortConfig.key];
+      let valA = a[authorSortConfig.key];
+      let valB = b[authorSortConfig.key];
 
       if (typeof valA === 'string' && valA.includes('%')) valA = parseFloat(valA);
       if (typeof valB === 'string' && valB.includes('%')) valB = parseFloat(valB);
 
-      if (valA < valB) return sortConfig.direction === 'asc' ? -1 : 1;
-      if (valA > valB) return sortConfig.direction === 'asc' ? 1 : -1;
+      if (valA < valB) return authorSortConfig.direction === 'asc' ? -1 : 1;
+      if (valA > valB) return authorSortConfig.direction === 'asc' ? 1 : -1;
       return 0;
     });
-  }, [realData, sortConfig]);
+  }, [realData, authorSortConfig]);
 
-  const handleSort = (key) => {
-    setSortConfig(current => ({
+  const handleAuthorSort = (key) => {
+    setAuthorSortConfig(current => ({
       key,
       direction: current.key === key && current.direction === 'desc' ? 'asc' : 'desc'
     }));
@@ -1066,8 +1108,12 @@ const Dashboard = () => {
     ])
       .then(([schoolData, commonData]) => {
         const mergedRankings = commonData.rankings?.length > 0 ? commonData.rankings : (schoolData.overview?.rankings || []);
-        setRealData(transformData(schoolData)); // Assuming transformData is defined above or imported
+        const transformed = transformData(schoolData);
+        setRealData(transformed);
         setRankings(mergedRankings);
+        if (transformed?.colleges) {
+          setCollegeStats(transformed.colleges);
+        }
         setLoading(false);
       })
       .catch(err => {
@@ -1184,11 +1230,129 @@ const Dashboard = () => {
             />
           </div>
 
+          {/* Radar Chart Section (Full Width) */}
+          <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm relative animate-in fade-in slide-in-from-bottom-4 duration-700">
+            <div className="flex justify-between items-start mb-6">
+              <div>
+                <div className="flex items-center gap-3">
+                  <div className="p-2 bg-indigo-50 text-indigo-600 rounded-lg"><Activity size={20} /></div>
+                  <h3 className="text-xl font-bold text-slate-800">学科竞争力对标透视</h3>
+                </div>
+                <p className="text-slate-500 text-sm mt-1 ml-11">多维指标对比分析 (Multidimensional Analysis)</p>
+              </div>
+              <div className="flex bg-slate-50 rounded-lg p-1 border border-slate-200">
+                {[{ id: 'papers', label: '发文量' }, { id: 'citations', label: '被引频次' }, { id: 'cpp', label: '篇均被引' }].map(m => (
+                  <button
+                    key={m.id}
+                    onClick={() => setRadarMetric(m.id)}
+                    className={cn(
+                      "px-3 py-1.5 text-xs font-medium rounded-md transition-all",
+                      radarMetric === m.id ? "bg-white text-indigo-600 shadow-sm font-bold" : "text-slate-500 hover:text-slate-700"
+                    )}
+                  >
+                    {m.label}
+                  </button>
+                ))}
+                <button onClick={() => setRadarModalOpen(true)} className="ml-2 px-2 hover:bg-slate-200 rounded text-slate-400">
+                  <Settings size={14} />
+                </button>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* Left: Legend/Info */}
+              <div className="lg:col-span-1 space-y-4">
+                <div className="p-4 bg-indigo-50/50 rounded-xl border border-indigo-100">
+                  <div className="flex items-center gap-2 mb-2">
+                    <div className="w-3 h-3 rounded-full bg-blue-600 shadow-sm"></div>
+                    <span className="font-bold text-slate-800">本校 ({realData.overview.institutionName})</span>
+                  </div>
+                  <div className="space-y-1 text-xs text-slate-500 pl-5">
+                    <div>当前指标: {radarMetric === 'papers' ? '发文量' : radarMetric === 'citations' ? '总被引' : '篇均被引'}</div>
+                    <div>对标学科数: {radarSubjects.length}/8</div>
+                  </div>
+                </div>
+
+                {selectedBenchmarks.map((s, i) => (
+                  <div key={i} className="p-4 bg-slate-50 rounded-xl border border-slate-100 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <div className="w-3 h-3 rounded-full" style={{ backgroundColor: ['#10b981', '#f59e0b', '#ef4444'][i] }}></div>
+                      <span className="font-bold text-slate-700">{s.cnName || s.name}</span>
+                    </div>
+                    <div className="text-xs font-bold px-2 py-1 bg-white rounded border border-slate-200">TOP {s.rank}</div>
+                  </div>
+                ))}
+
+                {selectedBenchmarks.length === 0 && (
+                  <div className="p-6 text-center border-2 border-dashed border-slate-200 rounded-xl text-slate-400 text-sm">
+                    <Target className="mx-auto mb-2 opacity-50" />
+                    请点击右上角“选择对标高校”添加对比对象
+                  </div>
+                )}
+              </div>
+
+              {/* Right: Chart */}
+              <div className="lg:col-span-2 h-[400px]">
+                <ResponsiveContainer width="100%" height="100%">
+                  <RadarChart cx="50%" cy="50%" outerRadius="80%" data={dynamicBenchmarkData}>
+                    <PolarGrid stroke="#e2e8f0" />
+                    <PolarAngleAxis dataKey="subject" tick={{ fill: '#475569', fontSize: 12, fontWeight: 500 }} />
+                    <PolarRadiusAxis angle={30} domain={radarDomain} tick={false} axisLine={false} />
+                    <Radar name="本校" dataKey="MyUni" stroke="#2563eb" strokeWidth={3} fill="#3b82f6" fillOpacity={0.15} />
+                    {selectedBenchmarks.map((s, i) => (
+                      <Radar
+                        key={s.rank}
+                        name={s.cnName || s.name}
+                        dataKey={s.cnName || s.name}
+                        stroke={['#10b981', '#f59e0b', '#ef4444'][i]}
+                        strokeWidth={2}
+                        fill={['#10b981', '#f59e0b', '#ef4444'][i]}
+                        fillOpacity={0.05}
+                      />
+                    ))}
+                    <RechartsTooltip
+                      formatter={(value, name, props) => {
+                        const key = name === "本校" ? "MyUni" : name;
+                        const rawKey = `${key}_Raw`;  // InCites数值 (用于画图)
+                        const esiKey = `${key}_ESI`;  // ESI数值 (入围时有此值)
+
+                        const incitesVal = props.payload[rawKey];
+                        const esiVal = props.payload[esiKey];
+
+                        if (incitesVal === undefined) return [value, name];
+
+                        // 格式化数值
+                        const formatVal = (v) => radarMetric === 'cpp' ? Number(v).toFixed(2) : Math.round(Number(v));
+
+                        // 入围ESI的学科：同时显示ESI和InCites两个数值
+                        if (esiVal !== undefined && esiVal > 0) {
+                          const displayText = `ESI: ${formatVal(esiVal)} / InCites: ${formatVal(incitesVal)}`;
+                          return [displayText, name];
+                        }
+
+                        // 未入围ESI：只显示InCites数值
+                        return [`InCites: ${formatVal(incitesVal)}`, name];
+                      }}
+                      contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)' }}
+                    />
+                    <Legend />
+                  </RadarChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+
+            <SubjectSelectModal
+              isOpen={radarModalOpen}
+              onClose={() => setRadarModalOpen(false)}
+              selected={radarSubjects}
+              onSelect={setRadarSubjects}
+            />
+          </div>
+
           {/* Main Analysis Area (Tabs) */}
           <div className="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden min-h-[500px]">
             <div className="flex border-b border-slate-100 px-6">
               {[
-                { id: 'overview', label: '综合概览 Overview' },
                 { id: 'output', label: '科研产出 Output' },
                 { id: 'citations', label: '被引趋势 Citations' },
                 { id: 'quality', label: '质量分析 Quality' },
@@ -1209,103 +1373,6 @@ const Dashboard = () => {
             </div>
 
             <div className="p-6">
-              {activeTab === 'overview' && (
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
-                  {/* Radar Chart */}
-                  <div className="bg-slate-50 p-4 rounded-xl relative">
-                    <div className="flex justify-between items-start mb-4">
-                      <div>
-                        <div className="flex items-center gap-2">
-                          <h3 className="font-bold text-slate-700">学科竞争力对标</h3>
-                          <button onClick={() => setRadarModalOpen(true)} className="p-1 hover:bg-slate-200 rounded text-slate-500">
-                            <Settings size={14} />
-                          </button>
-                        </div>
-                        <div className="mt-2 flex bg-white rounded-lg p-1 border border-slate-200">
-                          {[{ id: 'papers', label: '发文' }, { id: 'citations', label: '被引' }, { id: 'cpp', label: '篇均' }].map(m => (
-                            <button
-                              key={m.id}
-                              onClick={() => setRadarMetric(m.id)}
-                              className={cn(
-                                "px-2 py-1 text-xs rounded-md transition-all",
-                                radarMetric === m.id ? "bg-blue-100 text-blue-700 font-bold shadow-sm" : "text-slate-500 hover:text-slate-800"
-                              )}
-                            >
-                              {m.label}
-                            </button>
-                          ))}
-                        </div>
-                      </div>
-
-                      <div className="flex flex-col gap-1 items-end text-xs">
-                        <span className="flex items-center gap-1"><div className="w-2 h-2 rounded-full bg-blue-500"></div> 本校</span>
-                        {selectedBenchmarks.map((s, i) => (
-                          <span key={i} className="flex items-center gap-1">
-                            <div className="w-2 h-2 rounded-full" style={{ backgroundColor: ['#10b981', '#f59e0b', '#ef4444'][i] }}></div>
-                            {s.cnName?.slice(0, 4) || s.name.slice(0, 8)}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                    {selectedBenchmarks.length === 0 && (
-                      <p className="text-xs text-slate-400 mb-2 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/80 p-2 rounded backdrop-blur">
-                        请在右上角选择对标高校
-                      </p>
-                    )}
-                    <div className="h-[300px]">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <RadarChart cx="50%" cy="50%" outerRadius="80%" data={dynamicBenchmarkData}>
-                          <PolarGrid stroke="#e2e8f0" />
-                          <PolarAngleAxis dataKey="subject" tick={{ fill: '#475569', fontSize: 11 }} />
-                          <PolarRadiusAxis angle={30} domain={radarDomain} tick={false} axisLine={false} />
-                          <Radar name="本校" dataKey="MyUni" stroke="#3b82f6" fill="#3b82f6" fillOpacity={0.4} />
-                          {selectedBenchmarks.map((s, i) => (
-                            <Radar
-                              key={s.rank}
-                              name={s.cnName || s.name}
-                              dataKey={s.cnName || s.name}
-                              stroke={['#10b981', '#f59e0b', '#ef4444'][i]}
-                              fill={['#10b981', '#f59e0b', '#ef4444'][i]}
-                              fillOpacity={0.2}
-                            />
-                          ))}
-                          <RechartsTooltip
-                            formatter={(value, name, props) => {
-                              const rawKey = name === "本校" ? "MyUni_Raw" : `${name}_Raw`;
-                              const rawVal = props.payload[rawKey];
-                              if (rawVal === undefined) return [value, name];
-
-                              return [radarMetric === 'cpp' ? rawVal.toFixed(2) : Math.round(rawVal), name];
-                            }}
-                          />
-                        </RadarChart>
-                      </ResponsiveContainer>
-                    </div>
-                    <SubjectSelectModal
-                      isOpen={radarModalOpen}
-                      onClose={() => setRadarModalOpen(false)}
-                      selected={radarSubjects}
-                      onSelect={setRadarSubjects}
-                    />
-                  </div>
-                  {/* Contribution Bar */}
-                  <div className="bg-slate-50 p-4 rounded-xl">
-                    <h3 className="font-bold text-slate-700 mb-4">学院贡献度 Top 10</h3>
-                    <div className="h-[300px]">
-                      <ResponsiveContainer width="100%" height="100%">
-                        <BarChart data={realData.contribution} layout="vertical">
-                          <CartesianGrid strokeDasharray="3 3" horizontal={false} />
-                          <XAxis type="number" hide />
-                          <YAxis dataKey="name" type="category" width={120} tick={{ fontSize: 12 }} />
-                          <RechartsTooltip />
-                          <Bar dataKey="value" fill="#6366f1" radius={[0, 4, 4, 0]} barSize={20} />
-                        </BarChart>
-                      </ResponsiveContainer>
-                    </div>
-                  </div>
-                </div>
-              )}
-
               {activeTab === 'output' && (
                 <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
                   <h3 className="font-bold text-slate-700 mb-4">全校发文趋势 (Publication Trend)</h3>
@@ -1374,92 +1441,30 @@ const Dashboard = () => {
 
                   {/* Charts */}
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                      <h4 className="text-sm font-bold text-slate-600 mb-2">发文量 (Papers)</h4>
-                      <div className="h-[250px]">
+                    <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                      <h4 className="text-sm font-bold text-slate-600 mb-4">发文量 (Papers)</h4>
+                      <div className="h-[400px]">
                         <ResponsiveContainer width="100%" height="100%">
-                          <BarChart data={collegeStats.slice(0, 10)} layout="vertical">
+                          <BarChart data={collegeStats.slice(0, 15)} layout="vertical">
                             <CartesianGrid strokeDasharray="3 3" horizontal={false} />
                             <XAxis type="number" />
-                            <YAxis dataKey="name" type="category" width={100} tick={{ fontSize: 10 }} />
+                            <YAxis dataKey="name" type="category" width={140} tick={{ fontSize: 11 }} />
                             <RechartsTooltip />
-                            <Bar dataKey="papers" fill="#3b82f6" radius={[0, 4, 4, 0]} barSize={15} />
+                            <Bar dataKey="papers" fill="#3b82f6" radius={[0, 4, 4, 0]} barSize={20} />
                           </BarChart>
                         </ResponsiveContainer>
                       </div>
                     </div>
-                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                      <h4 className="text-sm font-bold text-slate-600 mb-2">被引频次 (Citations)</h4>
-                      <div className="h-[250px]">
+                    <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                      <h4 className="text-sm font-bold text-slate-600 mb-4">被引频次 (Citations)</h4>
+                      <div className="h-[400px]">
                         <ResponsiveContainer width="100%" height="100%">
-                          <BarChart data={collegeStats.slice(0, 10).sort((a, b) => b.citations - a.citations)} layout="vertical">
+                          <BarChart data={collegeStats.slice(0, 15).sort((a, b) => b.citations - a.citations)} layout="vertical">
                             <CartesianGrid strokeDasharray="3 3" horizontal={false} />
                             <XAxis type="number" />
-                            <YAxis dataKey="name" type="category" width={100} tick={{ fontSize: 10 }} />
+                            <YAxis dataKey="name" type="category" width={140} tick={{ fontSize: 11 }} />
                             <RechartsTooltip />
-                            <Bar dataKey="citations" fill="#f59e0b" radius={[0, 4, 4, 0]} barSize={15} />
-                          </BarChart>
-                        </ResponsiveContainer>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Table */}
-                  <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
-                    <table className="w-full text-left text-sm">
-                      <thead className="bg-slate-50 text-slate-500 font-bold">
-                        <tr>
-                          <th className="px-4 py-3">学院名称</th>
-                          <th className="px-4 py-3 text-right">论文数</th>
-                          <th className="px-4 py-3 text-right">被引频次</th>
-                          <th className="px-4 py-3 text-right">篇均被引</th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-slate-100">
-                        {collegeStats.map((c, i) => (
-                          <tr key={i} className="hover:bg-slate-50 transition-colors">
-                            <td className="px-4 py-3 font-bold text-slate-800">{c.name}</td>
-                            <td className="px-4 py-3 text-right tabular-nums">{c.papers}</td>
-                            <td className="px-4 py-3 text-right tabular-nums">{c.citations}</td>
-                            <td className="px-4 py-3 text-right tabular-nums text-blue-600 font-bold">{c.cpp}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              )}
-
-              {activeTab === 'contribution' && (
-                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-                  <h3 className="font-bold text-slate-700 mb-4">学院贡献分析 College Analysis</h3>
-
-                  {/* Charts */}
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                      <h4 className="text-sm font-bold text-slate-600 mb-2">发文量 (Papers)</h4>
-                      <div className="h-[250px]">
-                        <ResponsiveContainer width="100%" height="100%">
-                          <BarChart data={collegeStats.slice(0, 10)} layout="vertical">
-                            <CartesianGrid strokeDasharray="3 3" horizontal={false} />
-                            <XAxis type="number" />
-                            <YAxis dataKey="name" type="category" width={100} tick={{ fontSize: 10 }} />
-                            <RechartsTooltip />
-                            <Bar dataKey="papers" fill="#3b82f6" radius={[0, 4, 4, 0]} barSize={15} />
-                          </BarChart>
-                        </ResponsiveContainer>
-                      </div>
-                    </div>
-                    <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
-                      <h4 className="text-sm font-bold text-slate-600 mb-2">被引频次 (Citations)</h4>
-                      <div className="h-[250px]">
-                        <ResponsiveContainer width="100%" height="100%">
-                          <BarChart data={collegeStats.slice(0, 10).sort((a, b) => b.citations - a.citations)} layout="vertical">
-                            <CartesianGrid strokeDasharray="3 3" horizontal={false} />
-                            <XAxis type="number" />
-                            <YAxis dataKey="name" type="category" width={100} tick={{ fontSize: 10 }} />
-                            <RechartsTooltip />
-                            <Bar dataKey="citations" fill="#f59e0b" radius={[0, 4, 4, 0]} barSize={15} />
+                            <Bar dataKey="citations" fill="#f59e0b" radius={[0, 4, 4, 0]} barSize={20} />
                           </BarChart>
                         </ResponsiveContainer>
                       </div>
@@ -1469,21 +1474,27 @@ const Dashboard = () => {
                   {/* Table */}
                   <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">
                     <table className="w-full text-left text-sm">
-                      <thead className="bg-slate-50 text-slate-500 font-bold">
+                      <thead className="bg-slate-50 text-slate-500 font-bold cursor-pointer">
                         <tr>
-                          <th className="px-4 py-3">学院名称</th>
-                          <th className="px-4 py-3 text-right">论文数</th>
-                          <th className="px-4 py-3 text-right">被引频次</th>
-                          <th className="px-4 py-3 text-right">篇均被引</th>
+                          <th className="px-6 py-4">学院名称 (College)</th>
+                          <th className="px-6 py-4 text-right hover:bg-slate-100 transition-colors" onClick={() => handleCollegeSort('papers')}>
+                            论文数 {collegeSortConfig.key === 'papers' && (collegeSortConfig.direction === 'desc' ? '↓' : '↑')}
+                          </th>
+                          <th className="px-6 py-4 text-right hover:bg-slate-100 transition-colors" onClick={() => handleCollegeSort('citations')}>
+                            被引频次 {collegeSortConfig.key === 'citations' && (collegeSortConfig.direction === 'desc' ? '↓' : '↑')}
+                          </th>
+                          <th className="px-6 py-4 text-right hover:bg-slate-100 transition-colors" onClick={() => handleCollegeSort('cpp')}>
+                            篇均被引 {collegeSortConfig.key === 'cpp' && (collegeSortConfig.direction === 'desc' ? '↓' : '↑')}
+                          </th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-slate-100">
-                        {collegeStats.map((c, i) => (
+                        {sortedColleges.map((c, i) => (
                           <tr key={i} className="hover:bg-slate-50 transition-colors">
-                            <td className="px-4 py-3 font-bold text-slate-800">{c.name}</td>
-                            <td className="px-4 py-3 text-right tabular-nums">{c.papers}</td>
-                            <td className="px-4 py-3 text-right tabular-nums">{c.citations}</td>
-                            <td className="px-4 py-3 text-right tabular-nums text-blue-600 font-bold">{c.cpp}</td>
+                            <td className="px-6 py-4 font-bold text-slate-800">{c.name}</td>
+                            <td className="px-6 py-4 text-right tabular-nums">{c.papers}</td>
+                            <td className="px-6 py-4 text-right tabular-nums">{c.citations}</td>
+                            <td className="px-6 py-4 text-right tabular-nums text-blue-600 font-bold">{c.cpp}</td>
                           </tr>
                         ))}
                       </tbody>
@@ -1510,7 +1521,7 @@ const Dashboard = () => {
                             <th
                               key={col.key}
                               className="px-4 py-3 text-right cursor-pointer hover:bg-slate-100 transition-colors select-none"
-                              onClick={() => handleSort(col.key)}
+                              onClick={() => handleAuthorSort(col.key)}
                             >
                               <div className="flex items-center justify-end gap-1">
                                 {col.label}
@@ -1518,8 +1529,8 @@ const Dashboard = () => {
                                   size={14}
                                   className={cn(
                                     "transition-transform duration-200",
-                                    sortConfig.key === col.key && sortConfig.direction === 'asc' ? "rotate-0 text-blue-600" : "rotate-180 text-slate-300",
-                                    sortConfig.key === col.key ? "opacity-100" : "opacity-50"
+                                    authorSortConfig.key === col.key && authorSortConfig.direction === 'asc' ? "rotate-0 text-blue-600" : "rotate-180 text-slate-300",
+                                    authorSortConfig.key === col.key ? "opacity-100" : "opacity-50"
                                   )}
                                 />
                               </div>
@@ -1549,8 +1560,6 @@ const Dashboard = () => {
               )}
             </div>
           </div>
-
-          {/* Drill-Down Sections */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Advantage Disciplines */}
             <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
@@ -1618,7 +1627,7 @@ const Dashboard = () => {
               <Award className="text-amber-400" /> 本期高被引论文推荐
             </h3>
             <div className="space-y-4 relative z-10">
-              {realData.topPapers && realData.topPapers.map((paper, i) => (
+              {Array.isArray(realData.topPapers) && realData.topPapers.map((paper, i) => (
                 <div key={i} className="flex gap-3 items-start border-b border-white/10 pb-3 last:border-0 last:pb-0">
                   <div className="bg-indigo-700/50 p-2 rounded text-xs font-bold w-12 text-center flex-shrink-0">
                     Top {i + 1}
@@ -1665,5 +1674,6 @@ const Dashboard = () => {
     </div>
   );
 }
+
 
 export default Dashboard;

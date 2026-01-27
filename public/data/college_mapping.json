@@ -2,36 +2,74 @@
     "mappings": [
         {
             "keywords": [
+                "ANIM",
+                "VET",
+                "HUSB"
+            ],
+            "name": "畜牧兽医学院"
+        },
+        {
+            "keywords": [
+                "TIBETAN",
+                "PLATEAU",
+                "GRASSLAND",
+                "ZOIGE",
+                "WETLAND"
+            ],
+            "name": "草地资源学院"
+        },
+        {
+            "keywords": [
+                "PHARM",
+                "FOOD"
+            ],
+            "name": "药学与食品学院"
+        },
+        {
+            "keywords": [
                 "CHEM",
                 "ENVIRONM"
             ],
-            "name": "化学与环境工程学院"
+            "name": "化学与环境学院"
         },
         {
             "keywords": [
                 "COMP SCI",
-                "COMPUTER"
+                "COMPUTER",
+                "ARTIFICIAL INTELLIGENCE",
+                "AI ARCH LAB"
             ],
-            "name": "计算机科学与工程学院"
+            "name": "计算机与人工智能学院"
+        },
+        {
+            "keywords": [
+                "ELECT ENGN"
+            ],
+            "name": "电气工程学院"
         },
         {
             "keywords": [
                 "ELECT",
-                "INFORMAT"
+                "INFORMAT",
+                "TELECOMM"
             ],
             "name": "电子信息学院"
         },
         {
             "keywords": [
-                "PHARM"
+                "Architecture",
+                "URBAN PLANNING",
+                "ARCHIT"
             ],
-            "name": "药学院"
+            "name": "建筑学院"
         },
         {
             "keywords": [
-                "LIFE SCI"
+                "MANAGEMENT",
+                "BUSINESS",
+                "ADM"
             ],
-            "name": "生命科学与技术学院"
+            "name": "管理学院"
         },
         {
             "keywords": [
@@ -41,30 +79,16 @@
         },
         {
             "keywords": [
-                "MANAGEMENT",
-                "BUSINESS"
+                "LAW"
             ],
-            "name": "商学院/管理学院"
+            "name": "法学院"
         },
         {
             "keywords": [
-                "MARXISM"
+                "TOURISM",
+                "HIST"
             ],
-            "name": "马克思主义学院"
-        },
-        {
-            "keywords": [
-                "SOCIAL",
-                "PSYCHOL"
-            ],
-            "name": "社会学与心理学学院"
-        },
-        {
-            "keywords": [
-                "URBAN PLANNING",
-                "ARCHITECTURE"
-            ],
-            "name": "建筑与城市规划学院"
+            "name": "历史文化学院（旅游学院）"
         },
         {
             "keywords": [
@@ -74,36 +98,85 @@
         },
         {
             "keywords": [
-                "TOURISM",
-                "HIST"
+                "ART",
+                "DESIGN"
             ],
-            "name": "旅游与历史文化学院"
+            "name": "艺术学院"
         },
         {
             "keywords": [
-                "TIBETAN",
-                "PLATEAU"
+                "SPORTS",
+                "PHYS EDUC"
             ],
-            "name": "青藏高原研究院"
+            "name": "体育学院"
         },
         {
             "keywords": [
-                "ANIMAL",
-                "GENET"
+                "FOREIGN",
+                "ENGLISH"
             ],
-            "name": "青藏高原研究院"
+            "name": "外国语言文学学院"
         },
         {
             "keywords": [
-                "ELECT & INFORMAT"
+                "CHINESE LANGUAGE",
+                "LITERATURE",
+                "LINGUIST"
             ],
-            "name": "电子信息学院"
+            "name": "中国语言文学学院、民族语言文学研究院、藏羌彝文化研究院"
         },
         {
             "keywords": [
-                "FOOD"
+                "ETHNOL",
+                "SOCIOL",
+                "ANTHROPOL"
             ],
-            "name": "食品科学与技术学院"
+            "name": "民族学与社会学学院（西南民族研究院）"
+        },
+        {
+            "keywords": [
+                "EDUC",
+                "PSYCHOL"
+            ],
+            "name": "教育学与心理学学院"
+        },
+        {
+            "keywords": [
+                "MARXISM"
+            ],
+            "name": "马克思主义学院"
+        },
+        {
+            "keywords": [
+                "JOURNALISM",
+                "COMMUNICAT",
+                "MEDIA"
+            ],
+            "name": "新闻传播学院"
+        },
+        {
+            "keywords": [
+                "PHILOSOPHY"
+            ],
+            "name": "哲学学院"
+        },
+        {
+            "keywords": [
+                "COMMUNITY CHINESE NATION"
+            ],
+            "name": "中华民族共同体学院"
+        },
+        {
+            "keywords": [
+                "PREPARATORY"
+            ],
+            "name": "太平园书院 预科教育学院"
+        },
+        {
+            "keywords": [
+                "LIFE SCI"
+            ],
+            "name": "生命科学与技术学院"
         }
     ],
     "default": "其他/未识别"
