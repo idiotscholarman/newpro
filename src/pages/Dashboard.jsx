@@ -922,7 +922,11 @@ const Dashboard = () => {
       .then(data => setBenchmarkLookup(data))
       .catch(() => setBenchmarkLookup({}));
 
-
+    // 加载学院贡献数据（基于WOS全记录解析）
+    fetch('/data/college_stats.json')
+      .then(r => r.ok ? r.json() : [])
+      .then(data => setCollegeStats(data))
+      .catch(() => setCollegeStats([]));
   }, []);
 
   // Load benchmark school data when selections change
@@ -1044,8 +1048,8 @@ const Dashboard = () => {
   const [collegeSortConfig, setCollegeSortConfig] = useState({ key: 'papers', direction: 'desc' });
 
   const sortedColleges = React.useMemo(() => {
-    if (!realData?.colleges) return [];
-    const sorted = [...realData.colleges];
+    if (!collegeStats || collegeStats.length === 0) return [];
+    const sorted = [...collegeStats];
     sorted.sort((a, b) => {
       let aVal = a[collegeSortConfig.key];
       let bVal = b[collegeSortConfig.key];
@@ -1061,7 +1065,7 @@ const Dashboard = () => {
       return 0;
     });
     return sorted;
-  }, [realData, collegeSortConfig]);
+  }, [collegeStats, collegeSortConfig]);
 
   const handleCollegeSort = (key) => {
     setCollegeSortConfig(current => ({
@@ -1111,9 +1115,7 @@ const Dashboard = () => {
         const transformed = transformData(schoolData);
         setRealData(transformed);
         setRankings(mergedRankings);
-        if (transformed?.colleges) {
-          setCollegeStats(transformed.colleges);
-        }
+        // 注意：collegeStats 从 college_stats.json 单独加载，不要覆盖
         setLoading(false);
       })
       .catch(err => {
