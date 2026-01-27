@@ -902,7 +902,7 @@ const Dashboard = () => {
   const [rankingModalOpen, setRankingModalOpen] = useState(false);
 
   // Radar Chart State
-  const [radarMetric, setRadarMetric] = useState('cpp'); // 'papers', 'citations', 'cpp'
+  const [radarMetric, setRadarMetric] = useState('citations'); // 'papers', 'citations', 'cpp'
   const [radarSubjects, setRadarSubjects] = useState([]);
   const [radarModalOpen, setRadarModalOpen] = useState(false);
 
@@ -914,6 +914,7 @@ const Dashboard = () => {
   // Benchmark data for dynamic comparison
   const [benchmarkSchoolData, setBenchmarkSchoolData] = useState({});
   const [benchmarkLookup, setBenchmarkLookup] = useState(null);
+  const [esiThresholds, setEsiThresholds] = useState({});
 
   // Load benchmark lookup data on mount
   useEffect(() => {
@@ -921,6 +922,12 @@ const Dashboard = () => {
       .then(r => r.ok ? r.json() : {})
       .then(data => setBenchmarkLookup(data))
       .catch(() => setBenchmarkLookup({}));
+
+    // Load detailed ESI thresholds
+    fetch('/data/esi_thresholds.json')
+      .then(r => r.ok ? r.json() : {})
+      .then(data => setEsiThresholds(data))
+      .catch(() => setEsiThresholds({}));
 
     // 加载学院贡献数据（基于WOS全记录解析）
     fetch('/data/college_stats.json')
@@ -986,6 +993,43 @@ const Dashboard = () => {
       const myC = myDisc?.citations || 0;
       rawValues.MyUni = radarMetric === 'papers' ? myP : radarMetric === 'citations' ? myC : (myC / (myP || 1));
 
+      // ESI Threshold (门槛值) - use specific threshold from esi_thresholds.json
+      // Helper to normalize strings for matching
+      // Remove digits (key prefix) and non-letters, then uppercase
+      const normalize = (s) => s.replace(/^\d+/, '').replace(/[^a-zA-Z]/g, '').toUpperCase();
+      const normSubject = normalize(subject);
+
+      let thresholdVal = 0;
+      // Stricter matching: 
+      // 1. Exact match (after normalization) to avoid "Chemistry" matching "Biochemistry"
+      // 2. Fallback: try finding key that starts with subject (e.g. subject="Social Sciences", key="21Social Sciences, General")
+      let thresholdKey = Object.keys(esiThresholds).find(k => normalize(k) === normSubject);
+
+      if (!thresholdKey) {
+        thresholdKey = Object.keys(esiThresholds).find(k => normalize(k).startsWith(normSubject));
+      }
+
+      // If absolutely distinct mismatch issues persist, we might need a map, but this covers known cases.
+      const thresholdData = esiThresholds[thresholdKey];
+
+      if (thresholdData) {
+        if (radarMetric === 'papers') {
+          thresholdVal = thresholdData.papers;
+        } else if (radarMetric === 'citations') {
+          thresholdVal = thresholdData.citations;
+        } else {
+          // cpp
+          thresholdVal = thresholdData.cpp;
+        }
+      } else {
+        // Fallback to old logic if specific threshold not found
+        const oldThreshold = myDisc?.threshold || 0;
+        thresholdVal = radarMetric === 'papers' ? Math.round(oldThreshold / 17) : radarMetric === 'citations' ? oldThreshold : 17;
+      }
+
+      // Store threshold value for display
+      rawValues.ESI门槛 = thresholdVal;
+
       // Determine Source & ESI Value
       const esiP = myDisc?.esiPapers || 0;
       const esiC = myDisc?.esiCitations || 0;
@@ -999,19 +1043,47 @@ const Dashboard = () => {
         sources.MyUni = myDisc?.papers > 0 ? 'InCites' : 'N/A';
       }
 
-      // Benchmarks
-      // Helper to normalize strings for matching (remove special chars, spaces, digits)
-      const normalize = (s) => s.replace(/[^a-zA-Z]/g, '').toUpperCase();
-      const normSubject = normalize(subject);
-
       Object.entries(benchmarkSchoolData).forEach(([schoolName, schoolData]) => {
-        const detailsKey = Object.keys(schoolData.details || {}).find(k => normalize(k).endsWith(normSubject));
+        // More robust matching: try multiple approaches
+        const detailsKeys = Object.keys(schoolData.details || {});
+        let detailsKey = null;
+
+        // 1. First try: exact normalized endsWith match
+        detailsKey = detailsKeys.find(k => normalize(k).endsWith(normSubject));
+
+        // 2. Second try: normalized includes match
+        if (!detailsKey) {
+          detailsKey = detailsKeys.find(k => normalize(k).includes(normSubject));
+        }
+
+        // 3. Third try: subject includes key (for shorter key names)
+        if (!detailsKey) {
+          detailsKey = detailsKeys.find(k => normSubject.includes(normalize(k).replace(/^\d+/, '')));
+        }
+
         const details = schoolData.details?.[detailsKey];
         if (details) {
-          const p = details[0] || 0;
-          const c = details[1] || 0;
-          rawValues[schoolName] = radarMetric === 'papers' ? p : radarMetric === 'citations' ? c : (c / (p || 1));
-          sources[schoolName] = 'ESI';
+          // New structure: { esi: [papers, cites], incites: [papers, cites] }
+          // Use InCites for visual (rawValues), store ESI separately for tooltip
+          const incitesData = details.incites || details.esi || (Array.isArray(details) ? details : null);
+          const esiData = details.esi;
+
+          if (incitesData) {
+            const p = incitesData[0] || 0;
+            const c = incitesData[1] || 0;
+            rawValues[schoolName] = radarMetric === 'papers' ? p : radarMetric === 'citations' ? c : (c / (p || 1));
+            sources[schoolName] = esiData ? 'ESI' : 'InCites';
+
+            // Store ESI values for tooltip if available
+            if (esiData) {
+              const esiP = esiData[0] || 0;
+              const esiC = esiData[1] || 0;
+              esiValues[schoolName] = radarMetric === 'papers' ? esiP : radarMetric === 'citations' ? esiC : (esiC / (esiP || 1));
+            }
+          } else {
+            rawValues[schoolName] = 0;
+            sources[schoolName] = 'N/A';
+          }
         } else {
           rawValues[schoolName] = 0; // If not in Top 1%, value is significantly lower or considered 0 for ESI comparison
           sources[schoolName] = 'N/A';
@@ -1042,7 +1114,7 @@ const Dashboard = () => {
 
       return item;
     });
-  }, [realData, radarSubjects, benchmarkSchoolData, radarMetric]);
+  }, [realData, radarSubjects, benchmarkSchoolData, radarMetric, esiThresholds]);
 
   // Sorting for Colleges
   const [collegeSortConfig, setCollegeSortConfig] = useState({ key: 'papers', direction: 'desc' });
@@ -1275,6 +1347,19 @@ const Dashboard = () => {
                   </div>
                 </div>
 
+                {/* ESI Threshold Legend */}
+                <div className="p-3 bg-slate-50/50 rounded-xl border border-dashed border-slate-300 flex items-center gap-3">
+                  <div className="w-8 h-0.5 border-t-2 border-dashed border-slate-400"></div>
+                  <div>
+                    <span className="text-sm text-slate-600 font-medium">{radarMetric === 'citations' ? 'ESI入围门槛' : 'ESI末位均值'}</span>
+                    <div className="text-xs text-slate-400">
+                      {radarMetric === 'citations'
+                        ? '入围ESI全球前1%的最低被引次数'
+                        : 'ESI上榜机构中排名最后5%的平均水平'}
+                    </div>
+                  </div>
+                </div>
+
                 {selectedBenchmarks.map((s, i) => (
                   <div key={i} className="p-4 bg-slate-50 rounded-xl border border-slate-100 flex items-center justify-between">
                     <div className="flex items-center gap-2">
@@ -1300,6 +1385,16 @@ const Dashboard = () => {
                     <PolarGrid stroke="#e2e8f0" />
                     <PolarAngleAxis dataKey="subject" tick={{ fill: '#475569', fontSize: 12, fontWeight: 500 }} />
                     <PolarRadiusAxis angle={30} domain={radarDomain} tick={false} axisLine={false} />
+                    {/* ESI Threshold Reference Line */}
+                    <Radar
+                      name={radarMetric === 'citations' ? 'ESI入围门槛' : 'ESI末位均值'}
+                      dataKey="ESI门槛"
+                      stroke="#94a3b8"
+                      strokeWidth={2}
+                      strokeDasharray="5 5"
+                      fill="none"
+                      dot={false}
+                    />
                     <Radar name="本校" dataKey="MyUni" stroke="#2563eb" strokeWidth={3} fill="#3b82f6" fillOpacity={0.15} />
                     {selectedBenchmarks.map((s, i) => (
                       <Radar
@@ -1313,29 +1408,100 @@ const Dashboard = () => {
                       />
                     ))}
                     <RechartsTooltip
-                      formatter={(value, name, props) => {
-                        const key = name === "本校" ? "MyUni" : name;
-                        const rawKey = `${key}_Raw`;  // InCites数值 (用于画图)
-                        const esiKey = `${key}_ESI`;  // ESI数值 (入围时有此值)
+                      wrapperStyle={{ zIndex: 100, pointerEvents: 'none' }}
+                      content={({ active, payload, label, coordinate }) => {
+                        if (!active || !payload || payload.length === 0) return null;
 
-                        const incitesVal = props.payload[rawKey];
-                        const esiVal = props.payload[esiKey];
+                        const subject = payload[0]?.payload?.subject || label;
+                        const fullSubject = payload[0]?.payload?.fullSubject;
+                        const formatVal = (v) => radarMetric === 'cpp' ? Number(v).toFixed(2) : Math.round(Number(v)).toLocaleString();
 
-                        if (incitesVal === undefined) return [value, name];
+                        // Calculate position based on subject angle
+                        const subjectIndex = dynamicBenchmarkData.findIndex(d => d.subject === subject || d.fullSubject === fullSubject);
+                        const totalSubjects = dynamicBenchmarkData.length;
+                        // Radar starts from top (270deg) and goes clockwise
+                        const anglePerSubject = 360 / totalSubjects;
+                        const angleDeg = 270 + (subjectIndex * anglePerSubject);
+                        const angleRad = (angleDeg * Math.PI) / 180;
 
-                        // 格式化数值
-                        const formatVal = (v) => radarMetric === 'cpp' ? Number(v).toFixed(2) : Math.round(Number(v));
+                        // Calculate offset direction (outward from center)
+                        const offsetDistance = 180; // pixels from center
+                        const offsetX = Math.cos(angleRad) * offsetDistance;
+                        const offsetY = Math.sin(angleRad) * offsetDistance;
 
-                        // 入围ESI的学科：同时显示ESI和InCites两个数值
-                        if (esiVal !== undefined && esiVal > 0) {
-                          const displayText = `ESI: ${formatVal(esiVal)} / InCites: ${formatVal(incitesVal)}`;
-                          return [displayText, name];
-                        }
+                        // Determine which quadrant for alignment
+                        const isLeft = offsetX < 0;
+                        const isTop = offsetY < 0;
 
-                        // 未入围ESI：只显示InCites数值
-                        return [`InCites: ${formatVal(incitesVal)}`, name];
+                        // Build items with values for sorting
+                        // Build items with values for sorting
+                        const items = payload.map(entry => {
+                          let key = entry.name;
+                          if (key === "本校") key = "MyUni";
+                          if (key === (radarMetric === 'citations' ? 'ESI入围门槛' : 'ESI末位均值')) key = "ESI门槛";
+
+                          const rawKey = `${key}_Raw`;
+                          const esiKey = `${key}_ESI`;
+                          const incitesVal = entry.payload[rawKey];
+                          const esiVal = entry.payload[esiKey];
+
+                          // Special handling for ESI Threshold: show in ESI column
+                          const isThreshold = key === "ESI门槛";
+                          const finalEsiVal = isThreshold ? incitesVal : (esiVal !== undefined && esiVal > 0 ? esiVal : undefined);
+                          const finalIncitesVal = isThreshold ? undefined : incitesVal;
+
+                          return {
+                            name: entry.name,
+                            color: entry.color,
+                            value: incitesVal || entry.value || 0,
+                            esiVal: finalEsiVal !== undefined ? formatVal(finalEsiVal) : '-',
+                            incitesVal: finalIncitesVal !== undefined ? formatVal(finalIncitesVal) : '-'
+                          };
+                        });
+
+                        // Sort by value descending
+                        items.sort((a, b) => b.value - a.value);
+
+                        // Calculate tooltip position style
+                        const tooltipStyle = {
+                          position: 'absolute',
+                          transform: `translate(${isLeft ? '-100%' : '0'}, ${isTop ? '-100%' : '0'})`,
+                          left: coordinate?.x ? coordinate.x + offsetX * 0.3 : 'auto',
+                          top: coordinate?.y ? coordinate.y + offsetY * 0.3 : 'auto'
+                        };
+
+                        return (
+                          <div
+                            className="bg-white/95 backdrop-blur-sm rounded-xl shadow-xl border border-slate-100 p-3"
+                            style={{ ...tooltipStyle, minWidth: '320px', whiteSpace: 'nowrap' }}
+                          >
+                            <div className="font-bold text-slate-700 text-sm mb-2 pb-2 border-b border-slate-100">{subject}</div>
+                            <table className="w-full text-xs">
+                              <thead>
+                                <tr className="text-slate-400">
+                                  <th className="text-left font-medium pb-1">机构</th>
+                                  <th className="text-right font-medium pb-1 pl-3">ESI</th>
+                                  <th className="text-right font-medium pb-1 pl-3">InCites</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {items.map((item, i) => (
+                                  <tr key={i} className="border-t border-slate-50">
+                                    <td className="py-1 pr-2">
+                                      <div className="flex items-center gap-1.5">
+                                        <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: item.color }}></div>
+                                        <span className="text-slate-600">{item.name}</span>
+                                      </div>
+                                    </td>
+                                    <td className="text-right text-slate-800 font-medium tabular-nums pl-3">{item.esiVal}</td>
+                                    <td className="text-right text-slate-800 font-medium tabular-nums pl-3">{item.incitesVal}</td>
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        );
                       }}
-                      contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)' }}
                     />
                     <Legend />
                   </RadarChart>
@@ -1479,13 +1645,13 @@ const Dashboard = () => {
                       <thead className="bg-slate-50 text-slate-500 font-bold cursor-pointer">
                         <tr>
                           <th className="px-6 py-4">学院名称 (College)</th>
-                          <th className="px-6 py-4 text-right hover:bg-slate-100 transition-colors" onClick={() => handleCollegeSort('papers')}>
+                          <th className={`px-6 py-4 text-right hover:bg-slate-100 transition-colors ${collegeSortConfig.key === 'papers' ? 'text-blue-600 bg-blue-50' : ''}`} onClick={() => handleCollegeSort('papers')}>
                             论文数 {collegeSortConfig.key === 'papers' && (collegeSortConfig.direction === 'desc' ? '↓' : '↑')}
                           </th>
-                          <th className="px-6 py-4 text-right hover:bg-slate-100 transition-colors" onClick={() => handleCollegeSort('citations')}>
+                          <th className={`px-6 py-4 text-right hover:bg-slate-100 transition-colors ${collegeSortConfig.key === 'citations' ? 'text-blue-600 bg-blue-50' : ''}`} onClick={() => handleCollegeSort('citations')}>
                             被引频次 {collegeSortConfig.key === 'citations' && (collegeSortConfig.direction === 'desc' ? '↓' : '↑')}
                           </th>
-                          <th className="px-6 py-4 text-right hover:bg-slate-100 transition-colors" onClick={() => handleCollegeSort('cpp')}>
+                          <th className={`px-6 py-4 text-right hover:bg-slate-100 transition-colors ${collegeSortConfig.key === 'cpp' ? 'text-blue-600 bg-blue-50' : ''}`} onClick={() => handleCollegeSort('cpp')}>
                             篇均被引 {collegeSortConfig.key === 'cpp' && (collegeSortConfig.direction === 'desc' ? '↓' : '↑')}
                           </th>
                         </tr>
@@ -1494,9 +1660,9 @@ const Dashboard = () => {
                         {sortedColleges.map((c, i) => (
                           <tr key={i} className="hover:bg-slate-50 transition-colors">
                             <td className="px-6 py-4 font-bold text-slate-800">{c.name}</td>
-                            <td className="px-6 py-4 text-right tabular-nums">{c.papers}</td>
-                            <td className="px-6 py-4 text-right tabular-nums">{c.citations}</td>
-                            <td className="px-6 py-4 text-right tabular-nums text-blue-600 font-bold">{c.cpp}</td>
+                            <td className={`px-6 py-4 text-right tabular-nums font-medium ${collegeSortConfig.key === 'papers' ? 'text-blue-600' : 'text-slate-600'}`}>{c.papers}</td>
+                            <td className={`px-6 py-4 text-right tabular-nums font-medium ${collegeSortConfig.key === 'citations' ? 'text-blue-600' : 'text-slate-600'}`}>{c.citations}</td>
+                            <td className={`px-6 py-4 text-right tabular-nums font-medium ${collegeSortConfig.key === 'cpp' ? 'text-blue-600' : 'text-slate-600'}`}>{c.cpp}</td>
                           </tr>
                         ))}
                       </tbody>

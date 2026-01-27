@@ -19,7 +19,7 @@ function log(msg) {
 function getLatestDateFolder(dir) {
     if (!fs.existsSync(dir)) return null;
     const folders = fs.readdirSync(dir)
-        .filter(f => fs.statSync(path.join(dir, f)).isDirectory() && /^\d{6}$/.test(f))
+        .filter(f => fs.statSync(path.join(dir, f)).isDirectory() && /^\d{6,8}$/.test(f))
         .sort()
         .reverse();
     return folders[0] || null;
@@ -109,8 +109,10 @@ async function main() {
 
         if (headerIdx === -1) continue;
 
-        // Find last valid row (threshold) and all institutions in this discipline
+        // Collect all institutions for threshold calculation
+        const allInstitutions = [];
         let lastValidRow = null;
+
         for (let i = headerIdx + 1; i < rows.length; i++) {
             const row = rows[i];
             if (!row) continue;
@@ -119,6 +121,11 @@ async function main() {
             if (!name || name.includes('COPYRIGHT')) continue;
 
             lastValidRow = row;
+            const p = parseInt(row[cols.papers]) || 0;
+            const c = parseInt(row[cols.cites]) || 0;
+            const cpp = p > 0 ? c / p : 0;
+
+            allInstitutions.push({ name, papers: p, citations: c, cpp });
 
             // Mark this institution as having this discipline
             if (institutionData[name]) {
@@ -126,24 +133,47 @@ async function main() {
                 institutionData[name].disciplines = institutionData[name].disciplines || [];
                 institutionData[name].disciplines.push(discName);
 
-                // Store detailed metrics: [papers, citations]
+                // Store detailed metrics: { esi: [papers, citations], incites: [papers, citations] }
                 institutionData[name].details = institutionData[name].details || {};
-                const p = parseInt(row[cols.papers]) || 0;
-                const c = parseInt(row[cols.cites]) || 0;
-                institutionData[name].details[discName] = [p, c];
+                institutionData[name].details[discName] = { esi: [p, c] };
             }
         }
 
-        // Store threshold (last place citations)
-        if (lastValidRow) {
-            const threshold = parseInt(lastValidRow[cols.cites]) || 0;
-            disciplineThresholds[discName] = threshold;
+        // Calculate thresholds
+        if (allInstitutions.length > 0 && lastValidRow) {
+            // Sort by citations descending (standard ESI ranking) to ensure correctness
+            allInstitutions.sort((a, b) => b.citations - a.citations);
+
+            // Citations threshold: last place
+            const citationsThreshold = allInstitutions[allInstitutions.length - 1].citations;
+
+            // Papers and CPP threshold: average of last 5%
+            const last5PercentCount = Math.max(1, Math.ceil(allInstitutions.length * 0.05));
+            const last5Percent = allInstitutions.slice(-last5PercentCount);
+            const avgPapers = Math.round(last5Percent.reduce((sum, i) => sum + i.papers, 0) / last5Percent.length);
+
+            // CPP Threshold: Use Weighted Average (Sum Citations / Sum Papers) to avoid outliers
+            const sumCitationsLast5 = last5Percent.reduce((sum, i) => sum + i.citations, 0);
+            const sumPapersLast5 = last5Percent.reduce((sum, i) => sum + i.papers, 0);
+            const avgCpp = sumPapersLast5 > 0 ? (sumCitationsLast5 / sumPapersLast5) : 0;
+
+            disciplineThresholds[discName] = {
+                citations: citationsThreshold,
+                papers: avgPapers,
+                cpp: parseFloat(avgCpp.toFixed(2))
+            };
         }
     }
     log(`Processed ${disciplineFiles.length} discipline rankings`);
 
     // 3. Calculate potential disciplines from incites_potential
-    const potentialDir = path.join(baseDir, 'incites_potential');
+    const potentialBaseDir = path.join(baseDir, 'incites_potential');
+    const latestPotentialDate = getLatestDateFolder(potentialBaseDir);
+    if (!latestPotentialDate) {
+        log(`No date folder found in incites_potential`);
+    }
+    const potentialDir = latestPotentialDate ? path.join(potentialBaseDir, latestPotentialDate) : potentialBaseDir;
+    log(`Using potential data from: ${latestPotentialDate || 'root'}`);
     const potentialFolders = fs.readdirSync(potentialDir).filter(f => fs.statSync(path.join(potentialDir, f)).isDirectory());
 
     for (const folder of potentialFolders) {
@@ -161,7 +191,8 @@ async function main() {
 
         if (headerIdx === -1) continue;
 
-        const threshold = disciplineThresholds[discName] || disciplineThresholds[Object.keys(disciplineThresholds).find(k => k.startsWith(discCode))] || 0;
+        const thresholdObj = disciplineThresholds[discName] || disciplineThresholds[Object.keys(disciplineThresholds).find(k => k.startsWith(discCode))];
+        const threshold = thresholdObj?.citations || 0;
 
         if (threshold === 0) continue;
 
@@ -175,11 +206,17 @@ async function main() {
             const cites = parseInt(row[cols.cites]) || 0;
             const papers = parseInt(row[cols.papers]) || 0;
 
-            // Store detailed metrics if missing (i.e. not in Top 1% ESI Rankings)
+            // Store InCites metrics (always, to complement ESI data)
             institutionData[name] = institutionData[name] || {};
             institutionData[name].details = institutionData[name].details || {};
+
+            // Initialize or merge with existing discipline data
             if (!institutionData[name].details[discName]) {
-                institutionData[name].details[discName] = [papers, cites];
+                // No ESI data, create new entry with just InCites
+                institutionData[name].details[discName] = { incites: [papers, cites] };
+            } else {
+                // Has ESI data, add InCites alongside
+                institutionData[name].details[discName].incites = [papers, cites];
             }
 
             const potential = threshold > 0 ? (cites / threshold) * 100 : 0;
@@ -219,6 +256,11 @@ async function main() {
 
     fs.writeFileSync(outputPath, JSON.stringify(outputData, null, 2));
     log(`\nSaved benchmark data for ${Object.keys(outputData).length} institutions to ${outputPath}`);
+
+    // Also save thresholds to a separate file for frontend use
+    const thresholdsPath = path.join(outputDir, 'esi_thresholds.json');
+    fs.writeFileSync(thresholdsPath, JSON.stringify(disciplineThresholds, null, 2));
+    log(`Saved ESI thresholds for ${Object.keys(disciplineThresholds).length} disciplines to ${thresholdsPath}`);
 }
 
 main().catch(e => {

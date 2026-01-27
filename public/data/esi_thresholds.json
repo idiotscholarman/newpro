@@ -1,0 +1,112 @@
+{
+  "01Agricultural Sciences": {
+    "citations": 3740,
+    "papers": 219,
+    "cpp": 17.52
+  },
+  "02Biology & Biochemistry": {
+    "citations": 7436,
+    "papers": 284,
+    "cpp": 26.93
+  },
+  "03Chemistry": {
+    "citations": 7909,
+    "papers": 458,
+    "cpp": 18.05
+  },
+  "04Clinical Medicine": {
+    "citations": 4392,
+    "papers": 153,
+    "cpp": 30.07
+  },
+  "05Computer Science": {
+    "citations": 5663,
+    "papers": 394,
+    "cpp": 14.88
+  },
+  "06Economics & Business": {
+    "citations": 7841,
+    "papers": 515,
+    "cpp": 15.71
+  },
+  "07Engineering": {
+    "citations": 3858,
+    "papers": 277,
+    "cpp": 14.6
+  },
+  "08EnvironmentEcology": {
+    "citations": 5437,
+    "papers": 256,
+    "cpp": 22.09
+  },
+  "09Geosciences": {
+    "citations": 6250,
+    "papers": 366,
+    "cpp": 17.84
+  },
+  "10Immunology": {
+    "citations": 5615,
+    "papers": 229,
+    "cpp": 25.44
+  },
+  "11Materials Science": {
+    "citations": 8672,
+    "papers": 460,
+    "cpp": 19.68
+  },
+  "12Mathematics": {
+    "citations": 5347,
+    "papers": 898,
+    "cpp": 6.15
+  },
+  "13Microbiology": {
+    "citations": 5684,
+    "papers": 258,
+    "cpp": 22.81
+  },
+  "14Molecular Biology & Genetics": {
+    "citations": 14144,
+    "papers": 314,
+    "cpp": 46.6
+  },
+  "15Multidisciplinary": {
+    "citations": 3674,
+    "papers": 70,
+    "cpp": 53.21
+  },
+  "16Neuroscience & Behavior": {
+    "citations": 8006,
+    "papers": 293,
+    "cpp": 28.41
+  },
+  "17Pharmacology & Toxicology": {
+    "citations": 4196,
+    "papers": 242,
+    "cpp": 17.8
+  },
+  "18Physics": {
+    "citations": 19400,
+    "papers": 1034,
+    "cpp": 19.76
+  },
+  "19Plant & Animal Science": {
+    "citations": 3197,
+    "papers": 264,
+    "cpp": 12.54
+  },
+  "20PsychiatryPsychology": {
+    "citations": 4371,
+    "papers": 283,
+    "cpp": 16.18
+  },
+  "21Social Sciences, General": {
+    "citations": 2106,
+    "papers": 150,
+    "cpp": 14.67
+  },
+  "22Space Science": {
+    "citations": 54116,
+    "papers": 1457,
+    "cpp": 37.85
+  }
+}
