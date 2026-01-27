@@ -1,0 +1,110 @@
+{
+    "mappings": [
+        {
+            "keywords": [
+                "CHEM",
+                "ENVIRONM"
+            ],
+            "name": "化学与环境工程学院"
+        },
+        {
+            "keywords": [
+                "COMP SCI",
+                "COMPUTER"
+            ],
+            "name": "计算机科学与工程学院"
+        },
+        {
+            "keywords": [
+                "ELECT",
+                "INFORMAT"
+            ],
+            "name": "电子信息学院"
+        },
+        {
+            "keywords": [
+                "PHARM"
+            ],
+            "name": "药学院"
+        },
+        {
+            "keywords": [
+                "LIFE SCI"
+            ],
+            "name": "生命科学与技术学院"
+        },
+        {
+            "keywords": [
+                "ECON"
+            ],
+            "name": "经济学院"
+        },
+        {
+            "keywords": [
+                "MANAGEMENT",
+                "BUSINESS"
+            ],
+            "name": "商学院/管理学院"
+        },
+        {
+            "keywords": [
+                "MARXISM"
+            ],
+            "name": "马克思主义学院"
+        },
+        {
+            "keywords": [
+                "SOCIAL",
+                "PSYCHOL"
+            ],
+            "name": "社会学与心理学学院"
+        },
+        {
+            "keywords": [
+                "URBAN PLANNING",
+                "ARCHITECTURE"
+            ],
+            "name": "建筑与城市规划学院"
+        },
+        {
+            "keywords": [
+                "MATH"
+            ],
+            "name": "数学学院"
+        },
+        {
+            "keywords": [
+                "TOURISM",
+                "HIST"
+            ],
+            "name": "旅游与历史文化学院"
+        },
+        {
+            "keywords": [
+                "TIBETAN",
+                "PLATEAU"
+            ],
+            "name": "青藏高原研究院"
+        },
+        {
+            "keywords": [
+                "ANIMAL",
+                "GENET"
+            ],
+            "name": "青藏高原研究院"
+        },
+        {
+            "keywords": [
+                "ELECT & INFORMAT"
+            ],
+            "name": "电子信息学院"
+        },
+        {
+            "keywords": [
+                "FOOD"
+            ],
+            "name": "食品科学与技术学院"
+        }
+    ],
+    "default": "其他/未识别"
+}
