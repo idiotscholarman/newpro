@@ -1,0 +1,128 @@
+{
+  "Agricultural Sciences": {
+    "cnName": "农业科学",
+    "cpp": 14.425149700598803,
+    "cnci": 1.2627745508982036,
+    "baselineCpp": 17.28363646787347
+  },
+  "Biology & Biochemistry": {
+    "cnName": "生物学与生物化学",
+    "cpp": 14.802083333333334,
+    "cnci": 1.1841713541666667,
+    "baselineCpp": 21.592712232909058
+  },
+  "Chemistry": {
+    "cnName": "化学",
+    "cpp": 18.775453277545328,
+    "cnci": 1.065449930264993,
+    "baselineCpp": 21.884840087070174
+  },
+  "Clinical Medicine": {
+    "cnName": "临床医学",
+    "cpp": 10.86111111111111,
+    "cnci": 0.7698875000000001,
+    "baselineCpp": 16.767612566241695
+  },
+  "Computer Science": {
+    "cnName": "计算机科学",
+    "cpp": 9.791666666666666,
+    "cnci": 0.8056839285714287,
+    "baselineCpp": 17.25372654582806
+  },
+  "Economics & Business": {
+    "cnName": "经济学与商学",
+    "cpp": 9.1875,
+    "cnci": 0.8841145833333334,
+    "baselineCpp": 15.829856233695496
+  },
+  "Engineering": {
+    "cnName": "工程学",
+    "cpp": 15.560267857142858,
+    "cnci": 1.1755734375000002,
+    "baselineCpp": 17.445950341117353
+  },
+  "EnvironmentEcology": {
+    "cnName": "环境/生态学",
+    "cpp": 14.053380782918149,
+    "cnci": 1.105908896797153,
+    "baselineCpp": 21.630430920139425
+  },
+  "Geosciences": {
+    "cnName": "地球科学",
+    "cpp": 16.333333333333332,
+    "cnci": 1.1568785714285714,
+    "baselineCpp": 17.671200248356776
+  },
+  "Immunology": {
+    "cnName": "免疫学",
+    "cpp": 8.222222222222221,
+    "cnci": 0.5883037037037037,
+    "baselineCpp": 21.90155781421715
+  },
+  "Materials Science": {
+    "cnName": "材料科学",
+    "cpp": 23.675603217158177,
+    "cnci": 1.1699455764075066,
+    "baselineCpp": 26.4862282613806
+  },
+  "Mathematics": {
+    "cnName": "数学",
+    "cpp": 10.308641975308642,
+    "cnci": 1.8239370370370371,
+    "baselineCpp": 6.6476265544567665
+  },
+  "Microbiology": {
+    "cnName": "微生物学",
+    "cpp": 12.539130434782608,
+    "cnci": 0.8602808695652173,
+    "baselineCpp": 20.049702456162322
+  },
+  "Molecular Biology & Genetics": {
+    "cnName": "分子生物学与遗传学",
+    "cpp": 13.885135135135135,
+    "cnci": 0.7653722972972973,
+    "baselineCpp": 29.637736358579122
+  },
+  "Multidisciplinary": {
+    "cnName": "综合交叉学科",
+    "cpp": 58.5,
+    "cnci": 3.6055250000000005,
+    "baselineCpp": 25.283682262010437
+  },
+  "Neuroscience & Behavior": {
+    "cnName": "神经科学与行为学",
+    "cpp": 23.227272727272727,
+    "cnci": 1.140543181818182,
+    "baselineCpp": 20.77209467040844
+  },
+  "Pharmacology & Toxicology": {
+    "cnName": "药理学与毒理学",
+    "cpp": 16.088607594936708,
+    "cnci": 1.097194936708861,
+    "baselineCpp": 17.106640231600053
+  },
+  "Physics": {
+    "cnName": "物理学",
+    "cpp": 10.962406015037594,
+    "cnci": 0.9082684210526316,
+    "baselineCpp": 16.12444755229998
+  },
+  "Plant & Animal Science": {
+    "cnName": "植物学与动物学",
+    "cpp": 7.341628959276018,
+    "cnci": 1.091443438914027,
+    "baselineCpp": 13.761100894140922
+  },
+  "PsychiatryPsychology": {
+    "cnName": "心理学/精神病学",
+    "cpp": 11.842105263157896,
+    "cnci": 1.2610157894736842,
+    "baselineCpp": 15.308613838476653
+  },
+  "Social Sciences, General": {
+    "cnName": "社会科学总论",
+    "cpp": 11.039473684210526,
+    "cnci": 1.9185842105263158,
+    "baselineCpp": 12.003722465129018
+  }
+}

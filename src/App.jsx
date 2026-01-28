@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import DisciplineDetail from './pages/DisciplineDetail';
+import DebugPage from './pages/DebugPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
         {/* 核心路由: /report/学校ID */}
         <Route path="/report/:schoolId" element={<Dashboard />} />
+        <Route path="/debug" element={<DebugPage />} />
 
         {/* Dynamic route for Discipline details */}
         <Route path="/report/:schoolId/discipline/:disciplineName" element={<DisciplineDetail />} />

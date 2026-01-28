@@ -8,4 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  resolve: {
+    alias: {
+      'react-simple-maps': 'react-simple-maps/dist/index.es.js'
+    }
+  }
 })

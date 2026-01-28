@@ -1,0 +1,784 @@
+[
+  {
+    "title": "Controllable surface carrier type of metal oxide nanocrystals for multifunctional photocatalysis",
+    "authors": [
+      "Li, Han Ding, Yingchun Luo, Kaiyi Zhang, Qiuping Yuan, Huan Xu, Shuyan Xu, Ming"
+    ],
+    "journal": "ISCIENCE",
+    "year": "2025",
+    "volume": "28",
+    "issue": "2",
+    "abstract": "Selectively harnessing photo-induced carriers to control surface photo-redox reactions can enable currently limited specificity in photocatalytic applications. By using a new approach to switching between dominant electron and hole charge transfer on the surfaces of metal oxide nanocrystals, depending on the optimal carrier for specific application functionality in photocatalytic pollutant degradation, H2 production, CO2 reduction, and gas sensing. The approach is based on the surface redox properties of custom-designed p-n hetero-structured hybrid nanoparticles (NPs) containing copper oxide, and wide-gap metal oxide semiconductors (MOSs). The customized CuxO/ZnO (CXZ) heterostructures ensure effective charge separation and surface reactions driven by UV-vis excited highly reactive holes and show high performance in the photo-oxidative degradation of organic dyes and NO2 gas sensing. By switching the dominant surface carrier type from holes to electrons, the hybrids exhibit excellent performance in photocatalytic H2 evolution and CO2 reduction. This work offers a generic approach to engineering multipurpose photocatalytic materials.",
+    "keywords": "ZNO; HETEROSTRUCTURES; NANOPARTICLES; EFFICIENCY; REDUCTION; OXIDATION; TIO2",
+    "doi": "10.1016/j.isci.2025.111750",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "Online Diagnosis Method of Water Management Faults Based on Hybrid-Frequency Electrochemical Impedance Spectroscopy for PEMFC",
+    "authors": [
+      "Li, Qi Wang, Hailong Wang, Tianhong Li, Xiang Liu, Yu Chen, Weirong You, Zhiyu"
+    ],
+    "journal": "IEEE TRANSACTIONS ON TRANSPORTATION ELECTRIFICATION",
+    "year": "2025",
+    "volume": "11",
+    "issue": "1",
+    "abstract": "To swiftly accomplish online fault diagnosis of water management for proton exchange membrane fuel cell (PEMFC), an online diagnosis method of water management faults based on hybrid-frequency electrochemical impedance spectroscopy is proposed. First, guided by the principle of time-frequency signal processing, the online diagnosis of water management faults is conducted via the full-frequency band electrochemical impedance spectroscopy and the characteristic information of the abscissa coordinates at the intersection of high and low frequencies in electrochemical impedance spectroscopy. Subsequently, an online diagnosis method of water management faults based on hybrid-frequency electrochemical impedance spectroscopy is proposed to enhance the diagnostic speed. To validate the effectiveness and feasibility of the proposed method, a test platform is established, and numerous tests and analyses are conducted on PEMFC under diverse operating conditions. Experimental results demonstrate that the proposed method can accurately and swiftly identify various faults of water management in PEMFC, achieving a diagnostic accuracy of 95.56%, with a diagnostic duration of approximately 4 s.",
+    "keywords": "Impedance; Fault diagnosis; Electrochemical impedance spectroscopy; Impedance measurement; Frequency measurement; Integrated circuit modeling; Current measurement; Hybrid-frequency electrochemical impedance spectroscopy; online fault diagnosis of water management; proton exchange membrane fuel cell (PEMFC)",
+    "doi": "10.1109/TTE.2024.3427401",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电气工程学院"
+    ]
+  },
+  {
+    "title": "One multi-receiver certificateless searchable public key encryption scheme for IoMT assisted by LLM",
+    "authors": [
+      "Liu, Xiaoguang Liu, Peize Yang, Bo Chen, Yizhan"
+    ],
+    "journal": "JOURNAL OF INFORMATION SECURITY AND APPLICATIONS",
+    "year": "2025",
+    "volume": "90",
+    "abstract": "The Internet of Medical Things (IoMT) has become widely adopted across the healthcare sector, offering transformative benefits. By utilizing a range of wearable medical devices and cloud servers, IoMT enables the rapid transmission of data over networks, which supports timely health monitoring and data-driven decision- making. In recent years, some applications have used the Large Language Model (LLM) to assist in diagnosis, significantly improving diagnostic efficiency in IoMT. However, secure transmission of sensitive medical information remains a key concern. To address this, we propose a multi-receiver certificateless searchable public key encryption (mCLSPE) scheme that leverages proxy re-encryption. This scheme not only addresses the inherent issues in searchable public key encryption (SPE) but also allows for more flexible addition of receivers and enhances data-sharing flexibility. The proposed scheme is proven secure in the random oracle model. The performance analysis shows that it has ideal comprehensive performance. The growth rate of communication overhead with the increase in users is significantly lower compared to other mCLSPE schemes. Finally, we design a specific IoMT assisted by LLM application scenario based on this scheme.",
+    "keywords": "Certificateless; Searchable public key encryption; IoMT; LLM; Multi-receiver",
+    "doi": "10.1016/j.jisa.2025.104011",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "计算机与人工智能学院",
+      "数学学院"
+    ]
+  },
+  {
+    "title": "The impact of innovation-driven industrial clusters on urban carbon emission efficiency: Empirical evidence from China",
+    "authors": [
+      "Lu, Hongyu Yao, Zhuang Xue, Anna Cheng, Zhao"
+    ],
+    "journal": "SUSTAINABLE CITIES AND SOCIETY",
+    "year": "2025",
+    "volume": "121",
+    "abstract": "Innovative industrial clusters can leverage economies of scale and synergies, thereby providing new impetus for enhancing carbon emission efficiency. This study, based on panel data from Chinese cities between 2010 and 2021, views the pilot policy of innovative industrial clusters as a quasi-natural experiment, using a difference-indifferences model to identify the causal relationship between innovative industrial clusters and carbon emission efficiency. The findings indicate that: (1) Innovative industrial clusters can significantly improve carbon emission efficiency, and this conclusion holds under multiple robustness checks; (2) Innovative industrial clusters enhance carbon emission efficiency by upgrading industrial structures, accelerating technological progress, and improving transportation efficiency; (3) The positive impact of innovative industrial clusters on carbon emission efficiency is more pronounced in cities with non-resource-based economies, higher administrative levels, greater marketization, relatively well-developed digital infrastructure, and stronger intellectual property protection; (4) Innovative industrial clusters exert a positive spatial spillover effect on carbon emission efficiency. This study is the first to examine the role of innovative industrial cluster policies in improving carbon emission efficiency, providing valuable insights and experiences for advancing sustainable development.",
+    "keywords": "Innovation-driven Industrial clusters; Carbon emission efficiency; Difference-in-differences model; Spatial difference-in-differences model; super-efficiency slacks-based measure model",
+    "doi": "10.1016/j.scs.2025.106220",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "经济学院"
+    ]
+  },
+  {
+    "title": "Mutual promotion by structural design and intrinsic activity coupling of CNTs/MoC/CoNiMo for water splitting and urea electrolysis",
+    "authors": [
+      "Liu, Xuesong Deng, Kuan Liu, Peng Lv, Xingbin Tian, Wen Ma, Kui Li, Hongjiao Ji, Junyi"
+    ],
+    "journal": "APPLIED CATALYSIS B-ENVIRONMENT AND ENERGY",
+    "year": "2024",
+    "volume": "343",
+    "abstract": "Construction of durable multi-function electrocatalysts for hydrogen production is still highly challenging. Herein, we report a hierarchical integrated tri-functional heterogeneous CNTs/MoC/CoNiMo electrode for HER and related OER/UOR. The carbon-protected Ni nanoparticles yield abundant gamma-NiOOH active intermediates to boost OER/UOR, while DFT calculations verify Mo migration induced by MoC and CoNiMo alloy under negative potentials generates HER super-active sites on Mo-rich surfaces. Additionally, the parallel aligned nanosheets with out-plane extended CNTs arrays can guide the rapid bubbles release and expand the accessible surface area. Therefore, the optimized CNT/MoC/NMC-3 electrode can achieve overpotentials of 51 mV (HER) and 226 mV (OER), with low potential threshold of 1.257 V (UOR) at 10 mA cm-2. Moreover, the assembled symmetric urea electrolyzer reaches a 1.291 V cell voltage at 10 mA cm-2. This work provides a novel strategy for heterostructure multi-component integration for achieving high-efficiency hydrogen production and urea-containing wastewater purification.",
+    "keywords": "Carbon nanotube; Nanostructures; Integrated tri-functional heterostructure; In -situ catalytic growth; Water splitting",
+    "doi": "10.1016/j.apcatb.2023.123470",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "化学与环境学院"
+    ]
+  },
+  {
+    "title": "An effective strategy for synthesizing high-performance photocatalyst by recycling the graphite target wastes",
+    "authors": [
+      "Bai, Minghui Chen, Ruichong Liu, Xian Li, Haoying Li, Jing Huang, Heping Song, Man Zhang, Qiuping Su, Yuanjie Wang, Haomin Xu, Ming Xie, Guangzhong"
+    ],
+    "journal": "JOURNAL OF ENVIRONMENTAL CHEMICAL ENGINEERING",
+    "year": "2024",
+    "volume": "12",
+    "issue": "5",
+    "abstract": "The tide of new energy vehicles and modern semiconductor devices releases a myriad of graphite anode and graphite target wastes. Recycling graphite wastes for catalysis preparation turns out to be a win-win and efficient way to deal with rampant environmental pollution. In this work, a graphite target waste was efficiently recycled into 2D few-layer graphite as the raw materials for the subsequent synthesis of nanoscale photocatalysts. The as-developed photocatalyst demonstrates a gain of 19 % in photocatalytic efficiency and superior photostability in sunlight-driven photodegradation of organic pollutants. Furthermore, the impact of temperature and pH value on the photocatalytic degradation efficiency was systematically investigated. The work affords an effective strategy for high-efficiency waste reclamation through full utilization of the graphite target wastes.",
+    "keywords": "Graphite target wastes; Recycling; Nanophase photocatalysts; Organic pollutant degradation",
+    "doi": "10.1016/j.jece.2024.113872",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "Feature selection for classification with Spearman's rank correlation coefficient-based self-information in divergence-based fuzzy rough sets",
+    "authors": [
+      "Jiang, Jiefang Zhang, Xianyong Yuan, Zhong"
+    ],
+    "journal": "EXPERT SYSTEMS WITH APPLICATIONS",
+    "year": "2024",
+    "volume": "249",
+    "abstract": "Feature selection facilitates uncertainty disposal and information mining, and it has received widespread research interests. Divergence-based fuzzy rough sets (Div-FRSs), a new kind of fuzzy rough sets, have been applied to feature selection and induced two efficient algorithms, FS-AFS and FS-RFS. Nevertheless, FS-AFS and FS-RFS still have advancement space, because the dependency functions only focus on lower approximation and ignore the uncertainty in upper approximation, which will certainly undermine the algorithmic evaluation effects. To this end, this paper introduces the upper approximation and fuses it with lower approximation via class-specific pattern and Spearman coefficient to construct a new information measurement for metric perfection, called Spearman-based self-information. Relying on this new measurement, a novel feature selection algorithm SPESI is established to improve FS-AFS and FS-RFS. At first, Spearman coefficient is introduced and upper approximation is defined. Second, class-driven precision and roughness are built by incorporating Spearman coefficient-based class-specific weight vectors with class-driven lower and upper approximations. Meanwhile, the granulation monotonicity of newly-defined measurements is also explored. Then, the core measurement Spearman-based self-information is firstly given and its feature significance motivates a feature selection algorithm SPESI with heuristic search. Finally, data experiments are implemented to validate the effectiveness of SPESI, and a conclusion can be drawn that SPESI outperforms FS-AFS and FS-RFS to acquire better classification performances with fewer feature numbers and less running time.",
+    "keywords": "Divergence-based fuzzy rough sets; Feature selection; Uncertainty measurement; Self-information; Spearman's rank correlation coefficient; Classification",
+    "doi": "10.1016/j.eswa.2024.123633",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "数学学院"
+    ]
+  },
+  {
+    "title": "Ir-Doped CuPd Single-Crystalline Mesoporous Nanotetrahedrons for Ethylene Glycol Oxidation Electrocatalysis: Enhanced Selective Cleavage of C-C Bond",
+    "authors": [
+      "Lv, Hao Mao, Yumeng Yao, Huiqin Ma, Huazhong Han, Chenyu Yang, Yao-Yue Qiao, Zhen-An Liu, Ben"
+    ],
+    "journal": "ANGEWANDTE CHEMIE-INTERNATIONAL EDITION",
+    "year": "2024",
+    "volume": "63",
+    "issue": "15",
+    "abstract": "The development of highly efficient electrocatalysts for complete oxidation of ethylene glycol (EG) in direct EG fuel cells is of decisive importance to hold higher energy efficiency. Despite some achievements, their progress, especially electrocatalytic selectivity to complete oxidated C1 products, is remarkably slower than expected. In this work, we developed a facile aqueous synthesis of Ir-doped CuPd single-crystalline mesoporous nanotetrahedrons (Ir-CuPd SMTs) as high-performance electrocatalyst for promoting oxidation cleavage of C-C bond in alkaline EG oxidation reaction (EGOR) electrocatalysis. The synthesis relied on precise reduction/co-nucleation and epitaxial growth of Ir, Cu and Pd precursors with cetyltrimethylammonium chloride as the mesopore-forming surfactant and extra Br- as the facet-selective agent under ambient conditions. The products featured concave nanotetrahedron morphology enclosed by well-defined (111) facets, single-crystalline and mesoporous structure radiated from the center, and uniform elemental composition without any phase separation. Ir-CuPd SMTs disclosed remarkably enhanced electrocatalytic activity and excellent stability as well as superior selectivity of C1 products for alkaline EGOR electrocatalysis. Detailed mechanism studies demonstrated that performance improvement came from structural and compositional synergies, which kinetically accelerated transports of electrons/reactants within active sites of penetrated mesopores and facilitated oxidation cleavage of high-energy-barrier C-C bond of EG for desired C1 products. More interestingly, Ir-CuPd SMTs performed well in coupled electrocatalysis of anode EGOR and cathode nitrate reduction, highlighting its high potential as bifunctional electrocatalyst in various applications. Ir-doped CuPd single-crystalline mesoporous nanotetrahedrons (Ir-CuPd SMTs) were facilely prepared through an aqueous surfactant-templating epitaxial growth strategy. With mesoporous channels and multi-compositions, Ir-CuPd SMTs delivered remarkable C-C bond cleavage of electrocatalytic ethylene glycol oxidation (EGOR) to C1 products. The Ir-CuPd SMTs performed perfectly in coupled electrocatalysis of EGOR and nitrate reduction. image",
+    "keywords": "mesoporous metals; nanoparticles; single crystals; C-C bond cleavage; electrochemistry",
+    "doi": "10.1002/anie.202400281",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "化学与环境学院"
+    ]
+  },
+  {
+    "title": "Plant height as an indicator for alpine carbon sequestration and ecosystem response to warming",
+    "authors": [
+      "Quan, Quan He, Nianpeng Zhang, Ruiyang Wang, Jinsong Luo, Yiqi Ma, Fangfang Pan, Junxiao Wang, Ruomeng Liu, Congcong Zhang, Jiahui Wang, Yiheng Song, Bing Li, Zhaolei Zhou, Qingping Yu, Guirui Niu, Shuli"
+    ],
+    "journal": "NATURE PLANTS",
+    "year": "2024",
+    "volume": "10",
+    "issue": "6",
+    "abstract": "Growing evidence indicates that plant community structure and traits have changed under climate warming, especially in cold or high-elevation regions. However, the impact of these warming-induced changes on ecosystem carbon sequestration remains unclear. Using a warming experiment on the high-elevation Qinghai-Tibetan Plateau, we found that warming not only increased plant species height but also altered species composition, collectively resulting in a taller plant community associated with increased net ecosystem productivity (NEP). Along a 1,500 km transect on the Plateau, taller plant community promoted NEP and soil carbon through associated chlorophyll content and other photosynthetic traits at the community level. Overall, plant community height as a dominant trait is associated with species composition and regulates ecosystem C sequestration in the high-elevation biome. This trait-based association provides new insights into predicting the direction, magnitude and sensitivity of ecosystem C fluxes in response to climate warming. Quan et al. show that warming-induced changes in plant community height in a cold, high-elevation region enhance ecosystem carbon sequestration, emphasizing the importance of plant traits in shaping the carbon cycle under climate change.",
+    "keywords": "CLIMATE-CHANGE; TEMPERATURE SENSITIVITY; SPECIES COMPOSITION; CYCLE FEEDBACK; SOIL CARBON; NITROGEN; TUNDRA; VEGETATION; MEADOW; FLUX",
+    "doi": "10.1038/s41477-024-01705-z",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "草地资源学院"
+    ]
+  },
+  {
+    "title": "Assessing the nexus between natural resources and government effectiveness: Role of green innovation in shaping environmental sustainability of BRICS nations",
+    "authors": [
+      "Zhang, Xuan Hasan, Mohammad Maruf Waris, Umra"
+    ],
+    "journal": "RESOURCES POLICY",
+    "year": "2024",
+    "volume": "93",
+    "abstract": "The discussion surrounding natural resources and government effectiveness in mitigating carbon emissions has garnered significant attention. However, the existing evidence on this matter remains limited. This research delves into this issue within the BRICS nations, shedding light on pivotal factors influencing the ecological landscape. Spanning the years 1995-2021, this study identifies government effectiveness, green innovation, natural resources, and economic growth as crucial determinants that significantly shape the environmental sustainability of BRICS nations. For this purpose, we employ the Method of Moments Quantile Regression (MMQR), Canay (2011) quantile regression, and AMG. Study results reveal a positive correlation between nuclear energy and CO2 emissions, signaling environmental challenges. Conversely, government effectiveness consistently correlates with reduced CO2 emissions, aligning with Sustainable Development Goal 16. The positive relationship between green technology innovation and natural resource utilization with CO2 emissions underscores the imperative for environmental considerations. On the flip side, economic growth negatively impacts CO2 emissions, suggesting potential avenues for sustainable development. These findings highlight the urgency of targeted policies, especially resource-related ones, to enhance environmental sustainability in BRICS nations. Recognizing their global impact, strategic interventions are crucial for addressing environmental challenges and fostering sustainable development.",
+    "keywords": "Nuclear energy; Government effectiveness; Green technology innovation; Natural resources; BRICS",
+    "doi": "10.1016/j.resourpol.2024.105024",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "管理学院"
+    ]
+  },
+  {
+    "title": "Global patterns and controlling factors of tree bark C : N : P stoichiometry in forest ecosystems consistent with biogeochemical niche hypothesis",
+    "authors": [
+      "Gong, Haiyang Sardans, Jordi Huang, Heng Yan, Zhengbing Wang, Zhiqiang Penuelas, Josep"
+    ],
+    "journal": "NEW PHYTOLOGIST",
+    "year": "2024",
+    "volume": "244",
+    "issue": "4",
+    "abstract": "Bark serves crucial roles in safeguarding trees physically and chemically, while also contributing to nutrient cycling and carbon sequestration. Despite its importance, the broader biogeographical patterns and the potential factors influencing bark C : N : P stoichiometry in forest ecosystems remain largely unknown. In this study, we compiled a comprehensive dataset comprising carbon (C), nitrogen (N), and phosphorus (P) concentrations in bark with 1240 records from 550 diverse forest sites to systematically analyze the large-scale patterns and the factors controlling bark C : N : P stoichiometry. The geometric means of bark C, N, and P concentrations were found to be 493.17 +/- 1.75, 3.91 +/- 0.09, and 0.2 +/- 0.01 mg g-1, respectively. Correspondingly, the C : N, C : P, and N : P mass ratios were 135.51 +/- 8.11, 3313.19 +/- 210.16, and 19.16 +/- 0.6, respectively. Bark C : N : P stoichiometry exhibited conspicuous latitudinal trends, with the exception of N : P ratios. These patterns were primarily shaped by the significant impacts of climate, soil conditions, and plant functional groups. However, the impact of evolutionary history in shaping bark C : N : P stoichiometry outweigh climate, soil, and plant functional group, aligning with the biogeochemical niche (BN) hypothesis. These finding enhance our understanding of the spatial distribution of bark nutrient stoichiometry and have important implications for modeling of global forest ecosystem nutrient cycles in a changing environment.",
+    "keywords": "bark; carbon; forest ecosystems; nitrogen; phosphorus; stoichiometry",
+    "doi": "10.1111/nph.20119",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "草地资源学院"
+    ]
+  },
+  {
+    "title": "Molecular mechanism of apoptosis induced by 4-tBP in common carp ( Cyprinus carpio L.) head kidneys was explored from various angles: Hippo pathway, miR-203a, oxidative stress, ER stress, and mitochondrial pathway",
+    "authors": [
+      "Liang, Jiatian Lin, Xu Jiang, Chunyu Liu, Yuhao Hao, Zhiyu Qiu, Minna Liu, Xiumei Chen, Dechun Teng, Xiaohua Tang, You"
+    ],
+    "journal": "AQUACULTURE",
+    "year": "2024",
+    "volume": "589",
+    "abstract": "4- tert butylphenol (4-tBP), a toxic environmental pollutant estrogen, received widespread attention due to its widespread presence, environmental persistence, and toxic effect. Common carp ( Cyprinus carpio L.) is the most important freshwater economic animal in China and is also a model animal for the study on molecular mechanisms of poisoning. Head kidney is a target organ attacked by environmental pollutants. Here, we established a common carp 4-tBP poisoning model. The results showed that exposure to 4-tBP resulted in mitochondrial damage, endoplasmic reticulum damage, and apoptotic damage in head kidneys of common carps using microstructure and ultrastructure observations, as well as TUNEL kit methods. Furthermore, we found at transcriptional level from three perspectives that 4-tBP induced apoptosis in common carp head kidney cells: Hippo pathway, mitochondrial pathway, and ER stress. Hippo pathway formed a complex network, in which LATS1 was a core gene. It's noteworthy that Hippo pathway triggered mitochondrial pathway through YAP/NR4A1/Bcl-2 and YAP/BIRC5/Caspase-9 pathways under 4-tBP-induced apoptosis. PERK-eIF2 alpha-ATF4-Caspase-3 pathway was involved in 4-tBP-induced apoptosis via ER stress. Moreover, miR-203a mediated 4-tBP-induced apoptosis through targeting MST1, MAP4K4, and NR4A1. In addition, 4-tBP disrupted balance between oxidants and antioxidants, and caused oxidative stress, and oxidative stress mediated ER stress under 4-tBP-caused apoptosis via via H 2 O 2 -PERK-eIF2 alpha-ATF4-Caspase-3 pathway. miR-203a and oxidative stress participated in 4-tBP-induced apoptosis in common carp head kidney cells. For the first time, we found that Hippo pathway took part in molecular mechanism of fish poisoning, which needs to be investigated in the future. Our research provided foundational knowledge for exploring toxic effects of estrogen on fish and provided new insights into a theoretical basis for safety risk assessment for humans and fish, which deserves further profound exploration in the future. Moreover, the insights we generated help inform new strategies for preventing toxic injury in fish.",
+    "keywords": "4-tBP; miR-203a; Apoptosis; Hippo pathway; Mitochondria; Endoplasmic reticulum; Oxidative stress",
+    "doi": "10.1016/j.aquaculture.2024.740981",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "畜牧兽医学院"
+    ]
+  },
+  {
+    "title": "The regulation of good and evi promotes cooperation in public goods game",
+    "authors": [
+      "Xie, Kai Liu, Tingjin"
+    ],
+    "journal": "APPLIED MATHEMATICS AND COMPUTATION",
+    "year": "2024",
+    "volume": "478",
+    "abstract": "The topic of how to solve cooperation dilemmas has been intensively investigated. Numerous mechanisms have been presented to promote cooperation level by introducing various third-party strategies. This paper considers the more realistic strategy named punishing evil and promoting good (PEPG) in the public goods game, whose fundamental action is cooperation. Players selecting this strategy can not only reward cooperators but also penalize defectors, effectively amalgamating the advantages of both rewarders and punishers. Moreover, distinct strategic choices lead to dynamic changes in players' reputation, which in turn significantly influence their income distribution. Notably, individuals with elevated reputation are entitled to allocate more benefits rather than homogeneous distribution. Simulation experiments demonstrate that the PEPG strategy is pivotal in eliminating defectors and fostering cooperative behavior. Importantly, three intriguing phenomena are displayed in this research, including the resurgence of defectors, the polarization of reputation and the disparities of payoffs, all of which help us understand the emergence of cooperation in the real world.",
+    "keywords": "Cooperation; Evolution game; Heterogeneity payoff distribution; Punishing evil and promoting good; Reputation mechanism",
+    "doi": "10.1016/j.amc.2024.128844",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电气工程学院"
+    ]
+  },
+  {
+    "title": "Zinc Oxide Nanorods for Light-Activated Gas Sensing and Photocatalytic Applications",
+    "authors": [
+      "Zhang, Qiuping Xie, Guangzhong Duan, Manyi Liu, Yutong Cai, Yulin Xu, Ming Zhao, Kang Tai, Huiling Jiang, Yadong Su, Yuanjie"
+    ],
+    "journal": "ACS APPLIED NANO MATERIALS",
+    "year": "2023",
+    "volume": "6",
+    "issue": "19",
+    "abstract": "The demand for environmental monitoring and remediation stimulates tremendous research efforts to develop highly efficient and advanced functional nanomaterials capable of combining multiple functions with the arbitrary switching of application scenarios. However, there remains a lack of an in-depth and comprehensive understanding of the relationship between the multiple properties and the surface structure of the nanomaterials, which is crucial for the design and application of advanced functional nanomaterials. Here, we present a feasibility demonstration of a single ZnO nanorod-based material platform that uniquely synergizes several highly desired capabilities for gas sensing, optoelectronic, and photocatalytic applications. In such a nanomaterial platform, a research route and elaborate experiments uncover the surface structure-property relationships of the facet effect in conjunction with first-principles density functional theory calculations, identifying the defect effects of the dominant exposed (100) surfaces of the hydrothermally synthesized ZnO nanorods. The smaller diameter and higher density of the ZnO array remarkably promote the exposure area to the surrounding and surface oxygen vacancy amount as well as O-2 and H2O adsorption. Furthermore, the visible light absorption was enhanced by the raising valence band maximum position stemming from the enhanced surface oxygen vacancies. Importantly, this work offers unprecedented insights into the fundamental understanding of the essence behind the realization of multiple functions on a single nanomaterial platform, which could significantly boost the efficiency and reliability of miniaturized high-technology assets and other critical equipment, enabling the development and optimization of high-performance multifunctional electronics.",
+    "keywords": "zinc oxide nanorods; gas sensing; photocatalytic; morphology; surface oxygen vacancy",
+    "doi": "10.1021/acsanm.3c02403",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "Integrated core-shell structured smart textiles for active NO2 concentration and pressure monitoring",
+    "authors": [
+      "Chen, Chunxu Xie, Guangzhong Dai, Jing Li, Weixiong Cai, Yulin Li, Jing Zhang, Qiuping Tai, Huiling Jiang, Yadong Su, Yuanjie"
+    ],
+    "journal": "NANO ENERGY",
+    "year": "2023",
+    "volume": "116",
+    "abstract": "Energy crisis and atmospheric contamination urgently warrants the low-energy consumption and scalable hazardous gas detection for environmental government. However, most of existing gas sensors are restricted by tremendous power supply and burdensome maintenance as well as bulky volume. Herein, a core-shell structured smart textile (CST) was constructed via coaxial electrospinning to synchronously and sympatrically couple the piezoelectric transduction of polyvinylidene fluoride/lead zirconate titanate (PVDF/PZT) core layer and chemoresistor-sensing of polyaniline/polyvinyl pyrrolidone (PANI/PVP) shell layer in a single fiber, enabling autonomous and simultaneous monitoring of pressure and concentration of NO2 gas. The three basic gas sensing attributes of receptor function, transducer function and utility factor of the sensing body can be concurrently modulated/optimized by tuning the composition and mesoscopic configuration of porosity and sensing-transducing component ratio. A high sensitivity of 0.32 ppm(-1), low detection limit (similar to 100 ppb) and good selectivity was achieved toward NO2 detection. Furthermore, the as-prepared CST demonstrates great capability in simultaneous gas pressure (57 mV/KPa) and concentration detection. By combining theoretical modeling and numerical simulation, a sensing mechanism was established to well unravel/predict the gas sensing behaviors. This work opens a new paradigm for constructing active multifunctional environmental sensors and multimodal smart textiles.",
+    "keywords": "Coaxial-electrospinning; Multifunctional sensor; Core-shell structure; Self-powered; Theoretical modeling",
+    "doi": "10.1016/j.nanoen.2023.108788",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "Immunoregulatory hydrogel decorated with Tannic acid/Ferric ion accelerates diabetic wound healing via regulating Macrophage polarization",
+    "authors": [
+      "Xu, Na Gao, Yuanping Li, Zheng Chen, Yu Liu, Menglong Jia, Jiezhi Zeng, Rui Luo, Gaoxing Li, Jiangfeng Yu, Yunlong"
+    ],
+    "journal": "CHEMICAL ENGINEERING JOURNAL",
+    "year": "2023",
+    "volume": "466",
+    "abstract": "Diabetic wound management still faces great challenges mainly due to immune disorders at wound area. Especially, macrophage polarization toward M2 phenotype is severely inhibited at the inflammatory stage. Thus, targeted regulation of macrophage polarization could be a useful approach to normalize the immune environment of diabetic wound to accelerate wound healing. Herein, a composited hydrogel derived from natural polymers, as an immunoregulatory dressing, was fabricated to treat diabetic wound. The composited hydrogel (GBTF) was synthesized by one step photo-polymerization of gelatin methacrylate (GelMA), Bletilla Striata polysaccharide (BSP) and tannic acid/ferric iron complex (TA/Fe3+). Attributed to the chemical and physical cross-linking, the GBTF hydrogel exhibited adequate mechanical properties. Thanks to the photothermal transition of TA/Fe3+ in GBTF, good antibacterial capacity was achieved. Meanwhile, the polyphenol in TA could help to attenuate excessive ROS and induce macrophage polarization toward M2 phenotype. Furthermore, the potential immunoregulatory mechanism of the GBTF hydrogel was investigated through RNA sequencing in vitro. In addition, BSP showed positive contribution in vascularization. In vivo, results from diabetic wound model showed that the wound treated by GBTF hydrogel presented the fastest closure rate, superior granulation tissue regeneration, re-epithelialization and collagen deposition. These results indicated GBTF hydrogel rapidly promoted wound healing through anti-inflammation and pro-angiogenesis. The GBTF hydrogel showed great potential to serve as promising dressing for treatment of diabetic wounds in clinic.",
+    "keywords": "Hydrogels; Tannic acid; Anti-inflammatory; Macrophage polarization; Diabetic wound repair",
+    "doi": "10.1016/j.cej.2023.143173",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "药学与食品学院"
+    ]
+  },
+  {
+    "title": "Natural resource consumption and industrial green transformation: Does the digital economy matter?",
+    "authors": [
+      "Ran, Qiying Yang, Xiaodong Yan, Hongchuan Xu, Yang Cao, Jianhong"
+    ],
+    "journal": "RESOURCES POLICY",
+    "year": "2023",
+    "volume": "81",
+    "abstract": "Natural resource consumption and the digital economy are increasingly critical in empowering industrial green transformation, which is also an ongoing and valuable topic worth exploring. Therefore, this study investigates the impact of natural resource use and the digital economy on industrial green transformation in 30 Chinese provincial-level administrative data from 2006 to 2020. The outcomes reveal that digital economy can significantly drive industrial green transformation by elevating natural resource consumption. Significant heterogeneity is observed in the effects of natural resource use and digital economy on industrial green transformation. Manifestly, the digital economy stimulates industrial green transformation by promoting natural resource use in the east-central regions of China, while the mechanism is insignificant in the western region of China. Finally, the positive impact of natural resource use on industrial green transformation is gradually strengthening with the continuous increase in the digital economy level. Our findings imply that policymakers should differentiate the execution of digital economy policies and build an empowered natural resource usage system led by the digital economy to accelerate industrial green transformation.",
+    "keywords": "Natural resource; Digital economy; Industrial green transformation; Threshold model; Heterogeneity effect",
+    "doi": "10.1016/j.resourpol.2023.103396",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "经济学院"
+    ]
+  },
+  {
+    "title": "Selective Ethylene Glycol Oxidation to Formate on Nickel Selenide with Simultaneous Evolution of Hydrogen",
+    "authors": [
+      "Li, Junshan Li, Luming Ma, Xingyu Han, Xu Xing, Congcong Qi, Xueqiang He, Ren Arbiol, Jordi Pan, Huiyan Zhao, Jun Deng, Jie Zhang, Yu Yang, Yaoyue Cabot, Andreu"
+    ],
+    "journal": "ADVANCED SCIENCE",
+    "year": "2023",
+    "volume": "10",
+    "issue": "15",
+    "abstract": "There is an urgent need for cost-effective strategies to produce hydrogen from renewable net-zero carbon sources using renewable energies. In this context, the electrochemical hydrogen evolution reaction can be boosted by replacing the oxygen evolution reaction with the oxidation of small organic molecules, such as ethylene glycol (EG). EG is a particularly interesting organic liquid with two hydroxyl groups that can be transformed into a variety of C1 and C2 chemicals, depending on the catalyst and reaction conditions. Here, a catalyst is demonstrated for the selective EG oxidation reaction (EGOR) to formate on nickel selenide. The catalyst nanoparticle (NP) morphology and crystallographic phase are tuned to maximize its performance. The optimized NiS electrocatalyst requires just 1.395 V to drive a current density of 50 mA cm(-2) in 1 m potassium hydroxide (KOH) and 1 m EG. A combination of in situ electrochemical infrared absorption spectroscopy (IRAS) to monitor the electrocatalytic process and ex situ analysis of the electrolyte composition shows the main EGOR product is formate, with a Faradaic efficiency above 80%. Additionally, C2 chemicals such as glycolate and oxalate are detected and quantified as minor products. Density functional theory (DFT) calculations of the reaction process show the glycol-to-oxalate pathway to be favored via the glycolate formation, where the C-C bond is broken and further electro-oxidized to formate.",
+    "keywords": "electrocatalysis; ethylene glycol electro-oxidation; formate; hydrogen; nickel selenide; phase engineering",
+    "doi": "10.1002/advs.202300841",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "化学与环境学院"
+    ]
+  },
+  {
+    "title": "Time Series Prediction Based on LSTM-Attention-LSTM Model",
+    "authors": [
+      "Wen, Xianyun Li, Weibang"
+    ],
+    "journal": "IEEE ACCESS",
+    "year": "2023",
+    "volume": "11",
+    "abstract": "Time series forecasting uses data from the past periods of time to predict future information, which is of great significance in many applications. Existing time series forecasting methods still have problems such as low accuracy when dealing with some non-stationary multivariate time series data forecasting. Aiming at the shortcomings of existing methods, in this paper we propose a new time series forecasting model LSTM-attention-LSTM. The model uses two LSTM models as the encoder and decoder, and introduces an attention mechanism between the encoder and decoder. The model has two distinctive features: first, by using the attention mechanism to calculate the interrelationship between sequence data, it overcomes the disadvantage of the coder-and-decoder model in that the decoder cannot obtain sufficiently long input sequences; second, it is suitable for sequence forecasting with long time steps. In this paper we validate the proposed model based on several real data sets, and the results show that the LSTM-attention-LSTM model is more accurate than some currently dominant models in prediction. The experiment also assessed the effect of the attention mechanism at different time steps by varying the time step.",
+    "keywords": "Time series forecasting; long short-term memory networks; encoder and decoder model; attention mechanisms",
+    "doi": "10.1109/ACCESS.2023.3276628",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "计算机与人工智能学院"
+    ]
+  },
+  {
+    "title": "Enhancing photodegradation of Methyl Orange by coupling piezo-phototronic effect and localized surface plasmon resonance",
+    "authors": [
+      "Li, Jing Xie, Guangzhong Jiang, Jin Liu, Yanyou Chen, Chunxu Li, Weixiong Huang, Junlong Luo, Xiaolan Xu, Ming Zhang, Qiuping Yang, Min Su, Yuanjie"
+    ],
+    "journal": "NANO ENERGY",
+    "year": "2023",
+    "volume": "108",
+    "abstract": "Piezo-potential promoted photocatalysis enables a scalable and high-efficiency dye decomposition by conju-gating the photoexcitation and mechanical stimulus. However, its catalytic efficiency is significantly restricted by the limited quantum yield and piezoelectric activity of catalysts. Herein, a heterogeneous CdS-Au composite photocatalyst was synthesized via a facile water bath heating and reflux condensation method for organic pol-lutants degradation. The synergism between piezo-phototronic effect and localized surface plasmon resonance facilitates photon-generated carrier separation and internal quantum efficiency. The loading of Au nanoparticles remarkably modulates the morphologies, surface defect, effective optronics utilization and photocatalytic ac-tivities of CdS nanospheres. A 2.3 folds enhancement in the photodegradation of Methyl Orange (MO) was observed with the optimal 4 mol% Au loading. Furthermore, the impact of frequency and intensity of ultra-sonication on the electrochemical impedance and photocatalytic activity was systematically investigated. This work offers a promising approach for harnessing noise or vibration for environmental remediation and opens up a new route for designing and developing high-performance piezo-photocatalyst.",
+    "keywords": "Photocatalysis; CdS-Au composite; Piezophototronic effect; Surface plasmon resonance; Pollutant degradation",
+    "doi": "10.1016/j.nanoen.2023.108234",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "High-Power CO2-to-C2 Electroreduction on Ga-Spaced, Square-like Cu Sites",
+    "authors": [
+      "Yan, Shuai Chen, Zheng Chen, Yangshen Peng, Chen Ma, Xingyu Lv, Ximeng Qiu, Zhehao Yang, Yong Yang, Yaoyue Kuang, Min Xu, Xin Zheng, Gengfeng"
+    ],
+    "journal": "JOURNAL OF THE AMERICAN CHEMICAL SOCIETY",
+    "year": "2023",
+    "volume": "145",
+    "issue": "48",
+    "abstract": "The electrochemical conversion of CO2 into multicarbon (C-2) products on Cu-based catalysts is strongly affected by the surface coverage of adsorbed CO (*CO) intermediates and the subsequent C-C coupling. However, the increased *CO coverage inevitably leads to strong *CO repulsion and a reduced C-C coupling efficiency, thus resulting in suboptimal CO2-to-C-2 activity and selectivity, especially at ampere-level electrolysis current densities. Herein, we developed an atomically ordered Cu9Ga4 intermetallic compound consisting of Cu square-like binding sites interspaced by catalytically inert Ga atoms. Compared to Cu(100) previously known with a high C-2 selectivity, the Ga-spaced, square-like Cu sites presented an elongated Cu-Cu distance that allowed to reduce *CO repulsion and increased *CO coverage simultaneously, thus endowing more efficient C-C coupling to C-2 products than Cu(100) and Cu(111). The Cu9Ga4 catalyst exhibited an outstanding CO2-to-C-2 electroreduction, with a peak C-2 partial current density of 1207 mA cm(-2) and a corresponding Faradaic efficiency of 71%. Moreover, the Cu9Ga4 catalyst demonstrated a high-power (similar to 200 W) electrolysis capability with excellent electrochemical stability.",
+    "keywords": "ELECTROCHEMICAL REDUCTION; CO2; SURFACE; CARBON",
+    "doi": "10.1021/jacs.3c10202",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "化学与环境学院"
+    ]
+  },
+  {
+    "title": "Fabrication and characterization of PVA@PLA electrospinning nanofibers embedded with Bletilla striata polysaccharide and Rosmarinic acid to promote wound healing",
+    "authors": [
+      "Zhong, Guofeng Qiu, Mengyu Zhang, Junbo Jiang, Fuchen Yue, Xuan Huang, Chi Zhao, Shiyi Zeng, Rui Zhang, Chen Qu, Yan"
+    ],
+    "journal": "INTERNATIONAL JOURNAL OF BIOLOGICAL MACROMOLECULES",
+    "year": "2023",
+    "volume": "234",
+    "abstract": "In this study, a novel nanofiber material with Polylactic acid (PLA), natural plant polysaccharides-Bletilla striata polysaccharide (BSP) and Rosmarinic acid (RA) as the raw materials to facilitate wound healing was well prepared through coaxial electrospinning. The morphology of RA-BSP-PVA@PLA nanofibers was characterized through scanning electron microscopy (SEM), and the successful formation of core-shell structure was verified under confocal laser microscopy (CLSM) and Fourier transform infrared spectroscopy (FTIR). RA-BSP-PVA@PLA exhibited suitable air permeability for wound healing, as indicated by the result of the water vapor permeability (WVTR) study. The results of tension test results indicated the RA-BSP-PVA@PLA nanofiber exhibited excellent flexibility and better accommodates wounds. Moreover, the biocompatibility of RA-BSP-PVA@PLA was examined through MTT assay. Lastly, RA-BSP-PVA@PLA nanofibers can induce wound tissue growth, as verified by the rat dorsal skin wound models and tissue sections. Furthermore, RA-BSP-PVA@PLA can facilitate the proliferation and transformation of early wound macrophages, and down-regulate MPO+ expression of on the wound, thus facilitating wound healing, as confirmed by the result of immunohistochemical. Thus, RA-BSP-PVA@PLA nanofibers show great potential as wound dressings in wound healing.",
+    "keywords": "Bletilla striata polysaccharide; Rosmarinic acid; Coaxial electrospinning; Wound dressing",
+    "doi": "10.1016/j.ijbiomac.2023.123693",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "药学与食品学院"
+    ]
+  },
+  {
+    "title": "Evolutionary game analysis of the impact of dynamic dual credit policy on new energy vehicles after subsidy cancellation",
+    "authors": [
+      "Jin, Tao Jiang, Yulian Liu, Xingwen"
+    ],
+    "journal": "APPLIED MATHEMATICS AND COMPUTATION",
+    "year": "2023",
+    "volume": "440",
+    "abstract": "To discuss how to promote the rapid development of new energy vehicles (NEVs) through low regulatory costs after the removal of financial subsidies, in this paper, an evolution-ary game model between local governments and vehicle manufacturers is developed. In the model, we suppose a series of parameters based on academic research and practical situations. Then the model and its parameters are analyzed and verified by system dy-namics simulation. The study shows that: (1) Compared with the static, the dynamic dual credit policy enables the system to have an equilibrium stability point, which helps the development of NEVs. (2) The cost of local government regulation is reduced by the effec-tive implementation of the dynamic dual credit policy. (3) After the removal of financial subsidies, consumers focus on personal experience. Therefore, government and enterprises should focus on technological breakthroughs and infrastructure development.(c) 2022 Elsevier Inc. All rights reserved.",
+    "keywords": "New energy vehicles; Dual credit policy; Evolutionary game theory; System dynamics; Hotelling",
+    "doi": "10.1016/j.amc.2022.127677",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电气工程学院"
+    ]
+  },
+  {
+    "title": "Selective CO-to-acetate electroreduction via intermediate adsorption tuning on ordered Cu-Pd sites",
+    "authors": [
+      "Ji, Yali Chen, Zheng Wei, Ruilin Yang, Chao Wang, Yuhang Xu, Jie Zhang, Hao Guan, Anxiang Chen, Jiatang Sham, Tsun-Kong Luo, Jun Yang, Yaoyue Xu, Xin Zheng, Gengfeng"
+    ],
+    "journal": "NATURE CATALYSIS",
+    "year": "2022",
+    "volume": "5",
+    "issue": "4",
+    "abstract": "Electrochemical reduction of carbon monoxide (CO) has recently emerged as a potential approach for obtaining high-value, multicarbon products such as acetate, while the activity and selectivity for prodution of acetate have remained low. Herein, we develop an atomically ordered copper-palladium intermetallic compound (CuPd) composed of a high density of Cu-Pd pairs that feature as catalytic sites to enrich surface *CO coverage, stabilize ethenone as a key acetate path intermediate and inhibit the hydrogen evolution reaction, thus substantially promoting acetate formation. The CuPd electrocatalyst enables a high Faradaic efficiency of 70 +/- 5% for CO-to-acetate electroreduction and a high acetate partial current density of 425 mA cm(-2). Under membrane electrode assembly conditions, the CuPd electrocatalyst demonstrated a 500 h CO-to-acetate conversion at 500 mA cm(-2) with a stable acetate Faradaic efficiency of similar to 50%.",
+    "keywords": "INITIO MOLECULAR-DYNAMICS; TOTAL-ENERGY CALCULATIONS; CARBON-MONOXIDE; REDUCTION; ELECTRODE; EFFICIENCY; NANOSHEETS; OXIDATION; METHANOL; METALS",
+    "doi": "10.1038/s41929-022-00757-8",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "化学与环境学院"
+    ]
+  },
+  {
+    "title": "Root exudates contribute to belowground ecosystem hotspots: A review",
+    "authors": [
+      "Ma, Wenming Tang, Sihong Dengzeng, Zhuoma Zhang, Dong Zhang, Ting Ma, Xiangli"
+    ],
+    "journal": "FRONTIERS IN MICROBIOLOGY",
+    "year": "2022",
+    "volume": "13",
+    "abstract": "Root exudates are an essential carrier for material cycling, energy exchange, and information transfer between the belowground parts of plants and the soil. We synthesize current properties and regulators of root exudates and their role in the belowground ecosystem as substances cycle and signal regulation. We discussed the composition and amount of root exudates and their production mechanism, indicating that plant species, growth stage, environmental factors, and microorganisms are primary influence factors. The specific mechanisms by which root secretions mobilize the soil nutrients were summarized. First, plants improve the nutrient status of the soil by releasing organic acids for acidification and chelation. Then, root exudates accelerated the SOC turnover due to their dual impacts, forming and destabilizing aggregates and MASOC. Eventually, root exudates mediate the plant-plant interaction and plant-microbe interaction. Additionally, a summary of the current collection methods of root exudates is presented.",
+    "keywords": "plant nutrition; SOC; allelopathy; soil microorganism; aggregates",
+    "doi": "10.3389/fmicb.2022.937940",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "草地资源学院"
+    ]
+  },
+  {
+    "title": "A single-cell nanocoating of probiotics for enhanced amelioration of antibiotic-associated diarrhea",
+    "authors": [
+      "Pan, Jiezhou Gong, Guidong Wang, Qin Shang, Jiaojiao He, Yunxiang Catania, Chelsea Birnbaum, Dan Li, Yifei Jia, Zhijun Zhang, Yaoyao Joshi, Neel S. Guo, Junling"
+    ],
+    "journal": "NATURE COMMUNICATIONS",
+    "year": "2022",
+    "volume": "13",
+    "issue": "1",
+    "abstract": "Here, the authors develop a polyphenol-based single-cell coating that forms a nanoarmor on the surface of probiotics, showing that protects from a wide range of antibiotics and enhances probiotic action against antibiotic-mediated diarrhea. The gut microbiota represents a large community of microorganisms that play an important role in immune regulation and maintenance of homeostasis. Living bacteria receive increasing interest as potential therapeutics for gut disorders, because they inhibit the colonization of pathogens and positively regulate the composition of bacteria in gut. However, these treatments are often accompanied by antibiotic administration targeting pathogens. In these cases, the efficacy of therapeutic bacteria is compromised by their susceptibility to antibiotics. Here, we demonstrate that a single-cell coating composed of tannic acids and ferric ions, referred to as 'nanoarmor', can protect bacteria from the action of antibiotics. The nanoarmor protects both Gram-positive and Gram-negative bacteria against six clinically relevant antibiotics. The multiple interactions between the nanoarmor and antibiotic molecules allow the antibiotics to be effectively absorbed onto the nanoarmor. Armored probiotics have shown the ability to colonize inside the gastrointestinal tracts of levofloxacin-treated rats, which significantly reduced antibiotic-associated diarrhea (AAD) resulting from the levofloxacin-treatment and improved some of the pre-inflammatory symptoms caused by AAD. This nanoarmor strategy represents a robust platform to enhance the potency of therapeutic bacteria in the gastrointestinal tracts of patients receiving antibiotics and to avoid the negative effects of antibiotics in the gastrointestinal tract.",
+    "keywords": "GUT; MICROBIOME; PREBIOTICS; DELIVERY",
+    "doi": "10.1038/s41467-022-29672-z",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "药学与食品学院"
+    ]
+  },
+  {
+    "title": "MOFs meet wood: Reusable magnetic hydrophilic composites toward efficient water treatment with super-high dye adsorption capacity at high dye concentration",
+    "authors": [
+      "Ma, Xiaofan Zhao, Siyuan Tian, Zhiwei Duan, Gaigai Pan, Hongyang Yue, Yiying Li, Shanshan Jian, Shaoju Yang, Weisen Liu, Kunming He, Shuijian Jiang, Shaohua"
+    ],
+    "journal": "CHEMICAL ENGINEERING JOURNAL",
+    "year": "2022",
+    "volume": "446",
+    "abstract": "Organic dye in water is a crucial global environmental problem. Notably, dyes, especially anionic dye Congo red (CR) and cationic dye Methylene blue (MB), have carcinogenic and mutagenic effects on human health. However, the commercial activated carbon with bad reusability is difficult to collect, which results in poor actual adsorption. In this paper, ZIF-67@wood obtained by in situ growth of ZIF-67 on wood is carbonized to prepare magnetic WC-Co composites. The hierarchical porous structure of wood can facilitate the rapid passage of dye solution, and promote full contact between magnetic core-shell Co/C nanoparticles and dyes. The adsorption capacities of CR and MB by Co/C-1000 are 1117.03 and 805.08 mg g(-1), respectively. The pH(pzc) (7.9) of Co/C-1000 is then determined. When the dye concentration reaches 1200 mg L-1, the removal efficiency of Co/C-1000 reaches 99.98% under gravity. With the flux of 1.0 x 10(4) L m(-2)h(-1) for CR solution (100 mg L-1), the removal efficiency of Co/C-1000 filter connected with peristaltic pump is almost 99.28%. In addition, the Co/C-1000 filter with high reusability and the adsorbed dyes can be removed by simple burning. This economical, recyclable and self-supporting filter with ultra-high adsorption capacity feature has the potential to replace commercial activated carbon and it will be widely used in practical wastewater treatment.",
+    "keywords": "ZIF-67@wood; Magnetic composites; Water treatment; Adsorption capacity; Filter",
+    "doi": "10.1016/j.cej.2022.136851",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "药学与食品学院"
+    ]
+  },
+  {
+    "title": "Magnetic NiFe2O4/Polypyrrole nanocomposites with enhanced electromagnetic wave absorption",
+    "authors": [
+      "Guo, Jiang Li, Xu Chen, Zhuoran Zhu, Jianfeng Mai, Xianmin Wei, Renbo Sun, Kai Liu, Hu Chen, Yunxia Naik, Nithesh Guo, Zhanhu"
+    ],
+    "journal": "JOURNAL OF MATERIALS SCIENCE & TECHNOLOGY",
+    "year": "2022",
+    "volume": "108",
+    "abstract": "NiFe2O4/polypyrrole (NiFe2O4/PPy) nanocomposites are prepared by a simple surface-initiated polymerization method and demonstrate negative permittivity in the low frequency regions. These nanocomposites also exhibit significantly enhanced electromagnetic wave (EMW) absorption property in the high frequency regions. Compared with pure PPy, the enhanced negative permittivity is observed in the NiFe2O4/PPy nanocomposites with a NiFe2O4 loading of 5.0, 10.0, 20.0 and 40.0 wt%, indicating the formation of metal-like electrical conducting network in NiFe2O4/PPy nanocomposites. Moreover, the negative permittivity could be tuned by changing the NiFe2O4 loading. The minimum reflection loss (RL) of -40.8 dB is observed in the 40.0 wt% NiFe2O4/PPy composites with a thickness of only 1.9 mm. The effective absorption bandwidth below -10.0 and -20.0 dB reaches 6.08 and 2.08 GHz, respectively. The enhanced EMW absorption performance benefits from the improved independence matching, EMW attenuation capacity, and synergistic effects of conduction loss, dielectric loss (interfacial and dipole polarizations) and magnetic loss (exchange and natural resonances). This research work provides a guidance for the fabrication of nanocomposites with an excellent EMW absorption. (C) 2022 Published by Elsevier Ltd on behalf of The editorial office of Journal of Materials Science & Technology.",
+    "keywords": "NiFe2O4/PPy composites; Negative permittivity; EMW absorption",
+    "doi": "10.1016/j.jmst.2021.08.049",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "建筑学院"
+    ]
+  },
+  {
+    "title": "Targeted Therapy for Inflammatory Diseases with Mesenchymal Stem Cells and Their Derived Exosomes: From Basic to Clinics",
+    "authors": [
+      "Wang, Shuo Lei, Biyu Zhang, E. Gong, Puyang Gu, Jian He, Lili Han, Lu Yuan, Zhixiang"
+    ],
+    "journal": "INTERNATIONAL JOURNAL OF NANOMEDICINE",
+    "year": "2022",
+    "volume": "17",
+    "abstract": "Inflammation is a beneficial and physiological process, but there are a number of inflammatory diseases which have detrimental effects on the body. In addition, the drugs used to treat inflammation have toxic side effects when used over a long period of time. Mesenchymal stem cells (MSCs) are pluripotent stem cells that can be isolated from a variety of tissues and can be differentiate into diverse cell types under appropriate conditions. They also exhibit noteworthy anti-inflammatory properties, providing new options for the treatment of inflammatory diseases. The therapeutic potential of MSCs is currently being investigated for various inflammatory diseases, such as kidney injury, lung injury, osteoarthritis (OA), rheumatoid arthritis (RA), and inflammatory bowel disease (IBD). MSCs can perform multiple functions, including immunomodulation, homing, and differentiation, to enable damaged tissues to form a balanced inflammatory and regenerative microenvironment under severe inflammatory conditions. In addition, accumulated evidence indicates that exosomes from extracellular vesicles of MSCs (MSC-Exos) play an extraordinary role, mainly by transferring their components to recipient cells. In this review, we summarize the mechanism and clinical trials of MSCs and MSCExos in various inflammatory diseases in detail, with a view to contributing to the treatment of MSCs and MSC-Exos in inflammatory diseases.",
+    "keywords": "mesenchymal stem cells; exosome; inflammatory diseases; clinic data; drug delivery; targeted therapy",
+    "doi": "10.2147/IJN.S355366",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "药学与食品学院"
+    ]
+  },
+  {
+    "title": "Deciphering the phase transition-induced ultrahigh piezoresponse in (K,Na)NbO3-based piezoceramics",
+    "authors": [
+      "Zhang, Mao-Hua Shen, Chen Zhao, Changhao Dai, Mian Yao, Fang-Zhou Wu, Bo Ma, Jian Nan, Hu Wang, Dawei Yuan, Qibin da Silva, Lucas Lemos Fulanovic, Lovro Schoekel, Alexander Liu, Peitao Zhang, Hongbin Li, Jing-Feng Zhang, Nan Wang, Ke Roedel, Juergen Hinterstein, Manuel"
+    ],
+    "journal": "NATURE COMMUNICATIONS",
+    "year": "2022",
+    "volume": "13",
+    "issue": "1",
+    "abstract": "Here, we introduce phase change mechanisms in lead-free piezoceramics as a strategy to utilize attendant volume change for harvesting large electrostrain. In the newly developed (K,Na)NbO3 solid-solution at the polymorphic phase boundary we combine atomic mapping of the local polar vector with in situ synchrotron X-ray diffraction and density functional theory to uncover the phase change and interpret its underlying nature. We demonstrate that an electric field-induced phase transition between orthorhombic and tetragonal phases triggers a dramatic volume change and contributes to a huge effective piezoelectric coefficient of 1250 pm V-1 along specific crystallographic directions. The existence of the phase transition is validated by a significant volume change evidenced by the simultaneous recording of macroscopic longitudinal and transverse strain. The principle of using phase transition to promote electrostrain provides broader design flexibility in the development of high-performance piezoelectric materials and opens the door for the discovery of high-performance future functional oxides. Functional oxides with coexisting states of comparable energy typically exhibit extraordinary responses to external stimuli. Here, the authors demonstrate that coexisting phase structures provide large electric field-triggered volume change.",
+    "keywords": "FREE PIEZOELECTRIC CERAMICS; LEAD-FREE PIEZOCERAMICS; ELASTIC BAND METHOD; ELECTROMECHANICAL RESPONSE; NIOBATE; POLARIZATION; ORIGINS; STRAIN; BOUNDARY",
+    "doi": "10.1038/s41467-022-31158-x",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "GAPIT Version 3: Boosting Power and Accuracy for Genomic Association and Prediction",
+    "authors": [
+      "Wang, Jiabo Zhang, Zhiwu"
+    ],
+    "journal": "GENOMICS PROTEOMICS & BIOINFORMATICS",
+    "year": "2021",
+    "volume": "19",
+    "issue": "4",
+    "abstract": "Genome-wide association study (GWAS) and genomic prediction/selection (GP/GS) are the two essential enterprises in genomic research. Due to the great magnitude and complexity of genomic and phenotypic data, analytical methods and their associated software packages are frequently advanced. GAPIT is a widely-used genomic association and prediction integrated tool as an R package. The first version was released to the public in 2012 with the implementation of the general linear model (GLM), mixed linear model (MLM), compressed MLM (CMLM), and genomic best linear unbiased prediction (gBLUP). The second version was released in 2016 with several new implementations, including enriched CMLM (ECMLM) and settlement of MLMs under progressively exclusive relationship (SUPER). All the GWAS methods are based on the single-locus test. For the first time, in the current release of GAPIT, version 3 implemented three multi-locus test methods, including multiple loci mixed model (MLMM), fixed and random model circulating probability unification (FarmCPU), and Bayesian-information and linkage-disequilibrium iteratively nested keyway (BLINK). Ad-ditionally, two GP/GS methods were implemented based on CMLM (named compressed BLUP; cBLUP) and SUPER (named SUPER BLUP; sBLUP). These new implementations not only boost statistical power for GWAS and prediction accuracy for GP/GS, but also improve computing speed and increase the capacity to analyze big genomic data. Here, we document the current upgrade of GAPIT by describing the selection of the recently developed methods, their im-plementations, and potential impact. All documents, including source code, user manual, demo data, and tutorials, are freely available at the GAPIT website (http://zzlab.net/GAPIT).",
+    "keywords": "GWAS; Genomic selection; Software; R; GAPIT",
+    "doi": "10.1016/j.gpb.2021.08.005",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "畜牧兽医学院"
+    ]
+  },
+  {
+    "title": "Review on the electromagnetic interference shielding properties of carbon based materials and their novel composites: Recent progress, challenges and prospects",
+    "authors": [
+      "Wu, Nannan Hu, Qian Wei, Renbo Mai, Xianmin Naik, Nithesh Pan, Duo Guo, Zhanhu Shi, Zhengjun"
+    ],
+    "journal": "CARBON",
+    "year": "2021",
+    "volume": "176",
+    "abstract": "The rapid development of electronic devices have brought increased concern on electromagnetic radiation (EMR) problems. The radiated EM waves can not only affect the normal operation of devices, but also threat people's health. The most effective way to solve the EM pollution is to fabricate electromagnetic interference shielding materials (ESMs) and microwave absorption materials (MAMs) with lightweight, strong attenuation ability, and excellent mechanical stability. In this case, carbon materials and their nanocomposites attracted great attentions in the fields of electromagnetic interference (EMI) shielding due to the advantages of low density, natural abundance, easy preparation, excellent conductivity and flexibility. In this review, we firstly carried out a summary of recent achievements for carbon materials with different microstructures as ESMs/MAMs during the past five years. It is found that 3D carbon materials such as foams, sponges, and aerogels, as well as their composites are favorable for enhancing the EMI shielding efficiency. Then we introduced the latest progress of novel composites including MXene/carbon composites and metal organic frameworks (MOFs) derived porous carbon nanocomposites. In the end, current challenges and prospects were proposed toward the development of carbon based materials as ESMs/MAMs, which indicated the trend and key point for future research. (C) 2021 Elsevier Ltd. All rights reserved.",
+    "keywords": "Electromagnetic interference shielding; Microwave absorption; Carbon materials; MXene",
+    "doi": "10.1016/j.carbon.2021.01.124",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "建筑学院"
+    ]
+  },
+  {
+    "title": "Efficient Electrocatalytic CO2 Reduction to C2+ Alcohols at Defect-Site-Rich Cu Surface",
+    "authors": [
+      "Gu, Zhengxiang Shen, Hao Chen, Zheng Yang, Yaoyue Yang, Chao Ji, Yali Wang, Yuhang Zhu, Chan Liu, Junlang Li, Jun Sham, Tsun-Kong Xu, Xin Zheng, Gengfeng"
+    ],
+    "journal": "JOULE",
+    "year": "2021",
+    "volume": "5",
+    "issue": "2",
+    "abstract": "Electrochemical CO2 reduction is a promising approach for upgrading excessive CO2 into value-added chemicals, while the exquisite control of the catalyst atomic structures to obtain high C2+ alcohol selectivity has remained challenging due to the intrinsically favored ethylene pathways at Cu surface. Herein, we demonstrate a rational strategy to achieve similar to 70% faradaic efficiency toward C2+ alcohols. We utilized a CO-rich environment to construct Cu catalysts with stepped sites that enabled high surface coverages of *CO intermediates and the bridge-bound *CO adsorption, which allowed to trigger CO2 reduction pathways toward the formation alcohols. Using this defect-site-rich Cu catalyst, we achieved C2+ alcohols with partial current densities of > 100 mA.cm(-2) in both a flow-cell electrolyzer and a membrane electrode assembly (MEA) electrolyzer. A stable alcohol faradaic efficiency of similar to 60% was also obtained, with similar to 500 mg C2+ alcohol production per cm(2) catalyst during a continuous 30-h operation.",
+    "keywords": "SELECTIVE ELECTROCHEMICAL REDUCTION; CARBON-DIOXIDE; ELECTROREDUCTION; CONVERSION; OXIDE; ADSORPTION; BOUNDARIES; ELECTRODE; ETHYLENE; MONOXIDE",
+    "doi": "10.1016/j.joule.2020.12.011",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "化学与环境学院"
+    ]
+  },
+  {
+    "title": "Global patterns and drivers of soil total phosphorus concentration",
+    "authors": [
+      "He, Xianjin Augusto, Laurent Goll, Daniel S. Ringeval, Bruno Wang, Yingping Helfenstein, Julian Huang, Yuanyuan Yu, Kailiang Wang, Zhiqiang Yang, Yongchuan Hou, Enqing"
+    ],
+    "journal": "EARTH SYSTEM SCIENCE DATA",
+    "year": "2021",
+    "volume": "13",
+    "issue": "12",
+    "abstract": "Soil represents the largest phosphorus (P) stock in terrestrial ecosystems. Determining the amount of soil P is a critical first step in identifying sites where ecosystem functioning is potentially limited by soil P availability. However, global patterns and predictors of soil total P concentration remain poorly understood. To address this knowledge gap, we constructed a database of total P concentration of 5275 globally distributed (semi-)natural soils from 761 published studies. We quantified the relative importance of 13 soil-forming variables in predicting soil total P concentration and then made further predictions at the global scale using a random forest approach. Soil total P concentration varied significantly among parent material types, soil orders, biomes, and continents and ranged widely from 1.4 to 9630.0 (median 430.0 and mean 570.0) mg kg(-1) across the globe. About two-thirds (65 %) of the global variation was accounted for by the 13 variables that we selected, among which soil organic carbon concentration, parent material, mean annual temperature, and soil sand content were the most important ones. While predicted soil total P concentrations increased significantly with latitude, they varied largely among regions with similar latitudes due to regional differences in parent material, topography, and/or climate conditions. Soil P stocks (excluding Antarctica) were estimated to be 26.8 +/- 3.1 (mean +/- standard deviation) Pg and 62.2 +/- 8.9 Pg (1 Pg =1 x 10(15) g) in the topsoil (0-30 cm) and subsoil (30-100 cm), respectively. Our global map of soil total P concentration as well as the underlying drivers of soil total P concentration can be used to constraint Earth system models that represent the P cycle and to inform quantification of global soil P availability. Raw datasets and global maps generated in this study are available at https://doi.org/10.6084/m9.figshare.14583375 (He et al., 2021).",
+    "keywords": "TERRESTRIAL ECOSYSTEMS; PARENT MATERIAL; FOREST; CARBON; NITROGEN; CYCLE; FRACTIONATION; DYNAMICS; CLIMATE; STOICHIOMETRY",
+    "doi": "10.5194/essd-13-5831-2021",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "草地资源学院"
+    ]
+  },
+  {
+    "title": "Cadmium-induced Oxidative Stress and Immunosuppression Mediated Mitochondrial Apoptosis via JNK-FoxO3a-PUMA pathway in Common Carp (Cyprinus carpio L.) Gills",
+    "authors": [
+      "Chen, Jianqing Chen, Dechun Li, Jingxin Liu, Yuanlong Gu, Xianhong Teng, Xiaohua"
+    ],
+    "journal": "AQUATIC TOXICOLOGY",
+    "year": "2021",
+    "volume": "233",
+    "abstract": "Cadmium (Cd)-caused water environment pollution has become a matter of concern. Gill is an organ with respiratory and mucosal immune functions, and is also one of the organs directly attacked by pollutants. It was found that excess Cd could cause Cd accumulation and gill injury in carp. However, the mechanism of Cd-caused damage in common carp gills is still unclear. Oxidative stress, immunosuppression, and apoptosis took part in the mechanism of poisoning caused by some harmful substances. The aim of the study was to investigate complex molecular mechanism of apoptotic injury caused by Cd in common carp gills. Hence, in this study, we established a Cd poisoning model to explore whether excess Cd can induce apoptosis through observing histomorphology and apoptotic cells; and determining mineral elements, oxidative stress-related factors, immune-related, and apoptosis-related genes in common carp gills. Fifty-four fish were randomly separated into the control group and the Cd group and were cultured for 45 days. The water of the control group was drinking water and the water of the Cd group was CdCl2-added drinking water (0.26 mg/L Cd). In our results, we found that excess Cd increased Cd level, decreased the levels of essential mineral elements (Cu, Fe, Zn, and Mn), damaged mitochondria, and increased apoptotic cells in common carp gills, meaning that excess Cd caused Cd accumulation and apoptotic injury via mitochondrion in common carp gills. Furthermore, we found that Cd inhibited anti-apoptosis-related gene Bcl-2 and stimulated pro-apoptosis-related genes (JNK, FoxO3a, PUMA, Box, Apaf-1, Caspase-9, and Caspase-3) on 15th, 30th, and 45th days. Above data meant that Cd exposure caused apoptosis via mitochondrion and JNK-FoxO3a-PUMA pathway in common carp gills. In addition, in our experiment, Cd treatment increased oxidants (H2O2 and MDA) and decreased antioxidants (CAT, GPx, GST, SOD, T-AOC, and GSH), indicating that Cd caused oxidative stress via oxidation/antioxidation imbalance. Meanwhile, compared to the control group, T-help 17 (Th17) cell-related factors (IL-17, TNF-alpha, and ROR gamma) were up-regulated, regulatory T (Treg) cell-related factors (IL-10 and Foxp3) were down-regulated, and IL-17/IL-10, TNF-alpha/IL-10, and ROR gamma/Foxp3 were increased in Cd-exposed group; meaning that excess Cd induced immunosuppression via the imbalance of Th17/Treg cells. Taken together, our findings indicated that JNK-FoxO3a-PUMA pathway and mitochondrion participated in oxidative stress and immunosuppression-mediated apoptosis caused by Cd in common carp (Cyprinus carpio L.) gills. Our data provided new perspectives on the negative effects of heavy metal pollutants on fish.",
+    "keywords": "Apoptosic injury; Oxidation/antioxidation imbalance; Th17/Treg imbalance; JNK-FoxO3a-PUMA pathway; Mitochondrion",
+    "doi": "10.1016/j.aquatox.2021.105775",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "畜牧兽医学院"
+    ]
+  },
+  {
+    "title": "Reliable asynchronous sampled-data filtering of T-S fuzzy uncertain delayed neural networks with stochastic switched topologies",
+    "authors": [
+      "Shi, Kaibo Wang, Jun Tang, Yuanyan Zhong, Shouming"
+    ],
+    "journal": "FUZZY SETS AND SYSTEMS",
+    "year": "2020",
+    "volume": "381",
+    "abstract": "This paper investigates the issue of the reliable asynchronous sampled-data filtering of Takagi-Sugeno (T-S) fuzzy delayed neural networks with stochastic intermittent faults, randomly occurring time-varying parameters uncertainties and controller gain fluctuation. The asynchronous phenomenon occurs between the system modes and controller modes. First, in order to reduce the utilization rate of communication bandwidth, a novel alterable sampled-data terminal method is considered via variable sampling rates. Second, based on the fuzzy-model-based control approach, improved reciprocally convex inequality and new parametertime-dependent discontinuous Lyapunov approach, several relaxed conditions are derived and compared with the existing work. Third, the intermittent fault-tolerance scheme is also taken into fully account in designing a reliable asynchronous sampled-data controller, which ensures such that the resultant neural networks is asymptotically stable. Finally, two numerical examples are presented to illustrate the effectiveness and advantages of the theoretical results. (C) 2018 Elsevier B.V. All rights reserved.",
+    "keywords": "T-S fuzzy neural networks; Stochastic intermittent faults; Reliable asynchronous sampled-data filtering; Fault-tolerant control; Discontinuous Lyapunov functional",
+    "doi": "10.1016/j.fss.2018.11.017",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "Non-fragile memory filtering of T-S fuzzy delayed neural networks based on switched fuzzy sampled-data control",
+    "authors": [
+      "Shi, Kaibo Wang, Jun Zhong, Shouming Tang, Yuanyan Cheng, Jun"
+    ],
+    "journal": "FUZZY SETS AND SYSTEMS",
+    "year": "2020",
+    "volume": "394",
+    "abstract": "This paper deals with the non-fragile memory filtering issue of T-S fuzzy delayed neural networks with randomly occurring time-varying parameters uncertainties and variable sampling rates. Compared with existing sampled-data control schemes, an improved switched fuzzy memory sampled-data control protocol is designed for the first time, which involves not only a signal transmission delay but also switched topologies. By developing some new terms and taking full advantage of the variable characteristics related to the actual sampling pattern, a modified loose-looped fuzzy membership functions (FMFs) dependent Lyapunov-Krasovskii functional (LKF) is constructed based on the information of the time derivative of FMFs. Meanwhile, some relaxed matrices chosen in LKF are not consequentially positive definite. Moreover, with the LKF methodology and employing the developed estimation technique, several optimized control algorithms with both a larger sampling period and upper bound of time-varying delays for achieving the stabilization of the resultant T-S fuzzy delayed neural networks are derived. Finally, a numerical example is presented to demonstrate the superiority and applicability of the theoretical results. (C) 2019 Elsevier B.V. All rights reserved.",
+    "keywords": "T-S fuzzy neural networks; Switched fuzzy sampled-data control; Non-fragile memory filtering; Fuzzy membership function",
+    "doi": "10.1016/j.fss.2019.09.001",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "Low-Latency and Resource-Efficient Service Function Chaining Orchestration in Network Function Virtualization",
+    "authors": [
+      "Sun, Gang Xu, Zhu Yu, Hongfang Chen, Xi Chang, Victor Vasilakos, Athanasios V."
+    ],
+    "journal": "IEEE INTERNET OF THINGS JOURNAL",
+    "year": "2020",
+    "volume": "7",
+    "issue": "7",
+    "abstract": "Recently, network function virtualization (NFV) has been proposed to solve the dilemma faced by traditional networks and to improve network performance through hardware and software decoupling. The deployment of the service function chain (SFC) is a key technology that affects the performance of virtual network function (VNF). The key issue in the deployment of SFCs is proposing effective algorithms to achieve efficient use of resources. In this article, we propose an SFC deployment optimization (SFCDO) algorithm based on a breadth-first search (BFS). The algorithm first uses a BFS-based algorithm to find the shortest path between the source node and the destination node. Then, based on the shortest path, the path with the fewest hops is preferentially chosen to implement the SFC deployment. Finally, we compare the performances with the greedy and simulated annealing (G-SA) algorithm. The experiment results show that the proposed algorithm is optimized in terms of end-to-end delay and bandwidth resource consumption. In addition, we also consider the load rate of the nodes to achieve network load balancing.",
+    "keywords": "Delays; Heuristic algorithms; Load management; Approximation algorithms; Optimization; Network function virtualization; Hardware; End-to-end delay; network function virtualization (NFV); resource consumption; service function chain (SFC)",
+    "doi": "10.1109/JIOT.2019.2937110",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "计算机与人工智能学院"
+    ]
+  },
+  {
+    "title": "Robust H∞ control for uncertain delayed T-S fuzzy systems with stochastic packet dropouts",
+    "authors": [
+      "Cai, Xiao Zhong, Shouming Wang, Jun Shi, Kaibo"
+    ],
+    "journal": "APPLIED MATHEMATICS AND COMPUTATION",
+    "year": "2020",
+    "volume": "385",
+    "abstract": "This paper is concerned with the robust H-infinity control issues for uncertain T-S fuzzy systems (TSFSs) with time-varying delays and stochastic packet dropouts. An improved time-delay interval segmentation method is developed to construct a more general Lyapunov-Krasovskii functional (LKF) with relaxed conditions, which fully considers information concerning time delays and the derivative information of both states and time delays. Then, by applying some valid integral inequalities, some new criteria are established. Furthermore, based on the above methods, the desired randomly occurring asynchronous or synchronized state feedback controllers are designed to ensure the asymptotic stability of the closed-loop TSFSs. Finally, four numerical examples are given to illustrate the feasibility and superiority of the method. (C) 2020 Elsevier Inc. All rights reserved.",
+    "keywords": "T-S fuzzy system; Stochastic packet dropouts; Time-varying delay; Robust H-infinity control",
+    "doi": "10.1016/j.amc.2020.125432",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "Novel and efficient synthesis of Ag-ZnO nanoparticles for the sunlight-induced photocatalytic degradation",
+    "authors": [
+      "Liu, Yutong Zhang, Qiuping Xu, Ming Yuan, Huan Chen, Yu Zhang, Jiaxi Luo, Kaiyi Zhang, Jingquan You, Biao"
+    ],
+    "journal": "APPLIED SURFACE SCIENCE",
+    "year": "2019",
+    "volume": "476",
+    "abstract": "Plasmonic metal-semiconductor nanostructures endow them with an enormous potential application in photocatalysis, however, the uniform deposition of metal NPs as small as a few nanometers remains a challenge. Here, we demonstrate the effectiveness of two-step polymer-network gel process in the synthesis of Ag-ZnO nanocatalyst with superior photocatalytic properties. Because of uniform distributed Ag NPs, large specific surface area and abundant surface oxygen vacancies, the Ag-ZnO nanoparticles exhibit a super high photocatalytic efficiency in comparison to pure ZnO nanoparticles. The efficiency can be further improved by optimizing the external factors, such as catalyst dosage, ambient temperature and initial solution pH. Good stability and practicability indicate its potential application in environmental purification. Our work does not only provide a feasible strategy for the synthesis of high property Ag-ZnO nanophotocatalysts, but also enriches the understanding of metal-metal oxide nanostructures.",
+    "keywords": "Ag-ZnO; Two-step strategy; Nano-heterostructure; Surface oxygen vacancy; Photocatalytic efficiency",
+    "doi": "10.1016/j.apsusc.2019.01.137",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "New reliable nonuniform sampling control for uncertain chaotic neural networks under Markov switching topologies",
+    "authors": [
+      "Shi, Kaibo Wang, Jun Zhong, Shouming Zhang, Xiaojun Liu, Yajuan Cheng, Jun"
+    ],
+    "journal": "APPLIED MATHEMATICS AND COMPUTATION",
+    "year": "2019",
+    "volume": "347",
+    "abstract": "This paper studies the stochastic exponential synchronization problem for uncertain chaotic neural networks (UCNNs) with probabilistic faults (PFs) and randomly occurring time-varying parameters uncertainties(ROTVPUs). To reflect more realistic control behaviors, a new stochastic reliable nonuniform sampling controller with Markov switching topologies is designed for the first time. First, by taking into full account more information on sawtooth structural sampling pattern, time delay and its variation, a novel loose-looped Lyapunov-Krasovskii functional (LLLKF) is developed via introducing matricesrefined-function and adjustable parameters. Second, with the aid of novel LLLKF and relaxed Wirtinger-based integral inequality (RWBII), new synchronization algorithms are established to guarantee that UCNNs are synchronous exponentially under probabilistic actuator and sensor faults. Third, based on the proposed optimization algorithm, the desired reliable sampled-data controller can be achieved under more larger exponential decay rate. Finally, two numerical examples are given to illustrate the effectiveness and advantages of the designed algorithms. (C) 2018 Elsevier Inc. All rights reserved.",
+    "keywords": "Chaotic neural networks; Markov switching control; Exponential synchronization; Probabilistic faults; Nonuniform sampling",
+    "doi": "10.1016/j.amc.2018.11.011",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "Overview of carbon nanostructures and nanocomposites for electromagnetic wave shielding",
+    "authors": [
+      "Wang, Chao Murugadoss, Vignesh Kong, Jie He, Zhenfeng Mai, Xianmin Shao, Qian Chen, Yanjun Guo, Li Liu, Chuntai Angaiah, Subramania Guo, Zhanhu"
+    ],
+    "journal": "CARBON",
+    "year": "2018",
+    "volume": "140",
+    "abstract": "Based on the contributions of carbon nanostructures and their composited species, great advances in electromagnetic wave interference shielding have been achieved. In this article, recent progress in electromagnetic wave shielding enabled by the synergism of carbon nanostructures and their corresponding composites is discussed encompassing the factors of microstructural defects, filler concentration, filler alignment, filler inherent conductivity and the surrounding temperature. Carbon nanostructures and their composites would energize the advanced electromagnetic wave shielding because of their light weight, high corrosion resistance, excellent thermal, mechanical, and electrical properties, broad absorption frequency bandwidth and cost-effectiveness. In this context of identifying suitable carbon composites that can enhance electromagnetic wave absorption. This review provides updated electromagnetic wave shielding knowledge of carbon nanostructures and their composites as well as their prospects and challenges. (C) 2018 Elsevier Ltd. All rights reserved.",
+    "keywords": "Carbon nanostructures; Electromagnetic interference shielding; Carbon nanocomposites; Multi-layer structures; 3D architectures; Lightweight materials",
+    "doi": "10.1016/j.carbon.2018.09.006",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "建筑学院"
+    ]
+  },
+  {
+    "title": "Stochastic switched sampled-data control for synchronization of delayed chaotic neural networks with packet dropout",
+    "authors": [
+      "Wang, Jun Shi, Kaibo Huang, Qinzhen Zhong, Shouming Zhang, Dian"
+    ],
+    "journal": "APPLIED MATHEMATICS AND COMPUTATION",
+    "year": "2018",
+    "volume": "335",
+    "abstract": "This paper addresses the exponential synchronization issue of delayed chaotic neural networks (DCNNs) with control packet dropout. A novel stochastic switched sampled-data controller with time-varying sampling is developed in the frame of the zero-input strategy. First, by making full use of the available characteristics on the actual sampling pattern, a newly loop-delay-product-type Lyapunov-Krasovskii functional (LDPTLKF) is constructed via introducing a matrix-refined-function, which can reflect the information of delay variation. Second, based on the LDPTLKF and the relaxed Wirtinger-based integral inequality (RWBII), novel synchronization criteria are established to guarantee that DCNNs are synchronous exponentially when the control packet dropout occurs in a random way, which obeys certain Bernoulli distributed white noise sequences. Third, a desired sampled-data controller can be designed on account of the proposed optimization algorithm. Finally, the effectiveness and advantages of the obtained results are illustrated by two numerical examples with simulations. (C) 2018 Elsevier Inc. All rights reserved.",
+    "keywords": "Chaotic neural networks; Stochastic switched systems; Exponential synchronization; Sampled-data control; Packet dropout",
+    "doi": "10.1016/j.amc.2018.04.038",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "电子信息学院"
+    ]
+  },
+  {
+    "title": "Synthesis of hierarchical NiS microflowers for high performance asymmetric supercapacitor",
+    "authors": [
+      "Guan, Bing Li, Yu Yin, Biyue Liu, Kefan Wang, Dawei Zhang, Huaihao Cheng, Changjing"
+    ],
+    "journal": "CHEMICAL ENGINEERING JOURNAL",
+    "year": "2017",
+    "volume": "308",
+    "abstract": "In this work, the hierarchical NiS microflowers were synthesized using Ni(OH)(2) as precursors through sulfuration process. The microstructure and chemical composition of as-prepared NiS was confirmed by means of SEM, TEM, XRD, BET and XPS. The SEM analysis results demonstrated that the NiS microflowers were composed of hierarchical nanoplates, and its surface was much rougher compared to that of Ni(OH)(2) templates after sulfidation. Electrochemical characterization revealed that NiS presented high specific capacitance in 3 M KOH electrolyte (1122.7 F.g(-1) at current density of 1 A.g(-1)) and good electro-chemical cycling stability (97.8% of the specific capacitance is retained after 1000 charge-discharge cycles at current density of 10 A.g(-1)). Furthermore, an asymmetric supercapacitor, NiS as the positive electrode and activated carbon as the negative electrode, delivered high energy density of 31 Wh.kg(-1) at power density of 0.9 kW.kg(-1) under operating voltage window of 1.8 V. (C) 2016 Elsevier B.V. All rights reserved.",
+    "keywords": "Microflowers; NiS; Asymmetric supercapacitor; Energy density",
+    "doi": "10.1016/j.cej.2016.10.016",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "化学与环境学院"
+    ]
+  },
+  {
+    "title": "Angelica sinensis in China-A review of botanical profile, ethnopharmacology, phytochemistry and chemical analysis",
+    "authors": [
+      "Wei, Wen-Long Zeng, Rui Gu, Cai-Mei Qu, Yan Huang, Lin-Fang"
+    ],
+    "journal": "JOURNAL OF ETHNOPHARMACOLOGY",
+    "year": "2016",
+    "volume": "190",
+    "abstract": "Ethnopharmacological relevance: Angelica sinensis (Oliv.) Diels, known as Dang Gui (in Chinese), is a traditional medicinal and edible plant that has long been used for tonifying, replenishing, and invigorating blood as well as relieving pain, lubricating the intestines, and treating female irregular menstruation and amenorrhea. A. sinensis has also been used as a health product and become increasingly popular in China, Japan, and Korea. Aim of the review: This paper aims to provide a systemic review of traditional uses of A. sinensis and its recent advances in the fields of phytochemistry, analytical methods and toxicology. In addition, possible trends, therapeutic potentials, and perspectives for future research of this plant are also briefly discussed. Materials and methods: An extensive review of the literature was conducted, and electronic databases including China National Knowledge Infrastructure, PubMed, Google Scholar, Science Direct, and Reaxys were used to assemble the data. Ethnopharmacological literature and digitalised sources of academic libraries were also systematically searched. In addition, information was obtained from local books and The Plant List (TPL, www.theplantlist.org). Result: This study reviews the progress in chemical analysis of A. sinensis and its preparations. Previously and newly established methods, including spectroscopy, thin-layer chromatography (TLC), gas chromatography (GC), high-performance liquid chromatography (HPLC), ultra-performance liquid chromatography(UPLC), and nuclear magnetic resonance analysis (NMR), are summarized. Moreover, identified bioactive components such as polysaccharides, ligustilide and ferulic acid were reviewed, along with analytical methods for quantitative and qualitative determination of target analytes, and fingerprinting authentication, quality evaluation of A. sinensis, and toxicology and pharmacodynamic studies. Scientific reports on crude extracts and pure compounds and formulations revealed a wide range of pharmacological activities, including anti-inflammatory activity, antifibrotic action, antispasmodic activity, antioxidant activities, and neuroprotective action, as well as cardio- and cerebrovascular effects. Conclusions: Within the published scientific literature are numerous reports regarding analytical methods that use various chromatographic and spectrophotometric technologies to monitor various types of components with different physicochemical properties simultaneously. This review discusses the reasonable selection of marker compounds based on high concentrations, analytical methods, and commercial availabilities with the goal of developing quick, accurate, and applicable analytical approaches for quality evaluation and establishing harmonised criteria for the analysis of A. sinensis and its finished products. Compounds isolated from A. sinensis are abundant sources of chemical diversity, from which we can discover active molecules. Thus, more studies on the pharmacological mechanisms of the predominant active compounds of A. sinensis are needed. In addition, given that A. sinensis is one of the most popular traditional herbal medicines, its main therapeutic aspects, toxicity, and adverse effects warrant further investigation in the future. (C) 2016 Published by Elsevier Ireland Ltd.",
+    "keywords": "Angelica sinensis; Phytochemistry; Chemical analysis; Ethnopharmacology",
+    "doi": "10.1016/j.jep.2016.05.023",
+    "isHot": false,
+    "isHighlyCited": true,
+    "colleges": [
+      "药学与食品学院"
+    ]
+  }
+]

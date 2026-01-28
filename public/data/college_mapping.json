@@ -4,17 +4,18 @@
             "keywords": [
                 "ANIM",
                 "VET",
-                "HUSB"
+                "HUSB",
+                "LIFE SCI"
             ],
             "name": "畜牧兽医学院"
         },
         {
             "keywords": [
-                "TIBETAN",
-                "PLATEAU",
                 "GRASSLAND",
                 "ZOIGE",
-                "WETLAND"
+                "WETLAND",
+                "INST QINGHAI TIBETAN PLATEAU",
+                "INST QINGHAI TIBET PLATEAU"
             ],
             "name": "草地资源学院"
         },
@@ -51,7 +52,14 @@
             "keywords": [
                 "ELECT",
                 "INFORMAT",
-                "TELECOMM"
+                "TELECOMM",
+                "PHYS DEPT",
+                "DEPT PHYS",
+                "COLL PHYS",
+                "SCH PHYS"
+            ],
+            "excludes": [
+                "ELECT ENGN"
             ],
             "name": "电子信息学院"
         },
@@ -101,6 +109,11 @@
                 "ART",
                 "DESIGN"
             ],
+            "excludes": [
+                "ARTIFICIAL",
+                "DEPARTMENT",
+                "PARTICIPATE"
+            ],
             "name": "艺术学院"
         },
         {
@@ -138,6 +151,10 @@
                 "EDUC",
                 "PSYCHOL"
             ],
+            "excludes": [
+                "MINIST EDUC",
+                "MINISTRY OF EDUCATION"
+            ],
             "name": "教育学与心理学学院"
         },
         {
@@ -171,12 +188,6 @@
                 "PREPARATORY"
             ],
             "name": "太平园书院 预科教育学院"
-        },
-        {
-            "keywords": [
-                "LIFE SCI"
-            ],
-            "name": "生命科学与技术学院"
         }
     ],
     "default": "其他/未识别"

@@ -15,7 +15,9 @@
       "topPapers": 1,
       "percentile": "84.74",
       "potentialValue": "0.00",
-      "citationsPerPaper": "14.43"
+      "citationsPerPaper": "14.43",
+      "baselineCpp": 17.28363646787347,
+      "cnci": 1.2627745508982036
     },
     {
       "name": "Chemistry",
@@ -31,7 +33,9 @@
       "topPapers": 8,
       "percentile": "73.67",
       "potentialValue": "0.00",
-      "citationsPerPaper": "18.78"
+      "citationsPerPaper": "18.78",
+      "baselineCpp": 21.884840087070174,
+      "cnci": 1.065449930264993
     },
     {
       "name": "Engineering",
@@ -47,7 +51,9 @@
       "topPapers": 11,
       "percentile": "72.97",
       "potentialValue": "0.00",
-      "citationsPerPaper": "15.56"
+      "citationsPerPaper": "15.56",
+      "baselineCpp": 17.445950341117353,
+      "cnci": 1.1755734375000002
     },
     {
       "name": "Materials Science",
@@ -63,7 +69,9 @@
       "topPapers": 5,
       "percentile": "N/A",
       "potentialValue": "101.83",
-      "citationsPerPaper": "23.68"
+      "citationsPerPaper": "23.68",
+      "baselineCpp": 26.4862282613806,
+      "cnci": 1.1699455764075066
     },
     {
       "name": "Plant & Animal Science",
@@ -79,7 +87,9 @@
       "topPapers": 4,
       "percentile": "N/A",
       "potentialValue": "101.50",
-      "citationsPerPaper": "7.34"
+      "citationsPerPaper": "7.34",
+      "baselineCpp": 13.761100894140922,
+      "cnci": 1.091443438914027
     },
     {
       "name": "EnvironmentEcology",
@@ -95,7 +105,9 @@
       "topPapers": 0,
       "percentile": "N/A",
       "potentialValue": "72.63",
-      "citationsPerPaper": "14.05"
+      "citationsPerPaper": "14.05",
+      "baselineCpp": 21.630430920139425,
+      "cnci": 1.105908896797153
     },
     {
       "name": "Pharmacology & Toxicology",
@@ -111,7 +123,9 @@
       "topPapers": 2,
       "percentile": "N/A",
       "potentialValue": "60.58",
-      "citationsPerPaper": "16.09"
+      "citationsPerPaper": "16.09",
+      "baselineCpp": 17.106640231600053,
+      "cnci": 1.097194936708861
     },
     {
       "name": "Social Sciences, General",
@@ -127,7 +141,9 @@
       "topPapers": 4,
       "percentile": "N/A",
       "potentialValue": "39.84",
-      "citationsPerPaper": "11.04"
+      "citationsPerPaper": "11.04",
+      "baselineCpp": 12.003722465129018,
+      "cnci": 1.9185842105263158
     },
     {
       "name": "Biology & Biochemistry",
@@ -143,7 +159,9 @@
       "topPapers": 2,
       "percentile": "N/A",
       "potentialValue": "38.22",
-      "citationsPerPaper": "14.80"
+      "citationsPerPaper": "14.80",
+      "baselineCpp": 21.592712232909058,
+      "cnci": 1.1841713541666667
     },
     {
       "name": "Computer Science",
@@ -159,7 +177,9 @@
       "topPapers": 2,
       "percentile": "N/A",
       "potentialValue": "29.05",
-      "citationsPerPaper": "9.79"
+      "citationsPerPaper": "9.79",
+      "baselineCpp": 17.25372654582806,
+      "cnci": 0.8056839285714287
     },
     {
       "name": "PsychiatryPsychology",
@@ -175,7 +195,9 @@
       "topPapers": 1,
       "percentile": "N/A",
       "potentialValue": "25.74",
-      "citationsPerPaper": "11.84"
+      "citationsPerPaper": "11.84",
+      "baselineCpp": 15.308613838476653,
+      "cnci": 1.2610157894736842
     },
     {
       "name": "Microbiology",
@@ -191,7 +213,9 @@
       "topPapers": 1,
       "percentile": "N/A",
       "potentialValue": "25.37",
-      "citationsPerPaper": "12.54"
+      "citationsPerPaper": "12.54",
+      "baselineCpp": 20.049702456162322,
+      "cnci": 0.8602808695652173
     },
     {
       "name": "Clinical Medicine",
@@ -207,7 +231,9 @@
       "topPapers": 0,
       "percentile": "N/A",
       "potentialValue": "17.81",
-      "citationsPerPaper": "10.86"
+      "citationsPerPaper": "10.86",
+      "baselineCpp": 16.767612566241695,
+      "cnci": 0.7698875000000001
     },
     {
       "name": "Mathematics",
@@ -223,7 +249,9 @@
       "topPapers": 5,
       "percentile": "N/A",
       "potentialValue": "15.62",
-      "citationsPerPaper": "10.31"
+      "citationsPerPaper": "10.31",
+      "baselineCpp": 6.6476265544567665,
+      "cnci": 1.8239370370370371
     },
     {
       "name": "Molecular Biology & Genetics",
@@ -239,7 +267,9 @@
       "topPapers": 1,
       "percentile": "N/A",
       "potentialValue": "14.53",
-      "citationsPerPaper": "13.89"
+      "citationsPerPaper": "13.89",
+      "baselineCpp": 29.637736358579122,
+      "cnci": 0.7653722972972973
     },
     {
       "name": "Neuroscience & Behavior",
@@ -255,7 +285,9 @@
       "topPapers": 0,
       "percentile": "N/A",
       "potentialValue": "12.77",
-      "citationsPerPaper": "23.23"
+      "citationsPerPaper": "23.23",
+      "baselineCpp": 20.77209467040844,
+      "cnci": 1.140543181818182
     },
     {
       "name": "Geosciences",
@@ -271,7 +303,9 @@
       "topPapers": 1,
       "percentile": "N/A",
       "potentialValue": "10.98",
-      "citationsPerPaper": "16.33"
+      "citationsPerPaper": "16.33",
+      "baselineCpp": 17.671200248356776,
+      "cnci": 1.1568785714285714
     },
     {
       "name": "Physics",
@@ -287,7 +321,9 @@
       "topPapers": 2,
       "percentile": "N/A",
       "potentialValue": "7.52",
-      "citationsPerPaper": "10.96"
+      "citationsPerPaper": "10.96",
+      "baselineCpp": 16.12444755229998,
+      "cnci": 0.9082684210526316
     },
     {
       "name": "Multidisciplinary",
@@ -303,7 +339,9 @@
       "topPapers": 1,
       "percentile": "N/A",
       "potentialValue": "6.37",
-      "citationsPerPaper": "58.50"
+      "citationsPerPaper": "58.50",
+      "baselineCpp": 25.283682262010437,
+      "cnci": 3.6055250000000005
     },
     {
       "name": "Economics & Business",
@@ -319,7 +357,9 @@
       "topPapers": 0,
       "percentile": "N/A",
       "potentialValue": "5.62",
-      "citationsPerPaper": "9.19"
+      "citationsPerPaper": "9.19",
+      "baselineCpp": 15.829856233695496,
+      "cnci": 0.8841145833333334
     },
     {
       "name": "Immunology",
@@ -335,7 +375,9 @@
       "topPapers": 0,
       "percentile": "N/A",
       "potentialValue": "3.95",
-      "citationsPerPaper": "8.22"
+      "citationsPerPaper": "8.22",
+      "baselineCpp": 21.90155781421715,
+      "cnci": 0.5883037037037037
     },
     {
       "name": "Space Science",
@@ -7628,7 +7670,7 @@
         "papers": 350
       }
     ],
-    "domesticRank": 556,
+    "domesticRank": 339,
     "globalRankChange": 32,
     "totalCitationsChange": 2807,
     "totalPapersChange": 125,

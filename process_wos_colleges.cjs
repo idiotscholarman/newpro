@@ -116,6 +116,18 @@ function processRecord(record, mappingConfig, stats) {
 
             let match = null;
             for (const rule of mappingConfig.mappings) {
+                // Check excludes
+                if (rule.excludes && Array.isArray(rule.excludes)) {
+                    let isExcluded = false;
+                    for (const exclude of rule.excludes) {
+                        if (cleanAddr.includes(exclude)) { // cleanAddr is already uppercase
+                            isExcluded = true;
+                            break;
+                        }
+                    }
+                    if (isExcluded) continue;
+                }
+
                 if (rule.keywords.some(kw => cleanAddr.includes(kw))) {
                     match = rule.name;
                     break;

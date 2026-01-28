@@ -1,21 +1,15 @@
 [
   {
-    "name": "化学与环境学院",
-    "papers": 793,
-    "citations": 16935,
-    "cpp": "21.36"
-  },
-  {
     "name": "畜牧兽医学院",
-    "papers": 652,
-    "citations": 6147,
-    "cpp": "9.43"
+    "papers": 867,
+    "citations": 10852,
+    "cpp": "12.52"
   },
   {
-    "name": "草地资源学院",
-    "papers": 539,
-    "citations": 7071,
-    "cpp": "13.12"
+    "name": "化学与环境学院",
+    "papers": 806,
+    "citations": 17070,
+    "cpp": "21.18"
   },
   {
     "name": "药学与食品学院",
@@ -24,10 +18,16 @@
     "cpp": "16.67"
   },
   {
+    "name": "草地资源学院",
+    "papers": 458,
+    "citations": 6040,
+    "cpp": "13.19"
+  },
+  {
     "name": "电子信息学院",
-    "papers": 397,
-    "citations": 7705,
-    "cpp": "19.41"
+    "papers": 433,
+    "citations": 8243,
+    "cpp": "19.04"
   },
   {
     "name": "计算机与人工智能学院",
@@ -36,28 +36,22 @@
     "cpp": "12.53"
   },
   {
-    "name": "生命科学与技术学院",
-    "papers": 234,
-    "citations": 4956,
-    "cpp": "21.18"
-  },
-  {
     "name": "建筑学院",
     "papers": 152,
     "citations": 5476,
     "cpp": "36.03"
   },
   {
-    "name": "教育学与心理学学院",
-    "papers": 104,
-    "citations": 1543,
-    "cpp": "14.84"
-  },
-  {
     "name": "电气工程学院",
     "papers": 102,
     "citations": 736,
     "cpp": "7.22"
+  },
+  {
+    "name": "教育学与心理学学院",
+    "papers": 89,
+    "citations": 1360,
+    "cpp": "15.28"
   },
   {
     "name": "经济学院",
@@ -96,12 +90,6 @@
     "cpp": "3.62"
   },
   {
-    "name": "体育学院",
-    "papers": 13,
-    "citations": 113,
-    "cpp": "8.69"
-  },
-  {
     "name": "外国语言文学学院",
     "papers": 13,
     "citations": 57,
@@ -124,6 +112,12 @@
     "papers": 3,
     "citations": 10,
     "cpp": "3.33"
+  },
+  {
+    "name": "体育学院",
+    "papers": 2,
+    "citations": 19,
+    "cpp": "9.50"
   },
   {
     "name": "太平园书院 预科教育学院",

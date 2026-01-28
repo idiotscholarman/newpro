@@ -3,15 +3,17 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   LayoutDashboard, BookOpen, TrendingUp, Settings, Menu, X, Download,
-  ChevronRight, Activity, Award, Globe, Users, Building2, FileText, Target, ArrowUp
+  ChevronRight, Activity, Award, Globe, Users, Building2, FileText, Target, ArrowUp, Trophy, Flame,
+  ChevronDown, ChevronUp
 } from 'lucide-react';
 import {
   Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer,
-  BarChart, Bar, XAxis, YAxis, Tooltip as RechartsTooltip, Legend, LineChart, Line, CartesianGrid, AreaChart, Area, ComposedChart
+  BarChart, Bar, XAxis, YAxis, Tooltip as RechartsTooltip, Legend, LineChart, Line, CartesianGrid, AreaChart, Area, ComposedChart, Cell
 } from 'recharts';
 import clsx from 'clsx';
 import { twMerge } from 'tailwind-merge';
 import nameMapping from '../translated_mapping.json';
+import CooperationMap from '../components/CooperationMap';
 
 const ESI_DISCIPLINES = [
   "Agricultural Sciences", "Biology & Biochemistry", "Chemistry", "Clinical Medicine",
@@ -89,7 +91,10 @@ const transformData = (data) => {
       publicationTrend: data.overview?.publicationTrend || [],
       domesticRank: data.overview?.domesticRank,
       publicationTrend: data.overview?.publicationTrend || [],
-      topAuthors: data.overview?.topAuthors || []
+      topAuthors: data.overview?.topAuthors || [],
+      // InCites数据（从学科累加）
+      incitesPapers: data.disciplines.reduce((acc, d) => acc + (d.papers || 0), 0),
+      incitesCitations: data.disciplines.reduce((acc, d) => acc + (d.citations || 0), 0)
     },
     disciplines: data.disciplines.filter(d => d.papers > 0 || d.citations > 0),
     colleges: (() => {
@@ -166,7 +171,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
   );
 };
 
-const StatCard = ({ title, value, subtext, icon: Icon, delay, change, isRank, onClick, className, comparisons }) => {
+const StatCard = ({ title, value, secondaryValue, secondaryLabel, subtext, icon: Icon, delay, change, isRank, onClick, className, comparisons }) => {
   // Logic for change display
   let isPositive = false;
   let changeColor = "";
@@ -210,6 +215,12 @@ const StatCard = ({ title, value, subtext, icon: Icon, delay, change, isRank, on
           </div>
         )}
       </div>
+      {secondaryValue !== undefined && (
+        <div className="text-xs text-slate-400 -mt-1 mb-2">
+          {secondaryLabel || 'InCites'}: <span className="font-medium text-slate-500">{typeof secondaryValue === 'number' ? secondaryValue.toLocaleString() : secondaryValue}</span>
+        </div>
+      )}
+      {subtext && <div className="text-slate-500 text-sm font-medium -mt-1 mb-2">{subtext}</div>}
 
       {/* Benchmark Comparisons */}
       {comparisons && comparisons.length > 0 && (
@@ -219,15 +230,20 @@ const StatCard = ({ title, value, subtext, icon: Icon, delay, change, isRank, on
               <span className="text-slate-400 truncate max-w-[100px]" title={comp.name}>
                 {comp.name.length > 8 ? comp.name.slice(0, 8) + '...' : comp.name}
               </span>
-              <span className="font-bold" style={{ color: comp.color }}>
-                {isRank ? `#${comp.value}` : comp.value?.toLocaleString()}
-              </span>
+              <div className="text-right">
+                <span className="font-bold" style={{ color: comp.color }}>
+                  {isRank ? `#${comp.value}` : comp.value?.toLocaleString()}
+                </span>
+                {comp.secondaryValue !== undefined && (
+                  <span className="text-slate-400 ml-1 font-normal">
+                    ({comp.secondaryValue?.toLocaleString()})
+                  </span>
+                )}
+              </div>
             </div>
           ))}
         </div>
       )}
-
-      {subtext && <div className="text-emerald-600 text-sm font-medium flex items-center gap-1 bg-emerald-50 w-fit px-2 py-1 rounded-full mt-2">{subtext}</div>}
     </motion.div>
   );
 };
@@ -554,6 +570,60 @@ const PaperTrendModal = ({ trend, onClose }) => {
 
 const RankingListModal = ({ rankings, currentName, onClose }) => {
   const scrollRef = React.useRef(null);
+  const [regionFilter, setRegionFilter] = React.useState('universities'); // 默认选中大陆高校
+  const [searchQuery, setSearchQuery] = React.useState('');
+
+  // 根据筛选条件过滤数据
+  const filteredRankings = React.useMemo(() => {
+    if (!rankings) return [];
+
+    let filtered = rankings;
+    switch (regionFilter) {
+      case 'china':
+        // 包含中国大陆、香港、台湾、澳门
+        filtered = rankings.filter(r =>
+          r.region === 'CHINA MAINLAND' ||
+          r.region === 'HONG KONG' ||
+          r.region === 'TAIWAN' ||
+          r.region === 'MACAU'
+        );
+        break;
+      case 'mainland':
+        // 仅中国大陆
+        filtered = rankings.filter(r => r.region === 'CHINA MAINLAND');
+        break;
+      case 'universities':
+        // 中国大陆高校：中文名包含"大学"或"学院"，但排除"科学院"、"研究生院"、"研究院"
+        filtered = rankings.filter(r => {
+          if (r.region !== 'CHINA MAINLAND') return false;
+          const cnName = r.cnName || '';
+          const hasUniversity = cnName.includes('大学') || cnName.includes('学院');
+          const isExcluded = cnName.includes('科学院') || cnName.includes('研究生院') || cnName.includes('研究院');
+          return hasUniversity && !isExcluded;
+        });
+        break;
+      default:
+        // 全球
+        filtered = rankings;
+    }
+
+    // 重新计算筛选后的排名
+    const ranked = filtered.map((item, index) => ({
+      ...item,
+      filteredRank: index + 1  // 筛选后的排名
+    }));
+
+    // 搜索过滤（支持中英文名）
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase().trim();
+      return ranked.filter(r =>
+        (r.name && r.name.toLowerCase().includes(query)) ||
+        (r.cnName && r.cnName.includes(searchQuery.trim()))
+      );
+    }
+
+    return ranked;
+  }, [rankings, regionFilter, searchQuery]);
 
   const scrollToMyUniv = () => {
     if (scrollRef.current) {
@@ -573,7 +643,14 @@ const RankingListModal = ({ rankings, currentName, onClose }) => {
   React.useEffect(() => {
     // Initial auto-scroll
     setTimeout(scrollToMyUniv, 300);
-  }, [rankings]);
+  }, [filteredRankings]);
+
+  const filterLabels = {
+    global: '全球',
+    china: '中国',
+    mainland: '中国大陆',
+    universities: '大陆高校'
+  };
 
   return (
     <motion.div
@@ -593,8 +670,8 @@ const RankingListModal = ({ rankings, currentName, onClose }) => {
         {/* Header */}
         <div className="p-6 border-b border-slate-100 flex justify-between items-center bg-white z-10 shrink-0">
           <div>
-            <h2 className="text-2xl font-bold text-slate-800">国内高校 ESI 排名</h2>
-            <p className="text-slate-500 text-sm">Domestic Institutions Ranking (Chinese Mainland)</p>
+            <h2 className="text-2xl font-bold text-slate-800">ESI 全球机构排名</h2>
+            <p className="text-slate-500 text-sm">Global Institutions Ranking by ESI</p>
           </div>
           <div className="flex items-center gap-2">
             <button
@@ -620,19 +697,51 @@ const RankingListModal = ({ rankings, currentName, onClose }) => {
           </div>
         </div>
 
+        {/* Region Filter Tabs */}
+        <div className="flex border-b border-slate-100 px-6 bg-slate-50">
+          {['global', 'china', 'mainland', 'universities'].map(filter => (
+            <button
+              key={filter}
+              onClick={() => setRegionFilter(filter)}
+              className={cn(
+                "px-4 py-3 text-sm font-medium border-b-2 transition-colors",
+                regionFilter === filter
+                  ? "border-blue-600 text-blue-600 bg-white"
+                  : "border-transparent text-slate-500 hover:text-slate-700"
+              )}
+            >
+              {filterLabels[filter]}
+            </button>
+          ))}
+        </div>
+
+        {/* Search Box */}
+        <div className="px-6 py-3 bg-white border-b border-slate-100">
+          <input
+            type="text"
+            placeholder="搜索机构名称（中英文）..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full px-4 py-2 text-sm border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          />
+        </div>
+
         {/* List Content */}
         <div className="flex-1 overflow-y-auto p-0 bg-white" ref={scrollRef}>
           <table className="w-full text-left border-collapse">
             <thead className="sticky top-0 bg-slate-50 shadow-sm z-20 text-xs font-bold text-slate-500 uppercase tracking-wider">
               <tr>
-                <th className="px-6 py-4 bg-slate-50">Global Rank</th>
-                <th className="px-6 py-4 bg-slate-50">Institution</th>
-                <th className="px-6 py-4 text-right bg-slate-50">Papers</th>
-                <th className="px-6 py-4 text-right bg-slate-50">Citations</th>
+                <th className="px-4 py-4 bg-slate-50 text-center w-20">
+                  {regionFilter === 'global' ? '全球排名' : regionFilter === 'china' ? '中国排名' : regionFilter === 'mainland' ? '大陆排名' : '高校排名'}
+                </th>
+                <th className="px-4 py-4 bg-slate-50">机构名称</th>
+                {regionFilter === 'global' && <th className="px-4 py-4 bg-slate-50">地区</th>}
+                <th className="px-4 py-4 text-right bg-slate-50">论文数</th>
+                <th className="px-4 py-4 text-right bg-slate-50">被引频次</th>
               </tr>
             </thead>
             <tbody className="text-sm">
-              {rankings && rankings.length > 0 ? rankings.map((r, idx) => {
+              {filteredRankings && filteredRankings.length > 0 ? filteredRankings.map((r, idx) => {
                 const isMe = r.name.toUpperCase() === currentName.toUpperCase() || r.cnName === currentName;
                 return (
                   <tr
@@ -645,10 +754,13 @@ const RankingListModal = ({ rankings, currentName, onClose }) => {
                         : "hover:bg-slate-50"
                     )}
                   >
-                    <td className={cn("px-6 py-4 font-medium", isMe ? "text-blue-700 font-bold" : "text-slate-600")}>
-                      #{r.rank}
+                    <td className={cn("px-4 py-4 text-center font-medium", isMe ? "text-blue-700 font-bold" : "text-slate-600")}>
+                      #{r.filteredRank}
+                      {regionFilter !== 'global' && (
+                        <span className="text-xs text-slate-400 ml-1">(#{r.rank})</span>
+                      )}
                     </td>
-                    <td className="px-6 py-4">
+                    <td className="px-4 py-4">
                       <div className={cn("text-base", isMe ? "text-blue-800 font-extrabold" : "text-slate-800 font-bold")}>
                         {r.cnName || r.name}
                       </div>
@@ -661,18 +773,23 @@ const RankingListModal = ({ rankings, currentName, onClose }) => {
                         <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-600 rounded-r"></div>
                       )}
                     </td>
-                    <td className={cn("px-6 py-4 text-right tabular-nums", isMe ? "text-blue-900 font-bold" : "text-slate-600")}>
+                    {regionFilter === 'global' && (
+                      <td className={cn("px-4 py-4 text-sm", isMe ? "text-blue-700" : "text-slate-500")}>
+                        {r.region || '-'}
+                      </td>
+                    )}
+                    <td className={cn("px-4 py-4 text-right tabular-nums", isMe ? "text-blue-900 font-bold" : "text-slate-600")}>
                       {r.papers.toLocaleString()}
                     </td>
-                    <td className={cn("px-6 py-4 text-right tabular-nums", isMe ? "text-blue-900 font-bold" : "text-slate-600")}>
+                    <td className={cn("px-4 py-4 text-right tabular-nums", isMe ? "text-blue-900 font-bold" : "text-slate-600")}>
                       {r.citations.toLocaleString()}
                     </td>
                   </tr>
                 );
               }) : (
                 <tr>
-                  <td colSpan={4} className="px-6 py-12 text-center text-slate-400">
-                    暂无国内排名数据 (No Data Available)
+                  <td colSpan={regionFilter === 'global' ? 5 : 4} className="px-6 py-12 text-center text-slate-400">
+                    暂无排名数据 (No Data Available)
                   </td>
                 </tr>
               )}
@@ -680,8 +797,136 @@ const RankingListModal = ({ rankings, currentName, onClose }) => {
           </table>
         </div>
         <div className="p-4 border-t border-slate-100 bg-white text-xs text-slate-400 flex justify-between shrink-0 z-10">
-          <span>Total: {rankings ? rankings.length : 0} Institutions</span>
-          <span>Source: Clarivate Analytics ESI</span>
+          <span>{filterLabels[regionFilter]}共 {filteredRankings ? filteredRankings.length : 0} 个机构</span>
+          <span>Source: Clarivate Analytics ESI 2026/01</span>
+        </div>
+      </motion.div>
+    </motion.div>
+  );
+};
+
+const TopPaperListModal = ({ onClose }) => {
+  const [papers, setPapers] = React.useState([]);
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    fetch('/data/top_papers.json')
+      .then(res => res.json())
+      .then(data => {
+        // 按年份降序排序
+        data.sort((a, b) => b.year - a.year);
+        setPapers(data);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error('Failed to load top papers:', err);
+        setLoading(false);
+      });
+  }, []);
+
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 bg-slate-900/40 z-50 backdrop-blur-sm flex items-center justify-center p-4"
+      onClick={onClose}
+    >
+      <motion.div
+        initial={{ scale: 0.95, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.95, opacity: 0 }}
+        className="bg-white w-full max-w-4xl max-h-[85vh] rounded-2xl shadow-2xl overflow-hidden flex flex-col relative"
+        onClick={e => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="p-6 border-b border-slate-100 flex justify-between items-center bg-white z-10 shrink-0">
+          <div>
+            <h2 className="text-2xl font-bold text-slate-800 flex items-center gap-2">
+              <Award className="text-amber-500" />
+              ESI 高被引与热点论文 (Top Papers)
+            </h2>
+            <p className="text-slate-500 text-sm mt-1">Total: {papers.length} Papers (Highly Cited / Hot)</p>
+          </div>
+          <button onClick={onClose} className="p-2 hover:bg-slate-100 rounded-full text-slate-400 hover:text-slate-700 transition-colors">
+            <X size={24} />
+          </button>
+        </div>
+
+        {/* List Content */}
+        <div className="flex-1 overflow-y-auto p-6 bg-slate-50/50 space-y-4">
+          {loading ? (
+            <div className="text-center py-10 text-slate-400">Loading papers...</div>
+          ) : papers.length > 0 ? (
+            papers.map((paper, idx) => (
+              <div key={idx} className="bg-white p-5 rounded-xl border border-slate-200 hover:shadow-md transition-shadow relative overflow-hidden">
+                {/* 装饰性背景 */}
+                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-slate-50 to-slate-100 rounded-bl-full -z-0 opacity-50"></div>
+
+                <div className="relative z-10">
+                  <div className="flex items-start justify-between gap-4 mb-2">
+                    <div className="flex gap-2 mb-2">
+                      {paper.isHot && <span className="bg-red-100 text-red-600 text-xs px-2 py-0.5 rounded-full font-bold flex items-center gap-1 border border-red-200"><Flame size={12} fill="currentColor" /> Hot Paper</span>}
+                      {paper.isHighlyCited && <span className="bg-amber-100 text-amber-700 text-xs px-2 py-0.5 rounded-full font-bold flex items-center gap-1 border border-amber-200"><Trophy size={12} /> Highly Cited</span>}
+                    </div>
+                  </div>
+
+                  <a
+                    href={paper.doi ? `https://doi.org/${paper.doi}` : '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-bold text-blue-700 hover:underline leading-tight block mb-2"
+                    title="Click to view on DOI.org"
+                  >
+                    {paper.title}
+                  </a>
+
+                  <div className="text-sm text-slate-600 mb-3 line-clamp-2" title={paper.authors.join('; ')}>
+                    <span className="font-semibold text-slate-700">Authors:</span> {paper.authors.join('; ')}
+                  </div>
+
+                  <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-slate-500 mb-4 bg-slate-50 p-2 rounded-lg border border-slate-100 w-fit">
+                    <div className="font-medium text-slate-700 italic">{paper.journal}</div>
+                    <div className="flex items-center gap-4">
+                      <span>Year: {paper.year}</span>
+                      {paper.volume && <span>Vol: {paper.volume}</span>}
+                      {paper.issue && <span>Issue: {paper.issue}</span>}
+                    </div>
+                  </div>
+
+                  <div className="mb-4 flex flex-wrap gap-2">
+                    {/* 显示本校匹配的学院 */}
+                    {paper.colleges && paper.colleges.map(c => (
+                      <span key={c} className="inline-flex items-center bg-indigo-100 text-indigo-700 text-xs px-3 py-1 rounded-md font-bold border border-indigo-200 shadow-sm">
+                        {c}
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* Abstract & Keywords */}
+                  <div className="text-sm text-slate-600 bg-slate-50 p-3 rounded-lg border border-slate-100 group">
+                    {paper.abstract && (
+                      <div className="mb-2">
+                        <span className="font-semibold text-slate-700 block mb-1">Abstract:</span>
+                        <p className="line-clamp-3 group-hover:line-clamp-none transition-all duration-300 text-justify leading-relaxed">
+                          {paper.abstract}
+                        </p>
+                      </div>
+                    )}
+                    {paper.keywords && (
+                      <div className="text-xs text-slate-500 mt-2 pt-2 border-t border-slate-200">
+                        <span className="font-semibold text-slate-600">Keywords:</span> {paper.keywords}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))
+          ) : (
+            <div className="text-center py-12 text-slate-400">
+              No Top Papers found.
+            </div>
+          )}
         </div>
       </motion.div>
     </motion.div>
@@ -900,11 +1145,13 @@ const Dashboard = () => {
   const [selectedBenchmarks, setSelectedBenchmarks] = useState([]);
 
   const [rankingModalOpen, setRankingModalOpen] = useState(false);
+  const [showTopPaperModal, setShowTopPaperModal] = useState(false);
 
   // Radar Chart State
   const [radarMetric, setRadarMetric] = useState('citations'); // 'papers', 'citations', 'cpp'
   const [radarSubjects, setRadarSubjects] = useState([]);
   const [radarModalOpen, setRadarModalOpen] = useState(false);
+  const [showAllPotential, setShowAllPotential] = useState(false);
 
   // Restored modal states
   const [selectedDiscipline, setSelectedDiscipline] = useState(null);
@@ -949,10 +1196,22 @@ const Dashboard = () => {
       const nameKey = school.name.toUpperCase();
       const lookupData = benchmarkLookup[nameKey];
 
+      // Calculate InCites totals from details
+      let incitesPapers = 0;
+      let incitesCitations = 0;
+      if (lookupData?.details) {
+        Object.values(lookupData.details).forEach(d => {
+          if (d.incites) {
+            incitesPapers += d.incites[0] || 0;
+            incitesCitations += d.incites[1] || 0;
+          }
+        });
+      }
+
       realBenchmarkData[school.cnName || school.name] = {
         name: school.cnName || school.name,
         nameKey: nameKey,
-        // From rankings (already in selectedBenchmarks)
+        // From rankings (already in selectedBenchmarks) - ESI data
         rank: school.rank,
         papers: school.papers,
         citations: school.citations,
@@ -960,7 +1219,10 @@ const Dashboard = () => {
         topPapers: lookupData?.topPapers || 0,
         esiDisciplines: lookupData?.esiDisciplines || 0,
         potentialDisciplines: lookupData?.potentialDisciplines || 0,
-        details: lookupData?.details || {} // Real detailed data
+        details: lookupData?.details || {},
+        // InCites totals
+        incitesPapers,
+        incitesCitations
       };
     });
     setBenchmarkSchoolData(realBenchmarkData);
@@ -1208,7 +1470,7 @@ const Dashboard = () => {
     <div className="flex min-h-screen bg-[#f8fafc] font-sans text-slate-900">
       <Sidebar isOpen={sidebarOpen} toggleSidebar={() => setSidebarOpen(!sidebarOpen)} />
 
-      <main className="flex-1 overflow-y-auto h-screen relative">
+      <main className="flex-1 overflow-y-auto h-screen relative lg:pr-[280px]">
         {/* Header */}
         <header className="lg:hidden bg-white p-4 flex items-center justify-between border-b border-slate-200 sticky top-0 z-10 shadow-sm">
           <h1 className="text-lg font-bold text-slate-800">ESI 学科分析</h1>
@@ -1235,9 +1497,9 @@ const Dashboard = () => {
           {/* Core KPI Cards - Clicking them now just scrolls or focuses, no modal for simple ones */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <StatCard
-              title="ESI 全球排名"
+              title="ESI 全球机构排名"
               value={realData.overview.globalRank}
-              subtext={`国内排名 #${realData.overview.domesticRank || '-'}`}
+              subtext={`国内高校排名 #${realData.overview.domesticRank || '-'}`}
               icon={Globe}
               isRank={true}
               onClick={() => setRankingModalOpen(true)}
@@ -1251,24 +1513,42 @@ const Dashboard = () => {
             <StatCard
               title="总论文数"
               value={realData.overview.totalPapers}
+              secondaryValue={realData.overview.incitesPapers}
+              secondaryLabel="InCites"
               icon={FileText}
               onClick={() => setActiveTab('output')}
               className="cursor-pointer hover:border-blue-300"
-              comparisons={selectedBenchmarks.slice(0, 3).map((s, i) => ({
-                name: s.cnName || s.name,
+              comparisons={Object.values(benchmarkSchoolData).slice(0, 3).map((s, i) => ({
+                name: s.name,
                 value: s.papers,
+                secondaryValue: s.incitesPapers,
                 color: ['#10b981', '#f59e0b', '#ef4444'][i]
               }))}
             />
             <StatCard
               title="总被引频次"
               value={realData.overview.totalCitations}
+              secondaryValue={realData.overview.incitesCitations}
+              secondaryLabel="InCites"
               icon={Activity}
-              onClick={() => setActiveTab('impact')}
+              onClick={() => setActiveTab('citations')}
               className="cursor-pointer hover:border-blue-300"
-              comparisons={selectedBenchmarks.slice(0, 3).map((s, i) => ({
-                name: s.cnName || s.name,
+              comparisons={Object.values(benchmarkSchoolData).slice(0, 3).map((s, i) => ({
+                name: s.name,
                 value: s.citations,
+                secondaryValue: s.incitesCitations,
+                color: ['#10b981', '#f59e0b', '#ef4444'][i]
+              }))}
+            />
+            <StatCard
+              title="Top Paper 数"
+              value={realData.overview.topPapers}
+              icon={Award}
+              onClick={() => setShowTopPaperModal(true)}
+              className="cursor-pointer hover:border-blue-300"
+              comparisons={Object.values(benchmarkSchoolData).slice(0, 3).map((s, i) => ({
+                name: s.name,
+                value: s.topPapers,
                 color: ['#10b981', '#f59e0b', '#ef4444'][i]
               }))}
             />
@@ -1279,16 +1559,6 @@ const Dashboard = () => {
               comparisons={Object.values(benchmarkSchoolData).slice(0, 3).map((s, i) => ({
                 name: s.name,
                 value: s.esiDisciplines,
-                color: ['#10b981', '#f59e0b', '#ef4444'][i]
-              }))}
-            />
-            <StatCard
-              title="Top Paper 数"
-              value={realData.overview.topPapers}
-              icon={Award}
-              comparisons={Object.values(benchmarkSchoolData).slice(0, 3).map((s, i) => ({
-                name: s.name,
-                value: s.topPapers,
                 color: ['#10b981', '#f59e0b', '#ef4444'][i]
               }))}
             />
@@ -1522,10 +1792,11 @@ const Dashboard = () => {
             <div className="flex border-b border-slate-100 px-6">
               {[
                 { id: 'output', label: '科研产出 Output' },
-                { id: 'citations', label: '被引趋势 Citations' },
+                { id: 'citations', label: '影响力趋势 Impact' },
                 { id: 'quality', label: '质量分析 Quality' },
                 { id: 'authors', label: '学者贡献 Authors' },
-                { id: 'contribution', label: '学院贡献 Colleges' }
+                { id: 'contribution', label: '学院贡献 Colleges' },
+                { id: 'cooperation', label: '国际合作 Cooperation' }
               ].map(tab => (
                 <button
                   key={tab.id}
@@ -1542,63 +1813,230 @@ const Dashboard = () => {
 
             <div className="p-6">
               {activeTab === 'output' && (
-                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-                  <h3 className="font-bold text-slate-700 mb-4">全校发文趋势 (Publication Trend)</h3>
-                  <div className="h-[350px] w-full bg-slate-50 rounded-xl p-4">
-                    <ResponsiveContainer width="100%" height="100%">
-                      <BarChart data={realData.overview.publicationTrend}>
-                        <CartesianGrid strokeDasharray="3 3" vertical={false} />
-                        <XAxis dataKey="year" />
-                        <YAxis />
-                        <RechartsTooltip cursor={{ fill: '#f1f5f9' }} />
-                        <Bar dataKey="papers" name="发文量" fill="#3b82f6" radius={[4, 4, 0, 0]} barSize={40} />
-                      </BarChart>
-                    </ResponsiveContainer>
+                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 space-y-8">
+                  {/* 历年发文趋势 */}
+                  <div>
+                    <h3 className="font-bold text-slate-700 mb-4">全校发文趋势 (Publication Trend)</h3>
+                    <div className="h-[350px] w-full bg-slate-50 rounded-xl p-4">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <BarChart data={realData.overview.publicationTrend}>
+                          <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                          <XAxis dataKey="year" />
+                          <YAxis />
+                          <RechartsTooltip cursor={{ fill: '#f1f5f9' }} />
+                          <Bar dataKey="papers" name="发文量" fill="#3b82f6" radius={[4, 4, 0, 0]} barSize={40} />
+                        </BarChart>
+                      </ResponsiveContainer>
+                    </div>
+                  </div>
+
+                  {/* 22学科产出柱状图 */}
+                  <div>
+                    <h3 className="font-bold text-slate-700 mb-4">各学科产出分布 (Discipline Output - InCites 2015-2025)</h3>
+                    <div className="h-[600px] w-full bg-slate-50 rounded-xl p-4">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <BarChart
+                          data={realData.disciplines.slice().sort((a, b) => b.papers - a.papers)}
+                          layout="vertical"
+                          margin={{ left: 20, right: 30 }}
+                        >
+                          <CartesianGrid strokeDasharray="3 3" horizontal={false} />
+                          <XAxis type="number" />
+                          <YAxis
+                            dataKey="cnName"
+                            type="category"
+                            width={100}
+                            tick={{ fontSize: 11 }}
+                          />
+                          <RechartsTooltip
+                            cursor={{ fill: '#f1f5f9' }}
+                            formatter={(value, name, props) => {
+                              const d = props.payload;
+                              return [
+                                `${value.toLocaleString()} 篇`,
+                                d.isTop1 ? `${d.cnName} (ESI TOP 1%)` : d.cnName
+                              ];
+                            }}
+                          />
+                          <Bar
+                            dataKey="papers"
+                            name="InCites发文量"
+                            radius={[0, 4, 4, 0]}
+                            barSize={18}
+                          >
+                            {realData.disciplines.slice().sort((a, b) => b.papers - a.papers).map((entry, index) => (
+                              <Cell
+                                key={`cell-${index}`}
+                                fill={entry.isTop1 ? '#10b981' : '#3b82f6'}
+                              />
+                            ))}
+                          </Bar>
+                        </BarChart>
+                      </ResponsiveContainer>
+                    </div>
+                    <div className="flex justify-center gap-6 mt-3 text-xs text-slate-500">
+                      <span className="flex items-center gap-1.5"><div className="w-3 h-3 bg-emerald-500 rounded"></div> ESI TOP 1% 学科</span>
+                      <span className="flex items-center gap-1.5"><div className="w-3 h-3 bg-blue-500 rounded"></div> 未入围学科</span>
+                    </div>
                   </div>
                 </div>
               )}
 
               {activeTab === 'citations' && (
-                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-                  <h3 className="font-bold text-slate-700 mb-4">全校被引频次趋势 (Citation Trend)</h3>
-                  <div className="h-[350px] w-full bg-slate-50 rounded-xl p-4">
-                    <ResponsiveContainer width="100%" height="100%">
-                      <BarChart data={realData.overview.publicationTrend}>
-                        <CartesianGrid strokeDasharray="3 3" vertical={false} />
-                        <XAxis dataKey="year" />
-                        <YAxis />
-                        <RechartsTooltip cursor={{ fill: '#f1f5f9' }} />
-                        <Bar dataKey="citations" name="被引频次" fill="#8884d8" radius={[4, 4, 0, 0]} barSize={40} />
-                      </BarChart>
-                    </ResponsiveContainer>
+                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 space-y-8">
+                  {/* 历年被引趋势 */}
+                  <div>
+                    <h3 className="font-bold text-slate-700 mb-4">全校被引频次趋势 (Citation Trend)</h3>
+                    <div className="h-[350px] w-full bg-slate-50 rounded-xl p-4">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <BarChart data={realData.overview.publicationTrend}>
+                          <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                          <XAxis dataKey="year" />
+                          <YAxis />
+                          <RechartsTooltip cursor={{ fill: '#f1f5f9' }} />
+                          <Bar dataKey="citations" name="被引频次" fill="#8884d8" radius={[4, 4, 0, 0]} barSize={40} />
+                        </BarChart>
+                      </ResponsiveContainer>
+                    </div>
+                  </div>
+
+                  {/* 22学科被引频次柱状图 */}
+                  <div>
+                    <h3 className="font-bold text-slate-700 mb-4">各学科被引频次分布 (Discipline Citations - InCites 2015-2025)</h3>
+                    <div className="h-[600px] w-full bg-slate-50 rounded-xl p-4">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <BarChart
+                          data={realData.disciplines.slice().sort((a, b) => b.citations - a.citations)}
+                          layout="vertical"
+                          margin={{ left: 20, right: 30 }}
+                        >
+                          <CartesianGrid strokeDasharray="3 3" horizontal={false} />
+                          <XAxis type="number" />
+                          <YAxis
+                            dataKey="cnName"
+                            type="category"
+                            width={100}
+                            tick={{ fontSize: 11 }}
+                          />
+                          <RechartsTooltip
+                            cursor={{ fill: '#f1f5f9' }}
+                            formatter={(value, name, props) => {
+                              const d = props.payload;
+                              return [
+                                `${value.toLocaleString()} 次`,
+                                d.isTop1 ? `${d.cnName} (ESI TOP 1%)` : d.cnName
+                              ];
+                            }}
+                          />
+                          <Bar
+                            dataKey="citations"
+                            name="InCites被引频次"
+                            radius={[0, 4, 4, 0]}
+                            barSize={18}
+                          >
+                            {realData.disciplines.slice().sort((a, b) => b.citations - a.citations).map((entry, index) => (
+                              <Cell
+                                key={`cell-${index}`}
+                                fill={entry.isTop1 ? '#10b981' : '#8b5cf6'}
+                              />
+                            ))}
+                          </Bar>
+                        </BarChart>
+                      </ResponsiveContainer>
+                    </div>
+                    <div className="flex justify-center gap-6 mt-3 text-xs text-slate-500">
+                      <span className="flex items-center gap-1.5"><div className="w-3 h-3 bg-emerald-500 rounded"></div> ESI TOP 1% 学科</span>
+                      <span className="flex items-center gap-1.5"><div className="w-3 h-3 bg-violet-500 rounded"></div> 未入围学科</span>
+                    </div>
                   </div>
                 </div>
               )}
 
               {activeTab === 'quality' && (
-                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-                  <div className="flex justify-between items-center mb-4">
-                    <h3 className="font-bold text-slate-700">篇均被引 (CPP) 与 CNCI 综合分析</h3>
-                    <div className="text-xs text-slate-500 flex gap-4">
-                      <span className="flex items-center gap-1"><div className="w-2 h-2 bg-blue-500 rounded-sm"></div> 本校 CPP</span>
-                      <span className="flex items-center gap-1"><div className="w-2 h-2 bg-slate-400 rounded-sm"></div> 全球基准 CPP</span>
-                      <span className="flex items-center gap-1"><div className="w-2 h-2 bg-amber-500 rounded-full"></div> CNCI</span>
+                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 space-y-8">
+                  {/* 历年质量趋势 */}
+                  <div>
+                    <div className="flex justify-between items-center mb-4">
+                      <h3 className="font-bold text-slate-700">篇均被引 (CPP) 与 CNCI 综合分析</h3>
+                      <div className="text-xs text-slate-500 flex gap-4">
+                        <span className="flex items-center gap-1"><div className="w-2 h-2 bg-blue-500 rounded-sm"></div> 本校 CPP</span>
+                        <span className="flex items-center gap-1"><div className="w-2 h-2 bg-slate-400 rounded-sm"></div> 全球基准 CPP</span>
+                        <span className="flex items-center gap-1"><div className="w-2 h-2 bg-amber-500 rounded-full"></div> CNCI</span>
+                      </div>
+                    </div>
+                    <div className="h-[350px] w-full bg-slate-50 rounded-xl p-4">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <ComposedChart data={realData.overview.publicationTrend}>
+                          <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                          <XAxis dataKey="year" />
+                          <YAxis yAxisId="left" label={{ value: 'CPP', angle: -90, position: 'insideLeft' }} />
+                          <YAxis yAxisId="right" orientation="right" label={{ value: 'CNCI', angle: 90, position: 'insideRight' }} />
+                          <RechartsTooltip cursor={{ fill: '#f1f5f9' }} />
+                          <Legend />
+                          <Bar yAxisId="left" dataKey="cpp" name="本校 CPP" fill="#3b82f6" barSize={20} />
+                          <Bar yAxisId="left" dataKey="baselineCpp" name="全球基准 CPP" fill="#94a3b8" barSize={20} />
+                          <Line yAxisId="right" type="monotone" dataKey="cnci" name="CNCI" stroke="#f59e0b" strokeWidth={3} dot={{ r: 4 }} />
+                        </ComposedChart>
+                      </ResponsiveContainer>
                     </div>
                   </div>
-                  <div className="h-[350px] w-full bg-slate-50 rounded-xl p-4">
-                    <ResponsiveContainer width="100%" height="100%">
-                      <ComposedChart data={realData.overview.publicationTrend}>
-                        <CartesianGrid strokeDasharray="3 3" vertical={false} />
-                        <XAxis dataKey="year" />
-                        <YAxis yAxisId="left" label={{ value: 'CPP', angle: -90, position: 'insideLeft' }} />
-                        <YAxis yAxisId="right" orientation="right" label={{ value: 'CNCI', angle: 90, position: 'insideRight' }} />
-                        <RechartsTooltip cursor={{ fill: '#f1f5f9' }} />
-                        <Legend />
-                        <Bar yAxisId="left" dataKey="cpp" name="本校 CPP" fill="#3b82f6" barSize={20} />
-                        <Bar yAxisId="left" dataKey="baselineCpp" name="全球基准 CPP" fill="#94a3b8" barSize={20} />
-                        <Line yAxisId="right" type="monotone" dataKey="cnci" name="CNCI" stroke="#f59e0b" strokeWidth={3} dot={{ r: 4 }} />
-                      </ComposedChart>
-                    </ResponsiveContainer>
+
+                  {/* 22学科质量分析：本校CPP vs 全球基准CPP + CNCI */}
+                  <div>
+                    <h3 className="font-bold text-slate-700 mb-4">各学科质量分析 (Discipline Quality - InCites 2015-2025)</h3>
+                    <div className="h-[450px] w-full bg-slate-50 rounded-xl p-4">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <ComposedChart
+                          data={realData.disciplines.slice().sort((a, b) => parseFloat(a.citationsPerPaper) - parseFloat(b.citationsPerPaper))}
+                          margin={{ top: 5, right: 40, left: 0, bottom: 5 }}
+                        >
+                          <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                          <XAxis
+                            dataKey="cnName"
+                            tick={{ fontSize: 9, angle: -45, textAnchor: 'end' }}
+                            height={70}
+                            interval={0}
+                          />
+                          <YAxis yAxisId="cpp" orientation="left" label={{ value: 'CPP', angle: -90, position: 'insideLeft' }} />
+                          <YAxis yAxisId="cnci" orientation="right" domain={[0, 'auto']} label={{ value: 'CNCI', angle: 90, position: 'insideRight' }} />
+                          <RechartsTooltip
+                            cursor={{ fill: '#f1f5f9' }}
+                            formatter={(value, name) => {
+                              if (value === null || value === undefined) return ['-', name];
+                              if (name === 'CNCI') return [Number(value).toFixed(2), name];
+                              return [`${Number(value).toFixed(1)}`, name];
+                            }}
+                          />
+                          <Legend verticalAlign="top" height={30} />
+                          <Bar
+                            yAxisId="cpp"
+                            dataKey="citationsPerPaper"
+                            name="本校 CPP"
+                            fill="#3b82f6"
+                            radius={[4, 4, 0, 0]}
+                            barSize={12}
+                          />
+                          <Bar
+                            yAxisId="cpp"
+                            dataKey="baselineCpp"
+                            name="全球基准 CPP"
+                            fill="#94a3b8"
+                            radius={[4, 4, 0, 0]}
+                            barSize={12}
+                          />
+                          <Line
+                            yAxisId="cnci"
+                            type="monotone"
+                            dataKey="cnci"
+                            name="CNCI"
+                            stroke="#f59e0b"
+                            strokeWidth={2}
+                            dot={{ r: 4, fill: '#f59e0b' }}
+                            connectNulls={true}
+                          />
+                        </ComposedChart>
+                      </ResponsiveContainer>
+                    </div>
                   </div>
                 </div>
               )}
@@ -1728,14 +2166,21 @@ const Dashboard = () => {
               )}
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+          {activeTab === 'cooperation' && (
+            <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
+              <h3 className="font-bold text-slate-700 mb-4">全球合作网络 - 国际化水平 (International Cooperation)</h3>
+              <CooperationMap />
+            </div>
+          )}
+          <div className="flex flex-col gap-8">
             {/* Advantage Disciplines */}
-            <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+            <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm w-full">
               <div className="flex items-center gap-2 mb-6">
                 <Award className="text-emerald-500" />
                 <h3 className="text-xl font-bold text-slate-800">ESI 前1% 优势学科</h3>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="flex flex-col gap-4">
                 {realData.disciplines.filter(d => d.isTop1).map((d) => (
                   <div
                     key={d.name}
@@ -1757,31 +2202,68 @@ const Dashboard = () => {
             </div>
 
             {/* Potential Disciplines */}
-            <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+            <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm w-full">
               <div className="flex items-center gap-2 mb-6">
                 <Target className="text-amber-500" />
                 <h3 className="text-xl font-bold text-slate-800">潜力学科监测</h3>
               </div>
               <div className="space-y-3">
-                {realData.disciplines.filter(d => !d.isTop1 && d.citations > 0).map((d) => (
-                  <div
-                    key={d.name}
-                    onClick={() => handleDisciplineClick(d)}
-                    className="flex items-center justify-between p-4 bg-slate-50 rounded-xl border border-slate-100 cursor-pointer hover:bg-white hover:border-blue-300 hover:shadow-sm transition-all"
-                  >
-                    <div>
-                      <div className="font-bold text-slate-700">{d.cnName}</div>
-                      <div className="text-xs text-slate-400">{d.name}</div>
-                    </div>
-                    <div className="text-right">
-                      <div className="text-xs text-slate-400">潜力值</div>
-                      <div className="text-amber-500 font-bold">{d.potentialValue}%</div>
-                    </div>
-                  </div>
-                ))}
-                {realData.disciplines.filter(d => !d.isTop1 && d.citations > 0).length === 0 && (
-                  <div className="text-center py-8 text-slate-400 border border-dashed border-slate-200 rounded-xl">暂无潜力学科</div>
-                )}
+                {(() => {
+                  const allPotentials = realData.disciplines.filter(d => !d.isTop1 && d.citations > 0);
+                  const highPotentials = allPotentials.filter(d => parseFloat(d.potentialValue) > 50);
+
+                  const visibleList = showAllPotential ? allPotentials : highPotentials;
+                  const hasMore = allPotentials.length > highPotentials.length;
+
+                  if (visibleList.length === 0) {
+                    if (!showAllPotential && allPotentials.length > 0) {
+                      return (
+                        <div className="text-center py-8 text-slate-400 border border-dashed border-slate-200 rounded-xl">
+                          暂无潜力值超过 50% 的学科
+                          <button onClick={() => setShowAllPotential(true)} className="text-blue-500 hover:underline ml-2">查看全部监测学科</button>
+                        </div>
+                      );
+                    }
+                    return <div className="text-center py-8 text-slate-400 border border-dashed border-slate-200 rounded-xl">暂无潜力学科监测数据</div>;
+                  }
+
+                  return (
+                    <>
+                      {visibleList.map((d) => (
+                        <div
+                          key={d.name}
+                          onClick={() => handleDisciplineClick(d)}
+                          className="flex items-center justify-between p-4 bg-slate-50 rounded-xl border border-slate-100 cursor-pointer hover:bg-white hover:border-blue-300 hover:shadow-sm transition-all"
+                        >
+                          <div>
+                            <div className="font-bold text-slate-700">{d.cnName}</div>
+                            <div className="text-xs text-slate-400">{d.name}</div>
+                          </div>
+                          <div className="text-right">
+                            <div className="text-xs text-slate-400">潜力值</div>
+                            <div className="text-amber-500 font-bold">{d.potentialValue}%</div>
+                          </div>
+                        </div>
+                      ))}
+
+                      {/* Show More / Less Toggle */}
+                      {hasMore && (
+                        <div className="text-center pt-2">
+                          <button
+                            onClick={() => setShowAllPotential(!showAllPotential)}
+                            className="px-4 py-2 text-sm text-slate-500 hover:text-slate-700 hover:bg-slate-100 rounded-full transition-colors flex items-center justify-center gap-1 mx-auto"
+                          >
+                            {showAllPotential ? (
+                              <>收起 (Show Less) <ChevronUp size={16} /></>
+                            ) : (
+                              <>查看全部监测学科 (Show More) <ChevronDown size={16} /></>
+                            )}
+                          </button>
+                        </div>
+                      )}
+                    </>
+                  );
+                })()}
               </div>
             </div>
           </div>
@@ -1835,6 +2317,9 @@ const Dashboard = () => {
               currentName={realData.overview.institutionName}
               onClose={() => setRankingModalOpen(false)}
             />
+          )}
+          {showTopPaperModal && (
+            <TopPaperListModal onClose={() => setShowTopPaperModal(false)} />
           )}
         </AnimatePresence>
 

@@ -1,0 +1,404 @@
+[
+  {
+    "name": "CHINA MAINLAND",
+    "papers": 3042,
+    "citations": 50646,
+    "cnci": 1.23
+  },
+  {
+    "name": "United States",
+    "papers": 280,
+    "citations": 10241,
+    "cnci": 1.87
+  },
+  {
+    "name": "UNITED KINGDOM",
+    "papers": 59,
+    "citations": 832,
+    "cnci": 1.16
+  },
+  {
+    "name": "United Kingdom",
+    "papers": 59,
+    "citations": 811,
+    "cnci": 1.17
+  },
+  {
+    "name": "Canada",
+    "papers": 54,
+    "citations": 1529,
+    "cnci": 1.61
+  },
+  {
+    "name": "Australia",
+    "papers": 50,
+    "citations": 991,
+    "cnci": 1.73
+  },
+  {
+    "name": "Singapore",
+    "papers": 48,
+    "citations": 1025,
+    "cnci": 1.94
+  },
+  {
+    "name": "HONG KONG",
+    "papers": 36,
+    "citations": 714,
+    "cnci": 1.49
+  },
+  {
+    "name": "Italy",
+    "papers": 27,
+    "citations": 252,
+    "cnci": 1.42
+  },
+  {
+    "name": "India",
+    "papers": 24,
+    "citations": 2165,
+    "cnci": 2.93
+  },
+  {
+    "name": "Spain",
+    "papers": 24,
+    "citations": 532,
+    "cnci": 2.9
+  },
+  {
+    "name": "Germany",
+    "papers": 24,
+    "citations": 455,
+    "cnci": 1.72
+  },
+  {
+    "name": "MACAU",
+    "papers": 23,
+    "citations": 484,
+    "cnci": 1.74
+  },
+  {
+    "name": "ROMANIA",
+    "papers": 23,
+    "citations": 278,
+    "cnci": 1.26
+  },
+  {
+    "name": "Saudi Arabia",
+    "papers": 21,
+    "citations": 145,
+    "cnci": 1.09
+  },
+  {
+    "name": "South Korea",
+    "papers": 19,
+    "citations": 258,
+    "cnci": 0.97
+  },
+  {
+    "name": "Japan",
+    "papers": 16,
+    "citations": 344,
+    "cnci": 1.89
+  },
+  {
+    "name": "France",
+    "papers": 14,
+    "citations": 269,
+    "cnci": 1.39
+  },
+  {
+    "name": "NEW ZEALAND",
+    "papers": 14,
+    "citations": 248,
+    "cnci": 0.92
+  },
+  {
+    "name": "Pakistan",
+    "papers": 12,
+    "citations": 117,
+    "cnci": 2.2
+  },
+  {
+    "name": "Switzerland",
+    "papers": 11,
+    "citations": 427,
+    "cnci": 2.41
+  },
+  {
+    "name": "Netherlands",
+    "papers": 11,
+    "citations": 216,
+    "cnci": 1.75
+  },
+  {
+    "name": "DENMARK",
+    "papers": 11,
+    "citations": 107,
+    "cnci": 0.97
+  },
+  {
+    "name": "Russia",
+    "papers": 8,
+    "citations": 43,
+    "cnci": 1
+  },
+  {
+    "name": "ISRAEL",
+    "papers": 7,
+    "citations": 28,
+    "cnci": 0.86
+  },
+  {
+    "name": "Belgium",
+    "papers": 7,
+    "citations": 19,
+    "cnci": 0.86
+  },
+  {
+    "name": "Sweden",
+    "papers": 6,
+    "citations": 330,
+    "cnci": 2.47
+  },
+  {
+    "name": "Taiwan",
+    "papers": 6,
+    "citations": 74,
+    "cnci": 1.62
+  },
+  {
+    "name": "GHANA",
+    "papers": 5,
+    "citations": 31,
+    "cnci": 0.83
+  },
+  {
+    "name": "Malaysia",
+    "papers": 5,
+    "citations": 27,
+    "cnci": 1.04
+  },
+  {
+    "name": "HUNGARY",
+    "papers": 5,
+    "citations": 25,
+    "cnci": 2.21
+  },
+  {
+    "name": "Egypt",
+    "papers": 5,
+    "citations": 9,
+    "cnci": 2.09
+  },
+  {
+    "name": "BANGLADESH",
+    "papers": 4,
+    "citations": 50,
+    "cnci": 1.93
+  },
+  {
+    "name": "Poland",
+    "papers": 4,
+    "citations": 49,
+    "cnci": 0.92
+  },
+  {
+    "name": "UNITED ARAB EMIRATES",
+    "papers": 4,
+    "citations": 45,
+    "cnci": 1.49
+  },
+  {
+    "name": "NORWAY",
+    "papers": 3,
+    "citations": 161,
+    "cnci": 2.68
+  },
+  {
+    "name": "FINLAND",
+    "papers": 3,
+    "citations": 120,
+    "cnci": 2.76
+  },
+  {
+    "name": "NEPAL",
+    "papers": 3,
+    "citations": 80,
+    "cnci": 0.69
+  },
+  {
+    "name": "IRELAND",
+    "papers": 3,
+    "citations": 39,
+    "cnci": 1.95
+  },
+  {
+    "name": "Iran",
+    "papers": 3,
+    "citations": 36,
+    "cnci": 4.8
+  },
+  {
+    "name": "AUSTRIA",
+    "papers": 3,
+    "citations": 34,
+    "cnci": 0.55
+  },
+  {
+    "name": "JORDAN",
+    "papers": 3,
+    "citations": 4,
+    "cnci": 0.18
+  },
+  {
+    "name": "ETHIOPIA",
+    "papers": 2,
+    "citations": 71,
+    "cnci": 1.51
+  },
+  {
+    "name": "ECUADOR",
+    "papers": 2,
+    "citations": 42,
+    "cnci": 1.88
+  },
+  {
+    "name": "TURKIYE",
+    "papers": 2,
+    "citations": 31,
+    "cnci": 3.59
+  },
+  {
+    "name": "NORTHERN IRELAND",
+    "papers": 2,
+    "citations": 27,
+    "cnci": 0.67
+  },
+  {
+    "name": "CZECH REPUBLIC",
+    "papers": 2,
+    "citations": 26,
+    "cnci": 0.77
+  },
+  {
+    "name": "RWANDA",
+    "papers": 2,
+    "citations": 6,
+    "cnci": 0.42
+  },
+  {
+    "name": "Thailand",
+    "papers": 2,
+    "citations": 0,
+    "cnci": 0
+  },
+  {
+    "name": "SOUTH AFRICA",
+    "papers": 1,
+    "citations": 92,
+    "cnci": 5.35
+  },
+  {
+    "name": "ESTONIA",
+    "papers": 1,
+    "citations": 67,
+    "cnci": 5.2
+  },
+  {
+    "name": "PANAMA",
+    "papers": 1,
+    "citations": 56,
+    "cnci": 4.77
+  },
+  {
+    "name": "PHILIPPINES",
+    "papers": 1,
+    "citations": 20,
+    "cnci": 0.98
+  },
+  {
+    "name": "MEXICO",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 2.26
+  },
+  {
+    "name": "LUXEMBOURG",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.44
+  },
+  {
+    "name": "MYANMAR",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.57
+  },
+  {
+    "name": "KYRGYZSTAN",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.29
+  },
+  {
+    "name": "BAHRAIN",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.05
+  },
+  {
+    "name": "BOTSWANA",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 1
+  },
+  {
+    "name": "SLOVAKIA",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.13
+  },
+  {
+    "name": "PORTUGAL",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.29
+  },
+  {
+    "name": "ARMENIA",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 4.21
+  },
+  {
+    "name": "MONGOLIA",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 4.21
+  },
+  {
+    "name": "GREECE",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.2
+  },
+  {
+    "name": "ICELAND",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.2
+  },
+  {
+    "name": "Vietnam",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0
+  },
+  {
+    "name": "ZAMBIA",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0
+  }
+]
