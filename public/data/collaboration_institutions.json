@@ -1,0 +1,7114 @@
+[
+  {
+    "name": "Sichuan University",
+    "papers": 576,
+    "citations": 10623,
+    "cnci": 1.2963756944444444,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chinese Academy of Sciences",
+    "papers": 340,
+    "citations": 7496,
+    "cnci": 1.478399705882353,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Electronic Science & Technology of China",
+    "papers": 317,
+    "citations": 5808,
+    "cnci": 1.3760889589905363,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Chinese Academy of Sciences, CAS",
+    "papers": 145,
+    "citations": 3414,
+    "cnci": 1.6125131034482758,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengdu University",
+    "papers": 145,
+    "citations": 3104,
+    "cnci": 1.8924165517241378,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Sichuan Agricultural University",
+    "papers": 128,
+    "citations": 1601,
+    "cnci": 1.14379453125,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Southwest Jiaotong University",
+    "papers": 116,
+    "citations": 1289,
+    "cnci": 0.8493525862068966,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengdu University of Traditional Chinese Medicine",
+    "papers": 99,
+    "citations": 2169,
+    "cnci": 1.5004252525252526,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengdu University of Information Technology",
+    "papers": 98,
+    "citations": 807,
+    "cnci": 0.5498377551020408,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chinese Academy of Agricultural Sciences",
+    "papers": 77,
+    "citations": 862,
+    "cnci": 1.083774025974026,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Lanzhou University",
+    "papers": 75,
+    "citations": 856,
+    "cnci": 1.230012,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengdu University of Technology",
+    "papers": 66,
+    "citations": 587,
+    "cnci": 1.005989393939394,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengdu Medical College",
+    "papers": 61,
+    "citations": 696,
+    "cnci": 0.8127967213114755,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Southwest University - China",
+    "papers": 60,
+    "citations": 964,
+    "cnci": 1.3994950000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Geographic Sciences & Natural Resources Research, CAS",
+    "papers": 58,
+    "citations": 1420,
+    "cnci": 2.093077586206897,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "China Agricultural University",
+    "papers": 54,
+    "citations": 462,
+    "cnci": 0.6333462962962964,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhejiang University",
+    "papers": 53,
+    "citations": 509,
+    "cnci": 0.8279679245283019,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanjing Forestry University",
+    "papers": 50,
+    "citations": 616,
+    "cnci": 1.7717600000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Qinghai University",
+    "papers": 48,
+    "citations": 341,
+    "cnci": 0.6620166666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengdu Institute of Biology, CAS",
+    "papers": 47,
+    "citations": 842,
+    "cnci": 1.3490148936170212,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Sichuan Academy of Agricultural Sciences (SAAS)",
+    "papers": 46,
+    "citations": 225,
+    "cnci": 0.7981369565217392,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Sichuan University of Science & Engineering",
+    "papers": 45,
+    "citations": 281,
+    "cnci": 0.5094622222222223,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Southwestern University of Finance & Economics - China",
+    "papers": 44,
+    "citations": 625,
+    "cnci": 0.9612136363636364,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Tennessee System",
+    "papers": 42,
+    "citations": 4259,
+    "cnci": 3.485964285714286,
+    "country": "USA"
+  },
+  {
+    "name": "Northwest A&F University - China",
+    "papers": 42,
+    "citations": 500,
+    "cnci": 1.1561547619047619,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Tennessee Knoxville",
+    "papers": 41,
+    "citations": 4258,
+    "cnci": 3.569241463414634,
+    "country": "USA"
+  },
+  {
+    "name": "Peking University",
+    "papers": 41,
+    "citations": 789,
+    "cnci": 1.4186365853658538,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengdu Normal University",
+    "papers": 40,
+    "citations": 316,
+    "cnci": 0.7262700000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Sichuan Normal University",
+    "papers": 39,
+    "citations": 783,
+    "cnci": 1.5987897435897436,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tsinghua University",
+    "papers": 39,
+    "citations": 776,
+    "cnci": 1.3498153846153846,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhengzhou University",
+    "papers": 37,
+    "citations": 3435,
+    "cnci": 3.3294810810810813,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Southwest University of Science & Technology - China",
+    "papers": 35,
+    "citations": 532,
+    "cnci": 0.9252714285714286,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tibet Academy of Agriculture & Animal Husbandry Sciences",
+    "papers": 33,
+    "citations": 504,
+    "cnci": 0.9511878787878788,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "South China University of Technology",
+    "papers": 33,
+    "citations": 446,
+    "cnci": 1.1751757575757575,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Dalian University of Technology",
+    "papers": 32,
+    "citations": 407,
+    "cnci": 1.7003406250000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xihua University",
+    "papers": 32,
+    "citations": 223,
+    "cnci": 0.6941,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jiangnan University",
+    "papers": 29,
+    "citations": 357,
+    "cnci": 1.0993241379310346,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of High Energy Physics, CAS",
+    "papers": 28,
+    "citations": 1327,
+    "cnci": 1.8519,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hainan University",
+    "papers": 26,
+    "citations": 1134,
+    "cnci": 2.1483884615384614,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chinese Academy of Medical Sciences - Peking Union Medical College",
+    "papers": 26,
+    "citations": 820,
+    "cnci": 1.258196153846154,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hunan University",
+    "papers": 26,
+    "citations": 435,
+    "cnci": 0.7210384615384615,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Lanzhou Veterinary Research Institute, CAAS",
+    "papers": 26,
+    "citations": 289,
+    "cnci": 0.6779076923076924,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Dali University",
+    "papers": 25,
+    "citations": 772,
+    "cnci": 1.976672,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanyang Technological University",
+    "papers": 25,
+    "citations": 664,
+    "cnci": 2.2649120000000003,
+    "country": "SINGAPORE"
+  },
+  {
+    "name": "Beijing Normal University",
+    "papers": 25,
+    "citations": 410,
+    "cnci": 0.9872759999999999,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Bologna",
+    "papers": 25,
+    "citations": 235,
+    "cnci": 1.4772240000000003,
+    "country": "ITALY"
+  },
+  {
+    "name": "Shanghai Jiao Tong University",
+    "papers": 24,
+    "citations": 357,
+    "cnci": 1.1663416666666668,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chinese Academy of Engineering Physics",
+    "papers": 24,
+    "citations": 297,
+    "cnci": 0.5542875,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Agricultural Sciences & Veterinary Medicine Cluj Napoca",
+    "papers": 23,
+    "citations": 278,
+    "cnci": 1.258108695652174,
+    "country": "ROMANIA"
+  },
+  {
+    "name": "Shandong University of Science & Technology",
+    "papers": 22,
+    "citations": 3386,
+    "cnci": 4.665386363636364,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chongqing University",
+    "papers": 22,
+    "citations": 730,
+    "cnci": 2.3775727272727276,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanjing University",
+    "papers": 22,
+    "citations": 721,
+    "cnci": 2.9662045454545454,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Northeast Agricultural University - China",
+    "papers": 22,
+    "citations": 610,
+    "cnci": 2.9424545454545457,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Fuzhou University",
+    "papers": 22,
+    "citations": 531,
+    "cnci": 1.5223409090909092,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Mianyang Teachers' College",
+    "papers": 22,
+    "citations": 80,
+    "cnci": 1.3535363636363635,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS",
+    "papers": 21,
+    "citations": 1324,
+    "cnci": 2.3893714285714287,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Mountain Hazards & Environment, CAS",
+    "papers": 21,
+    "citations": 412,
+    "cnci": 1.0356952380952382,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengdu Institute of Computer Application, CAS",
+    "papers": 21,
+    "citations": 107,
+    "cnci": 0.3219,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Tibetan Plateau Research, CAS",
+    "papers": 20,
+    "citations": 586,
+    "cnci": 1.99923,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yantai University",
+    "papers": 20,
+    "citations": 460,
+    "cnci": 2.6514550000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University System of Ohio",
+    "papers": 20,
+    "citations": 449,
+    "cnci": 2.09556,
+    "country": "USA"
+  },
+  {
+    "name": "Sichuan Tourism University",
+    "papers": 20,
+    "citations": 149,
+    "cnci": 1.37555,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of California System",
+    "papers": 19,
+    "citations": 709,
+    "cnci": 1.7577842105263157,
+    "country": "USA"
+  },
+  {
+    "name": "China West Normal University",
+    "papers": 19,
+    "citations": 205,
+    "cnci": 1.8472000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Sichuan Provincial People's Hospital",
+    "papers": 19,
+    "citations": 177,
+    "cnci": 0.6559894736842106,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Fudan University",
+    "papers": 18,
+    "citations": 904,
+    "cnci": 3.5228333333333333,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Sun Yat Sen University",
+    "papers": 18,
+    "citations": 342,
+    "cnci": 1.6775166666666665,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Southwest Petroleum University",
+    "papers": 18,
+    "citations": 121,
+    "cnci": 0.5151222222222223,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yangzhou University",
+    "papers": 17,
+    "citations": 587,
+    "cnci": 1.6102117647058825,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangzhou University",
+    "papers": 17,
+    "citations": 523,
+    "cnci": 1.705741176470588,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhejiang A&F University",
+    "papers": 17,
+    "citations": 143,
+    "cnci": 0.9071176470588236,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Gansu Agricultural University",
+    "papers": 17,
+    "citations": 118,
+    "cnci": 1.0230823529411766,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jiangsu University of Science & Technology",
+    "papers": 16,
+    "citations": 942,
+    "cnci": 2.617875,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Consejo Superior de Investigaciones Cientificas (CSIC)",
+    "papers": 16,
+    "citations": 349,
+    "cnci": 3.449925,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Nanjing Normal University",
+    "papers": 16,
+    "citations": 254,
+    "cnci": 1.5848125,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "New Jersey Institute of Technology",
+    "papers": 16,
+    "citations": 153,
+    "cnci": 1.19105625,
+    "country": "USA"
+  },
+  {
+    "name": "Yibin University",
+    "papers": 16,
+    "citations": 134,
+    "cnci": 2.548625,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Huazhong Agricultural University",
+    "papers": 16,
+    "citations": 104,
+    "cnci": 0.9646750000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Southern University of Science & Technology",
+    "papers": 16,
+    "citations": 58,
+    "cnci": 0.46681875,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shandong University",
+    "papers": 15,
+    "citations": 809,
+    "cnci": 2.25886,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Research Center for Eco-Environmental Sciences (RCEES), CAS",
+    "papers": 15,
+    "citations": 304,
+    "cnci": 1.7350400000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "National University of Singapore",
+    "papers": 15,
+    "citations": 283,
+    "cnci": 1.9927000000000001,
+    "country": "SINGAPORE"
+  },
+  {
+    "name": "University of London",
+    "papers": 15,
+    "citations": 129,
+    "cnci": 0.7262533333333334,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "University of Waterloo",
+    "papers": 15,
+    "citations": 85,
+    "cnci": 0.28340000000000004,
+    "country": "CANADA"
+  },
+  {
+    "name": "Henan University",
+    "papers": 14,
+    "citations": 856,
+    "cnci": 2.870692857142857,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Peking Union Medical College",
+    "papers": 14,
+    "citations": 545,
+    "cnci": 0.9766357142857144,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Qilu University of Technology",
+    "papers": 14,
+    "citations": 291,
+    "cnci": 0.9844285714285714,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Illinois System",
+    "papers": 14,
+    "citations": 263,
+    "cnci": 1.085192857142857,
+    "country": "USA"
+  },
+  {
+    "name": "Jiangsu Ocean University",
+    "papers": 14,
+    "citations": 202,
+    "cnci": 1.5375857142857146,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhejiang Academy of Agricultural Sciences",
+    "papers": 14,
+    "citations": 166,
+    "cnci": 0.9930357142857142,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chongqing Medical University",
+    "papers": 14,
+    "citations": 150,
+    "cnci": 1.415592857142857,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Northwest University Xi'an",
+    "papers": 13,
+    "citations": 785,
+    "cnci": 2.3631307692307697,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Cornell University",
+    "papers": 13,
+    "citations": 328,
+    "cnci": 2.8638846153846154,
+    "country": "USA"
+  },
+  {
+    "name": "University of Illinois Urbana-Champaign",
+    "papers": 13,
+    "citations": 239,
+    "cnci": 1.0927538461538462,
+    "country": "USA"
+  },
+  {
+    "name": "Miami University",
+    "papers": 13,
+    "citations": 172,
+    "cnci": 2.313023076923077,
+    "country": "USA"
+  },
+  {
+    "name": "Guangdong Medical University",
+    "papers": 13,
+    "citations": 151,
+    "cnci": 0.5534,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Central South University",
+    "papers": 13,
+    "citations": 143,
+    "cnci": 0.7475384615384615,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Key Laboratory of Animal Disease & Human Health of Sichuan Province",
+    "papers": 13,
+    "citations": 96,
+    "cnci": 0.5813692307692307,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Urban Agriculture, CAAS",
+    "papers": 13,
+    "citations": 45,
+    "cnci": 1.1648846153846153,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "North University of China",
+    "papers": 12,
+    "citations": 1266,
+    "cnci": 2.5511166666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Macau University of Science & Technology",
+    "papers": 12,
+    "citations": 216,
+    "cnci": 1.3554916666666668,
+    "country": "MACAU"
+  },
+  {
+    "name": "Shanghai University",
+    "papers": 12,
+    "citations": 202,
+    "cnci": 0.6797083333333335,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Foshan University",
+    "papers": 12,
+    "citations": 137,
+    "cnci": 0.65905,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangdong Academy of Sciences",
+    "papers": 12,
+    "citations": 93,
+    "cnci": 0.953125,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "South China Normal University",
+    "papers": 12,
+    "citations": 82,
+    "cnci": 2.4668250000000005,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xizang University",
+    "papers": 12,
+    "citations": 21,
+    "cnci": 1.88575,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Manipal Academy of Higher Education (MAHE)",
+    "papers": 11,
+    "citations": 978,
+    "cnci": 3.4120272727272734,
+    "country": "INDIA"
+  },
+  {
+    "name": "Tongji University",
+    "papers": 11,
+    "citations": 491,
+    "cnci": 2.033118181818182,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Soochow University - China",
+    "papers": 11,
+    "citations": 452,
+    "cnci": 3.6803636363636367,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xiamen University",
+    "papers": 11,
+    "citations": 375,
+    "cnci": 1.7721454545454547,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Hong Kong",
+    "papers": 11,
+    "citations": 248,
+    "cnci": 1.7976818181818182,
+    "country": "HONG KONG"
+  },
+  {
+    "name": "Beijing Forestry University",
+    "papers": 11,
+    "citations": 200,
+    "cnci": 1.027409090909091,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "North Sichuan Medical University",
+    "papers": 11,
+    "citations": 176,
+    "cnci": 2.300936363636364,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "North Carolina State University",
+    "papers": 11,
+    "citations": 166,
+    "cnci": 1.0270818181818182,
+    "country": "USA"
+  },
+  {
+    "name": "Rutgers University New Brunswick",
+    "papers": 11,
+    "citations": 119,
+    "cnci": 1.7658545454545456,
+    "country": "USA"
+  },
+  {
+    "name": "Rutgers University System",
+    "papers": 11,
+    "citations": 119,
+    "cnci": 1.7658545454545456,
+    "country": "USA"
+  },
+  {
+    "name": "Harbin Institute of Technology",
+    "papers": 10,
+    "citations": 519,
+    "cnci": 2.22234,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Medicinal Plant Development - CAMS",
+    "papers": 10,
+    "citations": 501,
+    "cnci": 1.20131,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Inner Mongolia University of Science & Technology",
+    "papers": 10,
+    "citations": 440,
+    "cnci": 1.8450499999999999,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Botany, CAS",
+    "papers": 10,
+    "citations": 349,
+    "cnci": 3.10909,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chongqing University of Education",
+    "papers": 10,
+    "citations": 346,
+    "cnci": 1.3878300000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chinese University of Hong Kong",
+    "papers": 10,
+    "citations": 273,
+    "cnci": 1.57328,
+    "country": "HONG KONG"
+  },
+  {
+    "name": "Huazhong University of Science & Technology",
+    "papers": 10,
+    "citations": 206,
+    "cnci": 1.9423400000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhengzhou University of Light Industry",
+    "papers": 10,
+    "citations": 137,
+    "cnci": 0.85366,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Nebraska System",
+    "papers": 10,
+    "citations": 137,
+    "cnci": 0.6638,
+    "country": "USA"
+  },
+  {
+    "name": "Guizhou Normal University",
+    "papers": 10,
+    "citations": 123,
+    "cnci": 0.86815,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Neijiang Normal University",
+    "papers": 10,
+    "citations": 112,
+    "cnci": 1.8460500000000004,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chongqing University of Posts & Telecommunications",
+    "papers": 10,
+    "citations": 111,
+    "cnci": 0.80359,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "East China Normal University",
+    "papers": 10,
+    "citations": 103,
+    "cnci": 1.6670200000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "South China Agricultural University",
+    "papers": 10,
+    "citations": 66,
+    "cnci": 1.34214,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "King Saud University",
+    "papers": 10,
+    "citations": 39,
+    "cnci": 1.2586,
+    "country": "SAUDI ARABIA"
+  },
+  {
+    "name": "University of Alabama System",
+    "papers": 9,
+    "citations": 845,
+    "cnci": 3.4064222222222225,
+    "country": "USA"
+  },
+  {
+    "name": "State University of New York (SUNY) System",
+    "papers": 9,
+    "citations": 299,
+    "cnci": 1.3716555555555556,
+    "country": "USA"
+  },
+  {
+    "name": "Purdue University",
+    "papers": 9,
+    "citations": 285,
+    "cnci": 1.3578333333333334,
+    "country": "USA"
+  },
+  {
+    "name": "Purdue University System",
+    "papers": 9,
+    "citations": 285,
+    "cnci": 1.3578333333333334,
+    "country": "USA"
+  },
+  {
+    "name": "Hong Kong Polytechnic University",
+    "papers": 9,
+    "citations": 184,
+    "cnci": 1.9222888888888887,
+    "country": "HONG KONG"
+  },
+  {
+    "name": "China Medical University",
+    "papers": 9,
+    "citations": 173,
+    "cnci": 2.0338777777777777,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Beijing Technology & Business University",
+    "papers": 9,
+    "citations": 160,
+    "cnci": 3.324477777777778,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Wuhan University",
+    "papers": 9,
+    "citations": 140,
+    "cnci": 0.9345555555555557,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "National Institute of Education (NIE) Singapore",
+    "papers": 9,
+    "citations": 123,
+    "cnci": 0.5203000000000001,
+    "country": "SINGAPORE"
+  },
+  {
+    "name": "Guilin University of Electronic Technology",
+    "papers": 9,
+    "citations": 114,
+    "cnci": 3.5049333333333337,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tarim University",
+    "papers": 9,
+    "citations": 114,
+    "cnci": 1.0305666666666666,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University College London",
+    "papers": 9,
+    "citations": 70,
+    "cnci": 0.4608555555555556,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "University of Technology Sydney",
+    "papers": 9,
+    "citations": 61,
+    "cnci": 1.8257333333333337,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Southeast University - China",
+    "papers": 9,
+    "citations": 36,
+    "cnci": 1.3379666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "National Center for Nanoscience & Technology, CAS",
+    "papers": 8,
+    "citations": 756,
+    "cnci": 2.7154875,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yangtze Normal University",
+    "papers": 8,
+    "citations": 415,
+    "cnci": 1.8908875,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of California Berkeley",
+    "papers": 8,
+    "citations": 349,
+    "cnci": 1.9342875000000002,
+    "country": "USA"
+  },
+  {
+    "name": "Capital Medical University",
+    "papers": 8,
+    "citations": 238,
+    "cnci": 1.292925,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Western Sydney University",
+    "papers": 8,
+    "citations": 229,
+    "cnci": 1.8219500000000002,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "University of Macau",
+    "papers": 8,
+    "citations": 228,
+    "cnci": 2.1999625000000003,
+    "country": "MACAU"
+  },
+  {
+    "name": "University of Virginia",
+    "papers": 8,
+    "citations": 173,
+    "cnci": 1.0941375,
+    "country": "USA"
+  },
+  {
+    "name": "Fujian Agriculture & Forestry University",
+    "papers": 8,
+    "citations": 160,
+    "cnci": 2.3514,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Centro de Investigacion Ecologica y Aplicaciones Forestales (CREAF-CERCA)",
+    "papers": 8,
+    "citations": 152,
+    "cnci": 2.8061625,
+    "country": "SPAIN"
+  },
+  {
+    "name": "University of Saskatchewan",
+    "papers": 8,
+    "citations": 144,
+    "cnci": 1.0179375,
+    "country": "CANADA"
+  },
+  {
+    "name": "Suzhou University of Science & Technology",
+    "papers": 8,
+    "citations": 144,
+    "cnci": 2.0043375,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guizhou University",
+    "papers": 8,
+    "citations": 134,
+    "cnci": 1.35755,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nankai University",
+    "papers": 8,
+    "citations": 122,
+    "cnci": 0.8364,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Agency for Science Technology & Research (A*STAR)",
+    "papers": 8,
+    "citations": 93,
+    "cnci": 0.9873999999999999,
+    "country": "SINGAPORE"
+  },
+  {
+    "name": "Hunan Agricultural University",
+    "papers": 8,
+    "citations": 80,
+    "cnci": 0.5809125,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanjing University of Science & Technology",
+    "papers": 8,
+    "citations": 69,
+    "cnci": 0.580375,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai Veterinary Research Institute, CAAS",
+    "papers": 8,
+    "citations": 63,
+    "cnci": 1.17025,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Ningxia University",
+    "papers": 8,
+    "citations": 56,
+    "cnci": 0.9684375,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Qinghai Normal University",
+    "papers": 8,
+    "citations": 51,
+    "cnci": 0.6646875,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hebei Agricultural University",
+    "papers": 8,
+    "citations": 29,
+    "cnci": 0.4812375,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengdu Technological University",
+    "papers": 8,
+    "citations": 28,
+    "cnci": 0.14771250000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yunnan Minzu University",
+    "papers": 8,
+    "citations": 27,
+    "cnci": 0.19413750000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Henan University of Animal Husbandry & Economy",
+    "papers": 8,
+    "citations": 24,
+    "cnci": 0.7420625000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Sichuan Police College",
+    "papers": 8,
+    "citations": 21,
+    "cnci": 0.38856250000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Southwest Medical University",
+    "papers": 8,
+    "citations": 16,
+    "cnci": 0.4965625000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Alabama Tuscaloosa",
+    "papers": 7,
+    "citations": 649,
+    "cnci": 3.2729571428571433,
+    "country": "USA"
+  },
+  {
+    "name": "Pennsylvania Commonwealth System of Higher Education (PCSHE)",
+    "papers": 7,
+    "citations": 336,
+    "cnci": 4.048814285714285,
+    "country": "USA"
+  },
+  {
+    "name": "Fujian Normal University",
+    "papers": 7,
+    "citations": 305,
+    "cnci": 2.3017714285714286,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Stony Brook University",
+    "papers": 7,
+    "citations": 288,
+    "cnci": 1.5853285714285714,
+    "country": "USA"
+  },
+  {
+    "name": "University of Texas System",
+    "papers": 7,
+    "citations": 262,
+    "cnci": 1.6628142857142856,
+    "country": "USA"
+  },
+  {
+    "name": "Beijing University of Chinese Medicine",
+    "papers": 7,
+    "citations": 216,
+    "cnci": 1.314957142857143,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "CEA",
+    "papers": 7,
+    "citations": 204,
+    "cnci": 2.140457142857143,
+    "country": "FRANCE"
+  },
+  {
+    "name": "Central China Normal University",
+    "papers": 7,
+    "citations": 202,
+    "cnci": 1.2994285714285714,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of British Columbia",
+    "papers": 7,
+    "citations": 195,
+    "cnci": 2.3576571428571427,
+    "country": "CANADA"
+  },
+  {
+    "name": "Yunnan University",
+    "papers": 7,
+    "citations": 179,
+    "cnci": 2.3433428571428574,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Soil & Water Conservation (ISWC), CAS",
+    "papers": 7,
+    "citations": 155,
+    "cnci": 1.8308857142857142,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "East China University of Science & Technology",
+    "papers": 7,
+    "citations": 100,
+    "cnci": 1.038857142857143,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Edinburgh",
+    "papers": 7,
+    "citations": 87,
+    "cnci": 2.0699,
+    "country": "SCOTLAND"
+  },
+  {
+    "name": "Guangxi Normal University",
+    "papers": 7,
+    "citations": 78,
+    "cnci": 1.2779428571428573,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Dalian Minzu University",
+    "papers": 7,
+    "citations": 39,
+    "cnci": 0.31128571428571433,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zunyi Medical University",
+    "papers": 7,
+    "citations": 35,
+    "cnci": 0.5287142857142858,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chinese Academy of Forestry",
+    "papers": 7,
+    "citations": 30,
+    "cnci": 0.684,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Pondicherry University",
+    "papers": 6,
+    "citations": 1146,
+    "cnci": 4.982666666666667,
+    "country": "INDIA"
+  },
+  {
+    "name": "Commonwealth Scientific & Industrial Research Organisation (CSIRO)",
+    "papers": 6,
+    "citations": 290,
+    "cnci": 2.8846833333333337,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Army Medical University",
+    "papers": 6,
+    "citations": 242,
+    "cnci": 4.09395,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jilin Agricultural Science & Technology University",
+    "papers": 6,
+    "citations": 239,
+    "cnci": 4.3658,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shaanxi Normal University",
+    "papers": 6,
+    "citations": 174,
+    "cnci": 1.62115,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai Dianji University",
+    "papers": 6,
+    "citations": 167,
+    "cnci": 2.2004333333333332,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Centre National de la Recherche Scientifique (CNRS)",
+    "papers": 6,
+    "citations": 149,
+    "cnci": 1.6798833333333334,
+    "country": "FRANCE"
+  },
+  {
+    "name": "Dankook University",
+    "papers": 6,
+    "citations": 137,
+    "cnci": 1.14375,
+    "country": "SOUTH KOREA"
+  },
+  {
+    "name": "National Supercomputing Center in Shenzhen",
+    "papers": 6,
+    "citations": 84,
+    "cnci": 0.6102,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Harbin University of Science & Technology",
+    "papers": 6,
+    "citations": 77,
+    "cnci": 1.3331666666666668,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Western Australia",
+    "papers": 6,
+    "citations": 75,
+    "cnci": 1.3435833333333334,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Guizhou Education University",
+    "papers": 6,
+    "citations": 66,
+    "cnci": 0.6531833333333333,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shenzhen University",
+    "papers": 6,
+    "citations": 65,
+    "cnci": 1.0642500000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chongqing Academy of Animal Sciences",
+    "papers": 6,
+    "citations": 61,
+    "cnci": 0.8673333333333334,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shandong Normal University",
+    "papers": 6,
+    "citations": 48,
+    "cnci": 1.3938666666666668,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangxi University",
+    "papers": 6,
+    "citations": 45,
+    "cnci": 1.1537333333333335,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Aarhus University",
+    "papers": 6,
+    "citations": 43,
+    "cnci": 0.7721,
+    "country": "DENMARK"
+  },
+  {
+    "name": "Hefei University of Technology",
+    "papers": 6,
+    "citations": 37,
+    "cnci": 1.4836833333333335,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jinan University",
+    "papers": 6,
+    "citations": 36,
+    "cnci": 0.43560000000000004,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tianjin University",
+    "papers": 6,
+    "citations": 24,
+    "cnci": 0.9301166666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Ben-Gurion University of the Negev",
+    "papers": 6,
+    "citations": 22,
+    "cnci": 0.7723166666666668,
+    "country": "ISRAEL"
+  },
+  {
+    "name": "Southwestern Institute of Physics - China",
+    "papers": 6,
+    "citations": 18,
+    "cnci": 0.13058333333333336,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Huzhou University",
+    "papers": 6,
+    "citations": 17,
+    "cnci": 0.7102,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Henan University of Science & Technology",
+    "papers": 6,
+    "citations": 10,
+    "cnci": 0.20575000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Beihang University",
+    "papers": 5,
+    "citations": 792,
+    "cnci": 7.109020000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Qingdao University of Science & Technology",
+    "papers": 5,
+    "citations": 655,
+    "cnci": 9.0935,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Southwest Forestry University - China",
+    "papers": 5,
+    "citations": 604,
+    "cnci": 3.3310400000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shaanxi University of Science & Technology",
+    "papers": 5,
+    "citations": 380,
+    "cnci": 4.709999999999999,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Changsha University of Science & Technology",
+    "papers": 5,
+    "citations": 294,
+    "cnci": 2.06388,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Autonomous University of Barcelona",
+    "papers": 5,
+    "citations": 293,
+    "cnci": 7.382980000000001,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Swiss Federal Institutes of Technology Domain",
+    "papers": 5,
+    "citations": 281,
+    "cnci": 3.29084,
+    "country": "SWITZERLAND"
+  },
+  {
+    "name": "University of Alberta",
+    "papers": 5,
+    "citations": 250,
+    "cnci": 1.32874,
+    "country": "CANADA"
+  },
+  {
+    "name": "Shanghai Institute of Organic Chemistry, CAS",
+    "papers": 5,
+    "citations": 192,
+    "cnci": 1.159,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "South China Botanical Garden, CAS",
+    "papers": 5,
+    "citations": 190,
+    "cnci": 3.7240800000000007,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Texas Arlington",
+    "papers": 5,
+    "citations": 189,
+    "cnci": 1.7473200000000002,
+    "country": "USA"
+  },
+  {
+    "name": "Institute of Hydrobiology, CAS",
+    "papers": 5,
+    "citations": 113,
+    "cnci": 0.9022600000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Subtropical Agriculture, CAS",
+    "papers": 5,
+    "citations": 105,
+    "cnci": 2.35962,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Tokyo",
+    "papers": 5,
+    "citations": 102,
+    "cnci": 2.2790000000000004,
+    "country": "JAPAN"
+  },
+  {
+    "name": "University of Adelaide",
+    "papers": 5,
+    "citations": 84,
+    "cnci": 2.57152,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Adelaide University",
+    "papers": 5,
+    "citations": 84,
+    "cnci": 2.5715200000000005,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Xinjiang Agricultural University",
+    "papers": 5,
+    "citations": 79,
+    "cnci": 1.54702,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shenyang Institute of Applied Ecology, CAS",
+    "papers": 5,
+    "citations": 78,
+    "cnci": 2.01692,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Renmin University of China",
+    "papers": 5,
+    "citations": 72,
+    "cnci": 1.09376,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Capital University of Economics & Business",
+    "papers": 5,
+    "citations": 66,
+    "cnci": 3.0026,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shenyang Pharmaceutical University",
+    "papers": 5,
+    "citations": 65,
+    "cnci": 0.9588800000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jiangsu University",
+    "papers": 5,
+    "citations": 61,
+    "cnci": 0.99596,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guizhou Medical University",
+    "papers": 5,
+    "citations": 45,
+    "cnci": 0.76502,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Science & Technology of China, CAS",
+    "papers": 5,
+    "citations": 44,
+    "cnci": 0.5215,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangdong Laboratory for Lingnan Modern Agriculture",
+    "papers": 5,
+    "citations": 41,
+    "cnci": 1.16858,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University System of Georgia",
+    "papers": 5,
+    "citations": 37,
+    "cnci": 1.05,
+    "country": "USA"
+  },
+  {
+    "name": "Jiangsu Vocational College of Agriculture & Forestry",
+    "papers": 5,
+    "citations": 37,
+    "cnci": 1.4239200000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Zoology, CAS",
+    "papers": 5,
+    "citations": 34,
+    "cnci": 0.6964600000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hebei University of Engineering",
+    "papers": 5,
+    "citations": 30,
+    "cnci": 0.31054000000000004,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Qingdao Agricultural University",
+    "papers": 5,
+    "citations": 26,
+    "cnci": 0.7077600000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Henan Polytechnic University",
+    "papers": 5,
+    "citations": 24,
+    "cnci": 0.31198000000000004,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xinjiang Institute of Ecology & Geography, CAS",
+    "papers": 5,
+    "citations": 21,
+    "cnci": 0.31788,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Canterbury",
+    "papers": 5,
+    "citations": 20,
+    "cnci": 0.39652000000000004,
+    "country": "NEW ZEALAND"
+  },
+  {
+    "name": "Universite de Caen Normandie",
+    "papers": 5,
+    "citations": 18,
+    "cnci": 0.31856,
+    "country": "FRANCE"
+  },
+  {
+    "name": "Henan University of Technology",
+    "papers": 5,
+    "citations": 17,
+    "cnci": 0.5820000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Sheffield",
+    "papers": 5,
+    "citations": 13,
+    "cnci": 0.52382,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Egyptian Knowledge Bank (EKB)",
+    "papers": 5,
+    "citations": 9,
+    "cnci": 2.08974,
+    "country": "EGYPT"
+  },
+  {
+    "name": "Alabama A&M University",
+    "papers": 5,
+    "citations": 8,
+    "cnci": 1.1425,
+    "country": "USA"
+  },
+  {
+    "name": "University of Shanghai for Science & Technology",
+    "papers": 5,
+    "citations": 7,
+    "cnci": 0.73476,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Prince Sattam Bin Abdulaziz University",
+    "papers": 5,
+    "citations": 3,
+    "cnci": 0.3052,
+    "country": "SAUDI ARABIA"
+  },
+  {
+    "name": "Washington State University",
+    "papers": 4,
+    "citations": 820,
+    "cnci": 9.91465,
+    "country": "USA"
+  },
+  {
+    "name": "Northwestern Polytechnical University",
+    "papers": 4,
+    "citations": 650,
+    "cnci": 2.7813000000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Western University (University of Western Ontario)",
+    "papers": 4,
+    "citations": 555,
+    "cnci": 9.0715,
+    "country": "CANADA"
+  },
+  {
+    "name": "Harvard University",
+    "papers": 4,
+    "citations": 354,
+    "cnci": 4.808225,
+    "country": "USA"
+  },
+  {
+    "name": "Shanxi Medical University",
+    "papers": 4,
+    "citations": 281,
+    "cnci": 3.091125,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "ETH Zurich",
+    "papers": 4,
+    "citations": 275,
+    "cnci": 4.0399,
+    "country": "SWITZERLAND"
+  },
+  {
+    "name": "Tianjin Institute of Industrial Biotechnology, CAS",
+    "papers": 4,
+    "citations": 258,
+    "cnci": 2.13795,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai University of Sport",
+    "papers": 4,
+    "citations": 232,
+    "cnci": 2.1847250000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Queensland University of Technology (QUT)",
+    "papers": 4,
+    "citations": 230,
+    "cnci": 2.3013500000000002,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Institute of Animal Science, CAAS",
+    "papers": 4,
+    "citations": 220,
+    "cnci": 3.5178000000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Dalian Maritime University",
+    "papers": 4,
+    "citations": 201,
+    "cnci": 2.6847250000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai Business School",
+    "papers": 4,
+    "citations": 195,
+    "cnci": 10.544800000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yangtze River Water Resources Protection Bureau",
+    "papers": 4,
+    "citations": 188,
+    "cnci": 1.497925,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "INRAE",
+    "papers": 4,
+    "citations": 178,
+    "cnci": 2.465225,
+    "country": "FRANCE"
+  },
+  {
+    "name": "Pennsylvania State University",
+    "papers": 4,
+    "citations": 162,
+    "cnci": 5.4082,
+    "country": "USA"
+  },
+  {
+    "name": "Pennsylvania State University - University Park",
+    "papers": 4,
+    "citations": 162,
+    "cnci": 5.408199999999999,
+    "country": "USA"
+  },
+  {
+    "name": "Xi'an Jiaotong University",
+    "papers": 4,
+    "citations": 139,
+    "cnci": 3.4738,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "China Institute of Water Resources & Hydropower Research",
+    "papers": 4,
+    "citations": 135,
+    "cnci": 2.9189750000000005,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Oklahoma System",
+    "papers": 4,
+    "citations": 132,
+    "cnci": 1.1525500000000002,
+    "country": "USA"
+  },
+  {
+    "name": "University of Oklahoma - Norman",
+    "papers": 4,
+    "citations": 132,
+    "cnci": 1.1525500000000002,
+    "country": "USA"
+  },
+  {
+    "name": "Illinois State Water Survey",
+    "papers": 4,
+    "citations": 128,
+    "cnci": 2.264775,
+    "country": "USA"
+  },
+  {
+    "name": "Nanjing University of Information Science & Technology",
+    "papers": 4,
+    "citations": 107,
+    "cnci": 2.014775,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhongnan University of Economics & Law",
+    "papers": 4,
+    "citations": 102,
+    "cnci": 1.18735,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanxi Agricultural University",
+    "papers": 4,
+    "citations": 89,
+    "cnci": 2.299,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Kunming University of Science & Technology",
+    "papers": 4,
+    "citations": 85,
+    "cnci": 2.154075,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jilin University",
+    "papers": 4,
+    "citations": 79,
+    "cnci": 4.030125,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Beijing Institute of Technology",
+    "papers": 4,
+    "citations": 77,
+    "cnci": 1.773125,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chinese People's Liberation Army General Hospital",
+    "papers": 4,
+    "citations": 74,
+    "cnci": 0.8354,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Medicinal Biotechnology - CAMS",
+    "papers": 4,
+    "citations": 73,
+    "cnci": 0.759625,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hubei Normal University",
+    "papers": 4,
+    "citations": 66,
+    "cnci": 0.6499,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Dalian Institute of Chemical Physics, CAS",
+    "papers": 4,
+    "citations": 64,
+    "cnci": 1.315375,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Wisconsin System",
+    "papers": 4,
+    "citations": 62,
+    "cnci": 1.2929000000000002,
+    "country": "USA"
+  },
+  {
+    "name": "Guizhou Academy of Agricultural Sciences",
+    "papers": 4,
+    "citations": 59,
+    "cnci": 1.35655,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chongqing Technology & Business University",
+    "papers": 4,
+    "citations": 49,
+    "cnci": 0.626375,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of California Los Angeles",
+    "papers": 4,
+    "citations": 46,
+    "cnci": 0.80535,
+    "country": "USA"
+  },
+  {
+    "name": "Wageningen University & Research",
+    "papers": 4,
+    "citations": 45,
+    "cnci": 2.0604750000000003,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "University of Nebraska Omaha",
+    "papers": 4,
+    "citations": 43,
+    "cnci": 0.5943499999999999,
+    "country": "USA"
+  },
+  {
+    "name": "Shenyang Agricultural University",
+    "papers": 4,
+    "citations": 41,
+    "cnci": 0.563675,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Royal Melbourne Institute of Technology (RMIT)",
+    "papers": 4,
+    "citations": 40,
+    "cnci": 1.318025,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Georgia Institute of Technology",
+    "papers": 4,
+    "citations": 37,
+    "cnci": 1.3125,
+    "country": "USA"
+  },
+  {
+    "name": "Henan Agricultural University",
+    "papers": 4,
+    "citations": 36,
+    "cnci": 0.554425,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhejiang University of Technology",
+    "papers": 4,
+    "citations": 36,
+    "cnci": 0.80415,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Henan Normal University",
+    "papers": 4,
+    "citations": 35,
+    "cnci": 1.0543,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Leshan Normal University",
+    "papers": 4,
+    "citations": 35,
+    "cnci": 0.5599500000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Bengbu Medical University",
+    "papers": 4,
+    "citations": 33,
+    "cnci": 1.147375,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Ministry of Natural Resources of the People's Republic of China",
+    "papers": 4,
+    "citations": 32,
+    "cnci": 2.042825,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Central University of Finance & Economics",
+    "papers": 4,
+    "citations": 31,
+    "cnci": 0.6605500000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tianjin University of Finance & Economics",
+    "papers": 4,
+    "citations": 31,
+    "cnci": 4.2071000000000005,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Huaiyin Normal University",
+    "papers": 4,
+    "citations": 31,
+    "cnci": 0.37015000000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Civil Aviation Flight University of China",
+    "papers": 4,
+    "citations": 31,
+    "cnci": 0.960775,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Huawei Technologies",
+    "papers": 4,
+    "citations": 26,
+    "cnci": 1.9314500000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xuzhou University of Technology",
+    "papers": 4,
+    "citations": 25,
+    "cnci": 0.264725,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "City University of Hong Kong",
+    "papers": 4,
+    "citations": 23,
+    "cnci": 0.5185500000000001,
+    "country": "HONG KONG"
+  },
+  {
+    "name": "Xi'an Jiaotong-Liverpool University",
+    "papers": 4,
+    "citations": 21,
+    "cnci": 0.26815,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Ecology & Nature Conservation Institute, CAF",
+    "papers": 4,
+    "citations": 21,
+    "cnci": 0.6123000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Arid Agriculture University",
+    "papers": 4,
+    "citations": 19,
+    "cnci": 0.5525,
+    "country": "PAKISTAN"
+  },
+  {
+    "name": "China National Offshore Oil Corporation (CNOOC)",
+    "papers": 4,
+    "citations": 17,
+    "cnci": 1.38835,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "King's College London",
+    "papers": 4,
+    "citations": 15,
+    "cnci": 0.307975,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "CNRS - Institute of Physics (INP)",
+    "papers": 4,
+    "citations": 15,
+    "cnci": 0.337375,
+    "country": "FRANCE"
+  },
+  {
+    "name": "University of Michigan",
+    "papers": 4,
+    "citations": 14,
+    "cnci": 0.8767,
+    "country": "USA"
+  },
+  {
+    "name": "Shanghai Normal University",
+    "papers": 4,
+    "citations": 14,
+    "cnci": 0.7907,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Leipzig University",
+    "papers": 4,
+    "citations": 14,
+    "cnci": 0.94195,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "University of Michigan System",
+    "papers": 4,
+    "citations": 14,
+    "cnci": 0.8767,
+    "country": "USA"
+  },
+  {
+    "name": "Jiangsu Academy of Agricultural Sciences",
+    "papers": 4,
+    "citations": 14,
+    "cnci": 1.034,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Zurich",
+    "papers": 4,
+    "citations": 11,
+    "cnci": 0.334375,
+    "country": "SWITZERLAND"
+  },
+  {
+    "name": "Hangzhou Dianzi University",
+    "papers": 4,
+    "citations": 11,
+    "cnci": 0.141875,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hunan University of Technology",
+    "papers": 4,
+    "citations": 10,
+    "cnci": 1.21375,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanjing Agricultural University",
+    "papers": 4,
+    "citations": 9,
+    "cnci": 0.38595,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "China National Petroleum Corporation",
+    "papers": 4,
+    "citations": 9,
+    "cnci": 0.215175,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Panzhihua University",
+    "papers": 4,
+    "citations": 5,
+    "cnci": 1.3381,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "ICREA",
+    "papers": 3,
+    "citations": 290,
+    "cnci": 9.604999999999999,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Institut de Recerca en Energia de Catalunya (IREC)",
+    "papers": 3,
+    "citations": 290,
+    "cnci": 9.605,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Stanford University",
+    "papers": 3,
+    "citations": 282,
+    "cnci": 3.8840333333333334,
+    "country": "USA"
+  },
+  {
+    "name": "University of Alabama Huntsville",
+    "papers": 3,
+    "citations": 277,
+    "cnci": 3.6926,
+    "country": "USA"
+  },
+  {
+    "name": "China University of Geosciences",
+    "papers": 3,
+    "citations": 262,
+    "cnci": 4.455333333333334,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Huaiyin Institute of Technology",
+    "papers": 3,
+    "citations": 240,
+    "cnci": 4.163233333333333,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xinjiang University",
+    "papers": 3,
+    "citations": 191,
+    "cnci": 13.944633333333336,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shandong Academy of Agricultural Sciences",
+    "papers": 3,
+    "citations": 186,
+    "cnci": 2.7703666666666664,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Qingdao University",
+    "papers": 3,
+    "citations": 182,
+    "cnci": 2.5219,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Northern Arizona University",
+    "papers": 3,
+    "citations": 175,
+    "cnci": 2.3784666666666667,
+    "country": "USA"
+  },
+  {
+    "name": "Tianjin Normal University",
+    "papers": 3,
+    "citations": 163,
+    "cnci": 1.9426000000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Clemson University",
+    "papers": 3,
+    "citations": 138,
+    "cnci": 0.6287666666666667,
+    "country": "USA"
+  },
+  {
+    "name": "Princeton University",
+    "papers": 3,
+    "citations": 137,
+    "cnci": 3.060933333333334,
+    "country": "USA"
+  },
+  {
+    "name": "Northeast Forestry University - China",
+    "papers": 3,
+    "citations": 132,
+    "cnci": 6.526066666666668,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tottori University",
+    "papers": 3,
+    "citations": 129,
+    "cnci": 1.9650333333333334,
+    "country": "JAPAN"
+  },
+  {
+    "name": "Australian National University",
+    "papers": 3,
+    "citations": 110,
+    "cnci": 1.598466666666667,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "RWTH Aachen University",
+    "papers": 3,
+    "citations": 102,
+    "cnci": 2.3428333333333335,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "University of Southern California",
+    "papers": 3,
+    "citations": 96,
+    "cnci": 2.7562,
+    "country": "USA"
+  },
+  {
+    "name": "University of Cambridge",
+    "papers": 3,
+    "citations": 96,
+    "cnci": 1.5585000000000002,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "China Pharmaceutical University",
+    "papers": 3,
+    "citations": 71,
+    "cnci": 2.1835333333333335,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanchang University",
+    "papers": 3,
+    "citations": 67,
+    "cnci": 1.3634000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "A*STAR - Institute of Materials Research & Engineering (IMRE)",
+    "papers": 3,
+    "citations": 66,
+    "cnci": 1.8733666666666666,
+    "country": "SINGAPORE"
+  },
+  {
+    "name": "University of Auckland",
+    "papers": 3,
+    "citations": 65,
+    "cnci": 2.4554666666666667,
+    "country": "NEW ZEALAND"
+  },
+  {
+    "name": "Xi'an University of Science & Technology",
+    "papers": 3,
+    "citations": 63,
+    "cnci": 1.1388666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Harbin Engineering University",
+    "papers": 3,
+    "citations": 61,
+    "cnci": 1.0968,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hubei University",
+    "papers": 3,
+    "citations": 61,
+    "cnci": 1.2802666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Minnesota Twin Cities",
+    "papers": 3,
+    "citations": 60,
+    "cnci": 1.7254666666666667,
+    "country": "USA"
+  },
+  {
+    "name": "University of Minnesota System",
+    "papers": 3,
+    "citations": 60,
+    "cnci": 1.7254666666666667,
+    "country": "USA"
+  },
+  {
+    "name": "CGIAR",
+    "papers": 3,
+    "citations": 58,
+    "cnci": 1.7510000000000001,
+    "country": "FRANCE"
+  },
+  {
+    "name": "South Central Minzu University",
+    "papers": 3,
+    "citations": 51,
+    "cnci": 1.1236333333333335,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "UT Institute of Agriculture",
+    "papers": 3,
+    "citations": 50,
+    "cnci": 1.352,
+    "country": "USA"
+  },
+  {
+    "name": "University of Padua",
+    "papers": 3,
+    "citations": 49,
+    "cnci": 1.5318000000000003,
+    "country": "ITALY"
+  },
+  {
+    "name": "Xinyang Normal University",
+    "papers": 3,
+    "citations": 49,
+    "cnci": 0.6103,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Wisconsin Madison",
+    "papers": 3,
+    "citations": 46,
+    "cnci": 1.3669000000000002,
+    "country": "USA"
+  },
+  {
+    "name": "Lanzhou Institute of Chemical Physics, CAS",
+    "papers": 3,
+    "citations": 45,
+    "cnci": 0.7647,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Science & Technology Beijing",
+    "papers": 3,
+    "citations": 39,
+    "cnci": 2.028233333333333,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Hawaii Manoa",
+    "papers": 3,
+    "citations": 36,
+    "cnci": 0.6442333333333333,
+    "country": "USA"
+  },
+  {
+    "name": "University of Hawaii System",
+    "papers": 3,
+    "citations": 36,
+    "cnci": 0.6442333333333333,
+    "country": "USA"
+  },
+  {
+    "name": "Ohio State University",
+    "papers": 3,
+    "citations": 35,
+    "cnci": 0.45730000000000004,
+    "country": "USA"
+  },
+  {
+    "name": "Tangshan University",
+    "papers": 3,
+    "citations": 34,
+    "cnci": 0.46046666666666664,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yeungnam University",
+    "papers": 3,
+    "citations": 33,
+    "cnci": 1.8926666666666667,
+    "country": "SOUTH KOREA"
+  },
+  {
+    "name": "Virginia Polytechnic Institute & State University",
+    "papers": 3,
+    "citations": 32,
+    "cnci": 0.7826666666666666,
+    "country": "USA"
+  },
+  {
+    "name": "Hunan Normal University",
+    "papers": 3,
+    "citations": 32,
+    "cnci": 0.8529333333333334,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "China University of Mining & Technology",
+    "papers": 3,
+    "citations": 30,
+    "cnci": 1.4073333333333335,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hubei University of Chinese Medicine",
+    "papers": 3,
+    "citations": 30,
+    "cnci": 2.408666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hubei Hongshan Laboratory",
+    "papers": 3,
+    "citations": 29,
+    "cnci": 1.0826,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Beijing Jiaotong University",
+    "papers": 3,
+    "citations": 25,
+    "cnci": 0.6072333333333334,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "China Academy of Chinese Medical Sciences",
+    "papers": 3,
+    "citations": 25,
+    "cnci": 0.8281333333333333,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hunan University of Chinese Medicine",
+    "papers": 3,
+    "citations": 23,
+    "cnci": 0.5641999999999999,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Dalian Medical University",
+    "papers": 3,
+    "citations": 21,
+    "cnci": 0.43050000000000005,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shihezi University",
+    "papers": 3,
+    "citations": 21,
+    "cnci": 0.5040333333333333,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Biotechnology and Biological Sciences Research Council (BBSRC)",
+    "papers": 3,
+    "citations": 20,
+    "cnci": 1.1454,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "UK Research & Innovation (UKRI)",
+    "papers": 3,
+    "citations": 20,
+    "cnci": 1.1454,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "LNM Institute of Information Technology",
+    "papers": 3,
+    "citations": 19,
+    "cnci": 0.40690000000000004,
+    "country": "INDIA"
+  },
+  {
+    "name": "National Chung Hsing University",
+    "papers": 3,
+    "citations": 18,
+    "cnci": 0.7737666666666666,
+    "country": "TAIWAN"
+  },
+  {
+    "name": "Inner Mongolia Agricultural University",
+    "papers": 3,
+    "citations": 17,
+    "cnci": 0.6431666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Liaocheng University",
+    "papers": 3,
+    "citations": 17,
+    "cnci": 0.3899333333333333,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Barcelona",
+    "papers": 3,
+    "citations": 17,
+    "cnci": 2.052966666666667,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Academy of Military Medical Sciences - China",
+    "papers": 3,
+    "citations": 17,
+    "cnci": 0.5099333333333333,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Newcastle University - UK",
+    "papers": 3,
+    "citations": 16,
+    "cnci": 0.3833666666666667,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "International Centre for Bamboo & Rattan",
+    "papers": 3,
+    "citations": 16,
+    "cnci": 0.7536666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hebei Normal University",
+    "papers": 3,
+    "citations": 15,
+    "cnci": 0.2056,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Southern Medical University - China",
+    "papers": 3,
+    "citations": 15,
+    "cnci": 0.9734333333333334,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Beijing Academy of Agriculture & Forestry Sciences (BAAFS)",
+    "papers": 3,
+    "citations": 15,
+    "cnci": 0.2881,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Weifang University",
+    "papers": 3,
+    "citations": 14,
+    "cnci": 1.1697333333333333,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Special Animal & Plant Sciences, CAAS",
+    "papers": 3,
+    "citations": 14,
+    "cnci": 0.8066000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hubei Minzu University",
+    "papers": 3,
+    "citations": 13,
+    "cnci": 0.6411666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Scotland's Rural College",
+    "papers": 3,
+    "citations": 13,
+    "cnci": 0.9661333333333334,
+    "country": "SCOTLAND"
+  },
+  {
+    "name": "Mohamed bin Zayed University of Artificial Intelligence MBZUAI",
+    "papers": 3,
+    "citations": 13,
+    "cnci": 0.4068333333333333,
+    "country": "UNITED ARAB EMIRATES"
+  },
+  {
+    "name": "Massey University",
+    "papers": 3,
+    "citations": 11,
+    "cnci": 0.4328666666666667,
+    "country": "NEW ZEALAND"
+  },
+  {
+    "name": "Eberhard Karls University of Tubingen",
+    "papers": 3,
+    "citations": 11,
+    "cnci": 0.4291666666666667,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Volcani Institute of Agricultural Research",
+    "papers": 3,
+    "citations": 11,
+    "cnci": 0.8264666666666667,
+    "country": "ISRAEL"
+  },
+  {
+    "name": "Guangdong University of Petrochemical Technology",
+    "papers": 3,
+    "citations": 10,
+    "cnci": 0.4835666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Peng Cheng Laboratory",
+    "papers": 3,
+    "citations": 10,
+    "cnci": 0.3065666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Wuhan University of Technology",
+    "papers": 3,
+    "citations": 9,
+    "cnci": 0.6099666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Research Institute of Forestry, CAF",
+    "papers": 3,
+    "citations": 9,
+    "cnci": 0.7796,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yongjiang Laboratory",
+    "papers": 3,
+    "citations": 9,
+    "cnci": 0.6630333333333334,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Fribourg",
+    "papers": 3,
+    "citations": 9,
+    "cnci": 0.22923333333333332,
+    "country": "SWITZERLAND"
+  },
+  {
+    "name": "Chongqing Jiaotong University",
+    "papers": 3,
+    "citations": 8,
+    "cnci": 0.5607666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Iowa State University",
+    "papers": 3,
+    "citations": 7,
+    "cnci": 0.9554,
+    "country": "USA"
+  },
+  {
+    "name": "Guangdong Academy of Agricultural Sciences",
+    "papers": 3,
+    "citations": 7,
+    "cnci": 1.3191,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Alexandria University",
+    "papers": 3,
+    "citations": 6,
+    "cnci": 2.7128666666666668,
+    "country": "EGYPT"
+  },
+  {
+    "name": "Sichuan International Studies University",
+    "papers": 3,
+    "citations": 6,
+    "cnci": 0.09156666666666667,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Hamburg",
+    "papers": 3,
+    "citations": 6,
+    "cnci": 1.1544999999999999,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Ghent University",
+    "papers": 3,
+    "citations": 4,
+    "cnci": 1.0714000000000001,
+    "country": "BELGIUM"
+  },
+  {
+    "name": "Anhui University",
+    "papers": 3,
+    "citations": 4,
+    "cnci": 0.165,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Kunming Institute of Botany, CAS",
+    "papers": 3,
+    "citations": 4,
+    "cnci": 0.24103333333333335,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Software, CAS",
+    "papers": 3,
+    "citations": 3,
+    "cnci": 0.06630000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Heilongjiang Academy of Agricultural Sciences",
+    "papers": 3,
+    "citations": 3,
+    "cnci": 0.7906,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "China Institute of Veterinary Drug Control",
+    "papers": 3,
+    "citations": 2,
+    "cnci": 0.7958333333333334,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hainan Tropical Ocean University",
+    "papers": 3,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Catalan Institute of Nanoscience & Nanotechnology (ICN2)",
+    "papers": 2,
+    "citations": 261,
+    "cnci": 12.3764,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Barcelona Institute of Science & Technology",
+    "papers": 2,
+    "citations": 261,
+    "cnci": 12.3764,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Institute of Chemistry, CAS",
+    "papers": 2,
+    "citations": 206,
+    "cnci": 3.392,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Qingdao Institute of Bioenergy & Bioprocess Technology, CAS",
+    "papers": 2,
+    "citations": 206,
+    "cnci": 3.392,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Process Engineering, CAS",
+    "papers": 2,
+    "citations": 190,
+    "cnci": 2.53505,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Universite Paris Saclay",
+    "papers": 2,
+    "citations": 186,
+    "cnci": 6.695200000000001,
+    "country": "FRANCE"
+  },
+  {
+    "name": "Wuyi University, Fujian",
+    "papers": 2,
+    "citations": 186,
+    "cnci": 7.272600000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jiangxi University of Science & Technology",
+    "papers": 2,
+    "citations": 185,
+    "cnci": 6.59415,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Lakehead University",
+    "papers": 2,
+    "citations": 170,
+    "cnci": 3.3391,
+    "country": "CANADA"
+  },
+  {
+    "name": "Hebei University of Science & Technology",
+    "papers": 2,
+    "citations": 164,
+    "cnci": 11.4863,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Lincoln University - New Zealand",
+    "papers": 2,
+    "citations": 152,
+    "cnci": 1.089,
+    "country": "NEW ZEALAND"
+  },
+  {
+    "name": "Hebei University of Technology",
+    "papers": 2,
+    "citations": 140,
+    "cnci": 3.878,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "North China Electric Power University",
+    "papers": 2,
+    "citations": 128,
+    "cnci": 7.50975,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Max Planck Society",
+    "papers": 2,
+    "citations": 118,
+    "cnci": 2.69525,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Jiangxi Normal University",
+    "papers": 2,
+    "citations": 105,
+    "cnci": 5.3442,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Texas A&M University College Station",
+    "papers": 2,
+    "citations": 95,
+    "cnci": 4.3858500000000005,
+    "country": "USA"
+  },
+  {
+    "name": "Texas A&M University System",
+    "papers": 2,
+    "citations": 95,
+    "cnci": 4.3858500000000005,
+    "country": "USA"
+  },
+  {
+    "name": "China National Tobacco Corporation",
+    "papers": 2,
+    "citations": 90,
+    "cnci": 4.56625,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of California Riverside",
+    "papers": 2,
+    "citations": 87,
+    "cnci": 1.5915,
+    "country": "USA"
+  },
+  {
+    "name": "Karlsruhe Institute of Technology",
+    "papers": 2,
+    "citations": 87,
+    "cnci": 4.3235,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Helmholtz Association",
+    "papers": 2,
+    "citations": 87,
+    "cnci": 4.3235,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "ShanghaiTech University",
+    "papers": 2,
+    "citations": 86,
+    "cnci": 6.34585,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Donghua University",
+    "papers": 2,
+    "citations": 85,
+    "cnci": 4.63055,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chinese Academy of Fishery Sciences",
+    "papers": 2,
+    "citations": 77,
+    "cnci": 1.1786,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Philipps University Marburg",
+    "papers": 2,
+    "citations": 76,
+    "cnci": 2.14875,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Shandong Technology & Business University",
+    "papers": 2,
+    "citations": 76,
+    "cnci": 2.00875,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai Polytechnic University",
+    "papers": 2,
+    "citations": 71,
+    "cnci": 1.002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Bahir Dar University",
+    "papers": 2,
+    "citations": 71,
+    "cnci": 1.5118,
+    "country": "ETHIOPIA"
+  },
+  {
+    "name": "Institute of Urban Environment, CAS",
+    "papers": 2,
+    "citations": 70,
+    "cnci": 1.1787,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangzhou University of Chinese Medicine",
+    "papers": 2,
+    "citations": 69,
+    "cnci": 1.5364,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Toronto",
+    "papers": 2,
+    "citations": 65,
+    "cnci": 1.13475,
+    "country": "CANADA"
+  },
+  {
+    "name": "Utrecht University",
+    "papers": 2,
+    "citations": 62,
+    "cnci": 4.0715,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "Maastricht University",
+    "papers": 2,
+    "citations": 61,
+    "cnci": 0.9526,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "Natural Resources Institute Finland (Luke)",
+    "papers": 2,
+    "citations": 61,
+    "cnci": 1.7485000000000002,
+    "country": "FINLAND"
+  },
+  {
+    "name": "University of Nebraska Lincoln",
+    "papers": 2,
+    "citations": 60,
+    "cnci": 1.1633,
+    "country": "USA"
+  },
+  {
+    "name": "Leiden University",
+    "papers": 2,
+    "citations": 60,
+    "cnci": 1.6669500000000002,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "Leiden University - Excl LUMC",
+    "papers": 2,
+    "citations": 60,
+    "cnci": 1.6669500000000002,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "Shanghai Institute of Applied Physics, CAS",
+    "papers": 2,
+    "citations": 57,
+    "cnci": 2.6203000000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Beijing University of Chemical Technology",
+    "papers": 2,
+    "citations": 54,
+    "cnci": 1.0864,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chang'an University",
+    "papers": 2,
+    "citations": 54,
+    "cnci": 1.5225,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Blood Transfusion - CAMS",
+    "papers": 2,
+    "citations": 52,
+    "cnci": 1.97615,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangxi Minzu University",
+    "papers": 2,
+    "citations": 50,
+    "cnci": 1.0833,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "King Abdullah University of Science & Technology",
+    "papers": 2,
+    "citations": 50,
+    "cnci": 1.00995,
+    "country": "SAUDI ARABIA"
+  },
+  {
+    "name": "Temple University",
+    "papers": 2,
+    "citations": 49,
+    "cnci": 0.9877500000000001,
+    "country": "USA"
+  },
+  {
+    "name": "International Livestock Research Institute (ILRI)",
+    "papers": 2,
+    "citations": 49,
+    "cnci": 1.49855,
+    "country": "KENYA"
+  },
+  {
+    "name": "Nantong University",
+    "papers": 2,
+    "citations": 48,
+    "cnci": 1.9153000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shenzhen Institute of Neuroscience",
+    "papers": 2,
+    "citations": 48,
+    "cnci": 1.3084500000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Wollongong",
+    "papers": 2,
+    "citations": 47,
+    "cnci": 2.3357,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Zhejiang Sci-Tech University",
+    "papers": 2,
+    "citations": 46,
+    "cnci": 1.0072,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Syngenta",
+    "papers": 2,
+    "citations": 43,
+    "cnci": 1.2601,
+    "country": "SWITZERLAND"
+  },
+  {
+    "name": "University of Murcia",
+    "papers": 2,
+    "citations": 43,
+    "cnci": 2.1767,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Kunming Institute of Zoology, CAS",
+    "papers": 2,
+    "citations": 43,
+    "cnci": 2.7587,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Universidad de Especialidades Espiritu Santo",
+    "papers": 2,
+    "citations": 42,
+    "cnci": 1.8800500000000002,
+    "country": "ECUADOR"
+  },
+  {
+    "name": "University of Missouri System",
+    "papers": 2,
+    "citations": 41,
+    "cnci": 1.1124,
+    "country": "USA"
+  },
+  {
+    "name": "Technical Institute of Physics & Chemistry, CAS",
+    "papers": 2,
+    "citations": 41,
+    "cnci": 0.57865,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "State Key Laboratory of NBC Protection for Civilian Researchers",
+    "papers": 2,
+    "citations": 41,
+    "cnci": 0.86715,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shenzhen Polytechnic University",
+    "papers": 2,
+    "citations": 39,
+    "cnci": 0.8039499999999999,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of California Davis",
+    "papers": 2,
+    "citations": 39,
+    "cnci": 1.73865,
+    "country": "USA"
+  },
+  {
+    "name": "University of Copenhagen",
+    "papers": 2,
+    "citations": 38,
+    "cnci": 1.6176,
+    "country": "DENMARK"
+  },
+  {
+    "name": "City University of Macau",
+    "papers": 2,
+    "citations": 38,
+    "cnci": 2.6086,
+    "country": "MACAU"
+  },
+  {
+    "name": "Shanghai Advanced Research Institute, CAS",
+    "papers": 2,
+    "citations": 37,
+    "cnci": 2.3914500000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jilin Agricultural University",
+    "papers": 2,
+    "citations": 37,
+    "cnci": 2.6976,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Sanming University",
+    "papers": 2,
+    "citations": 37,
+    "cnci": 0.7607,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Northumbria University",
+    "papers": 2,
+    "citations": 34,
+    "cnci": 1.17585,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "University of York - UK",
+    "papers": 2,
+    "citations": 33,
+    "cnci": 0.6595,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "State University System of Florida",
+    "papers": 2,
+    "citations": 32,
+    "cnci": 0.6764,
+    "country": "USA"
+  },
+  {
+    "name": "Hebei Medical University",
+    "papers": 2,
+    "citations": 31,
+    "cnci": 0.65575,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Queensland",
+    "papers": 2,
+    "citations": 30,
+    "cnci": 0.77175,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "University of New Brunswick",
+    "papers": 2,
+    "citations": 30,
+    "cnci": 0.734,
+    "country": "CANADA"
+  },
+  {
+    "name": "Chengdu Sport University",
+    "papers": 2,
+    "citations": 29,
+    "cnci": 1.34015,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Liverpool",
+    "papers": 2,
+    "citations": 29,
+    "cnci": 2.92495,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Northwestern University",
+    "papers": 2,
+    "citations": 28,
+    "cnci": 1.1346,
+    "country": "USA"
+  },
+  {
+    "name": "Institute of Food Science & Technology, CAAS",
+    "papers": 2,
+    "citations": 28,
+    "cnci": 1.32975,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Beijing University of Technology",
+    "papers": 2,
+    "citations": 27,
+    "cnci": 1.19365,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University College Dublin",
+    "papers": 2,
+    "citations": 27,
+    "cnci": 2.58785,
+    "country": "IRELAND"
+  },
+  {
+    "name": "Shanghai Academy of Agricultural Sciences",
+    "papers": 2,
+    "citations": 27,
+    "cnci": 1.7449500000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "IZS delle Venezie",
+    "papers": 2,
+    "citations": 27,
+    "cnci": 1.3612000000000002,
+    "country": "ITALY"
+  },
+  {
+    "name": "Aviation Industry Corporation of China (AVIC)",
+    "papers": 2,
+    "citations": 27,
+    "cnci": 0.6823,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Fifth Medical Center of Chinese PLA General Hospital",
+    "papers": 2,
+    "citations": 27,
+    "cnci": 0.9117500000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Aalborg University",
+    "papers": 2,
+    "citations": 26,
+    "cnci": 1.3927,
+    "country": "DENMARK"
+  },
+  {
+    "name": "University of California Irvine",
+    "papers": 2,
+    "citations": 25,
+    "cnci": 0.9535500000000001,
+    "country": "USA"
+  },
+  {
+    "name": "Kyoto University",
+    "papers": 2,
+    "citations": 24,
+    "cnci": 1.17585,
+    "country": "JAPAN"
+  },
+  {
+    "name": "Wenzhou Medical University",
+    "papers": 2,
+    "citations": 24,
+    "cnci": 0.33025000000000004,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanjing Xiaozhuang University",
+    "papers": 2,
+    "citations": 24,
+    "cnci": 0.52305,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jining University",
+    "papers": 2,
+    "citations": 23,
+    "cnci": 0.6330500000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of California Los Angeles Medical Center",
+    "papers": 2,
+    "citations": 22,
+    "cnci": 1.18855,
+    "country": "USA"
+  },
+  {
+    "name": "David Geffen School of Medicine at UCLA",
+    "papers": 2,
+    "citations": 22,
+    "cnci": 1.18855,
+    "country": "USA"
+  },
+  {
+    "name": "Anhui Agricultural University",
+    "papers": 2,
+    "citations": 21,
+    "cnci": 2.11805,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Ocean University of China",
+    "papers": 2,
+    "citations": 21,
+    "cnci": 1.7324000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Lodz",
+    "papers": 2,
+    "citations": 21,
+    "cnci": 1.5539,
+    "country": "POLAND"
+  },
+  {
+    "name": "Institute of Chinese Materia Medica, CACMS",
+    "papers": 2,
+    "citations": 21,
+    "cnci": 0.8365,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Oregon State University",
+    "papers": 2,
+    "citations": 20,
+    "cnci": 0.53845,
+    "country": "USA"
+  },
+  {
+    "name": "Emory University",
+    "papers": 2,
+    "citations": 19,
+    "cnci": 0.7686999999999999,
+    "country": "USA"
+  },
+  {
+    "name": "Monash University",
+    "papers": 2,
+    "citations": 18,
+    "cnci": 0.39015,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Minzu University of China",
+    "papers": 2,
+    "citations": 18,
+    "cnci": 0.41985000000000006,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhongyuan University of Technology",
+    "papers": 2,
+    "citations": 18,
+    "cnci": 0.7371,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shandong Agricultural University",
+    "papers": 2,
+    "citations": 17,
+    "cnci": 0.59985,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai Ocean University",
+    "papers": 2,
+    "citations": 17,
+    "cnci": 0.6288,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "State Grid Corporation of China",
+    "papers": 2,
+    "citations": 17,
+    "cnci": 0.8455000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Henan University of Traditional Chinese Medicine",
+    "papers": 2,
+    "citations": 17,
+    "cnci": 0.49345,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "City University of New York (CUNY) System",
+    "papers": 2,
+    "citations": 16,
+    "cnci": 0.23675000000000002,
+    "country": "USA"
+  },
+  {
+    "name": "Institute of Microbiology, CAS",
+    "papers": 2,
+    "citations": 16,
+    "cnci": 0.6261,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xi'an University of Architecture & Technology",
+    "papers": 2,
+    "citations": 15,
+    "cnci": 1.3669,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Agricultural Resources & Regional Planning, CAAS",
+    "papers": 2,
+    "citations": 15,
+    "cnci": 1.5281500000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhaotong University",
+    "papers": 2,
+    "citations": 15,
+    "cnci": 1.3647,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "McGill University",
+    "papers": 2,
+    "citations": 15,
+    "cnci": 0.8434,
+    "country": "CANADA"
+  },
+  {
+    "name": "Macao Polytechnic University",
+    "papers": 2,
+    "citations": 14,
+    "cnci": 2.1753500000000003,
+    "country": "MACAU"
+  },
+  {
+    "name": "Chinese Center for Disease Control & Prevention",
+    "papers": 2,
+    "citations": 13,
+    "cnci": 0.51535,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Basic Medical Sciences (IBMS)",
+    "papers": 2,
+    "citations": 13,
+    "cnci": 0.6943,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Rothamsted Research",
+    "papers": 2,
+    "citations": 13,
+    "cnci": 1.3829500000000001,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Anhui Science & Technology University",
+    "papers": 2,
+    "citations": 13,
+    "cnci": 0.1884,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Northwest Normal University - China",
+    "papers": 2,
+    "citations": 12,
+    "cnci": 0.2173,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Huaibei Normal University",
+    "papers": 2,
+    "citations": 12,
+    "cnci": 0.29710000000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Valencia",
+    "papers": 2,
+    "citations": 11,
+    "cnci": 0.7013,
+    "country": "SPAIN"
+  },
+  {
+    "name": "CSIC-GV-UV - Centro de Investigaciones sobre Desertificacion (CIDE)",
+    "papers": 2,
+    "citations": 11,
+    "cnci": 0.7013,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Guilin University of Technology",
+    "papers": 2,
+    "citations": 11,
+    "cnci": 0.1935,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Anhui Jianzhu University",
+    "papers": 2,
+    "citations": 11,
+    "cnci": 0.51385,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "German Research Foundation (DFG)",
+    "papers": 2,
+    "citations": 10,
+    "cnci": 1.6473,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Lanzhou Institute of Husbandry & Pharmaceutical Sciences, CAAS",
+    "papers": 2,
+    "citations": 10,
+    "cnci": 0.5800000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "German Centre for Integrative Biodiversity Research (iDiv)",
+    "papers": 2,
+    "citations": 10,
+    "cnci": 1.6473,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Sinopec",
+    "papers": 2,
+    "citations": 9,
+    "cnci": 0.40305,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Central Michigan University",
+    "papers": 2,
+    "citations": 8,
+    "cnci": 0.29005000000000003,
+    "country": "USA"
+  },
+  {
+    "name": "University of Vermont",
+    "papers": 2,
+    "citations": 8,
+    "cnci": 0.7179500000000001,
+    "country": "USA"
+  },
+  {
+    "name": "Guangxi University of Science & Technology",
+    "papers": 2,
+    "citations": 8,
+    "cnci": 0.37045000000000006,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Harbin Medical University",
+    "papers": 2,
+    "citations": 8,
+    "cnci": 0.13295,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Northeast Normal University - China",
+    "papers": 2,
+    "citations": 8,
+    "cnci": 0.7248000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xidian University",
+    "papers": 2,
+    "citations": 8,
+    "cnci": 0.3019,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Experimental Center of Tropical Forestry, CAF",
+    "papers": 2,
+    "citations": 8,
+    "cnci": 0.78995,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Wenzhou-Kean University",
+    "papers": 2,
+    "citations": 8,
+    "cnci": 1.5834000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Wrexham University",
+    "papers": 2,
+    "citations": 8,
+    "cnci": 0.1772,
+    "country": "WALES"
+  },
+  {
+    "name": "Inha University",
+    "papers": 2,
+    "citations": 7,
+    "cnci": 0.11880000000000002,
+    "country": "SOUTH KOREA"
+  },
+  {
+    "name": "Taiyuan University of Technology",
+    "papers": 2,
+    "citations": 7,
+    "cnci": 0.4338000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Physics, CAS",
+    "papers": 2,
+    "citations": 7,
+    "cnci": 0.35885,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Psychology, CAS",
+    "papers": 2,
+    "citations": 7,
+    "cnci": 0.11255000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Biological & Medical Engineering, Guangdong Academy of Sciences",
+    "papers": 2,
+    "citations": 7,
+    "cnci": 0.18835000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhejiang Laboratory",
+    "papers": 2,
+    "citations": 7,
+    "cnci": 0.23550000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Russian Academy of Sciences",
+    "papers": 2,
+    "citations": 6,
+    "cnci": 0.2873,
+    "country": "RUSSIA"
+  },
+  {
+    "name": "Goethe University Frankfurt",
+    "papers": 2,
+    "citations": 6,
+    "cnci": 0.2873,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "University of Rwanda",
+    "papers": 2,
+    "citations": 6,
+    "cnci": 0.42025,
+    "country": "RWANDA"
+  },
+  {
+    "name": "CSIC - Museo Nacional de Ciencias Naturales (MNCN)",
+    "papers": 2,
+    "citations": 6,
+    "cnci": 2.07095,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Chongqing University of Arts & Sciences",
+    "papers": 2,
+    "citations": 6,
+    "cnci": 4.0693,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanning Normal University",
+    "papers": 2,
+    "citations": 6,
+    "cnci": 0.33125000000000004,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "China University of Petroleum",
+    "papers": 2,
+    "citations": 5,
+    "cnci": 0.1004,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jinggangshan University",
+    "papers": 2,
+    "citations": 5,
+    "cnci": 0.21480000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Gifu University",
+    "papers": 2,
+    "citations": 5,
+    "cnci": 1.01845,
+    "country": "JAPAN"
+  },
+  {
+    "name": "Liaoning Petrochemical University",
+    "papers": 2,
+    "citations": 5,
+    "cnci": 3.1649000000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Universidad Politecnica de Madrid",
+    "papers": 2,
+    "citations": 5,
+    "cnci": 0.21480000000000002,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Xi'an Polytechnic University",
+    "papers": 2,
+    "citations": 5,
+    "cnci": 0.1904,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Singapore University of Social Sciences (SUSS)",
+    "papers": 2,
+    "citations": 5,
+    "cnci": 0.26295,
+    "country": "SINGAPORE"
+  },
+  {
+    "name": "Centro de Tecnologia Biomedica (CTB)",
+    "papers": 2,
+    "citations": 5,
+    "cnci": 0.21480000000000002,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Wuhan Institute of Technology",
+    "papers": 2,
+    "citations": 4,
+    "cnci": 0.07060000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Wyoming",
+    "papers": 2,
+    "citations": 4,
+    "cnci": 0.2366,
+    "country": "USA"
+  },
+  {
+    "name": "Hunan University of Medicine",
+    "papers": 2,
+    "citations": 4,
+    "cnci": 0.4057,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Mansoura University",
+    "papers": 2,
+    "citations": 3,
+    "cnci": 1.1550500000000001,
+    "country": "EGYPT"
+  },
+  {
+    "name": "Hefei University",
+    "papers": 2,
+    "citations": 3,
+    "cnci": 0.0482,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Harbin Veterinary Research Institute, CAAS",
+    "papers": 2,
+    "citations": 3,
+    "cnci": 0.1368,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Sichuan Minzu College",
+    "papers": 2,
+    "citations": 3,
+    "cnci": 0.31545,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Jordan",
+    "papers": 2,
+    "citations": 3,
+    "cnci": 0.16735,
+    "country": "JORDAN"
+  },
+  {
+    "name": "University of Montana",
+    "papers": 2,
+    "citations": 2,
+    "cnci": 0.0538,
+    "country": "USA"
+  },
+  {
+    "name": "Universiti Sains Malaysia",
+    "papers": 2,
+    "citations": 2,
+    "cnci": 0.46840000000000004,
+    "country": "MALAYSIA"
+  },
+  {
+    "name": "University of Montana System",
+    "papers": 2,
+    "citations": 2,
+    "cnci": 0.0538,
+    "country": "USA"
+  },
+  {
+    "name": "Northeast Institute of Geography & Agroecology, CAS",
+    "papers": 2,
+    "citations": 2,
+    "cnci": 1.3564500000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of New South Wales Sydney",
+    "papers": 2,
+    "citations": 1,
+    "cnci": 0.02385,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Nanjing University of Chinese Medicine",
+    "papers": 2,
+    "citations": 1,
+    "cnci": 0.74765,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chongqing Three Gorges University",
+    "papers": 2,
+    "citations": 1,
+    "cnci": 0.74765,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Ecological Conservation & Restoration, CAF",
+    "papers": 2,
+    "citations": 1,
+    "cnci": 0.6358,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Agriculture Genomes Institute at Shenzhen, CAAS",
+    "papers": 2,
+    "citations": 1,
+    "cnci": 0.20370000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanning University",
+    "papers": 2,
+    "citations": 1,
+    "cnci": 0.06795,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Southampton",
+    "papers": 2,
+    "citations": 1,
+    "cnci": 0.10515000000000001,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Liaoning Normal University",
+    "papers": 2,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanjing Medical University",
+    "papers": 2,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Khon Kaen University",
+    "papers": 2,
+    "citations": 0,
+    "cnci": 0,
+    "country": "THAILAND"
+  },
+  {
+    "name": "ITMO University",
+    "papers": 2,
+    "citations": 0,
+    "cnci": 0,
+    "country": "RUSSIA"
+  },
+  {
+    "name": "Aba Teachers University",
+    "papers": 2,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tianjin University of Technology",
+    "papers": 1,
+    "citations": 244,
+    "cnci": 18.613400000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Lulea University of Technology",
+    "papers": 1,
+    "citations": 210,
+    "cnci": 9.162700000000001,
+    "country": "SWEDEN"
+  },
+  {
+    "name": "University of Teesside",
+    "papers": 1,
+    "citations": 210,
+    "cnci": 9.162700000000001,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "papers": 1,
+    "citations": 193,
+    "cnci": 12.462800000000001,
+    "country": "USA"
+  },
+  {
+    "name": "Northeastern University",
+    "papers": 1,
+    "citations": 193,
+    "cnci": 12.462800000000001,
+    "country": "USA"
+  },
+  {
+    "name": "Academy Fundamental & Interdisciplinary Science",
+    "papers": 1,
+    "citations": 172,
+    "cnci": 6.4405,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of California Santa Cruz",
+    "papers": 1,
+    "citations": 163,
+    "cnci": 6.1348,
+    "country": "USA"
+  },
+  {
+    "name": "Shandong University of Aeronautics",
+    "papers": 1,
+    "citations": 160,
+    "cnci": 6.7918,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Automation, CAS",
+    "papers": 1,
+    "citations": 160,
+    "cnci": 6.7918,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanjing Institute of Geography & Limnology, CAS",
+    "papers": 1,
+    "citations": 158,
+    "cnci": 6.9192,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai Maritime University",
+    "papers": 1,
+    "citations": 152,
+    "cnci": 8.8523,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanjing University of Aeronautics & Astronautics",
+    "papers": 1,
+    "citations": 148,
+    "cnci": 4.699,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Qingdao University of Technology",
+    "papers": 1,
+    "citations": 138,
+    "cnci": 5.167400000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Swiss Federal Research Station Agroscope",
+    "papers": 1,
+    "citations": 131,
+    "cnci": 8.486500000000001,
+    "country": "SWITZERLAND"
+  },
+  {
+    "name": "CSIRO Oceans & Atmosphere",
+    "papers": 1,
+    "citations": 131,
+    "cnci": 8.486500000000001,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Universitat Politecnica de Catalunya",
+    "papers": 1,
+    "citations": 126,
+    "cnci": 5.8424000000000005,
+    "country": "SPAIN"
+  },
+  {
+    "name": "University of Pittsburgh",
+    "papers": 1,
+    "citations": 125,
+    "cnci": 4.7334000000000005,
+    "country": "USA"
+  },
+  {
+    "name": "University of Dayton",
+    "papers": 1,
+    "citations": 122,
+    "cnci": 1.1086,
+    "country": "USA"
+  },
+  {
+    "name": "US Air Force Research Laboratory",
+    "papers": 1,
+    "citations": 122,
+    "cnci": 1.1086,
+    "country": "USA"
+  },
+  {
+    "name": "United States Department of Defense",
+    "papers": 1,
+    "citations": 122,
+    "cnci": 1.1086,
+    "country": "USA"
+  },
+  {
+    "name": "United States Air Force",
+    "papers": 1,
+    "citations": 122,
+    "cnci": 1.1086,
+    "country": "USA"
+  },
+  {
+    "name": "University of Oslo",
+    "papers": 1,
+    "citations": 117,
+    "cnci": 4.1787,
+    "country": "NORWAY"
+  },
+  {
+    "name": "Halmstad University",
+    "papers": 1,
+    "citations": 117,
+    "cnci": 4.1787,
+    "country": "SWEDEN"
+  },
+  {
+    "name": "University of Kentucky",
+    "papers": 1,
+    "citations": 97,
+    "cnci": 2.7034000000000002,
+    "country": "USA"
+  },
+  {
+    "name": "Guizhou Minzu University",
+    "papers": 1,
+    "citations": 96,
+    "cnci": 3.5947,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Johannesburg",
+    "papers": 1,
+    "citations": 92,
+    "cnci": 5.3466000000000005,
+    "country": "SOUTH AFRICA"
+  },
+  {
+    "name": "Deutsches Elektronen-Synchrotron (DESY)",
+    "papers": 1,
+    "citations": 87,
+    "cnci": 8.647,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Technical University of Darmstadt",
+    "papers": 1,
+    "citations": 87,
+    "cnci": 8.647,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Institute of Metal Research, CAS",
+    "papers": 1,
+    "citations": 87,
+    "cnci": 8.647,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hefei National Laboratory",
+    "papers": 1,
+    "citations": 85,
+    "cnci": 9.2611,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Cincinnati",
+    "papers": 1,
+    "citations": 72,
+    "cnci": 4.8227,
+    "country": "USA"
+  },
+  {
+    "name": "East China Sea Fisheries Research Institute, CAFS",
+    "papers": 1,
+    "citations": 71,
+    "cnci": 2.004,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Texas El Paso",
+    "papers": 1,
+    "citations": 70,
+    "cnci": 2.5684,
+    "country": "USA"
+  },
+  {
+    "name": "Macquarie University",
+    "papers": 1,
+    "citations": 67,
+    "cnci": 5.2014000000000005,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Estonian University of Life Sciences",
+    "papers": 1,
+    "citations": 67,
+    "cnci": 5.2014000000000005,
+    "country": "ESTONIA"
+  },
+  {
+    "name": "Michigan State University",
+    "papers": 1,
+    "citations": 65,
+    "cnci": 3.0462000000000002,
+    "country": "USA"
+  },
+  {
+    "name": "United States Department of Agriculture (USDA)",
+    "papers": 1,
+    "citations": 63,
+    "cnci": 2.3711,
+    "country": "USA"
+  },
+  {
+    "name": "University of Pennsylvania",
+    "papers": 1,
+    "citations": 61,
+    "cnci": 1.1521000000000001,
+    "country": "USA"
+  },
+  {
+    "name": "Aalto University",
+    "papers": 1,
+    "citations": 59,
+    "cnci": 4.7856000000000005,
+    "country": "FINLAND"
+  },
+  {
+    "name": "Nagoya University",
+    "papers": 1,
+    "citations": 59,
+    "cnci": 3.1301,
+    "country": "JAPAN"
+  },
+  {
+    "name": "Ritsumeikan Asia Pacific University",
+    "papers": 1,
+    "citations": 59,
+    "cnci": 3.1301,
+    "country": "JAPAN"
+  },
+  {
+    "name": "National Institute for Environmental Studies - Japan",
+    "papers": 1,
+    "citations": 59,
+    "cnci": 3.1301,
+    "country": "JAPAN"
+  },
+  {
+    "name": "China Three Gorges University",
+    "papers": 1,
+    "citations": 57,
+    "cnci": 1.1996,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Smithsonian Tropical Research Institute",
+    "papers": 1,
+    "citations": 56,
+    "cnci": 4.7677000000000005,
+    "country": "PANAMA"
+  },
+  {
+    "name": "Smithsonian Institution",
+    "papers": 1,
+    "citations": 56,
+    "cnci": 4.7677000000000005,
+    "country": "USA"
+  },
+  {
+    "name": "Ningxia Medical University",
+    "papers": 1,
+    "citations": 54,
+    "cnci": 11.0074,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Purdue University in Indianapolis",
+    "papers": 1,
+    "citations": 53,
+    "cnci": 2.0533,
+    "country": "USA"
+  },
+  {
+    "name": "University of Leeds",
+    "papers": 1,
+    "citations": 53,
+    "cnci": 2.624,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Institute of Oceanology, CAS",
+    "papers": 1,
+    "citations": 49,
+    "cnci": 1.7979,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Taiyuan Institute of Technology",
+    "papers": 1,
+    "citations": 48,
+    "cnci": 1.524,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Columbia University",
+    "papers": 1,
+    "citations": 47,
+    "cnci": 1.7439,
+    "country": "USA"
+  },
+  {
+    "name": "Pusan National University",
+    "papers": 1,
+    "citations": 47,
+    "cnci": 1.6793,
+    "country": "SOUTH KOREA"
+  },
+  {
+    "name": "Xinjiang Academy of Agricultural Sciences",
+    "papers": 1,
+    "citations": 47,
+    "cnci": 1.6793,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University Toronto Mississauga",
+    "papers": 1,
+    "citations": 45,
+    "cnci": 1.4594,
+    "country": "CANADA"
+  },
+  {
+    "name": "University of Idaho",
+    "papers": 1,
+    "citations": 44,
+    "cnci": 1.7669000000000001,
+    "country": "USA"
+  },
+  {
+    "name": "George Mason University",
+    "papers": 1,
+    "citations": 44,
+    "cnci": 1.397,
+    "country": "USA"
+  },
+  {
+    "name": "Oak Ridge National Laboratory",
+    "papers": 1,
+    "citations": 44,
+    "cnci": 1.397,
+    "country": "USA"
+  },
+  {
+    "name": "Center for Nanophase Materials Sciences",
+    "papers": 1,
+    "citations": 44,
+    "cnci": 1.397,
+    "country": "USA"
+  },
+  {
+    "name": "United States Department of Energy (DOE)",
+    "papers": 1,
+    "citations": 44,
+    "cnci": 1.397,
+    "country": "USA"
+  },
+  {
+    "name": "Institute of Computing Technology, CAS",
+    "papers": 1,
+    "citations": 43,
+    "cnci": 1.7937,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Kansas",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "USA"
+  },
+  {
+    "name": "University of Missouri Columbia",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 1.7008,
+    "country": "USA"
+  },
+  {
+    "name": "John Carroll University",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "USA"
+  },
+  {
+    "name": "University of Amsterdam",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "University of Bergen",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "NORWAY"
+  },
+  {
+    "name": "Naval Medical University",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 1.7002000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Netherlands Institute of Ecology (NIOO-KNAW)",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "United States Department of the Interior",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "USA"
+  },
+  {
+    "name": "Royal Netherlands Academy of Arts & Sciences",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "CSIC - Centro de Edafologia y Biologia Aplicada del Segura (CEBAS)",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Queen Mary University London",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "University of Manchester",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "United States Geological Survey",
+    "papers": 1,
+    "citations": 39,
+    "cnci": 3.4773,
+    "country": "USA"
+  },
+  {
+    "name": "Beijing Language & Culture University",
+    "papers": 1,
+    "citations": 38,
+    "cnci": 5.2172,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Ludong University",
+    "papers": 1,
+    "citations": 38,
+    "cnci": 15.480300000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xi'an University of Technology",
+    "papers": 1,
+    "citations": 38,
+    "cnci": 1.6566,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "National University of Defense Technology - China",
+    "papers": 1,
+    "citations": 37,
+    "cnci": 1.6789,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Henan Medical University",
+    "papers": 1,
+    "citations": 37,
+    "cnci": 2.4783,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Umm Al-Qura University",
+    "papers": 1,
+    "citations": 36,
+    "cnci": 2.0966,
+    "country": "SAUDI ARABIA"
+  },
+  {
+    "name": "Taif University",
+    "papers": 1,
+    "citations": 36,
+    "cnci": 2.0966,
+    "country": "SAUDI ARABIA"
+  },
+  {
+    "name": "National Synchrotron Radiation Research Center",
+    "papers": 1,
+    "citations": 35,
+    "cnci": 2.8389,
+    "country": "TAIWAN"
+  },
+  {
+    "name": "Johns Hopkins University",
+    "papers": 1,
+    "citations": 34,
+    "cnci": 1.7851000000000001,
+    "country": "USA"
+  },
+  {
+    "name": "University of Balochistan",
+    "papers": 1,
+    "citations": 33,
+    "cnci": 1.4053,
+    "country": "PAKISTAN"
+  },
+  {
+    "name": "University of North Florida",
+    "papers": 1,
+    "citations": 32,
+    "cnci": 1.3528,
+    "country": "USA"
+  },
+  {
+    "name": "Carleton University",
+    "papers": 1,
+    "citations": 32,
+    "cnci": 1.6909,
+    "country": "CANADA"
+  },
+  {
+    "name": "Xinxiang University",
+    "papers": 1,
+    "citations": 32,
+    "cnci": 2.4411,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Khalifa University of Science & Technology",
+    "papers": 1,
+    "citations": 32,
+    "cnci": 4.7234,
+    "country": "UNITED ARAB EMIRATES"
+  },
+  {
+    "name": "University of Sussex",
+    "papers": 1,
+    "citations": 32,
+    "cnci": 1.6909,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Universidad Tecnica Particular de Loja",
+    "papers": 1,
+    "citations": 29,
+    "cnci": 2.2514000000000003,
+    "country": "ECUADOR"
+  },
+  {
+    "name": "Universidad Nacional de Loja",
+    "papers": 1,
+    "citations": 29,
+    "cnci": 2.2514000000000003,
+    "country": "ECUADOR"
+  },
+  {
+    "name": "North South University (NSU)",
+    "papers": 1,
+    "citations": 29,
+    "cnci": 2.2514000000000003,
+    "country": "BANGLADESH"
+  },
+  {
+    "name": "Anadolu University",
+    "papers": 1,
+    "citations": 29,
+    "cnci": 2.2514000000000003,
+    "country": "TURKIYE"
+  },
+  {
+    "name": "Bohai University",
+    "papers": 1,
+    "citations": 28,
+    "cnci": 1.0408,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Islamic Azad University",
+    "papers": 1,
+    "citations": 28,
+    "cnci": 2.0403000000000002,
+    "country": "IRAN"
+  },
+  {
+    "name": "Institute of Earth Environment, CAS",
+    "papers": 1,
+    "citations": 28,
+    "cnci": 3.5703,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Management & Technology (UMT)",
+    "papers": 1,
+    "citations": 28,
+    "cnci": 13.115300000000001,
+    "country": "PAKISTAN"
+  },
+  {
+    "name": "Wuhan Botanical Garden, CAS",
+    "papers": 1,
+    "citations": 27,
+    "cnci": 1.3255000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Texas Tech University",
+    "papers": 1,
+    "citations": 26,
+    "cnci": 1.5634000000000001,
+    "country": "USA"
+  },
+  {
+    "name": "Heilongjiang University of Chinese Medicine",
+    "papers": 1,
+    "citations": 26,
+    "cnci": 0.9736,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Texas Tech University System",
+    "papers": 1,
+    "citations": 26,
+    "cnci": 1.5634000000000001,
+    "country": "USA"
+  },
+  {
+    "name": "Qingyuan Innovation Laboratory",
+    "papers": 1,
+    "citations": 26,
+    "cnci": 2.7344,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hebei University of Chinese Medicine",
+    "papers": 1,
+    "citations": 25,
+    "cnci": 1.6495000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Illinois Chicago",
+    "papers": 1,
+    "citations": 24,
+    "cnci": 0.9869,
+    "country": "USA"
+  },
+  {
+    "name": "University of Vienna",
+    "papers": 1,
+    "citations": 24,
+    "cnci": 0.4116,
+    "country": "AUSTRIA"
+  },
+  {
+    "name": "Maastricht University Medical Centre (MUMC)",
+    "papers": 1,
+    "citations": 24,
+    "cnci": 0.9697,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "Guilin Medical University",
+    "papers": 1,
+    "citations": 24,
+    "cnci": 1.0467,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Polish Academy of Sciences",
+    "papers": 1,
+    "citations": 24,
+    "cnci": 0.4116,
+    "country": "POLAND"
+  },
+  {
+    "name": "University of Illinois Chicago Hospital",
+    "papers": 1,
+    "citations": 24,
+    "cnci": 0.9869,
+    "country": "USA"
+  },
+  {
+    "name": "Institute of Genetics & Animal Biotechnology, Polish Academy of Sciences",
+    "papers": 1,
+    "citations": 24,
+    "cnci": 0.4116,
+    "country": "POLAND"
+  },
+  {
+    "name": "University of Munich",
+    "papers": 1,
+    "citations": 23,
+    "cnci": 4.6657,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "National Institute of Measurement & Testing Technology",
+    "papers": 1,
+    "citations": 23,
+    "cnci": 1.1387,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hainan Academy of Agricultural Sciences",
+    "papers": 1,
+    "citations": 23,
+    "cnci": 0.7732,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yazhouwan National Laboratory",
+    "papers": 1,
+    "citations": 23,
+    "cnci": 4.6657,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Queens University Belfast",
+    "papers": 1,
+    "citations": 22,
+    "cnci": 0.6995,
+    "country": "NORTHERN IRELAND"
+  },
+  {
+    "name": "Guizhou University of Traditional Chinese Medicine",
+    "papers": 1,
+    "citations": 22,
+    "cnci": 0.6995,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "CSIRO Mineral Resources",
+    "papers": 1,
+    "citations": 22,
+    "cnci": 0.7739,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "University of Arizona",
+    "papers": 1,
+    "citations": 21,
+    "cnci": 1.0942,
+    "country": "USA"
+  },
+  {
+    "name": "Tea Research Institute, CAAS",
+    "papers": 1,
+    "citations": 21,
+    "cnci": 1.8352000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yunnan Academy of Agricultural Sciences",
+    "papers": 1,
+    "citations": 21,
+    "cnci": 2.8014,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Twente",
+    "papers": 1,
+    "citations": 20,
+    "cnci": 0.8719,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "National Sun Yat Sen University",
+    "papers": 1,
+    "citations": 20,
+    "cnci": 4.5079,
+    "country": "TAIWAN"
+  },
+  {
+    "name": "DSM NV",
+    "papers": 1,
+    "citations": 20,
+    "cnci": 0.9819,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "Institute of Pathogen Biology - CAMS",
+    "papers": 1,
+    "citations": 20,
+    "cnci": 0.6615,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of South China",
+    "papers": 1,
+    "citations": 20,
+    "cnci": 1.1648,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xi'an University of Finance & Economics",
+    "papers": 1,
+    "citations": 20,
+    "cnci": 4.5079,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tiangong University",
+    "papers": 1,
+    "citations": 19,
+    "cnci": 1.8656000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shenyang Normal University",
+    "papers": 1,
+    "citations": 19,
+    "cnci": 1.4056,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "South Dakota State University",
+    "papers": 1,
+    "citations": 18,
+    "cnci": 0.785,
+    "country": "USA"
+  },
+  {
+    "name": "Czech Academy of Sciences",
+    "papers": 1,
+    "citations": 18,
+    "cnci": 1.288,
+    "country": "CZECH REPUBLIC"
+  },
+  {
+    "name": "Universiti Malaysia Terengganu",
+    "papers": 1,
+    "citations": 18,
+    "cnci": 1.3116,
+    "country": "MALAYSIA"
+  },
+  {
+    "name": "Universiti Teknologi Malaysia",
+    "papers": 1,
+    "citations": 18,
+    "cnci": 1.3116,
+    "country": "MALAYSIA"
+  },
+  {
+    "name": "The Institute of Remote Sensing & Digital Earth, CAS",
+    "papers": 1,
+    "citations": 18,
+    "cnci": 1.288,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Petroleum & Energy Studies (UPES)",
+    "papers": 1,
+    "citations": 18,
+    "cnci": 1.3116,
+    "country": "INDIA"
+  },
+  {
+    "name": "Chandigarh University",
+    "papers": 1,
+    "citations": 18,
+    "cnci": 1.3116,
+    "country": "INDIA"
+  },
+  {
+    "name": "Global Change Research Centre of the Czech Academy of Sciences",
+    "papers": 1,
+    "citations": 18,
+    "cnci": 1.288,
+    "country": "CZECH REPUBLIC"
+  },
+  {
+    "name": "Dana-Farber Cancer Institute",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 0.5878,
+    "country": "USA"
+  },
+  {
+    "name": "University of Sassari",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 1.4473,
+    "country": "ITALY"
+  },
+  {
+    "name": "Harvard University Medical Affiliates",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 0.5878,
+    "country": "USA"
+  },
+  {
+    "name": "General Electric",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 0.5519000000000001,
+    "country": "USA"
+  },
+  {
+    "name": "Exxon Mobil Corporation",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 1.5503,
+    "country": "USA"
+  },
+  {
+    "name": "Guangxi Medical University",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 0.7414000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Harvard Medical School",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 0.5878,
+    "country": "USA"
+  },
+  {
+    "name": "IZS Umbria e Marche",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 1.4473,
+    "country": "ITALY"
+  },
+  {
+    "name": "Shanxi People's Hospital",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 0.9371,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Government College University Faisalabad",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 1.5503,
+    "country": "PAKISTAN"
+  },
+  {
+    "name": "University of Agriculture Faisalabad",
+    "papers": 1,
+    "citations": 17,
+    "cnci": 1.5503,
+    "country": "PAKISTAN"
+  },
+  {
+    "name": "Vanderbilt University",
+    "papers": 1,
+    "citations": 16,
+    "cnci": 0.6792,
+    "country": "USA"
+  },
+  {
+    "name": "University of Wisconsin Milwaukee",
+    "papers": 1,
+    "citations": 16,
+    "cnci": 1.0709,
+    "country": "USA"
+  },
+  {
+    "name": "Guangzhou Institute of Geochemistry, CAS",
+    "papers": 1,
+    "citations": 16,
+    "cnci": 0.6022000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Anyang Institute of Technology",
+    "papers": 1,
+    "citations": 16,
+    "cnci": 0.508,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "King Abdulaziz University",
+    "papers": 1,
+    "citations": 15,
+    "cnci": 2.0785,
+    "country": "SAUDI ARABIA"
+  },
+  {
+    "name": "Shangluo University",
+    "papers": 1,
+    "citations": 15,
+    "cnci": 0.6168,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Changchun Institute of Optics, Fine Mechanics & Physics, CAS",
+    "papers": 1,
+    "citations": 15,
+    "cnci": 0.5277000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jiangxi University of Traditional Chinese Medicine",
+    "papers": 1,
+    "citations": 14,
+    "cnci": 1.6247,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Ankang University",
+    "papers": 1,
+    "citations": 14,
+    "cnci": 1.8676000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yulin Normal University",
+    "papers": 1,
+    "citations": 14,
+    "cnci": 1.3295000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhoukou Normal University",
+    "papers": 1,
+    "citations": 14,
+    "cnci": 0.3952,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "China Electric Power Research Institute (CEPRI)",
+    "papers": 1,
+    "citations": 14,
+    "cnci": 1.4724000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of North Carolina Greensboro",
+    "papers": 1,
+    "citations": 13,
+    "cnci": 0.6774,
+    "country": "USA"
+  },
+  {
+    "name": "University of North Carolina",
+    "papers": 1,
+    "citations": 13,
+    "cnci": 0.6774,
+    "country": "USA"
+  },
+  {
+    "name": "Universite de Toulouse",
+    "papers": 1,
+    "citations": 13,
+    "cnci": 2.8635,
+    "country": "FRANCE"
+  },
+  {
+    "name": "Qinghai Minzu University",
+    "papers": 1,
+    "citations": 13,
+    "cnci": 0.4128,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chungnam National University",
+    "papers": 1,
+    "citations": 12,
+    "cnci": 1.6008,
+    "country": "SOUTH KOREA"
+  },
+  {
+    "name": "Ollscoil na Gaillimhe-University of Galway",
+    "papers": 1,
+    "citations": 12,
+    "cnci": 0.6615,
+    "country": "IRELAND"
+  },
+  {
+    "name": "Japan International Research Center for Agricultural Sciences",
+    "papers": 1,
+    "citations": 12,
+    "cnci": 1.0943,
+    "country": "JAPAN"
+  },
+  {
+    "name": "Baotou Teachers College",
+    "papers": 1,
+    "citations": 12,
+    "cnci": 0.6615,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Notre Dame",
+    "papers": 1,
+    "citations": 11,
+    "cnci": 1.9006,
+    "country": "USA"
+  },
+  {
+    "name": "Taiyuan University of Science & Technology",
+    "papers": 1,
+    "citations": 11,
+    "cnci": 0.9365,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "CRRC Corporation",
+    "papers": 1,
+    "citations": 11,
+    "cnci": 0.5036,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "A*STAR - Institute of Molecular & Cell Biology (IMCB)",
+    "papers": 1,
+    "citations": 11,
+    "cnci": 0.7083,
+    "country": "SINGAPORE"
+  },
+  {
+    "name": "University of Naples Federico II",
+    "papers": 1,
+    "citations": 10,
+    "cnci": 1.2751000000000001,
+    "country": "ITALY"
+  },
+  {
+    "name": "Tohoku University",
+    "papers": 1,
+    "citations": 10,
+    "cnci": 0.5887,
+    "country": "JAPAN"
+  },
+  {
+    "name": "University of International Business & Economics",
+    "papers": 1,
+    "citations": 10,
+    "cnci": 0.5333,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanchang Hangkong University",
+    "papers": 1,
+    "citations": 10,
+    "cnci": 5.3589,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shenzhen Institute of Advanced Technology, CAS",
+    "papers": 1,
+    "citations": 10,
+    "cnci": 1.0895000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Feinberg School of Medicine",
+    "papers": 1,
+    "citations": 10,
+    "cnci": 0.9576,
+    "country": "USA"
+  },
+  {
+    "name": "Westlake University",
+    "papers": 1,
+    "citations": 10,
+    "cnci": 1.0895000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "TJU-NUS Joint Institute",
+    "papers": 1,
+    "citations": 10,
+    "cnci": 1.5606,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xinjiang Academy of Agricultural & Reclamation Science",
+    "papers": 1,
+    "citations": 10,
+    "cnci": 0.7398,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Kent State University",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 1.0614000000000001,
+    "country": "USA"
+  },
+  {
+    "name": "University of Liege",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 2.2559,
+    "country": "BELGIUM"
+  },
+  {
+    "name": "University of Victoria",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 0.47750000000000004,
+    "country": "CANADA"
+  },
+  {
+    "name": "University of Insubria",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 1.0614000000000001,
+    "country": "ITALY"
+  },
+  {
+    "name": "Wells Fargo Company",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 1.8926,
+    "country": "USA"
+  },
+  {
+    "name": "International Maize & Wheat Improvement Center (CIMMYT)",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 2.2559,
+    "country": "MEXICO"
+  },
+  {
+    "name": "Heilongjiang University of Science & Technology",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 0.9465,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Genetics & Developmental Biology, CAS",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 2.2559,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Center for Agricultural Resources Research, Institute of Genetic & Developmental Biology, CAS",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 2.2559,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhengzhou Normal University",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 0.4732,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "A*STAR - Institute of Sustainability for Chemicals, Energy & Environment (ISCE2)",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 0.2893,
+    "country": "SINGAPORE"
+  },
+  {
+    "name": "China Three Gorges Corporation",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 0.6987,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "China United Network Communications Limited",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 0.382,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Kent State University Kent",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 1.0614000000000001,
+    "country": "USA"
+  },
+  {
+    "name": "Kent State University Salem",
+    "papers": 1,
+    "citations": 9,
+    "cnci": 1.0614000000000001,
+    "country": "USA"
+  },
+  {
+    "name": "University of Trento",
+    "papers": 1,
+    "citations": 8,
+    "cnci": 0.254,
+    "country": "ITALY"
+  },
+  {
+    "name": "Northeastern University - China",
+    "papers": 1,
+    "citations": 8,
+    "cnci": 0.45990000000000003,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Peshawar",
+    "papers": 1,
+    "citations": 8,
+    "cnci": 0.23390000000000002,
+    "country": "PAKISTAN"
+  },
+  {
+    "name": "Kunming University",
+    "papers": 1,
+    "citations": 8,
+    "cnci": 1.8032000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai Institute of Ceramics, CAS",
+    "papers": 1,
+    "citations": 8,
+    "cnci": 0.254,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhengzhou Fruit Research Institute, CAAS",
+    "papers": 1,
+    "citations": 8,
+    "cnci": 1.0672000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shaanxi A&F Technology University",
+    "papers": 1,
+    "citations": 8,
+    "cnci": 0.7661,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Chicago",
+    "papers": 1,
+    "citations": 7,
+    "cnci": 1.472,
+    "country": "USA"
+  },
+  {
+    "name": "Indiana University System",
+    "papers": 1,
+    "citations": 7,
+    "cnci": 0.3246,
+    "country": "USA"
+  },
+  {
+    "name": "Eindhoven University of Technology",
+    "papers": 1,
+    "citations": 7,
+    "cnci": 0.2727,
+    "country": "NETHERLANDS"
+  },
+  {
+    "name": "Guangdong Ocean University",
+    "papers": 1,
+    "citations": 7,
+    "cnci": 0.4121,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Indiana University Bloomington",
+    "papers": 1,
+    "citations": 7,
+    "cnci": 0.3246,
+    "country": "USA"
+  },
+  {
+    "name": "Guangxi University of Finance & Economics",
+    "papers": 1,
+    "citations": 7,
+    "cnci": 0.4535,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yantai Institute of Coastal Zone Research, CAS",
+    "papers": 1,
+    "citations": 7,
+    "cnci": 0.5434,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Culham Science Centre",
+    "papers": 1,
+    "citations": 7,
+    "cnci": 0.3013,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Pirbright Institute",
+    "papers": 1,
+    "citations": 7,
+    "cnci": 0.6703,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "UK Atomic Energy Authority",
+    "papers": 1,
+    "citations": 7,
+    "cnci": 0.3013,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "University at Buffalo, SUNY",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.1462,
+    "country": "USA"
+  },
+  {
+    "name": "Texas State University San Marcos",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.6963,
+    "country": "USA"
+  },
+  {
+    "name": "Ural Federal University",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.6963,
+    "country": "RUSSIA"
+  },
+  {
+    "name": "Chongqing University of Technology",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 2.8104,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangdong Pharmaceutical University",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 1.3888,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tianjin Medical University",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 2.5415,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Gorgan University of Agricultural Sciences & Natural Resources",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 8.1386,
+    "country": "IRAN"
+  },
+  {
+    "name": "University of Luxembourg",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.43720000000000003,
+    "country": "LUXEMBOURG"
+  },
+  {
+    "name": "Swiss Federal Institute for Forest, Snow & Landscape Research",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.29460000000000003,
+    "country": "SWITZERLAND"
+  },
+  {
+    "name": "IRTA",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.3532,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Xi'an Medical University",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 2.5415,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zoological Institute of the Russian Academy of Sciences",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.5746,
+    "country": "RUSSIA"
+  },
+  {
+    "name": "Guangdong University of Technology",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.9364,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Ministry of Health & Medical Education (MOHME)",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 8.1386,
+    "country": "IRAN"
+  },
+  {
+    "name": "A*STAR - Singapore Institute of Manufacturing Technology (SIMTech)",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.4867,
+    "country": "SINGAPORE"
+  },
+  {
+    "name": "Shenzhen Technology University",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.5987,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Noakhali Science & Technology University (NSTU)",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.6963,
+    "country": "BANGLADESH"
+  },
+  {
+    "name": "SETI Institute",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.5145000000000001,
+    "country": "USA"
+  },
+  {
+    "name": "Texas State University System",
+    "papers": 1,
+    "citations": 6,
+    "cnci": 0.6963,
+    "country": "USA"
+  },
+  {
+    "name": "Duke University",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.7044,
+    "country": "USA"
+  },
+  {
+    "name": "University of South Carolina Columbia",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.2756,
+    "country": "USA"
+  },
+  {
+    "name": "University of Innsbruck",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.8639,
+    "country": "AUSTRIA"
+  },
+  {
+    "name": "Yonsei University",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.8001,
+    "country": "SOUTH KOREA"
+  },
+  {
+    "name": "University of Melbourne",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.3956,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Ahlia University Bahrain",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.0514000000000001,
+    "country": "BAHRAIN"
+  },
+  {
+    "name": "Huaqiao University",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.3814,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Wuhan Polytechnic University",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.5085000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Wuxi University of Technology",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.31,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Eotvos Lorand University",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.1014000000000002,
+    "country": "HUNGARY"
+  },
+  {
+    "name": "Inland Norway University of Applied Sciences",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.38820000000000005,
+    "country": "NORWAY"
+  },
+  {
+    "name": "University of South Carolina System",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.2756,
+    "country": "USA"
+  },
+  {
+    "name": "SUNY New Paltz",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.1014000000000002,
+    "country": "USA"
+  },
+  {
+    "name": "Agri-Food & Biosciences Institute",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.6376000000000001,
+    "country": "NORTHERN IRELAND"
+  },
+  {
+    "name": "Hunan University of Science & Technology",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.8639,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hexi University",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.2533,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangzhou Institute of Biomedicine & Health, CAS",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.5448000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Wildlife Conservation Society",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.38820000000000005,
+    "country": "USA"
+  },
+  {
+    "name": "Xizang Agricultural & Animal Husbandry University",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 10.5248,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Biotechnology Research Institute, CAAS",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.2846,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Kashi University",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.2943,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hubei Academy of Agricultural Sciences",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.5085000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hunan Academy of Agricultural Sciences",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.5085000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shenzhen Bay Laboratory",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.2756,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Pingdingshan University",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.1882,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Beijing Academy of Quantum Information Sciences",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.31,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Gansu Academy of Agricultural Sciences",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.2533,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Gansu Academy of Sciences",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.2533,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Innovation Academy for Precision Measurement Science & Technology, CAS",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.1766,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "London Metropolitan University",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.3826,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "London School Economics & Political Science",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 2.0369,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "University of Exeter",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 1.1014000000000002,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "UK Centre for Ecology & Hydrology (UKCEH)",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 2.0369,
+    "country": "WALES"
+  },
+  {
+    "name": "Monash University Malaysia",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.3956,
+    "country": "MALAYSIA"
+  },
+  {
+    "name": "University of Veterinary Medicine Vienna",
+    "papers": 1,
+    "citations": 5,
+    "cnci": 0.38820000000000005,
+    "country": "AUSTRIA"
+  },
+  {
+    "name": "University of Louisville",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.1515,
+    "country": "USA"
+  },
+  {
+    "name": "Central Queensland University",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.15360000000000001,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Agriculture & Agri Food Canada",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.19640000000000002,
+    "country": "CANADA"
+  },
+  {
+    "name": "Qufu Normal University",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.15510000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yangtze University",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 1.6295000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhejiang Gongshang University",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.8761,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhejiang Wanli University",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.6911,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Justus Liebig University Giessen",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.51,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Singapore Management University",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.11760000000000001,
+    "country": "SINGAPORE"
+  },
+  {
+    "name": "Flanders Institute for Biotechnology (VIB)",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.4803,
+    "country": "BELGIUM"
+  },
+  {
+    "name": "Shanghai Lixin University of Accounting & Finance",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.6911,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hainan Medical University",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.4803,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanjing Institute of Soil Science, CAS",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 1.0026000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Henan Academy of Agricultural Sciences",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.2959,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Social Sciences",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.1515,
+    "country": "POLAND"
+  },
+  {
+    "name": "National Resource Center for Chinese Materia Medica, CACMS",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.8114,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "BOE Technology Group Co., Ltd.",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.8154,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shenzhen Huazhong University of Science & Technology Research Institute",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.8114,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tianfu Jiangxi Laboratory",
+    "papers": 1,
+    "citations": 4,
+    "cnci": 0.8154,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Utah State University",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 1.2707000000000002,
+    "country": "USA"
+  },
+  {
+    "name": "Hiroshima University",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 3.7979000000000003,
+    "country": "JAPAN"
+  },
+  {
+    "name": "Universidade de Coimbra",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.2873,
+    "country": "PORTUGAL"
+  },
+  {
+    "name": "University of Calgary",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.2873,
+    "country": "CANADA"
+  },
+  {
+    "name": "Anhui Medical University",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.0731,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Beijing University of Posts & Telecommunications",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 6.314900000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xiangtan University",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.12340000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Slovak Academy of Sciences",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.1308,
+    "country": "SLOVAKIA"
+  },
+  {
+    "name": "Utah System of Higher Education",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 1.2707000000000002,
+    "country": "USA"
+  },
+  {
+    "name": "North Minzu University",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 1.2221,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Wuhan Textile University",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 1.8402,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tianshui Normal University",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.3482,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "PLA Information Engineering University",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.6608,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Beijing Academy of Science & Technology",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.2873,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Farmland Irrigation Research Institute, CAAS",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.23290000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "National Institute of Occupational Health & Poison Control, Chinese Center for Disease Control & Prevention",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.0731,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Baima Lake Laboratory",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.24330000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Geely University of China",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.2849,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Inorganic Chemistry, SAS",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.1308,
+    "country": "SLOVAKIA"
+  },
+  {
+    "name": "Middlesex University",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.16,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Manchester Metropolitan University",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.2873,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Amity University Noida",
+    "papers": 1,
+    "citations": 3,
+    "cnci": 0.3347,
+    "country": "INDIA"
+  },
+  {
+    "name": "University of Missouri Saint Louis",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.524,
+    "country": "USA"
+  },
+  {
+    "name": "KU Leuven",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.0809,
+    "country": "BELGIUM"
+  },
+  {
+    "name": "Lomonosov Moscow State University",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 4.2099,
+    "country": "RUSSIA"
+  },
+  {
+    "name": "Swedish University of Agricultural Sciences",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.2321,
+    "country": "SWEDEN"
+  },
+  {
+    "name": "Swinburne University of Technology",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.0873,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Civil Aviation University of China",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 2.2109,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Inner Mongolia University",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.2321,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Tianjin University of Traditional Chinese Medicine",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.3121,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Tehran",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 4.2099,
+    "country": "IRAN"
+  },
+  {
+    "name": "Universiti Kebangsaan Malaysia",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 2.5319000000000003,
+    "country": "MALAYSIA"
+  },
+  {
+    "name": "National University of Sciences & Technology - Pakistan",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 4.2099,
+    "country": "PAKISTAN"
+  },
+  {
+    "name": "Prince Sultan University",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 2.5319000000000003,
+    "country": "SAUDI ARABIA"
+  },
+  {
+    "name": "Linyi University",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.2535,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "National Academy of Sciences of Armenia",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 4.2099,
+    "country": "ARMENIA"
+  },
+  {
+    "name": "Xinjiang Medical University",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.5690000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhejiang Ocean University",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.1076,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Mongolian Academy of Sciences",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 4.2099,
+    "country": "MONGOLIA"
+  },
+  {
+    "name": "CSIC - Institut Botanic de Barcelona (ICUB)",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 4.2099,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Hechi University",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.8472000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shandong First Medical University & Shandong Academy of Medical Sciences",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.8472000000000001,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zhejiang Shuren University",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.3307,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai University of Medicine & Health Sciences",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.1553,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hunan Police Academy",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 0.4077,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Royal Botanic Gardens, Kew",
+    "papers": 1,
+    "citations": 2,
+    "cnci": 4.2099,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "University of Tennessee at Chattanooga",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.0716,
+    "country": "USA"
+  },
+  {
+    "name": "Lund University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 1.266,
+    "country": "SWEDEN"
+  },
+  {
+    "name": "Guangdong Polytechnic Normal University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.22030000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jiangxi Agricultural University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 2.105,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yancheng Teachers University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.19990000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yunnan University of Finance & Economics",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.0863,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "VIT Vellore",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.0424,
+    "country": "INDIA"
+  },
+  {
+    "name": "University of Lahore",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.0777,
+    "country": "PAKISTAN"
+  },
+  {
+    "name": "National Ilan University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.0538,
+    "country": "TAIWAN"
+  },
+  {
+    "name": "Guangzhou Medical University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 1.2716,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Universidade de Vigo",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 1.266,
+    "country": "SPAIN"
+  },
+  {
+    "name": "Al al-Bayt University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.21030000000000001,
+    "country": "JORDAN"
+  },
+  {
+    "name": "Universite de Montpellier",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.0531,
+    "country": "FRANCE"
+  },
+  {
+    "name": "Taiyuan Normal University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.19990000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangdong Academy of Medical Sciences & Guangdong General Hospital",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 1.2716,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Qiqihar Medical University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.1017,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Information Engineering, CAS",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.0368,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "The Chinese University of Hong Kong, Shenzhen",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 3.4306,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Changsha University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.38670000000000004,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "LingNan Normal University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.20170000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Feed Research Institute, CAAS",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.13340000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hebei Normal University of Science & Technology",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 2.105,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zinpro Corporation",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.25070000000000003,
+    "country": "USA"
+  },
+  {
+    "name": "Qingdao Municipal Hospital",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.2899,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangdong Polytechnic of Science & Technology",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.22030000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guangzhou Laboratory",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 1.2716,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Vellore Institute of Technology (VIT)",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.0424,
+    "country": "INDIA"
+  },
+  {
+    "name": "Shenzhen Research Institute of Big Data",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 3.4306,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jiangsu Urban & Rural Construction Vocational College",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 1.266,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Nanjing Institute of Environmental Sciences, Ministry of Ecology & Environment",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.19990000000000002,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengdu Jincheng College",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 1.2271,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "University of Hull",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.0729,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "Bangor University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.19990000000000002,
+    "country": "WALES"
+  },
+  {
+    "name": "International Hellenic University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.2038,
+    "country": "GREECE"
+  },
+  {
+    "name": "Toronto Metropolitan University",
+    "papers": 1,
+    "citations": 1,
+    "cnci": 0.0863,
+    "country": "CANADA"
+  },
+  {
+    "name": "University of Central Florida",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "USA"
+  },
+  {
+    "name": "University of Georgia",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "USA"
+  },
+  {
+    "name": "Kansas State University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "USA"
+  },
+  {
+    "name": "Lehman College (CUNY)",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "USA"
+  },
+  {
+    "name": "Technical University of Denmark",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "DENMARK"
+  },
+  {
+    "name": "Hong Kong University of Science & Technology",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "HONG KONG"
+  },
+  {
+    "name": "Cairo University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "EGYPT"
+  },
+  {
+    "name": "Stockholm University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "SWEDEN"
+  },
+  {
+    "name": "Chalmers University of Technology",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "SWEDEN"
+  },
+  {
+    "name": "University Hospital of Bern",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "SWITZERLAND"
+  },
+  {
+    "name": "University of Bern",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "SWITZERLAND"
+  },
+  {
+    "name": "University of Maryland College Park",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "USA"
+  },
+  {
+    "name": "La Trobe University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "AUSTRALIA"
+  },
+  {
+    "name": "Beijing Institute of Graphic Communication",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Changchun University of Technology",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chongqing Normal University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hohai University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Jiujiang University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Lishui University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Qiqihar University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai University of Engineering Science",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Zagazig University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "EGYPT"
+  },
+  {
+    "name": "Indian Institute of Technology System (IIT System)",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "INDIA"
+  },
+  {
+    "name": "Indian Institute of Technology (Indian School of Mines) Dhanbad",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "INDIA"
+  },
+  {
+    "name": "Tribhuvan University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "NEPAL"
+  },
+  {
+    "name": "AgResearch - New Zealand",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "NEW ZEALAND"
+  },
+  {
+    "name": "University of Puerto Rico Rio Piedras",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "USA"
+  },
+  {
+    "name": "Chungbuk National University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "SOUTH KOREA"
+  },
+  {
+    "name": "Sangmyung University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "SOUTH KOREA"
+  },
+  {
+    "name": "Seokyeong University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "SOUTH KOREA"
+  },
+  {
+    "name": "Technische Universitat Dresden",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "University of Maine System",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "USA"
+  },
+  {
+    "name": "University System of Maryland",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "USA"
+  },
+  {
+    "name": "University of Puerto Rico",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "USA"
+  },
+  {
+    "name": "University of Maine Orono",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "USA"
+  },
+  {
+    "name": "Siberian Branch of the Russian Academy of Sciences",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "RUSSIA"
+  },
+  {
+    "name": "Peking Union Medical College Hospital",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xinjiang University of Finance & Economics",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Yancheng Institute of Technology",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guizhou University of Finance & Economics",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Senckenberg Gesellschaft fur Naturforschung (SGN)",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Universite Clermont Auvergne (UCA)",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "FRANCE"
+  },
+  {
+    "name": "Institute of Modern Physics, CAS",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Shanghai Institute of Materia Medica, CAS",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Institute of Biophysics, CAS",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Xishuangbanna Tropical Botanical Garden, CAS",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Hubei University of Science & Technology",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Chengde Medical University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Changzhi Medical College",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Krasnoyarsk Science Center of the Siberian Branch of the Russian Academy of Sciences",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "RUSSIA"
+  },
+  {
+    "name": "Institute of Grassland Research, CAAS",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Senckenberg Biodiversitat & Klima- Forschungszentrum (BiK-F)",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Shandong University of Arts",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Woosong University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "SOUTH KOREA"
+  },
+  {
+    "name": "Sukachev Institute of Forest, Siberian Branch, Russian Academy of Sciences",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "RUSSIA"
+  },
+  {
+    "name": "Animal & Plant Health Agency UK",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "ENGLAND"
+  },
+  {
+    "name": "HCMC University of Technology & Education (HCMUTE)",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "VIETNAM"
+  },
+  {
+    "name": "Institute of Zoology, Guangdong Academy of Sciences",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Animal Health Research Institute (AHRI)",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "EGYPT"
+  },
+  {
+    "name": "Tianfu Yongxing Laboratory",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Southwest Jiaotong University Hope College",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Sichuan Polytechnic University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Leibniz Association",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "GERMANY (FED REP GER)"
+  },
+  {
+    "name": "Hulunbuir University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  },
+  {
+    "name": "Guilin Normal University",
+    "papers": 1,
+    "citations": 0,
+    "cnci": 0,
+    "country": "CHINA MAINLAND"
+  }
+]

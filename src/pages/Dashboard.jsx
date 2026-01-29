@@ -14,6 +14,8 @@ import clsx from 'clsx';
 import { twMerge } from 'tailwind-merge';
 import nameMapping from '../translated_mapping.json';
 import CooperationMap from '../components/CooperationMap';
+import CollaborationInstitutionView from '../components/CollaborationInstitutionView';
+import JournalAnalysisSection from '../components/JournalAnalysisSection';
 
 const ESI_DISCIPLINES = [
   "Agricultural Sciences", "Biology & Biochemistry", "Chemistry", "Clinical Medicine",
@@ -1785,6 +1787,8 @@ const Dashboard = () => {
               selected={radarSubjects}
               onSelect={setRadarSubjects}
             />
+
+
           </div>
 
           {/* Main Analysis Area (Tabs) */}
@@ -1796,7 +1800,10 @@ const Dashboard = () => {
                 { id: 'quality', label: '质量分析 Quality' },
                 { id: 'authors', label: '学者贡献 Authors' },
                 { id: 'contribution', label: '学院贡献 Colleges' },
-                { id: 'cooperation', label: '国际合作 Cooperation' }
+
+                { id: 'journals', label: '发文期刊 Journals' },
+                { id: 'cooperation', label: '国际合作 Cooperation' },
+                { id: 'institutions', label: '合作机构 Institutions' }
               ].map(tab => (
                 <button
                   key={tab.id}
@@ -2164,15 +2171,33 @@ const Dashboard = () => {
                   </div>
                 </div>
               )}
+
+              {/* Journal Tab */}
+              {activeTab === 'journals' && (
+                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
+                  <JournalAnalysisSection />
+                </div>
+              )}
+
+              {/* Cooperation Tab */}
+              {activeTab === 'cooperation' && (
+                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
+                  <h3 className="font-bold text-slate-700 mb-4">全球合作网络 - 国际化水平 (International Cooperation)</h3>
+                  <CooperationMap />
+                </div>
+              )}
+
+              {/* Institutions Tab */}
+              {activeTab === 'institutions' && (
+                <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
+                  <h3 className="font-bold text-slate-700 mb-4">合作机构多维分析 (Partner Institution Analysis)</h3>
+                  <CollaborationInstitutionView />
+                </div>
+              )}
             </div>
           </div>
 
-          {activeTab === 'cooperation' && (
-            <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-              <h3 className="font-bold text-slate-700 mb-4">全球合作网络 - 国际化水平 (International Cooperation)</h3>
-              <CooperationMap />
-            </div>
-          )}
+
           <div className="flex flex-col gap-8">
             {/* Advantage Disciplines */}
             <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm w-full">
@@ -2266,43 +2291,43 @@ const Dashboard = () => {
                 })()}
               </div>
             </div>
-          </div>
 
-          {/* Top Papers Section (Restored) */}
-          <div className="bg-indigo-900 p-6 rounded-2xl shadow-lg text-white relative overflow-hidden">
-            <div className="absolute top-0 right-0 p-6 opacity-10">
-              <FileText size={100} />
-            </div>
-            <h3 className="text-xl font-bold mb-4 relative z-10 flex items-center gap-2">
-              <Award className="text-amber-400" /> 本期高被引论文推荐
-            </h3>
-            <div className="space-y-4 relative z-10">
-              {Array.isArray(realData.topPapers) && realData.topPapers.map((paper, i) => (
-                <div key={i} className="flex gap-3 items-start border-b border-white/10 pb-3 last:border-0 last:pb-0">
-                  <div className="bg-indigo-700/50 p-2 rounded text-xs font-bold w-12 text-center flex-shrink-0">
-                    Top {i + 1}
-                  </div>
-                  <div>
-                    <p className="text-sm font-medium leading-tight mb-1 line-clamp-2" title={paper.title}>
-                      {paper.title}
-                    </p>
-                    <div className="flex justify-between items-center text-xs text-indigo-200">
-                      <span>{paper.journal}, {paper.year}</span>
-                      <span className="flex items-center gap-1"><Users size={10} /> {paper.citations} Cited</span>
+            {/* Top Papers Section (Restored) */}
+            <div className="bg-indigo-900 p-6 rounded-2xl shadow-lg text-white relative overflow-hidden">
+              <div className="absolute top-0 right-0 p-6 opacity-10">
+                <FileText size={100} />
+              </div>
+              <h3 className="text-xl font-bold mb-4 relative z-10 flex items-center gap-2">
+                <Award className="text-amber-400" /> 本期高被引论文推荐
+              </h3>
+              <div className="space-y-4 relative z-10">
+                {Array.isArray(realData.topPapers) && realData.topPapers.map((paper, i) => (
+                  <div key={i} className="flex gap-3 items-start border-b border-white/10 pb-3 last:border-0 last:pb-0">
+                    <div className="bg-indigo-700/50 p-2 rounded text-xs font-bold w-12 text-center flex-shrink-0">
+                      Top {i + 1}
+                    </div>
+                    <div>
+                      <p className="text-sm font-medium leading-tight mb-1 line-clamp-2" title={paper.title}>
+                        {paper.title}
+                      </p>
+                      <div className="flex justify-between items-center text-xs text-indigo-200">
+                        <span>{paper.journal}, {paper.year}</span>
+                        <span className="flex items-center gap-1"><Users size={10} /> {paper.citations} Cited</span>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
+              <button className="w-full mt-6 py-2 bg-white/10 hover:bg-white/20 rounded-lg text-sm font-medium transition-colors">
+                查看完整清单
+              </button>
             </div>
-            <button className="w-full mt-6 py-2 bg-white/10 hover:bg-white/20 rounded-lg text-sm font-medium transition-colors">
-              查看完整清单
-            </button>
           </div>
 
-        </div>
+        </div >
 
         {/* Modals (Only Benchmarking and Ranking remain) */}
-        <AnimatePresence>
+        < AnimatePresence >
           <BenchmarkModal
             isOpen={benchmarkModalOpen}
             onClose={() => setBenchmarkModalOpen(false)}
@@ -2311,20 +2336,24 @@ const Dashboard = () => {
             onSelect={setSelectedBenchmarks}
             cnMap={cnMap}
           />
-          {rankingModalOpen && (
-            <RankingListModal
-              rankings={rankings}
-              currentName={realData.overview.institutionName}
-              onClose={() => setRankingModalOpen(false)}
-            />
-          )}
-          {showTopPaperModal && (
-            <TopPaperListModal onClose={() => setShowTopPaperModal(false)} />
-          )}
-        </AnimatePresence>
+          {
+            rankingModalOpen && (
+              <RankingListModal
+                rankings={rankings}
+                currentName={realData.overview.institutionName}
+                onClose={() => setRankingModalOpen(false)}
+              />
+            )
+          }
+          {
+            showTopPaperModal && (
+              <TopPaperListModal onClose={() => setShowTopPaperModal(false)} />
+            )
+          }
+        </AnimatePresence >
 
-      </main>
-    </div>
+      </main >
+    </div >
   );
 }
 
